@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость откосов и кюветов">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="ProjectSlopes" name="Планировка">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="26,4200000762939" options="2" />
+      <Column index="2" width="26,4200000762939" options="2" />
+      <Column index="3" width="26,4200000762939" options="2" />
+      <Column index="4" width="26,4200000762939" options="2" />
+      <Column index="5" width="26,4200000762939" options="2" />
+      <Column index="6" width="26,4200000762939" options="2" />
+      <Column index="7" width="26,4200000762939" options="2" />
+      <Column index="8" width="26,4200000762939" options="2" />
+      <Column index="9" width="26,4200000762939" options="2" />
+      <Column index="10" width="26,4200000762939" options="2" />
+      <Column index="11" width="26,4200000762939" options="2" />
+      <Column index="12" width="26,4200000762939" options="2" />
+      <Column index="13" width="26,4200000762939" options="2" />
+      <Column index="14" width="26,4200000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="15" style="style_0">Планировка откосов</Cell>
+      </Row>
+      <Row index="1" height="7" options="2">
+        <Cell index="0" rowspan="3" style="style_0">Пикет</Cell>
+        <Cell index="1" colspan="7" style="style_0">Левая сторона</Cell>
+        <Cell index="8" colspan="7" style="style_0">Правая сторона</Cell>
+      </Row>
+      <Row index="2" height="7" options="2">
+        <Cell index="1" rowspan="2" style="style_0">1-ая ступень откоса (М1)</Cell>
+        <Cell index="2" rowspan="2" style="style_0">2-ая ступень откоса (М2)</Cell>
+        <Cell index="3" rowspan="2" style="style_0">3-ая ступень откоса (М3)</Cell>
+        <Cell index="4" rowspan="2" style="style_0">4-ая ступень откоса (М4)</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Полки</Cell>
+        <Cell index="6" colspan="2" style="style_0">Кювет</Cell>
+        <Cell index="8" rowspan="2" style="style_0">1-ая ступень откоса (М1)</Cell>
+        <Cell index="9" rowspan="2" style="style_0">2-ая ступень откоса (М2)</Cell>
+        <Cell index="10" rowspan="2" style="style_0">3-ая ступень откоса (М3)</Cell>
+        <Cell index="11" rowspan="2" style="style_0">4-ая ступень откоса (М4)</Cell>
+        <Cell index="12" rowspan="2" style="style_0">Полки</Cell>
+        <Cell index="13" colspan="2" style="style_0">Кювет</Cell>
+      </Row>
+      <Row index="3" height="7" options="2">
+        <Cell index="6" style="style_0">Откос</Cell>
+        <Cell index="7" style="style_0">Дно</Cell>
+        <Cell index="13" style="style_0">Откос</Cell>
+        <Cell index="14" style="style_0">Дно</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="ProjectSlopesRow">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="26,4200000762939" options="2" />
+      <Column index="2" width="26,4200000762939" options="2" />
+      <Column index="3" width="26,4200000762939" options="2" />
+      <Column index="4" width="26,4200000762939" options="2" />
+      <Column index="5" width="26,4200000762939" options="2" />
+      <Column index="6" width="26,4200000762939" options="2" />
+      <Column index="7" width="26,4200000762939" options="2" />
+      <Column index="8" width="26,4200000762939" options="2" />
+      <Column index="9" width="26,4200000762939" options="2" />
+      <Column index="10" width="26,4200000762939" options="2" />
+      <Column index="11" width="26,4200000762939" options="2" />
+      <Column index="12" width="26,4200000762939" options="2" />
+      <Column index="13" width="26,4200000762939" options="2" />
+      <Column index="14" width="26,4200000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_1">$(getvar, LeftSideFirstSlopeStep)</Cell>
+        <Cell index="2" style="style_1">$(getvar, LeftSideSecondSlopeStep)</Cell>
+        <Cell index="3" style="style_1">$(getvar, LeftSideThirdSlopeStep)</Cell>
+        <Cell index="4" style="style_1">$(getvar, LeftSideFourthSlopeStep)</Cell>
+        <Cell index="5" style="style_1">$(getvar, LeftSideShelves)</Cell>
+        <Cell index="6" style="style_1">$(getvar, LeftSideDitchSlope)</Cell>
+        <Cell index="7" style="style_1">$(getvar, LeftSideDitchBottom)</Cell>
+        <Cell index="8" style="style_1">$(getvar, RightSideFirstSlopeStep)</Cell>
+        <Cell index="9" style="style_1">$(getvar, RightSideSecondSlopeStep)</Cell>
+        <Cell index="10" style="style_1">$(getvar, RightSideThirdSlopeStep)</Cell>
+        <Cell index="11" style="style_1">$(getvar, RightSideFourthSlopeStep)</Cell>
+        <Cell index="12" style="style_1">$(getvar, RightSideShelves)</Cell>
+        <Cell index="13" style="style_1">$(getvar, RightSideDitchSlope)</Cell>
+        <Cell index="14" style="style_1">$(getvar, RightSideDitchBottom)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="StraighteningVolumes" name="Объемы укрепления откосов">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="40" options="2" />
+      <Column index="2" width="40" options="2" />
+      <Column index="3" width="40" options="2" />
+      <Column index="4" width="40" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="5" style="style_0">Укрепление откосов и обочины засевом трав, м3</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Пикет</Cell>
+        <Cell index="1" colspan="2" style="style_0">Левая сторона</Cell>
+        <Cell index="3" colspan="2" style="style_0">Правая сторона</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="1" style="style_0">Верхний откос</Cell>
+        <Cell index="2" style="style_0">Нижний откос</Cell>
+        <Cell index="3" style="style_0">Верхний откос</Cell>
+        <Cell index="4" style="style_0">Нижний откос</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="ProjectSlopesRow">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="40" options="2" />
+      <Column index="2" width="40" options="2" />
+      <Column index="3" width="40" options="2" />
+      <Column index="4" width="40" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_1">$(getvar, LeftSideStrengtheningVolumeTopSlope)</Cell>
+        <Cell index="2" style="style_1">$(getvar, LeftSideStrengtheningVolumeBottomSlope)</Cell>
+        <Cell index="3" style="style_1">$(getvar, RightSideStrengtheningVolumeTopSlope)</Cell>
+        <Cell index="4" style="style_1">$(getvar, RightSideStrengtheningVolumeBottomSlopeс)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="StraighteningArea" name="Площади укрепления откосов ">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="40" options="2" />
+      <Column index="2" width="40" options="2" />
+      <Column index="3" width="40" options="2" />
+      <Column index="4" width="40" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="5" style="style_0">Укрепление откосов и обочины засевом трав, м2</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Пикет</Cell>
+        <Cell index="1" colspan="2" style="style_0">Левая сторона</Cell>
+        <Cell index="3" colspan="2" style="style_0">Правая сторона</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="1" style="style_0">Верхний откос</Cell>
+        <Cell index="2" style="style_0">Нижний откос</Cell>
+        <Cell index="3" style="style_0">Верхний откос</Cell>
+        <Cell index="4" style="style_0">Нижний откос</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="ProjectSlopesRow">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="40" options="2" />
+      <Column index="2" width="40" options="2" />
+      <Column index="3" width="40" options="2" />
+      <Column index="4" width="40" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_1">$(getvar, LeftSideStrengtheningAreaTopSlope)</Cell>
+        <Cell index="2" style="style_1">$(getvar, LeftSideStrengtheningAreaBottomSlope)</Cell>
+        <Cell index="3" style="style_1">$(getvar, RightSideStrengtheningAreaTopSlope)</Cell>
+        <Cell index="4" style="style_1">$(getvar, RightSideStrengtheningAreaTopSlope)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="StraighteningLeftDitch" name="Укрепление левого кювета">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="20" options="2" />
+      <Column index="3" width="32,5" options="2" />
+      <Column index="4" width="32,5" options="2" />
+      <Column index="5" width="32,5" options="2" />
+      <Column index="6" width="32,5" options="2" />
+      <Column index="7" width="32,5" options="2" />
+      <Column index="8" width="32,5" options="2" />
+      <Column index="9" width="32,5" options="2" />
+      <Column index="10" width="32,5" options="2" />
+      <Column index="11" width="32,5" options="2" />
+      <Column index="12" width="32,5" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="13" style="style_0">Укрепление левого кювета</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Пикет начала</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Пикет конца</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Уклон</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Средний периметр, м</Cell>
+        <Cell index="5" colspan="4" style="style_0">Площадь укреплений откосов, м2</Cell>
+        <Cell index="9" colspan="4" style="style_0">Площадь укреплений дна, м2</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="5" style="style_0">Засев трав</Cell>
+        <Cell index="6" style="style_0">Мощение</Cell>
+        <Cell index="7" style="style_0">Бетонирование</Cell>
+        <Cell index="8" style="style_0">Быстроток</Cell>
+        <Cell index="9" style="style_0">Засев трав</Cell>
+        <Cell index="10" style="style_0">Мощение</Cell>
+        <Cell index="11" style="style_0">Бетонирование</Cell>
+        <Cell index="12" style="style_0">Быстроток</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="LeftDitchStrenghteningRow">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="20" options="2" />
+      <Column index="3" width="32,5" options="2" />
+      <Column index="4" width="32,5" options="2" />
+      <Column index="5" width="32,5" options="2" />
+      <Column index="6" width="32,5" options="2" />
+      <Column index="7" width="32,5" options="2" />
+      <Column index="8" width="32,5" options="2" />
+      <Column index="9" width="32,5" options="2" />
+      <Column index="10" width="32,5" options="2" />
+      <Column index="11" width="32,5" options="2" />
+      <Column index="12" width="32,5" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, PiketStart)</Cell>
+        <Cell index="1" style="style_0">$(getvar, PiketEnd)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Inclination)</Cell>
+        <Cell index="4" style="style_1">$(getvar, MiddlePerimeter)</Cell>
+        <Cell index="5" style="style_1">$(getvar, SlopeAreaGrass)</Cell>
+        <Cell index="6" style="style_1">$(getvar, SlopeAreaPaving)</Cell>
+        <Cell index="7" style="style_1">$(getvar, SlopeAreaConcreting)</Cell>
+        <Cell index="8" style="style_1">$(getvar, SlopeAreaFlow)</Cell>
+        <Cell index="9" style="style_1">$(getvar, BottomAreaGrass)</Cell>
+        <Cell index="10" style="style_1">$(getvar, BottomAreaPaving)</Cell>
+        <Cell index="11" style="style_1">$(getvar, BottomAreaConcreting)</Cell>
+        <Cell index="12" style="style_1">$(getvar, BottomAreaFlow)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="StraighteningRightDitch" name="Укрепление правого кювета">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="20" options="2" />
+      <Column index="3" width="32,5" options="2" />
+      <Column index="4" width="32,5" options="2" />
+      <Column index="5" width="32,5" options="2" />
+      <Column index="6" width="32,5" options="2" />
+      <Column index="7" width="32,5" options="2" />
+      <Column index="8" width="32,5" options="2" />
+      <Column index="9" width="32,5" options="2" />
+      <Column index="10" width="32,5" options="2" />
+      <Column index="11" width="32,5" options="2" />
+      <Column index="12" width="32,5" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="13" style="style_0">Укрепление правого кювета</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" rowspan="2" style="style_0">Пикет начала</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Пикет конца</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Уклон</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Средний периметр, м</Cell>
+        <Cell index="5" colspan="4" style="style_0">Площадь укреплений откосов, м2</Cell>
+        <Cell index="9" colspan="4" style="style_0">Площадь укреплений дна, м2</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="5" style="style_0">Засев трав</Cell>
+        <Cell index="6" style="style_0">Мощение</Cell>
+        <Cell index="7" style="style_0">Бетонирование</Cell>
+        <Cell index="8" style="style_0">Быстроток</Cell>
+        <Cell index="9" style="style_0">Засев трав</Cell>
+        <Cell index="10" style="style_0">Мощение</Cell>
+        <Cell index="11" style="style_0">Бетонирование</Cell>
+        <Cell index="12" style="style_0">Быстроток</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="RightDitchStrenghteningRow">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="20" options="2" />
+      <Column index="3" width="32,5" options="2" />
+      <Column index="4" width="32,5" options="2" />
+      <Column index="5" width="32,5" options="2" />
+      <Column index="6" width="32,5" options="2" />
+      <Column index="7" width="32,5" options="2" />
+      <Column index="8" width="32,5" options="2" />
+      <Column index="9" width="32,5" options="2" />
+      <Column index="10" width="32,5" options="2" />
+      <Column index="11" width="32,5" options="2" />
+      <Column index="12" width="32,5" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, PiketStart)</Cell>
+        <Cell index="1" style="style_0">$(getvar, PiketEnd)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Inclination)</Cell>
+        <Cell index="4" style="style_1">$(getvar, MiddlePerimeter)</Cell>
+        <Cell index="5" style="style_1">$(getvar, SlopeAreaGrass)</Cell>
+        <Cell index="6" style="style_1">$(getvar, SlopeAreaPaving)</Cell>
+        <Cell index="7" style="style_1">$(getvar, SlopeAreaConcreting)</Cell>
+        <Cell index="8" style="style_1">$(getvar, SlopeAreaFlow)</Cell>
+        <Cell index="9" style="style_1">$(getvar, BottomAreaGrass)</Cell>
+        <Cell index="10" style="style_1">$(getvar, BottomAreaPaving)</Cell>
+        <Cell index="11" style="style_1">$(getvar, BottomAreaConcreting)</Cell>
+        <Cell index="12" style="style_1">$(getvar, BottomAreaFlow)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="StraighteningSlopeParams" name="Параметры откосов">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="16" options="1" />
+      <Column index="1" width="35,4000015258789" options="1" />
+      <Column index="2" width="22,75" options="1" />
+      <Column index="3" width="32,1000003814697" options="1" />
+      <Column index="4" width="33,5499992370605" options="1" />
+      <Column index="5" width="34" options="1" />
+      <Column index="6" width="34" options="1" />
+      <Column index="7" width="34,2000007629395" options="1" />
+      <Column index="8" width="33,2999992370605" options="1" />
+      <Column index="9" width="33,75" options="1" />
+      <Column index="10" width="33,0499992370605" options="1" />
+      <Column index="11" width="33,5" options="1" />
+      <Column index="12" width="33,5" options="1" />
+      <Column index="13" width="32,7000007629395" options="1" />
+      <Column index="14" width="33,1499996185303" options="1" />
+      <Column index="15" width="33,1499996185303" options="1" />
+      <Column index="16" width="36,3499984741211" options="1" />
+      <Column index="17" width="36,9500007629395" options="1" />
+      <Column index="18" width="39,2999992370605" options="1" />
+      <Column index="19" width="30,3500003814697" options="1" />
+      <Column index="20" width="43,3499984741211" options="1" />
+      <Column index="21" width="42,75" options="1" />
+      <Column index="22" width="23,75" options="1" />
+      <Column index="23" width="33,1000003814697" options="1" />
+      <Column index="24" width="34,5499992370605" options="1" />
+      <Column index="25" width="35" options="1" />
+      <Column index="26" width="35" options="1" />
+      <Column index="27" width="35,2000007629395" options="1" />
+      <Column index="28" width="34,2999992370605" options="1" />
+      <Column index="29" width="34,75" options="1" />
+      <Column index="30" width="34,0499992370605" options="1" />
+      <Column index="31" width="34,5" options="1" />
+      <Column index="32" width="34,5" options="1" />
+      <Column index="33" width="33,7000007629395" options="1" />
+      <Column index="34" width="34,1499996185303" options="1" />
+      <Column index="35" width="34,1499996185303" options="1" />
+      <Column index="36" width="37,3499984741211" options="1" />
+      <Column index="37" width="37,9500007629395" options="1" />
+      <Column index="38" width="40,2999992370605" options="1" />
+      <Column index="39" width="31,3500003814697" options="1" />
+      <Column index="40" width="44,3499984741211" options="1" />
+      <Column index="41" width="43,75" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="42" style="style_0">Откосы</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" rowspan="3" style="style_0">Пикет</Cell>
+        <Cell index="1" rowspan="3" style="style_0">Конструкция по шаблону</Cell>
+        <Cell index="2" colspan="20" style="style_0">Левый откос</Cell>
+        <Cell index="22" colspan="20" style="style_0">Правый откос</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="2" rowspan="2" style="style_0">Тип откоса</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Номер типового откоса</Cell>
+        <Cell index="4" colspan="6" style="style_0">Коэффициенты заложения</Cell>
+        <Cell index="10" colspan="3" style="style_0">Ширина полос, м</Cell>
+        <Cell index="13" colspan="3" style="style_0">Высота полос, м</Cell>
+        <Cell index="16" rowspan="2" style="style_0">Уклон полок</Cell>
+        <Cell index="17" colspan="5" style="style_0">Кювет</Cell>
+        <Cell index="22" rowspan="2" style="style_0">Тип откоса</Cell>
+        <Cell index="23" rowspan="2" style="style_0">Номер типового откоса</Cell>
+        <Cell index="24" colspan="6" style="style_0">Коэффициенты заложения</Cell>
+        <Cell index="30" colspan="3" style="style_0">Ширина полос, м</Cell>
+        <Cell index="33" colspan="3" style="style_0">Высота полос, м</Cell>
+        <Cell index="36" rowspan="2" style="style_0">Уклон полок</Cell>
+        <Cell index="37" colspan="5" style="style_0">Кювет</Cell>
+      </Row>
+      <Row index="3" height="0" options="1">
+        <Cell index="4" style="style_0">M1</Cell>
+        <Cell index="5" style="style_0">M2</Cell>
+        <Cell index="6" style="style_0">M3</Cell>
+        <Cell index="7" style="style_0">M4</Cell>
+        <Cell index="8" style="style_0">N1</Cell>
+        <Cell index="9" style="style_0">N2</Cell>
+        <Cell index="10" style="style_0">A1</Cell>
+        <Cell index="11" style="style_0">A2</Cell>
+        <Cell index="12" style="style_0">A3</Cell>
+        <Cell index="13" style="style_0">H1</Cell>
+        <Cell index="14" style="style_0">H2</Cell>
+        <Cell index="15" style="style_0">H3</Cell>
+        <Cell index="17" style="style_0">Ширина полки, м</Cell>
+        <Cell index="18" style="style_0">Ширина дна, м</Cell>
+        <Cell index="19" style="style_0">Глубина, м</Cell>
+        <Cell index="20" style="style_0">Уклон дна</Cell>
+        <Cell index="21" style="style_0">Уклон полки</Cell>
+        <Cell index="24" style="style_0">M1</Cell>
+        <Cell index="25" style="style_0">M2</Cell>
+        <Cell index="26" style="style_0">M3</Cell>
+        <Cell index="27" style="style_0">M4</Cell>
+        <Cell index="28" style="style_0">N1</Cell>
+        <Cell index="29" style="style_0">N2</Cell>
+        <Cell index="30" style="style_0">A1</Cell>
+        <Cell index="31" style="style_0">A2</Cell>
+        <Cell index="32" style="style_0">A3</Cell>
+        <Cell index="33" style="style_0">H1</Cell>
+        <Cell index="34" style="style_0">H2</Cell>
+        <Cell index="35" style="style_0">H3</Cell>
+        <Cell index="37" style="style_0">Ширина полки, м</Cell>
+        <Cell index="38" style="style_0">Ширина дна, м</Cell>
+        <Cell index="39" style="style_0">Глубина, м</Cell>
+        <Cell index="40" style="style_0">Уклон дна</Cell>
+        <Cell index="41" style="style_0">Уклон полки</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="StraighteningSlopeParamsRow">
+      <Column index="0" width="16" options="1" />
+      <Column index="1" width="35,4000015258789" options="1" />
+      <Column index="2" width="22,75" options="1" />
+      <Column index="3" width="32,1000003814697" options="1" />
+      <Column index="4" width="33,5499992370605" options="1" />
+      <Column index="5" width="34" options="1" />
+      <Column index="6" width="34" options="1" />
+      <Column index="7" width="34,2000007629395" options="1" />
+      <Column index="8" width="33,2999992370605" options="1" />
+      <Column index="9" width="33,75" options="1" />
+      <Column index="10" width="33,0499992370605" options="1" />
+      <Column index="11" width="33,5" options="1" />
+      <Column index="12" width="33,5" options="1" />
+      <Column index="13" width="32,7000007629395" options="1" />
+      <Column index="14" width="33,1499996185303" options="1" />
+      <Column index="15" width="33,1499996185303" options="1" />
+      <Column index="16" width="36,3499984741211" options="1" />
+      <Column index="17" width="36,9500007629395" options="1" />
+      <Column index="18" width="39,2999992370605" options="1" />
+      <Column index="19" width="30,3500003814697" options="1" />
+      <Column index="20" width="43,3499984741211" options="1" />
+      <Column index="21" width="42,75" options="1" />
+      <Column index="22" width="23,75" options="1" />
+      <Column index="23" width="33,1000003814697" options="1" />
+      <Column index="24" width="34,5499992370605" options="1" />
+      <Column index="25" width="35" options="1" />
+      <Column index="26" width="35" options="1" />
+      <Column index="27" width="35,2000007629395" options="1" />
+      <Column index="28" width="34,2999992370605" options="1" />
+      <Column index="29" width="34,75" options="1" />
+      <Column index="30" width="34,0499992370605" options="1" />
+      <Column index="31" width="34,5" options="1" />
+      <Column index="32" width="34,5" options="1" />
+      <Column index="33" width="33,7000007629395" options="1" />
+      <Column index="34" width="34,1499996185303" options="1" />
+      <Column index="35" width="34,1499996185303" options="1" />
+      <Column index="36" width="37,3499984741211" options="1" />
+      <Column index="37" width="37,9500007629395" options="1" />
+      <Column index="38" width="40,2999992370605" options="1" />
+      <Column index="39" width="31,3500003814697" options="1" />
+      <Column index="40" width="44,3499984741211" options="1" />
+      <Column index="41" width="43,75" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_0">$(getvar, ConstructionByTemplate)</Cell>
+        <Cell index="2" style="style_0">$(getvar, LeftSlopeType)</Cell>
+        <Cell index="3" style="style_0">$(getvar, LeftSlopeNumberType)</Cell>
+        <Cell index="4" style="style_1">$(getvar, LeftSlopeLayingCoefM1)</Cell>
+        <Cell index="5" style="style_1">$(getvar, LeftSlopeLayingCoefM2)</Cell>
+        <Cell index="6" style="style_1">$(getvar, LeftSlopeLayingCoefM3)</Cell>
+        <Cell index="7" style="style_1">$(getvar, LeftSlopeLayingCoefM4)</Cell>
+        <Cell index="8" style="style_1">$(getvar, LeftSlopeLayingCoefN1)</Cell>
+        <Cell index="9" style="style_1">$(getvar, LeftSlopeLayingCoefN2)</Cell>
+        <Cell index="10" style="style_1">$(getvar, LeftSlopeStripWidthA1)</Cell>
+        <Cell index="11" style="style_1">$(getvar, LeftSlopeStripWidthA2)</Cell>
+        <Cell index="12" style="style_1">$(getvar, LeftSlopeStripWidthA3)</Cell>
+        <Cell index="13" style="style_1">$(getvar, LeftSlopeStripWidthH1)</Cell>
+        <Cell index="14" style="style_1">$(getvar, LeftSlopeStripWidthH2)</Cell>
+        <Cell index="15" style="style_1">$(getvar, LeftSlopeStripWidthH3)</Cell>
+        <Cell index="16" style="style_1">$(getvar, LeftSlopeShelfInclination)</Cell>
+        <Cell index="17" style="style_1">$(getvar, LeftSlopeDitchShelfWidth)</Cell>
+        <Cell index="18" style="style_1">$(getvar, LeftSlopeDitchBottomWidth)</Cell>
+        <Cell index="19" style="style_1">$(getvar, LeftSlopeDitchDepth)</Cell>
+        <Cell index="20" style="style_1">$(getvar, LeftSlopeDitchDepthInclination)</Cell>
+        <Cell index="21" style="style_1">$(getvar, LeftSlopeDitchShelfInclination)</Cell>
+        <Cell index="22" style="style_0">$(getvar, RightSlopeType)</Cell>
+        <Cell index="23" style="style_0">$(getvar, RightSlopeNumberType)</Cell>
+        <Cell index="24" style="style_1">$(getvar, RightSlopeLayingCoefM1)</Cell>
+        <Cell index="25" style="style_1">$(getvar, RightSlopeLayingCoefM2)</Cell>
+        <Cell index="26" style="style_1">$(getvar, RightSlopeLayingCoefM3)</Cell>
+        <Cell index="27" style="style_1">$(getvar, RightSlopeLayingCoefM4)</Cell>
+        <Cell index="28" style="style_1">$(getvar, RightSlopeLayingCoefN1)</Cell>
+        <Cell index="29" style="style_1">$(getvar, RightSlopeLayingCoefN2)</Cell>
+        <Cell index="30" style="style_1">$(getvar, RightSlopeStripWidthA1)</Cell>
+        <Cell index="31" style="style_1">$(getvar, RightSlopeStripWidthA2)</Cell>
+        <Cell index="32" style="style_1">$(getvar, RightSlopeStripWidthA3)</Cell>
+        <Cell index="33" style="style_1">$(getvar, RightSlopeStripWidthH1)</Cell>
+        <Cell index="34" style="style_1">$(getvar, RightSlopeStripWidthH2)</Cell>
+        <Cell index="35" style="style_1">$(getvar, RightSlopeStripWidthH3)</Cell>
+        <Cell index="36" style="style_1">$(getvar, RightSlopeShelfInclination)</Cell>
+        <Cell index="37" style="style_1">$(getvar, RightSlopeDitchShelfWidth)</Cell>
+        <Cell index="38" style="style_1">$(getvar, RightSlopeDitchBottomWidth)</Cell>
+        <Cell index="39" style="style_1">$(getvar, RightSlopeDitchDepth)</Cell>
+        <Cell index="40" style="style_1">$(getvar, RightSlopeDitchDepthInclination)</Cell>
+        <Cell index="41" style="style_1">$(getvar, RightSlopeDitchShelfInclination)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

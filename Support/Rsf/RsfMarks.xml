@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body>
+    <MarkRecords aType="0">
+      <MarkRecord Descr="Трансбарьер" SFL="У2" DoubleFace="0" Mark="11ДО-0,75С/2,0-200" Step_Main="2000" LevelV_KJ="200" Height="0.75" Mark_Beg="11ДО-Н1" Len_Beg="12000" Mark_End="11ДО-К1" Len_End="12000" Mark_Conn="11ДО-С-200" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У2" DoubleFace="0" Mark="11ДО-0,75Ш/1,5-200(вспомог.)" Step_Main="1500" LevelV_KJ="200" Height="0.75" Mark_Beg="11ДО-Н1" Len_Beg="12000" Mark_End="11ДО-К1" Len_End="12000" Mark_Conn="11ДО-С-200" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У3" DoubleFace="0" Mark="11ДО-0,75С/2,0-250" Step_Main="2000" LevelV_KJ="250" Height="0.75" Mark_Beg="11ДО-Н1" Len_Beg="12000" Mark_End="11ДО-К1" Len_End="12000" Mark_Conn="11ДО-С-250" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У4" DoubleFace="0" Mark="11ДО-0,75С/1,5-300" Step_Main="1500" LevelV_KJ="300" Height="0.75" Mark_Beg="11ДО-Н1" Len_Beg="12000" Mark_End="11ДО-К1" Len_End="12000" Mark_Conn="11ДО-С-300" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У4" DoubleFace="0" Mark="11ДО -1,1Ш/1,5-300(вспомог.)" Step_Main="1500" LevelV_KJ="300" Height="1.1" Mark_Beg="11ДО-Н" Len_Beg="12000" Mark_End="11ДО-К" Len_End="12000" Mark_Conn="11ДО-С-300" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У4" DoubleFace="1" Mark="11ДД-0,75С/1,5-300" Step_Main="1500" LevelV_KJ="300" Height="0.75" Mark_Beg="11ДД-Н1" Len_Beg="12000" Mark_End="11ДД-К1" Len_End="12000" Mark_Conn="11ДО-С-300" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У5" DoubleFace="1" Mark="11ДД-0,75Д/1,5-350" Step_Main="1500" LevelV_KJ="350" Height="0.75" Mark_Beg="11ДД-Н1" Len_Beg="12000" Mark_End="11ДД-К1" Len_End="12000" Mark_Conn="11ДО-С-350" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У6" DoubleFace="0" Mark="11ДО-1,1Д/2,0-400" Step_Main="2000" LevelV_KJ="400" Height="1.1" Mark_Beg="11ДО-Н" Len_Beg="12000" Mark_End="11ДО-К" Len_End="12000" Mark_Conn="11ДО-С-400" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У8" DoubleFace="0" Mark="11ДО-1,1Д/1,5-500" Step_Main="1500" LevelV_KJ="500" Height="1.1" Mark_Beg="11ДО-Н" Len_Beg="12000" Mark_End="11ДО-К" Len_End="12000" Mark_Conn="11ДО-С-500" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У6" DoubleFace="1" Mark="11ДД-1,1Д/1,5-400" Step_Main="1500" LevelV_KJ="400" Height="1.1" Mark_Beg="11ДД-Н" Len_Beg="12000" Mark_End="11ДД-К" Len_End="12000" Mark_Conn="11ДД-С-400" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У8" DoubleFace="1" Mark="11ДД-1,1Д/1,5-500" Step_Main="1500" LevelV_KJ="500" Height="1.1" Mark_Beg="11ДД-Н" Len_Beg="12000" Mark_End="11ДД-К" Len_End="12000" Mark_Conn="11ДД-С-500" Len_Conn="12000" />
+      <MarkRecord Descr="Трансбарьер" SFL="У3" DoubleFace="0" Mark="11МО-0,75С/2,0-250" Step_Main="2000" LevelV_KJ="250" Height="0.75" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+      <MarkRecord Descr="Трансбарьер" SFL="У4" DoubleFace="0" Mark="11МО-0,75Д/2,0-300" Step_Main="2000" LevelV_KJ="300" Height="0.75" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+      <MarkRecord Descr="Трансбарьер" SFL="У4" DoubleFace="1" Mark="11МД-0,75С/2,0-300" Step_Main="2000" LevelV_KJ="300" Height="0.75" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+      <MarkRecord Descr="Трансбарьер" SFL="У4" DoubleFace="0" Mark="11МО -1,1С/2,0-300" Step_Main="2000" LevelV_KJ="300" Height="1.1" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+      <MarkRecord Descr="Трансбарьер" SFL="У6" DoubleFace="0" Mark="11МО -1,1С/2,0-400" Step_Main="2000" LevelV_KJ="400" Height="1.1" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+      <MarkRecord Descr="Трансбарьер" SFL="У8" DoubleFace="0" Mark="11МО-1,1Д/2,0-500" Step_Main="2000" LevelV_KJ="500" Height="1.1" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+      <MarkRecord Descr="Трансбарьер" SFL="У10" DoubleFace="0" Mark="11МО-1,1Д/1,5-600" Step_Main="1500" LevelV_KJ="600" Height="1.1" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+      <MarkRecord Descr="Пешеходное ограждение" SFL="У1" DoubleFace="1" Mark="ОПО-Д/1,1-2,0" Step_Main="2000" LevelV_KJ="100" Height="1.1" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+      <MarkRecord Descr="Парапетное ограждение" SFL="У6" DoubleFace="0" Mark="12ДО/400-0,9(0,12)-С" Step_Main="3500" LevelV_KJ="400" Height="0.9" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+      <MarkRecord Descr="Парапетное ограждение" SFL="У6" DoubleFace="1" Mark="12ДД/400-0,8(0,12)-С" Step_Main="3500" LevelV_KJ="400" Height="0.8" Mark_Beg="" Len_Beg="0" Mark_End="" Len_End="0" Mark_Conn="" Len_Conn="0" />
+    </MarkRecords>
+  </Body>
+</Stg>

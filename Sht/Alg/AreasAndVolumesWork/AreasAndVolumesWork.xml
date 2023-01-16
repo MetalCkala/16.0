@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Рабочая ведомость объемов">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>3</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Areas" name="Площади по слоям">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="7" style="style_0">$(getvar, filename)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="5" style="style_0">Расстояние</Cell>
+        <Cell index="5" colspan="2" style="style_0">$(getcolumn, areaName)</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="0" style="style_0">Километраж</Cell>
+        <Cell index="1" style="style_0">Пикет</Cell>
+        <Cell index="2" style="style_0">Плюс</Cell>
+        <Cell index="3" style="style_0">Пикетаж</Cell>
+        <Cell index="4" style="style_0">Расстояние, м</Cell>
+        <Cell index="5" style="style_0">Длина,м</Cell>
+        <Cell index="6" style="style_0">Площадь, м2</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="По поперечнику" id="OnSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, kilometrage)</Cell>
+        <Cell index="1" style="style_1">$(getvar, piket)</Cell>
+        <Cell index="2" style="style_1">$(getvar, plus)</Cell>
+        <Cell index="3" style="style_2">$(getvar, piketage)</Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+        <Cell index="5" style="style_2">$(getcolumn, length)</Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="По поперечнику" id="BetweenSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_1">$(getvar, distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">$(getcolumn, area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итог по пикету" id="PkSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, label)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_1">$(getvar, distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">$(getcolumn, area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итог по километру" id="KmSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, label)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_1">$(getvar, distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">$(getcolumn, area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="AllSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, label)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_1">$(getvar, distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">$(getcolumn, area)</Cell>
+      </Row>
+    </Subtable>
+    <ColumnTemplate columnContextId="areaName" X1="5" X2="6" Y1="1" Y2="7">
+      <ColumnTemplate columnContextId="length" X1="0" X2="0" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="area" X1="1" X2="1" Y1="3" Y2="3" />
+      <ColumnTemplate columnContextId="area" X1="1" X2="1" Y1="6" Y2="6" />
+      <ColumnTemplate columnContextId="area" X1="1" X2="1" Y1="4" Y2="4" />
+      <ColumnTemplate columnContextId="area" X1="1" X2="1" Y1="5" Y2="5" />
+    </ColumnTemplate>
+  </Table>
+  <Table id="Volumes" name="Объемы по слоям">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="7" style="style_0">$(getvar, filename)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="5" style="style_0">Расстояние</Cell>
+        <Cell index="5" colspan="2" style="style_0">$(getcolumn, volumeName)</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="0" style="style_0">Километраж</Cell>
+        <Cell index="1" style="style_0">Пикет</Cell>
+        <Cell index="2" style="style_0">Плюс</Cell>
+        <Cell index="3" style="style_0">Пикетаж</Cell>
+        <Cell index="4" style="style_0">Расстояние, м</Cell>
+        <Cell index="5" style="style_0">Площадь, м2</Cell>
+        <Cell index="6" style="style_0">Объем, м3</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="По поперечнику" id="OnSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, kilometrage)</Cell>
+        <Cell index="1" style="style_1">$(getvar, piket)</Cell>
+        <Cell index="2" style="style_1">$(getvar, plus)</Cell>
+        <Cell index="3" style="style_0">$(getvar, piketage)</Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+        <Cell index="5" style="style_2">$(getcolumn, area)</Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="По поперечнику" id="BetweenSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_1">$(getvar, distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">$(getcolumn, volume)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итог по пикету" id="PkSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, label)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_1">$(getvar, distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">$(getcolumn, volume)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итог по километру" id="KmSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, label)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_1">$(getvar, distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">$(getcolumn, volume)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="AllSection">
+      <Column index="0" width="19,3500003814697" options="1" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="16" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="19,2000007629395" options="1" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, label)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_1">$(getvar, distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">$(getcolumn, volume)</Cell>
+      </Row>
+    </Subtable>
+    <ColumnTemplate columnContextId="volumeName" X1="5" X2="6" Y1="1" Y2="7">
+      <ColumnTemplate columnContextId="area" X1="0" X2="0" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="volume" X1="1" X2="1" Y1="3" Y2="3" />
+      <ColumnTemplate columnContextId="volume" X1="1" X2="1" Y1="4" Y2="4" />
+      <ColumnTemplate columnContextId="volume" X1="1" X2="1" Y1="5" Y2="5" />
+      <ColumnTemplate columnContextId="volume" X1="1" X2="1" Y1="6" Y2="6" />
+    </ColumnTemplate>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

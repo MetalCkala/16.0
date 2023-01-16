@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body Version="5" Caption="Генплан">
+    <Classes aType="0">
+      <Class Name="Topomatic.Smt.SemanticStringNode, Topomatic.Smt" />
+      <Class Name="Topomatic.Smt.SemanticDoubleNode, Topomatic.Smt" />
+      <Class Name="Topomatic.Visualization.Controller.Design.VisualizationSemanticConverter, Topomatic.Visualization.Controller" />
+      <Class Name="Topomatic.Visualization.Controller.Design.LinearVisualizationSemanticEditor, Topomatic.Visualization.Controller" />
+    </Classes>
+    <Items aType="0">
+      <Item Caption="Контур площадки" Handle="6000">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+      <Item Caption="Бровка откосов" Handle="6010">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации" ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+      <Item Caption="Контур здания" Handle="6020">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+      <Item Caption="Основание участков вдоль линии" Handle="6030">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Объект слева (внутри)" Handle="5" Tag="&lt;LeftName&gt;" Description="Наименование объекта слева" ReadOnly="true" />
+          <Property ClassName="0" Caption="Объект справа (снаружи)" Handle="6" Tag="&lt;RightName&gt;" Description="Наименование объекта справа" ReadOnly="true" />
+        </Propertys>
+      </Item>
+      <Item Caption="Основание участка внутри контура" Handle="6040">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+      <Item Caption="Участок генплана" Handle="6900">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Параметры" Handle="1" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Тип" Handle="2" Tag="GenPlanName" ReadOnly="true" />
+          <Property ClassName="1" Caption="Толщина, м" Handle="3" Tag="GenPlanDepth" ReadOnly="true" />
+        </Propertys>
+      </Item>
+      <Item Caption="Линия генплана" Handle="6901">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+      <Item Caption="Внешний контур линии генплана" Handle="6902">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Параметры" Handle="1" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+      <Item Caption="Точка генплана" Handle="6903">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Параметры" Handle="1" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+      <Item Caption="Верх бордюра" Handle="6050">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+          <Property ClassName="1" Caption="Высота" Handle="4" Tag="&lt;Height&gt;" ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Контроллер визуализации линейного объекта" Handle="3" Tag="&lt;class&gt;LinearVisualizationTemplate&lt;/class&gt;" ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="QlNURwIA6f0AAAAaBUNsYXNzCVRlbXBsYXRlcwVBc3NldA9FbGV2YXRpb25PZmZzZXQFU2NhbGUIQ29uc3RhbnQDVGFnCk11bHRpcGxpZXIHU3VtbWFuZAFNAU4FV2lkdGgGSGVpZ2h0BVNsYWNrBk9mZnNldA1TbGFja1NlZ21lbnRzCE1hdGVyaWFsB0FtYmllbnQBWAFZAVoHRGlmZnVzZQhTcGVjdWxhcg1TcGVjdWxhckxldmVsCVNoaW5pbmVzcwVGbGFncwIAAM0CAQoAbFRvcG9tYXRpYy5WaXN1YWxpemF0aW9uLkNvbnRyb2xsZXIuVGVtcGxhdGVzLkxpbmVhclZpc3VhbGl6YXRpb25UZW1wbGF0ZSwgVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlcgEBAQAB1gECCgBeVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlci5UZW1wbGF0ZXMuTGluZWFyU2VjdGlvbiwgVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlcgoCBmJvcmRlcgMABAICBQAKBgg8SEVJR0hUPgAGDwUAEAAGABEDCBIKdFo9CBP/Y8o9CBTvUzo+AAAVAwgS//7+PggT//7+PggU//7+PgAAFgMIEsHAQD8IE8HAQD8IFMHAQD8ACBfNzMw+CBjNzEw+BhkBAEVPRg==" />
+        </Propertys>
+      </Item>
+      <Item Caption="Кромка дороги" Handle="6051">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+      <Item Caption="Ось дороги" Handle="6060">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+      <Item Caption="Сопряжение" Handle="6070">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="ID" Handle="1" Tag="&lt;GenPlanBaseLineName&gt;" Description="ID линии. Создаётся автоматически. Должно быть уникальным." ReadOnly="true" Visible="false" />
+          <Property ClassName="0" Caption="Параметры" Handle="2" Tag="&lt;GenPlanBaseLineStg&gt;" Description="Системное поле для хранения информации." ReadOnly="true" Visible="false" />
+        </Propertys>
+      </Item>
+    </Items>
+  </Body>
+</Stg>

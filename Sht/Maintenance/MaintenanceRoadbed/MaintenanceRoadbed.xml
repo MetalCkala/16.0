@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables title="Ведомость состояния земляного полотна">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Maintenance" name="Земполотно">
+    <Subtable name="Заголовок" id="Head">
+      <Row index="0" height="7" options="2">
+        <Cell index="0" colspan="9" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="15">
+        <Cell index="0" colspan="2" style="style_0">Адрес участка</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Расположение: 1-слева 2-справа</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Код грунта земляного полотна</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Код земляного полотна</Cell>
+        <Cell index="5" colspan="4" style="style_0">Виды дефектов земполотна: 1-есть 0-нет</Cell>
+      </Row>
+      <Row index="2" height="15">
+        <Cell index="0" style="style_0">Начало пк+</Cell>
+        <Cell index="1" style="style_0">Конец пк+</Cell>
+        <Cell index="5" style="style_0">1</Cell>
+        <Cell index="6" style="style_0">2</Cell>
+        <Cell index="7" style="style_0">3</Cell>
+        <Cell index="8" style="style_0">4</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Параметры" id="MaintenanceData">
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, PositionStartPk)</Cell>
+        <Cell index="1" style="style_0">$(getvar, PositionEndPk)</Cell>
+        <Cell index="2" style="style_0">$(getvar, Side)</Cell>
+        <Cell index="3" style="style_0">$(getvar, GroundCode)</Cell>
+        <Cell index="4" style="style_0">$(getvar, RoadbedCode)</Cell>
+        <Cell index="5" style="style_0">$(getvar, Defect)</Cell>
+        <Cell index="6" style="style_0">$(getvar, Defect2)</Cell>
+        <Cell index="7" style="style_0">$(getvar, Defect3)</Cell>
+        <Cell index="8" style="style_0">$(getvar, Defect4)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

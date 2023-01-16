@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Рабочая ведомость распределения земляных масс">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Soilworks" name="Рабочая ведомость распределения земляных масс">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="22,4500007629395" options="1" />
+      <Column index="1" width="23,3999996185303" options="1" />
+      <Column index="2" width="20,7999992370605" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="23,3500003814697" options="1" />
+      <Column index="5" width="24,2999992370605" options="1" />
+      <Column index="6" width="21,7000007629395" options="1" />
+      <Column index="7" width="19,4500007629395" options="1" />
+      <Column index="8" width="25,4750061035156" options="2" />
+      <Column index="9" width="16,5" options="1" />
+      <Column index="10" width="20,5499992370605" options="1" />
+      <Column index="11" width="21,7999992370605" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="12" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="4" style="style_0">Поставщик</Cell>
+        <Cell index="4" colspan="4" style="style_0">Потребитель</Cell>
+        <Cell index="8" rowspan="2" style="style_0">Объем (ИЗ), куб.м</Cell>
+        <Cell index="9" rowspan="2" style="style_0">Объем (В), куб. м</Cell>
+        <Cell index="10" rowspan="2" style="style_0">№ ГЭСН</Cell>
+        <Cell index="11" rowspan="2" style="style_0">Наименование грунта</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" style="style_0">Наименование объекта</Cell>
+        <Cell index="1" style="style_0">Номер / Наименование участка</Cell>
+        <Cell index="2" style="style_0">ИЗ</Cell>
+        <Cell index="3" style="style_0">От ПК</Cell>
+        <Cell index="4" style="style_0">Наименование объекта</Cell>
+        <Cell index="5" style="style_0">Номер / Наименование участка</Cell>
+        <Cell index="6" style="style_0">В</Cell>
+        <Cell index="7" style="style_0">До ПК</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок участников" id="ItemHead">
+      <Column index="0" width="22,4500007629395" options="1" />
+      <Column index="1" width="23,3999996185303" options="1" />
+      <Column index="2" width="20,7999992370605" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="23,3500003814697" options="1" />
+      <Column index="5" width="24,2999992370605" options="1" />
+      <Column index="6" width="21,7000007629395" options="1" />
+      <Column index="7" width="19,4500007629395" options="1" />
+      <Column index="8" width="25,4750061035156" options="2" />
+      <Column index="9" width="16,5" options="1" />
+      <Column index="10" width="20,5499992370605" options="1" />
+      <Column index="11" width="21,7999992370605" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, supplierObject)</Cell>
+        <Cell index="1" style="style_0">$(getvar, supplierNumber)</Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">$(getvar, fromPk)</Cell>
+        <Cell index="4" style="style_0">$(getvar, recipientObject)</Cell>
+        <Cell index="5" style="style_0">$(getvar, recipientNumber)</Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">$(getvar, toPk)</Cell>
+        <Cell index="8" style="style_1">$(getvar, volumeFrom)</Cell>
+        <Cell index="9" style="style_1">$(getvar, volumeTo)</Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Row">
+      <Column index="0" width="22,4500007629395" options="1" />
+      <Column index="1" width="23,3999996185303" options="1" />
+      <Column index="2" width="20,7999992370605" options="1" />
+      <Column index="3" width="16" options="1" />
+      <Column index="4" width="23,3500003814697" options="1" />
+      <Column index="5" width="24,2999992370605" options="1" />
+      <Column index="6" width="21,7000007629395" options="1" />
+      <Column index="7" width="19,4500007629395" options="1" />
+      <Column index="8" width="25,4750061035156" options="2" />
+      <Column index="9" width="16,5" options="1" />
+      <Column index="10" width="20,5499992370605" options="1" />
+      <Column index="11" width="21,7999992370605" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_1">$(getvar, supplierName)</Cell>
+        <Cell index="3" style="style_1">
+        </Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+        <Cell index="5" style="style_1">
+        </Cell>
+        <Cell index="6" style="style_1">$(getvar, recipientName)</Cell>
+        <Cell index="7" style="style_1">$(getvar, hauledSumm)</Cell>
+        <Cell index="8" style="style_1">$(getvar, volumeFrom)</Cell>
+        <Cell index="9" style="style_1">$(getvar, volumeTo)</Cell>
+        <Cell index="10" style="style_0">$(getvar, groundCipher)</Cell>
+        <Cell index="11" style="style_0">$(getvar, groundName)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

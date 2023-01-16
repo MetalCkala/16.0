@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables title="Ведомость наличия и состояния труб на основной трассе и на примыканиях">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Maintenance" name="Трубы">
+    <Subtable name="Заголовок" id="Head">
+      <Row index="0" height="15" options="2">
+        <Cell index="0" colspan="17" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="7">
+        <Cell index="0" rowspan="2" style="style_0">Адрес трубы пк+</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Длина, м</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Диаметр или ширина, м</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Высота, м</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Конструкция</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Количество очков (труб)</Cell>
+        <Cell index="6" rowspan="2" style="style_0">Код расположения: 0-осн. трасса 1-прим. слева 2-прим.справа</Cell>
+        <Cell index="7" rowspan="2" style="style_0">Год постройки</Cell>
+        <Cell index="8" rowspan="2" style="style_0">Дефекты</Cell>
+        <Cell index="9" colspan="8" style="style_0">Код дефекта</Cell>
+      </Row>
+      <Row index="2" height="7">
+        <Cell index="9" style="style_0">1</Cell>
+        <Cell index="10" style="style_0">2</Cell>
+        <Cell index="11" style="style_0">3</Cell>
+        <Cell index="12" style="style_0">4</Cell>
+        <Cell index="13" style="style_0">5</Cell>
+        <Cell index="14" style="style_0">6</Cell>
+        <Cell index="15" style="style_0">7</Cell>
+        <Cell index="16" style="style_0">8</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Параметры" id="MaintenanceData">
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Length)</Cell>
+        <Cell index="2" style="style_0">$(getvar, Width)</Cell>
+        <Cell index="3" style="style_0">$(getvar, Height)</Cell>
+        <Cell index="4" style="style_0">$(getvar, Construction)</Cell>
+        <Cell index="5" style="style_0">$(getvar, Tubes)</Cell>
+        <Cell index="6" style="style_0">$(getvar, Side)</Cell>
+        <Cell index="7" style="style_0">$(getvar, Year)</Cell>
+        <Cell index="8" style="style_0">$(getvar, Defects)</Cell>
+        <Cell index="9" style="style_0">$(getvar, Defect)</Cell>
+        <Cell index="10" style="style_0">$(getvar, Defect2)</Cell>
+        <Cell index="11" style="style_0">$(getvar, Defect3)</Cell>
+        <Cell index="12" style="style_0">$(getvar, Defect4)</Cell>
+        <Cell index="13" style="style_0">$(getvar, Defect5)</Cell>
+        <Cell index="14" style="style_0">$(getvar, Defect6)</Cell>
+        <Cell index="15" style="style_0">$(getvar, Defect7)</Cell>
+        <Cell index="16" style="style_0">$(getvar, Defect8)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

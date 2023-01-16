@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость точек статического зондирования по подобъекту">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_3">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="GlgLocalConePenetrationTests" name="Протокол испытания статическим зондированием">
+    <Subtable name="Заголовок" id="Header" excluded="0" breakBefore="1">
+      <Column index="0" width="43" options="2" />
+      <Column index="1" width="44" options="2" />
+      <Column index="2" width="44" options="2" />
+      <Column index="3" width="17,8000001907349" options="1" />
+      <Column index="4" width="31,1000003814697" options="1" />
+      <Column index="5" width="16" options="1" />
+      <Column index="6" width="16" options="1" />
+      <Column index="7" width="31,6000003814697" options="1" />
+      <Column index="8" width="17,1000003814697" options="1" />
+      <Column index="9" width="16" options="1" />
+      <Column index="10" width="18,5500001907349" options="1" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="11" style="style_0">$(getvar, ProjectName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" rowspan="2" style="style_1">Номер точки</Cell>
+        <Cell index="1" rowspan="2" style="style_1">Выработка</Cell>
+        <Cell index="2" rowspan="2" style="style_1">Дата проведения испытания</Cell>
+        <Cell index="3" rowspan="2" style="style_1">Тип зонда</Cell>
+        <Cell index="4" rowspan="2" style="style_1">Тип/номер прибора</Cell>
+        <Cell index="5" rowspan="2" style="style_1">ПК</Cell>
+        <Cell index="6" rowspan="2" style="style_1">Смещение</Cell>
+        <Cell index="7" rowspan="2" style="style_1">Отметка, м</Cell>
+        <Cell index="8" colspan="2" style="style_1">Координаты</Cell>
+        <Cell index="10" rowspan="2" style="style_1">Примечание</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="8" style="style_1">Восточная</Cell>
+        <Cell index="9" style="style_1">Северная</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Испытание" id="StaticSoundingPoint" excluded="0">
+      <Column index="0" width="43" options="2" />
+      <Column index="1" width="44" options="2" />
+      <Column index="2" width="44" options="2" />
+      <Column index="3" width="17,8000001907349" options="1" />
+      <Column index="4" width="31,1000003814697" options="1" />
+      <Column index="5" width="16" options="1" />
+      <Column index="6" width="16" options="1" />
+      <Column index="7" width="31,6000003814697" options="1" />
+      <Column index="8" width="17,1000003814697" options="1" />
+      <Column index="9" width="16" options="1" />
+      <Column index="10" width="18,5500001907349" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_2">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_2">$(getvar, BoreholeNumber)</Cell>
+        <Cell index="2" style="style_2">$(getvar, SoudingDate)</Cell>
+        <Cell index="3" style="style_1">$(getvar, SondeType)</Cell>
+        <Cell index="4" style="style_1">$(getvar, DeviceTypeOrNumber)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="6" style="style_3">$(getvar, Offset)</Cell>
+        <Cell index="7" style="style_3">$(getvar, AbsEstuaryElevation)</Cell>
+        <Cell index="8" style="style_3">$(getvar, X)</Cell>
+        <Cell index="9" style="style_3">$(getvar, Y)</Cell>
+        <Cell index="10" style="style_1">$(getvar, Notes)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="LIKE17" FileName="d431.shx" Flags="0" FontName="d431" Height="0" LastUsedHeight="2,5" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость виражей">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Virages" name="Виражи">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="25.3799991607666" options="2" />
+      <Column index="3" width="25.3799991607666" options="2" />
+      <Column index="4" width="25.3799991607666" options="2" />
+      <Column index="5" width="25.3799991607666" options="2" />
+      <Column index="6" width="25.3799991607666" options="2" />
+      <Column index="7" width="25.3799991607666" options="2" />
+      <Column index="8" width="25.3799991607666" options="2" />
+      <Column index="9" width="25.3799991607666" options="2" />
+      <Column index="10" width="25.3799991607666" options="2" />
+      <Column index="11" width="25.3799991607666" options="2" />
+      <Column index="12" width="25.3799991607666" options="2" />
+      <Column index="13" width="25.3799991607666" options="2" />
+      <Column index="14" width="25.3799991607666" options="2" />
+      <Column index="15" width="25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="16" style="style_0">$(getvar, SheetName)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок виража" id="VirageHead">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="25.3799991607666" options="2" />
+      <Column index="3" width="25.3799991607666" options="2" />
+      <Column index="4" width="25.3799991607666" options="2" />
+      <Column index="5" width="25.3799991607666" options="2" />
+      <Column index="6" width="25.3799991607666" options="2" />
+      <Column index="7" width="25.3799991607666" options="2" />
+      <Column index="8" width="25.3799991607666" options="2" />
+      <Column index="9" width="25.3799991607666" options="2" />
+      <Column index="10" width="25.3799991607666" options="2" />
+      <Column index="11" width="25.3799991607666" options="2" />
+      <Column index="12" width="25.3799991607666" options="2" />
+      <Column index="13" width="25.3799991607666" options="2" />
+      <Column index="14" width="25.3799991607666" options="2" />
+      <Column index="15" width="25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">
+        </Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+        <Cell index="13" style="style_0">
+        </Cell>
+        <Cell index="14" style="style_0">
+        </Cell>
+        <Cell index="15" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="16" style="style_0">$(getvar, VirageName)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Общие данные виража" id="GeneralVirageData">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="25.3799991607666" options="2" />
+      <Column index="3" width="25.3799991607666" options="2" />
+      <Column index="4" width="25.3799991607666" options="2" />
+      <Column index="5" width="25.3799991607666" options="2" />
+      <Column index="6" width="25.3799991607666" options="2" />
+      <Column index="7" width="25.3799991607666" options="2" />
+      <Column index="8" width="25.3799991607666" options="2" />
+      <Column index="9" width="25.3799991607666" options="2" />
+      <Column index="10" width="25.3799991607666" options="2" />
+      <Column index="11" width="25.3799991607666" options="2" />
+      <Column index="12" width="25.3799991607666" options="2" />
+      <Column index="13" width="25.3799991607666" options="2" />
+      <Column index="14" width="25.3799991607666" options="2" />
+      <Column index="15" width="25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Вираж</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Уширение на кривой</Cell>
+        <Cell index="2" colspan="2" style="style_0">Входящий отгон</Cell>
+        <Cell index="4" colspan="2" style="style_0">Исходящий отгон</Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">
+        </Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+        <Cell index="13" style="style_0">
+        </Cell>
+        <Cell index="14" style="style_0">
+        </Cell>
+        <Cell index="15" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="2" colspan="2" style="style_0">Начало</Cell>
+        <Cell index="4" colspan="2" style="style_0">Конец</Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">
+        </Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+        <Cell index="13" style="style_0">
+        </Cell>
+        <Cell index="14" style="style_0">
+        </Cell>
+        <Cell index="15" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, VirageGrade)</Cell>
+        <Cell index="1" style="style_0">$(getvar, BroadeningOverCurve)</Cell>
+        <Cell index="2" style="style_0">$(getvar, EnteringStageStart)</Cell>
+        <Cell index="3" style="style_0">$(getvar, EnteringStageEnd)</Cell>
+        <Cell index="4" style="style_0">$(getvar, ExitingStageStart)</Cell>
+        <Cell index="5" style="style_0">$(getvar, ExitingStageEnd)</Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">
+        </Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+        <Cell index="13" style="style_0">
+        </Cell>
+        <Cell index="14" style="style_0">
+        </Cell>
+        <Cell index="15" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">
+        </Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+        <Cell index="13" style="style_0">
+        </Cell>
+        <Cell index="14" style="style_0">
+        </Cell>
+        <Cell index="15" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок вершин" id="VertexHead">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="25.3799991607666" options="2" />
+      <Column index="3" width="25.3799991607666" options="2" />
+      <Column index="4" width="25.3799991607666" options="2" />
+      <Column index="5" width="25.3799991607666" options="2" />
+      <Column index="6" width="25.3799991607666" options="2" />
+      <Column index="7" width="25.3799991607666" options="2" />
+      <Column index="8" width="25.3799991607666" options="2" />
+      <Column index="9" width="25.3799991607666" options="2" />
+      <Column index="10" width="25.3799991607666" options="2" />
+      <Column index="11" width="25.3799991607666" options="2" />
+      <Column index="12" width="25.3799991607666" options="2" />
+      <Column index="13" width="25.3799991607666" options="2" />
+      <Column index="14" width="25.3799991607666" options="2" />
+      <Column index="15" width="25" options="2" />
+      <Row index="0" height="7" options="2">
+        <Cell index="0" style="style_0">Имя вершины</Cell>
+        <Cell index="1" style="style_0">Угол, град.</Cell>
+        <Cell index="2" style="style_0">Радиус, м</Cell>
+        <Cell index="3" style="style_0">L1, м</Cell>
+        <Cell index="4" style="style_0">L2, м</Cell>
+        <Cell index="5" style="style_0">НПК</Cell>
+        <Cell index="6" style="style_0">НКК</Cell>
+        <Cell index="7" style="style_0">ККК</Cell>
+        <Cell index="8" style="style_0">КПК</Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+        <Cell index="13" style="style_0">
+        </Cell>
+        <Cell index="14" style="style_0">
+        </Cell>
+        <Cell index="15" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные вершин" id="VertexRow">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="25.3799991607666" options="2" />
+      <Column index="3" width="25.3799991607666" options="2" />
+      <Column index="4" width="25.3799991607666" options="2" />
+      <Column index="5" width="25.3799991607666" options="2" />
+      <Column index="6" width="25.3799991607666" options="2" />
+      <Column index="7" width="25.3799991607666" options="2" />
+      <Column index="8" width="25.3799991607666" options="2" />
+      <Column index="9" width="25.3799991607666" options="2" />
+      <Column index="10" width="25.3799991607666" options="2" />
+      <Column index="11" width="25.3799991607666" options="2" />
+      <Column index="12" width="25.3799991607666" options="2" />
+      <Column index="13" width="25.3799991607666" options="2" />
+      <Column index="14" width="25.3799991607666" options="2" />
+      <Column index="15" width="25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, VertexName)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Angle)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Radius)</Cell>
+        <Cell index="3" style="style_1">$(getvar, L1)</Cell>
+        <Cell index="4" style="style_1">$(getvar, L2)</Cell>
+        <Cell index="5" style="style_0">$(getvar, BTC)</Cell>
+        <Cell index="6" style="style_0">$(getvar, BCC)</Cell>
+        <Cell index="7" style="style_0">$(getvar, ECC)</Cell>
+        <Cell index="8" style="style_0">$(getvar, ETC)</Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+        <Cell index="13" style="style_0">
+        </Cell>
+        <Cell index="14" style="style_0">
+        </Cell>
+        <Cell index="15" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">
+        </Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+        <Cell index="13" style="style_0">
+        </Cell>
+        <Cell index="14" style="style_0">
+        </Cell>
+        <Cell index="15" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок данных" id="DataHead">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="25.3799991607666" options="2" />
+      <Column index="3" width="25.3799991607666" options="2" />
+      <Column index="4" width="25.3799991607666" options="2" />
+      <Column index="5" width="25.3799991607666" options="2" />
+      <Column index="6" width="25.3799991607666" options="2" />
+      <Column index="7" width="25.3799991607666" options="2" />
+      <Column index="8" width="25.3799991607666" options="2" />
+      <Column index="9" width="25.3799991607666" options="2" />
+      <Column index="10" width="25.3799991607666" options="2" />
+      <Column index="11" width="25.3799991607666" options="2" />
+      <Column index="12" width="25.3799991607666" options="2" />
+      <Column index="13" width="25.3799991607666" options="2" />
+      <Column index="14" width="25.3799991607666" options="2" />
+      <Column index="15" width="25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Пикет</Cell>
+        <Cell index="2" colspan="4" style="style_0">Расстояния, м</Cell>
+        <Cell index="6" colspan="5" style="style_0">Отметки, м</Cell>
+        <Cell index="11" colspan="4" style="style_0">Уклоны</Cell>
+        <Cell index="15" rowspan="2" style="style_0">Комментарий</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="2" style="style_0">Левая бровка</Cell>
+        <Cell index="3" style="style_0">Левая кромка</Cell>
+        <Cell index="4" style="style_0">Правая кромка</Cell>
+        <Cell index="5" style="style_0">Правая бровка</Cell>
+        <Cell index="6" style="style_0">Левая бровка</Cell>
+        <Cell index="7" style="style_0">Левая кромка</Cell>
+        <Cell index="8" style="style_0">Ось</Cell>
+        <Cell index="9" style="style_0">Правая кромка</Cell>
+        <Cell index="10" style="style_0">Правая бровка</Cell>
+        <Cell index="11" style="style_0">Левая бровка</Cell>
+        <Cell index="12" style="style_0">Левая кромка</Cell>
+        <Cell index="13" style="style_0">Правая кромка</Cell>
+        <Cell index="14" style="style_0">Правая бровка</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Row">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="25.3799991607666" options="2" />
+      <Column index="3" width="25.3799991607666" options="2" />
+      <Column index="4" width="25.3799991607666" options="2" />
+      <Column index="5" width="25.3799991607666" options="2" />
+      <Column index="6" width="25.3799991607666" options="2" />
+      <Column index="7" width="25.3799991607666" options="2" />
+      <Column index="8" width="25.3799991607666" options="2" />
+      <Column index="9" width="25.3799991607666" options="2" />
+      <Column index="10" width="25.3799991607666" options="2" />
+      <Column index="11" width="25.3799991607666" options="2" />
+      <Column index="12" width="25.3799991607666" options="2" />
+      <Column index="13" width="25.3799991607666" options="2" />
+      <Column index="14" width="25.3799991607666" options="2" />
+      <Column index="15" width="25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Расстояния\Левая бровка)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Расстояния\Левая кромка)</Cell>
+        <Cell index="4" style="style_1">$(getvar, Расстояния\Правая кромка)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Расстояния\Правая бровка)</Cell>
+        <Cell index="6" style="style_1">$(getvar, Отметки\Левая бровка)</Cell>
+        <Cell index="7" style="style_1">$(getvar, Отметки\Левая кромка)</Cell>
+        <Cell index="8" style="style_1">$(getvar, Отметки\Ось)</Cell>
+        <Cell index="9" style="style_1">$(getvar, Отметки\Правая кромка)</Cell>
+        <Cell index="10" style="style_1">$(getvar, Отметки\Правая бровка)</Cell>
+        <Cell index="11" style="style_1">$(getvar, Уклоны\Левая бровка)</Cell>
+        <Cell index="12" style="style_1">$(getvar, Уклоны\Левая кромка)</Cell>
+        <Cell index="13" style="style_1">$(getvar, Уклоны\Правая кромка)</Cell>
+        <Cell index="14" style="style_1">$(getvar, Уклоны\Правая бровка)</Cell>
+        <Cell index="15" style="style_0">$(getvar, Note)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

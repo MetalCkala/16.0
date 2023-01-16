@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Таблица грунтов">
+  <Table name="Таблица грунтов" id="GlgGrounds">
+    <Subtable id="Head" name="Заголовок">
+      <Row index="0">
+        <Cell index="0" colspan="10">Выработки</Cell>
+      </Row>
+      <Row index="1">
+        <Cell index="0" colspan="10">Проект: $(getvar, ProjectName) / Объект:  $(getvar, AlignmentName)</Cell>
+      </Row>
+      <Row index="2">
+        <Cell index="0">№ п/п</Cell>
+        <Cell index="1">Шифр грунта</Cell>
+        <Cell index="2">Категория по разработке</Cell>
+        <Cell index="3">Генезис</Cell>
+        <Cell index="4">Наименование</Cell>
+        <Cell index="5">Плотность</Cell>
+        <Cell index="6">Состояние</Cell>
+        <Cell index="7">Категория по просадочности</Cell>
+        <Cell index="8">Штриховка</Cell>
+        <Cell index="9">Примечание</Cell>
+      </Row>
+    </Subtable>
+    <Subtable id="GlgData" name="Данные">
+      <Row index="0">
+        <Cell index="0">$(getvar, Index)</Cell>
+        <Cell index="1">$(getvar, Cipher)</Cell>
+        <Cell index="2">$(getvar, ExcavationCategory)</Cell>
+        <Cell index="3">$(getvar, Genesis)</Cell>
+        <Cell index="4">$(getvar, Name)</Cell>
+        <Cell index="5">$(getvar, Density)</Cell>
+        <Cell index="6">$(getvar, State)</Cell>
+        <Cell index="7">$(getvar, SubsidenceCategory)</Cell>
+        <Cell index="8">$(getvar, Hatch)</Cell>
+        <Cell index="9">$(getvar, Note)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

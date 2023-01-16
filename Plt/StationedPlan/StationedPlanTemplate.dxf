@@ -1,0 +1,206 @@
+ 0
+SECTION
+ 2
+HEADER
+ 9
+$ACADVER
+ 1
+AC1009
+ 9
+$DWGCODEPAGE
+ 3
+ANSI_1251
+ 9
+$CECOLOR
+  62
+256
+ 9
+$CELTSCALE
+  40
+1
+ 9
+$CELTYPE
+ 6
+ByLayer
+ 9
+$CELWEIGHT
+  370
+-1
+ 9
+$CLAYER
+ 8
+0
+ 9
+$CMLSTYLE
+ 2
+Standard
+ 9
+$DIMSTYLE
+ 2
+ISO-25
+ 9
+$INSBASE
+  10
+0
+  20
+0
+  30
+0
+ 9
+$PDMODE
+  70
+0
+ 9
+$PDSIZE
+  40
+0
+ 9
+$TEXTSTYLE
+ 7
+Standard
+ 0
+ENDSEC
+ 0
+SECTION
+ 2
+TABLES
+ 0
+TABLE
+ 2
+LTYPE
+  70
+1
+ 0
+LTYPE
+ 2
+Continuous
+  70
+0
+ 3
+Сплошная
+  72
+65
+  73
+0
+  40
+0
+ 0
+ENDTAB
+ 0
+TABLE
+ 2
+STYLE
+  70
+1
+ 0
+STYLE
+ 2
+Standard
+  70
+0
+  40
+2
+  41
+1
+  50
+15.000000417413
+  71
+0
+  42
+2
+ 3
+SPDS.shx
+ 4
+
+ 0
+ENDTAB
+ 0
+TABLE
+ 2
+LAYER
+  70
+1
+ 0
+LAYER
+ 2
+0
+  70
+0
+  62
+7
+ 6
+Continuous
+ 0
+ENDTAB
+ 0
+ENDSEC
+ 0
+SECTION
+ 2
+BLOCKS
+ 0
+ENDSEC
+ 0
+SECTION
+ 2
+ENTITIES
+ 0
+TEXT
+ 8
+0
+  10
+10.2820011042058
+  20
+16.4779710117727
+  30
+0
+  11
+10.2820011042058
+  21
+16.4779710117727
+  31
+0
+  40
+2.5
+ 1
+&TITLE Пример развернутого плана
+  50
+0
+  41
+0.800000011920929
+  51
+0
+  73
+0
+ 0
+TEXT
+ 8
+0
+  10
+10
+  20
+10
+  30
+0
+  11
+10
+  21
+10
+  31
+0
+  40
+2.5
+ 1
+&PL
+  50
+0
+  41
+0.800000011920929
+  51
+0
+  73
+0
+ 0
+ENDSEC
+ 0
+EOF

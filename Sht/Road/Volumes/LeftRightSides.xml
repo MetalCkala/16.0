@@ -1,0 +1,1461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="С делением на лево/право">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_3">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="LayoutAndStrengthening" name="План. и укреп. работы">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="15" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="20" options="2" />
+      <Column index="4" width="20" options="2" />
+      <Column index="5" width="17,1599998474121" options="2" />
+      <Column index="6" width="17,1599998474121" options="2" />
+      <Column index="7" width="17,1599998474121" options="2" />
+      <Column index="8" width="17,1599998474121" options="2" />
+      <Column index="9" width="17,1599998474121" options="2" />
+      <Column index="10" width="17,1599998474121" options="2" />
+      <Column index="11" width="17,1599998474121" options="2" />
+      <Column index="12" width="17,1599998474121" options="2" />
+      <Column index="13" width="17,1599998474121" options="2" />
+      <Column index="14" width="17,1599998474121" options="2" />
+      <Column index="15" width="17,1599998474121" options="2" />
+      <Column index="16" width="17,1599998474121" options="2" />
+      <Column index="17" width="17,1599998474121" options="2" />
+      <Column index="18" width="17,1599998474121" options="2" />
+      <Column index="19" width="17,1599998474121" options="2" />
+      <Column index="20" width="17,1599998474121" options="2" />
+      <Column index="21" width="17,1599998474121" options="2" />
+      <Column index="22" width="17,1599998474121" options="2" />
+      <Column index="23" width="17,1599998474121" options="2" />
+      <Column index="24" width="17,1599998474121" options="2" />
+      <Column index="25" width="17,1599998474121" options="2" />
+      <Column index="26" width="17,1599998474121" options="2" />
+      <Column index="27" width="17,1599998474121" options="2" />
+      <Column index="28" width="17,1599998474121" options="2" />
+      <Column index="29" width="17,1599998474121" options="2" />
+      <Column index="30" width="17,1599998474121" options="2" />
+      <Column index="31" width="17,1599998474121" options="2" />
+      <Column index="32" width="17,1599998474121" options="2" />
+      <Column index="33" width="17,1599998474121" options="2" />
+      <Column index="34" width="17,1599998474121" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="35" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="35" style="style_0">Планировочные и укрепительные работы</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" colspan="5" style="style_0">Расстояние</Cell>
+        <Cell index="5" colspan="12" style="style_0">Площади планировки, м2</Cell>
+        <Cell index="17" rowspan="3" colspan="2" style="style_0">Укрепление откосов и обочины засевом трав, м2</Cell>
+        <Cell index="19" colspan="16" style="style_0">Укрепление кюветов, м2</Cell>
+      </Row>
+      <Row index="3" height="7" options="2">
+        <Cell index="0" rowspan="3" style="style_0">Километраж</Cell>
+        <Cell index="1" rowspan="3" style="style_0">Пикет</Cell>
+        <Cell index="2" rowspan="3" style="style_0">Плюс</Cell>
+        <Cell index="3" rowspan="3" style="style_0">Пикетаж</Cell>
+        <Cell index="4" rowspan="3" style="style_0">Расстояние</Cell>
+        <Cell index="5" rowspan="2" colspan="2" style="style_0">Верх земляного полотна</Cell>
+        <Cell index="7" rowspan="2" colspan="2" style="style_0">Откосы насыпи</Cell>
+        <Cell index="9" rowspan="2" colspan="2" style="style_0">Откосы выемки</Cell>
+        <Cell index="11" rowspan="2" colspan="2" style="style_0">Откосы кюветов</Cell>
+        <Cell index="13" rowspan="2" colspan="2" style="style_0">Дно кюветов</Cell>
+        <Cell index="15" rowspan="2" colspan="2" style="style_0">Обочина</Cell>
+        <Cell index="19" colspan="4" style="style_0">Засев трав</Cell>
+        <Cell index="23" colspan="4" style="style_0">Мощение</Cell>
+        <Cell index="27" colspan="4" style="style_0">Бетонирование</Cell>
+        <Cell index="31" colspan="4" style="style_0">Быстроток</Cell>
+      </Row>
+      <Row index="4" height="7" options="2">
+        <Cell index="19" colspan="2" style="style_0">Откосы</Cell>
+        <Cell index="21" colspan="2" style="style_0">Дно</Cell>
+        <Cell index="23" colspan="2" style="style_0">Откосы</Cell>
+        <Cell index="25" colspan="2" style="style_0">Дно</Cell>
+        <Cell index="27" colspan="2" style="style_0">Откосы</Cell>
+        <Cell index="29" colspan="2" style="style_0">Дно</Cell>
+        <Cell index="31" colspan="2" style="style_0">Откосы</Cell>
+        <Cell index="33" colspan="2" style="style_0">Дно</Cell>
+      </Row>
+      <Row index="5" height="7" options="2">
+        <Cell index="5" style="style_0">Слева</Cell>
+        <Cell index="6" style="style_0">Справа</Cell>
+        <Cell index="7" style="style_0">Слева</Cell>
+        <Cell index="8" style="style_0">Справа</Cell>
+        <Cell index="9" style="style_0">Слева</Cell>
+        <Cell index="10" style="style_0">Справа</Cell>
+        <Cell index="11" style="style_0">Слева</Cell>
+        <Cell index="12" style="style_0">Справа</Cell>
+        <Cell index="13" style="style_0">Слева</Cell>
+        <Cell index="14" style="style_0">Справа</Cell>
+        <Cell index="15" style="style_0">Слева</Cell>
+        <Cell index="16" style="style_0">Справа</Cell>
+        <Cell index="17" style="style_0">Слева</Cell>
+        <Cell index="18" style="style_0">Справа</Cell>
+        <Cell index="19" style="style_0">Слева</Cell>
+        <Cell index="20" style="style_0">Справа</Cell>
+        <Cell index="21" style="style_0">Слева</Cell>
+        <Cell index="22" style="style_0">Справа</Cell>
+        <Cell index="23" style="style_0">Слева</Cell>
+        <Cell index="24" style="style_0">Справа</Cell>
+        <Cell index="25" style="style_0">Слева</Cell>
+        <Cell index="26" style="style_0">Справа</Cell>
+        <Cell index="27" style="style_0">Слева</Cell>
+        <Cell index="28" style="style_0">Справа</Cell>
+        <Cell index="29" style="style_0">Слева</Cell>
+        <Cell index="30" style="style_0">Справа</Cell>
+        <Cell index="31" style="style_0">Слева</Cell>
+        <Cell index="32" style="style_0">Справа</Cell>
+        <Cell index="33" style="style_0">Слева</Cell>
+        <Cell index="34" style="style_0">Справа</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="По поперечнику" id="OnSection">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="15" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="20" options="2" />
+      <Column index="4" width="20" options="2" />
+      <Column index="5" width="17,1599998474121" options="2" />
+      <Column index="6" width="17,1599998474121" options="2" />
+      <Column index="7" width="17,1599998474121" options="2" />
+      <Column index="8" width="17,1599998474121" options="2" />
+      <Column index="9" width="17,1599998474121" options="2" />
+      <Column index="10" width="17,1599998474121" options="2" />
+      <Column index="11" width="17,1599998474121" options="2" />
+      <Column index="12" width="17,1599998474121" options="2" />
+      <Column index="13" width="17,1599998474121" options="2" />
+      <Column index="14" width="17,1599998474121" options="2" />
+      <Column index="15" width="17,1599998474121" options="2" />
+      <Column index="16" width="17,1599998474121" options="2" />
+      <Column index="17" width="17,1599998474121" options="2" />
+      <Column index="18" width="17,1599998474121" options="2" />
+      <Column index="19" width="17,1599998474121" options="2" />
+      <Column index="20" width="17,1599998474121" options="2" />
+      <Column index="21" width="17,1599998474121" options="2" />
+      <Column index="22" width="17,1599998474121" options="2" />
+      <Column index="23" width="17,1599998474121" options="2" />
+      <Column index="24" width="17,1599998474121" options="2" />
+      <Column index="25" width="17,1599998474121" options="2" />
+      <Column index="26" width="17,1599998474121" options="2" />
+      <Column index="27" width="17,1599998474121" options="2" />
+      <Column index="28" width="17,1599998474121" options="2" />
+      <Column index="29" width="17,1599998474121" options="2" />
+      <Column index="30" width="17,1599998474121" options="2" />
+      <Column index="31" width="17,1599998474121" options="2" />
+      <Column index="32" width="17,1599998474121" options="2" />
+      <Column index="33" width="17,1599998474121" options="2" />
+      <Column index="34" width="17,1599998474121" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Kilometer)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Piket)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Plus)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Station)</Cell>
+        <Cell index="4" style="style_2">
+        </Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+        <Cell index="7" style="style_2">
+        </Cell>
+        <Cell index="8" style="style_2">
+        </Cell>
+        <Cell index="9" style="style_2">
+        </Cell>
+        <Cell index="10" style="style_2">
+        </Cell>
+        <Cell index="11" style="style_2">
+        </Cell>
+        <Cell index="12" style="style_2">
+        </Cell>
+        <Cell index="13" style="style_2">
+        </Cell>
+        <Cell index="14" style="style_2">
+        </Cell>
+        <Cell index="15" style="style_2">
+        </Cell>
+        <Cell index="16" style="style_2">
+        </Cell>
+        <Cell index="17" style="style_2">
+        </Cell>
+        <Cell index="18" style="style_2">
+        </Cell>
+        <Cell index="19" style="style_2">
+        </Cell>
+        <Cell index="20" style="style_2">
+        </Cell>
+        <Cell index="21" style="style_2">
+        </Cell>
+        <Cell index="22" style="style_2">
+        </Cell>
+        <Cell index="23" style="style_2">
+        </Cell>
+        <Cell index="24" style="style_2">
+        </Cell>
+        <Cell index="25" style="style_2">
+        </Cell>
+        <Cell index="26" style="style_2">
+        </Cell>
+        <Cell index="27" style="style_2">
+        </Cell>
+        <Cell index="28" style="style_2">
+        </Cell>
+        <Cell index="29" style="style_2">
+        </Cell>
+        <Cell index="30" style="style_2">
+        </Cell>
+        <Cell index="31" style="style_2">
+        </Cell>
+        <Cell index="32" style="style_2">
+        </Cell>
+        <Cell index="33" style="style_2">
+        </Cell>
+        <Cell index="34" style="style_2">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Между поперечниками" id="BetweenSection">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="15" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="20" options="2" />
+      <Column index="4" width="20" options="2" />
+      <Column index="5" width="17,1599998474121" options="2" />
+      <Column index="6" width="17,1599998474121" options="2" />
+      <Column index="7" width="17,1599998474121" options="2" />
+      <Column index="8" width="17,1599998474121" options="2" />
+      <Column index="9" width="17,1599998474121" options="2" />
+      <Column index="10" width="17,1599998474121" options="2" />
+      <Column index="11" width="17,1599998474121" options="2" />
+      <Column index="12" width="17,1599998474121" options="2" />
+      <Column index="13" width="17,1599998474121" options="2" />
+      <Column index="14" width="17,1599998474121" options="2" />
+      <Column index="15" width="17,1599998474121" options="2" />
+      <Column index="16" width="17,1599998474121" options="2" />
+      <Column index="17" width="17,1599998474121" options="2" />
+      <Column index="18" width="17,1599998474121" options="2" />
+      <Column index="19" width="17,1599998474121" options="2" />
+      <Column index="20" width="17,1599998474121" options="2" />
+      <Column index="21" width="17,1599998474121" options="2" />
+      <Column index="22" width="17,1599998474121" options="2" />
+      <Column index="23" width="17,1599998474121" options="2" />
+      <Column index="24" width="17,1599998474121" options="2" />
+      <Column index="25" width="17,1599998474121" options="2" />
+      <Column index="26" width="17,1599998474121" options="2" />
+      <Column index="27" width="17,1599998474121" options="2" />
+      <Column index="28" width="17,1599998474121" options="2" />
+      <Column index="29" width="17,1599998474121" options="2" />
+      <Column index="30" width="17,1599998474121" options="2" />
+      <Column index="31" width="17,1599998474121" options="2" />
+      <Column index="32" width="17,1599998474121" options="2" />
+      <Column index="33" width="17,1599998474121" options="2" />
+      <Column index="34" width="17,1599998474121" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">$(getvar, 2660_Планировка верха земляного полотна_значение_между_поперечниками\слева)</Cell>
+        <Cell index="6" style="style_2">$(getvar, 2660_Планировка верха земляного полотна_значение_между_поперечниками\справа)</Cell>
+        <Cell index="7" style="style_2">$(getvar, 2661_Планировка откоса насыпи_значение_между_поперечниками\слева)</Cell>
+        <Cell index="8" style="style_2">$(getvar, 2661_Планировка откоса насыпи_значение_между_поперечниками\справа)</Cell>
+        <Cell index="9" style="style_2">$(getvar, 2662_Планировка откоса выемки_значение_между_поперечниками\слева)</Cell>
+        <Cell index="10" style="style_2">$(getvar, 2662_Планировка откоса выемки_значение_между_поперечниками\справа)</Cell>
+        <Cell index="11" style="style_2">$(getvar, 2663_Планировка откоса кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="12" style="style_2">$(getvar, 2663_Планировка откоса кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="13" style="style_2">$(getvar, 2664_Планировка дна кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="14" style="style_2">$(getvar, 2664_Планировка дна кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="15" style="style_2">$(getvar, 2665_Планировка обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="16" style="style_2">$(getvar, 2665_Планировка обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="17" style="style_2">$(+, $(getvar, 2580_Укрепление откоса насыпи_значение_между_поперечниками\слева, 0), $(getvar, 2581_Доп. укрепление откоса насыпи_значение_между_поперечниками\слева, 0))</Cell>
+        <Cell index="18" style="style_2">$(+, $(getvar, 2580_Укрепление откоса насыпи_значение_между_поперечниками\справа, 0), $(getvar, 2581_Доп. укрепление откоса насыпи_значение_между_поперечниками\справа, 0))</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2591_Укрепление откоса кювета засевом трав_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2591_Укрепление откоса кювета засевом трав_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2595_Укрепление дна кювета засевом трав_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2595_Укрепление дна кювета засевом трав_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2592_Укрепление откоса кювета мощением_значение_между_поперечниками\слева)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2592_Укрепление откоса кювета мощением_значение_между_поперечниками\справа)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2596_Укрепление дна кювета мощением_значение_между_поперечниками\слева)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2596_Укрепление дна кювета мощением_значение_между_поперечниками\справа)</Cell>
+        <Cell index="27" style="style_2">$(getvar, 2593_Укрепление откоса кювета бетонированием_значение_между_поперечниками\слева)</Cell>
+        <Cell index="28" style="style_2">$(getvar, 2593_Укрепление откоса кювета бетонированием_значение_между_поперечниками\справа)</Cell>
+        <Cell index="29" style="style_2">$(getvar, 2597_Укрепление дна кювета бетонированием_значение_между_поперечниками\слева)</Cell>
+        <Cell index="30" style="style_2">$(getvar, 2597_Укрепление дна кювета бетонированием_значение_между_поперечниками\справа)</Cell>
+        <Cell index="31" style="style_2">$(getvar, 2594_Укрепление откоса кювета быстротоком_значение_между_поперечниками\слева)</Cell>
+        <Cell index="32" style="style_2">$(getvar, 2594_Укрепление откоса кювета быстротоком_значение_между_поперечниками\справа)</Cell>
+        <Cell index="33" style="style_2">$(getvar, 2598_Укрепление дна кювета быстротоком_значение_между_поперечниками\слева)</Cell>
+        <Cell index="34" style="style_2">$(getvar, 2598_Укрепление дна кювета быстротоком_значение_между_поперечниками\справа)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого по километру" id="KmSection">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="15" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="20" options="2" />
+      <Column index="4" width="20" options="2" />
+      <Column index="5" width="17,1599998474121" options="2" />
+      <Column index="6" width="17,1599998474121" options="2" />
+      <Column index="7" width="17,1599998474121" options="2" />
+      <Column index="8" width="17,1599998474121" options="2" />
+      <Column index="9" width="17,1599998474121" options="2" />
+      <Column index="10" width="17,1599998474121" options="2" />
+      <Column index="11" width="17,1599998474121" options="2" />
+      <Column index="12" width="17,1599998474121" options="2" />
+      <Column index="13" width="17,1599998474121" options="2" />
+      <Column index="14" width="17,1599998474121" options="2" />
+      <Column index="15" width="17,1599998474121" options="2" />
+      <Column index="16" width="17,1599998474121" options="2" />
+      <Column index="17" width="17,1599998474121" options="2" />
+      <Column index="18" width="17,1599998474121" options="2" />
+      <Column index="19" width="17,1599998474121" options="2" />
+      <Column index="20" width="17,1599998474121" options="2" />
+      <Column index="21" width="17,1599998474121" options="2" />
+      <Column index="22" width="17,1599998474121" options="2" />
+      <Column index="23" width="17,1599998474121" options="2" />
+      <Column index="24" width="17,1599998474121" options="2" />
+      <Column index="25" width="17,1599998474121" options="2" />
+      <Column index="26" width="17,1599998474121" options="2" />
+      <Column index="27" width="17,1599998474121" options="2" />
+      <Column index="28" width="17,1599998474121" options="2" />
+      <Column index="29" width="17,1599998474121" options="2" />
+      <Column index="30" width="17,1599998474121" options="2" />
+      <Column index="31" width="17,1599998474121" options="2" />
+      <Column index="32" width="17,1599998474121" options="2" />
+      <Column index="33" width="17,1599998474121" options="2" />
+      <Column index="34" width="17,1599998474121" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">$(getvar, 2660_Планировка верха земляного полотна_значение_между_поперечниками\слева)</Cell>
+        <Cell index="6" style="style_2">$(getvar, 2660_Планировка верха земляного полотна_значение_между_поперечниками\справа)</Cell>
+        <Cell index="7" style="style_2">$(getvar, 2661_Планировка откоса насыпи_значение_между_поперечниками\слева)</Cell>
+        <Cell index="8" style="style_2">$(getvar, 2661_Планировка откоса насыпи_значение_между_поперечниками\справа)</Cell>
+        <Cell index="9" style="style_2">$(getvar, 2662_Планировка откоса выемки_значение_между_поперечниками\слева)</Cell>
+        <Cell index="10" style="style_2">$(getvar, 2662_Планировка откоса выемки_значение_между_поперечниками\справа)</Cell>
+        <Cell index="11" style="style_2">$(getvar, 2663_Планировка откоса кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="12" style="style_2">$(getvar, 2663_Планировка откоса кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="13" style="style_2">$(getvar, 2664_Планировка дна кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="14" style="style_2">$(getvar, 2664_Планировка дна кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="15" style="style_2">$(getvar, 2665_Планировка обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="16" style="style_2">$(getvar, 2665_Планировка обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="17" style="style_2">$(+, $(getvar, 2580_Укрепление откоса насыпи_значение_между_поперечниками\слева, 0), $(getvar, 2581_Доп. укрепление откоса насыпи_значение_между_поперечниками\слева, 0))</Cell>
+        <Cell index="18" style="style_2">$(+, $(getvar, 2580_Укрепление откоса насыпи_значение_между_поперечниками\справа, 0), $(getvar, 2581_Доп. укрепление откоса насыпи_значение_между_поперечниками\справа, 0))</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2591_Укрепление откоса кювета засевом трав_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2591_Укрепление откоса кювета засевом трав_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2595_Укрепление дна кювета засевом трав_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2595_Укрепление дна кювета засевом трав_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2592_Укрепление откоса кювета мощением_значение_между_поперечниками\слева)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2592_Укрепление откоса кювета мощением_значение_между_поперечниками\справа)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2596_Укрепление дна кювета мощением_значение_между_поперечниками\слева)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2596_Укрепление дна кювета мощением_значение_между_поперечниками\справа)</Cell>
+        <Cell index="27" style="style_2">$(getvar, 2593_Укрепление откоса кювета бетонированием_значение_между_поперечниками\слева)</Cell>
+        <Cell index="28" style="style_2">$(getvar, 2593_Укрепление откоса кювета бетонированием_значение_между_поперечниками\справа)</Cell>
+        <Cell index="29" style="style_2">$(getvar, 2597_Укрепление дна кювета бетонированием_значение_между_поперечниками\слева)</Cell>
+        <Cell index="30" style="style_2">$(getvar, 2597_Укрепление дна кювета бетонированием_значение_между_поперечниками\справа)</Cell>
+        <Cell index="31" style="style_2">$(getvar, 2594_Укрепление откоса кювета быстротоком_значение_между_поперечниками\слева)</Cell>
+        <Cell index="32" style="style_2">$(getvar, 2594_Укрепление откоса кювета быстротоком_значение_между_поперечниками\справа)</Cell>
+        <Cell index="33" style="style_2">$(getvar, 2598_Укрепление дна кювета быстротоком_значение_между_поперечниками\слева)</Cell>
+        <Cell index="34" style="style_2">$(getvar, 2598_Укрепление дна кювета быстротоком_значение_между_поперечниками\справа)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого по пикету" id="PkSection">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="15" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="20" options="2" />
+      <Column index="4" width="20" options="2" />
+      <Column index="5" width="17,1599998474121" options="2" />
+      <Column index="6" width="17,1599998474121" options="2" />
+      <Column index="7" width="17,1599998474121" options="2" />
+      <Column index="8" width="17,1599998474121" options="2" />
+      <Column index="9" width="17,1599998474121" options="2" />
+      <Column index="10" width="17,1599998474121" options="2" />
+      <Column index="11" width="17,1599998474121" options="2" />
+      <Column index="12" width="17,1599998474121" options="2" />
+      <Column index="13" width="17,1599998474121" options="2" />
+      <Column index="14" width="17,1599998474121" options="2" />
+      <Column index="15" width="17,1599998474121" options="2" />
+      <Column index="16" width="17,1599998474121" options="2" />
+      <Column index="17" width="17,1599998474121" options="2" />
+      <Column index="18" width="17,1599998474121" options="2" />
+      <Column index="19" width="17,1599998474121" options="2" />
+      <Column index="20" width="17,1599998474121" options="2" />
+      <Column index="21" width="17,1599998474121" options="2" />
+      <Column index="22" width="17,1599998474121" options="2" />
+      <Column index="23" width="17,1599998474121" options="2" />
+      <Column index="24" width="17,1599998474121" options="2" />
+      <Column index="25" width="17,1599998474121" options="2" />
+      <Column index="26" width="17,1599998474121" options="2" />
+      <Column index="27" width="17,1599998474121" options="2" />
+      <Column index="28" width="17,1599998474121" options="2" />
+      <Column index="29" width="17,1599998474121" options="2" />
+      <Column index="30" width="17,1599998474121" options="2" />
+      <Column index="31" width="17,1599998474121" options="2" />
+      <Column index="32" width="17,1599998474121" options="2" />
+      <Column index="33" width="17,1599998474121" options="2" />
+      <Column index="34" width="17,1599998474121" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">$(getvar, 2660_Планировка верха земляного полотна_значение_между_поперечниками\слева)</Cell>
+        <Cell index="6" style="style_2">$(getvar, 2660_Планировка верха земляного полотна_значение_между_поперечниками\справа)</Cell>
+        <Cell index="7" style="style_2">$(getvar, 2661_Планировка откоса насыпи_значение_между_поперечниками\слева)</Cell>
+        <Cell index="8" style="style_2">$(getvar, 2661_Планировка откоса насыпи_значение_между_поперечниками\справа)</Cell>
+        <Cell index="9" style="style_2">$(getvar, 2662_Планировка откоса выемки_значение_между_поперечниками\слева)</Cell>
+        <Cell index="10" style="style_2">$(getvar, 2662_Планировка откоса выемки_значение_между_поперечниками\справа)</Cell>
+        <Cell index="11" style="style_2">$(getvar, 2663_Планировка откоса кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="12" style="style_2">$(getvar, 2663_Планировка откоса кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="13" style="style_2">$(getvar, 2664_Планировка дна кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="14" style="style_2">$(getvar, 2664_Планировка дна кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="15" style="style_2">$(getvar, 2665_Планировка обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="16" style="style_2">$(getvar, 2665_Планировка обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="17" style="style_2">$(+, $(getvar, 2580_Укрепление откоса насыпи_значение_между_поперечниками\слева, 0), $(getvar, 2581_Доп. укрепление откоса насыпи_значение_между_поперечниками\слева, 0))</Cell>
+        <Cell index="18" style="style_2">$(+, $(getvar, 2580_Укрепление откоса насыпи_значение_между_поперечниками\справа, 0), $(getvar, 2581_Доп. укрепление откоса насыпи_значение_между_поперечниками\справа, 0))</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2591_Укрепление откоса кювета засевом трав_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2591_Укрепление откоса кювета засевом трав_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2595_Укрепление дна кювета засевом трав_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2595_Укрепление дна кювета засевом трав_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2592_Укрепление откоса кювета мощением_значение_между_поперечниками\слева)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2592_Укрепление откоса кювета мощением_значение_между_поперечниками\справа)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2596_Укрепление дна кювета мощением_значение_между_поперечниками\слева)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2596_Укрепление дна кювета мощением_значение_между_поперечниками\справа)</Cell>
+        <Cell index="27" style="style_2">$(getvar, 2593_Укрепление откоса кювета бетонированием_значение_между_поперечниками\слева)</Cell>
+        <Cell index="28" style="style_2">$(getvar, 2593_Укрепление откоса кювета бетонированием_значение_между_поперечниками\справа)</Cell>
+        <Cell index="29" style="style_2">$(getvar, 2597_Укрепление дна кювета бетонированием_значение_между_поперечниками\слева)</Cell>
+        <Cell index="30" style="style_2">$(getvar, 2597_Укрепление дна кювета бетонированием_значение_между_поперечниками\справа)</Cell>
+        <Cell index="31" style="style_2">$(getvar, 2594_Укрепление откоса кювета быстротоком_значение_между_поперечниками\слева)</Cell>
+        <Cell index="32" style="style_2">$(getvar, 2594_Укрепление откоса кювета быстротоком_значение_между_поперечниками\справа)</Cell>
+        <Cell index="33" style="style_2">$(getvar, 2598_Укрепление дна кювета быстротоком_значение_между_поперечниками\слева)</Cell>
+        <Cell index="34" style="style_2">$(getvar, 2598_Укрепление дна кювета быстротоком_значение_между_поперечниками\справа)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="AllSection">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="15" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="20" options="2" />
+      <Column index="4" width="20" options="2" />
+      <Column index="5" width="17,1599998474121" options="2" />
+      <Column index="6" width="17,1599998474121" options="2" />
+      <Column index="7" width="17,1599998474121" options="2" />
+      <Column index="8" width="17,1599998474121" options="2" />
+      <Column index="9" width="17,1599998474121" options="2" />
+      <Column index="10" width="17,1599998474121" options="2" />
+      <Column index="11" width="17,1599998474121" options="2" />
+      <Column index="12" width="17,1599998474121" options="2" />
+      <Column index="13" width="17,1599998474121" options="2" />
+      <Column index="14" width="17,1599998474121" options="2" />
+      <Column index="15" width="17,1599998474121" options="2" />
+      <Column index="16" width="17,1599998474121" options="2" />
+      <Column index="17" width="17,1599998474121" options="2" />
+      <Column index="18" width="17,1599998474121" options="2" />
+      <Column index="19" width="17,1599998474121" options="2" />
+      <Column index="20" width="17,1599998474121" options="2" />
+      <Column index="21" width="17,1599998474121" options="2" />
+      <Column index="22" width="17,1599998474121" options="2" />
+      <Column index="23" width="17,1599998474121" options="2" />
+      <Column index="24" width="17,1599998474121" options="2" />
+      <Column index="25" width="17,1599998474121" options="2" />
+      <Column index="26" width="17,1599998474121" options="2" />
+      <Column index="27" width="17,1599998474121" options="2" />
+      <Column index="28" width="17,1599998474121" options="2" />
+      <Column index="29" width="17,1599998474121" options="2" />
+      <Column index="30" width="17,1599998474121" options="2" />
+      <Column index="31" width="17,1599998474121" options="2" />
+      <Column index="32" width="17,1599998474121" options="2" />
+      <Column index="33" width="17,1599998474121" options="2" />
+      <Column index="34" width="17,1599998474121" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">$(getvar, 2660_Планировка верха земляного полотна_значение_между_поперечниками\слева)</Cell>
+        <Cell index="6" style="style_2">$(getvar, 2660_Планировка верха земляного полотна_значение_между_поперечниками\справа)</Cell>
+        <Cell index="7" style="style_2">$(getvar, 2661_Планировка откоса насыпи_значение_между_поперечниками\слева)</Cell>
+        <Cell index="8" style="style_2">$(getvar, 2661_Планировка откоса насыпи_значение_между_поперечниками\справа)</Cell>
+        <Cell index="9" style="style_2">$(getvar, 2662_Планировка откоса выемки_значение_между_поперечниками\слева)</Cell>
+        <Cell index="10" style="style_2">$(getvar, 2662_Планировка откоса выемки_значение_между_поперечниками\справа)</Cell>
+        <Cell index="11" style="style_2">$(getvar, 2663_Планировка откоса кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="12" style="style_2">$(getvar, 2663_Планировка откоса кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="13" style="style_2">$(getvar, 2664_Планировка дна кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="14" style="style_2">$(getvar, 2664_Планировка дна кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="15" style="style_2">$(getvar, 2665_Планировка обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="16" style="style_2">$(getvar, 2665_Планировка обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="17" style="style_2">$(+, $(getvar, 2580_Укрепление откоса насыпи_значение_между_поперечниками\слева, 0), $(getvar, 2581_Доп. укрепление откоса насыпи_значение_между_поперечниками\слева, 0))</Cell>
+        <Cell index="18" style="style_2">$(+, $(getvar, 2580_Укрепление откоса насыпи_значение_между_поперечниками\справа, 0), $(getvar, 2581_Доп. укрепление откоса насыпи_значение_между_поперечниками\справа, 0))</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2591_Укрепление откоса кювета засевом трав_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2591_Укрепление откоса кювета засевом трав_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2595_Укрепление дна кювета засевом трав_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2595_Укрепление дна кювета засевом трав_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2592_Укрепление откоса кювета мощением_значение_между_поперечниками\слева)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2592_Укрепление откоса кювета мощением_значение_между_поперечниками\справа)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2596_Укрепление дна кювета мощением_значение_между_поперечниками\слева)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2596_Укрепление дна кювета мощением_значение_между_поперечниками\справа)</Cell>
+        <Cell index="27" style="style_2">$(getvar, 2593_Укрепление откоса кювета бетонированием_значение_между_поперечниками\слева)</Cell>
+        <Cell index="28" style="style_2">$(getvar, 2593_Укрепление откоса кювета бетонированием_значение_между_поперечниками\справа)</Cell>
+        <Cell index="29" style="style_2">$(getvar, 2597_Укрепление дна кювета бетонированием_значение_между_поперечниками\слева)</Cell>
+        <Cell index="30" style="style_2">$(getvar, 2597_Укрепление дна кювета бетонированием_значение_между_поперечниками\справа)</Cell>
+        <Cell index="31" style="style_2">$(getvar, 2594_Укрепление откоса кювета быстротоком_значение_между_поперечниками\слева)</Cell>
+        <Cell index="32" style="style_2">$(getvar, 2594_Укрепление откоса кювета быстротоком_значение_между_поперечниками\справа)</Cell>
+        <Cell index="33" style="style_2">$(getvar, 2598_Укрепление дна кювета быстротоком_значение_между_поперечниками\слева)</Cell>
+        <Cell index="34" style="style_2">$(getvar, 2598_Укрепление дна кювета быстротоком_значение_между_поперечниками\справа)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="EarthWork" name="Земляные работы">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="22,1700000762939" options="2" />
+      <Column index="6" width="22,1700000762939" options="2" />
+      <Column index="7" width="22,1700000762939" options="2" />
+      <Column index="8" width="22,1700000762939" options="2" />
+      <Column index="9" width="22,1700000762939" options="2" />
+      <Column index="10" width="22,1700000762939" options="2" />
+      <Column index="11" width="22,1700000762939" options="2" />
+      <Column index="12" width="22,1700000762939" options="2" />
+      <Column index="13" width="22,1700000762939" options="2" />
+      <Column index="14" width="22,1700000762939" options="2" />
+      <Column index="15" width="22,1700000762939" options="2" />
+      <Column index="16" width="22,1700000762939" options="2" />
+      <Column index="17" width="22,1700000762939" options="2" />
+      <Column index="18" width="22,1700000762939" options="2" />
+      <Column index="19" width="22,1700000762939" options="2" />
+      <Column index="20" width="22,1700000762939" options="2" />
+      <Column index="21" width="22,1700000762939" options="2" />
+      <Column index="22" width="22,1700000762939" options="2" />
+      <Column index="23" width="22,1700000762939" options="2" />
+      <Column index="24" width="22,1700000762939" options="2" />
+      <Column index="25" width="22,1700000762939" options="2" />
+      <Column index="26" width="22,1700000762939" options="2" />
+      <Column index="27" width="22,1700000762939" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="28" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="28" style="style_0">Земляные работы</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" colspan="5" style="style_0">Расстояние</Cell>
+        <Cell index="5" rowspan="3" colspan="2" style="style_0">Снятие растительного грунта, м3</Cell>
+        <Cell index="7" rowspan="3" colspan="2" style="style_0">Выторфовование, м3</Cell>
+        <Cell index="9" rowspan="3" colspan="2" style="style_0">Насыпь, м3</Cell>
+        <Cell index="11" rowspan="3" colspan="2" style="style_0">Выемка, м3</Cell>
+        <Cell index="13" rowspan="3" colspan="2" style="style_0">Кюветы, м3</Cell>
+        <Cell index="15" rowspan="3" colspan="2" style="style_0">Досыпка растительного грунта на откосы, м3</Cell>
+        <Cell index="17" rowspan="3" colspan="2" style="style_0">Присыпные обочины, м3</Cell>
+        <Cell index="19" rowspan="3" colspan="2" style="style_0">Разделительная полоса, м3</Cell>
+        <Cell index="21" rowspan="3" colspan="2" style="style_0">Срезка обочины, м3</Cell>
+        <Cell index="23" rowspan="4" style="style_0">Нарезка уступов, м3</Cell>
+        <Cell index="24" rowspan="4" style="style_0">Рыхление откосов, м2         </Cell>
+        <Cell index="25" rowspan="4" style="style_0">Снятие существующей конструкции, м3</Cell>
+        <Cell index="26" rowspan="4" style="style_0">Выемка существующей конструкции, м3</Cell>
+        <Cell index="27" rowspan="4" style="style_0">Рабочий слой, м3</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" rowspan="3" style="style_0">Километраж</Cell>
+        <Cell index="1" rowspan="3" style="style_0">Пикет</Cell>
+        <Cell index="2" rowspan="3" style="style_0">Плюс</Cell>
+        <Cell index="3" rowspan="3" style="style_0">Пикетаж</Cell>
+        <Cell index="4" rowspan="3" style="style_0">Расстояние</Cell>
+      </Row>
+      <Row index="4" height="5" options="2" />
+      <Row index="5" height="5" options="2">
+        <Cell index="5" style="style_0">Слева</Cell>
+        <Cell index="6" style="style_0">Справа</Cell>
+        <Cell index="7" style="style_0">Слева</Cell>
+        <Cell index="8" style="style_0">Справа</Cell>
+        <Cell index="9" style="style_0">Слева</Cell>
+        <Cell index="10" style="style_0">Справа</Cell>
+        <Cell index="11" style="style_0">Слева</Cell>
+        <Cell index="12" style="style_0">Справа</Cell>
+        <Cell index="13" style="style_0">Слева</Cell>
+        <Cell index="14" style="style_0">Справа</Cell>
+        <Cell index="15" style="style_0">Слева</Cell>
+        <Cell index="16" style="style_0">Справа</Cell>
+        <Cell index="17" style="style_0">Слева</Cell>
+        <Cell index="18" style="style_0">Справа</Cell>
+        <Cell index="19" style="style_0">Слева</Cell>
+        <Cell index="20" style="style_0">Справа</Cell>
+        <Cell index="21" style="style_0">Слева</Cell>
+        <Cell index="22" style="style_0">Справа</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="По поперечнику" id="OnSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="22,1700000762939" options="2" />
+      <Column index="6" width="22,1700000762939" options="2" />
+      <Column index="7" width="22,1700000762939" options="2" />
+      <Column index="8" width="22,1700000762939" options="2" />
+      <Column index="9" width="22,1700000762939" options="2" />
+      <Column index="10" width="22,1700000762939" options="2" />
+      <Column index="11" width="22,1700000762939" options="2" />
+      <Column index="12" width="22,1700000762939" options="2" />
+      <Column index="13" width="22,1700000762939" options="2" />
+      <Column index="14" width="22,1700000762939" options="2" />
+      <Column index="15" width="22,1700000762939" options="2" />
+      <Column index="16" width="22,1700000762939" options="2" />
+      <Column index="17" width="22,1700000762939" options="2" />
+      <Column index="18" width="22,1700000762939" options="2" />
+      <Column index="19" width="22,1700000762939" options="2" />
+      <Column index="20" width="22,1700000762939" options="2" />
+      <Column index="21" width="22,1700000762939" options="2" />
+      <Column index="22" width="22,1700000762939" options="2" />
+      <Column index="23" width="22,1700000762939" options="2" />
+      <Column index="24" width="22,1700000762939" options="2" />
+      <Column index="25" width="22,1700000762939" options="2" />
+      <Column index="26" width="22,1700000762939" options="2" />
+      <Column index="27" width="22,1700000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Kilometer)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Piket)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Plus)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Station)</Cell>
+        <Cell index="4" style="style_2">
+        </Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+        <Cell index="7" style="style_2">
+        </Cell>
+        <Cell index="8" style="style_2">
+        </Cell>
+        <Cell index="9" style="style_2">
+        </Cell>
+        <Cell index="10" style="style_2">
+        </Cell>
+        <Cell index="11" style="style_2">
+        </Cell>
+        <Cell index="12" style="style_2">
+        </Cell>
+        <Cell index="13" style="style_2">
+        </Cell>
+        <Cell index="14" style="style_2">
+        </Cell>
+        <Cell index="15" style="style_2">
+        </Cell>
+        <Cell index="16" style="style_2">
+        </Cell>
+        <Cell index="17" style="style_2">
+        </Cell>
+        <Cell index="18" style="style_2">
+        </Cell>
+        <Cell index="19" style="style_2">
+        </Cell>
+        <Cell index="20" style="style_2">
+        </Cell>
+        <Cell index="21" style="style_2">
+        </Cell>
+        <Cell index="22" style="style_2">
+        </Cell>
+        <Cell index="23" style="style_2">
+        </Cell>
+        <Cell index="24" style="style_2">
+        </Cell>
+        <Cell index="25" style="style_2">
+        </Cell>
+        <Cell index="26" style="style_2">
+        </Cell>
+        <Cell index="27" style="style_2">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Между поперечниками" id="BetweenSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="22,1700000762939" options="2" />
+      <Column index="6" width="22,1700000762939" options="2" />
+      <Column index="7" width="22,1700000762939" options="2" />
+      <Column index="8" width="22,1700000762939" options="2" />
+      <Column index="9" width="22,1700000762939" options="2" />
+      <Column index="10" width="22,1700000762939" options="2" />
+      <Column index="11" width="22,1700000762939" options="2" />
+      <Column index="12" width="22,1700000762939" options="2" />
+      <Column index="13" width="22,1700000762939" options="2" />
+      <Column index="14" width="22,1700000762939" options="2" />
+      <Column index="15" width="22,1700000762939" options="2" />
+      <Column index="16" width="22,1700000762939" options="2" />
+      <Column index="17" width="22,1700000762939" options="2" />
+      <Column index="18" width="22,1700000762939" options="2" />
+      <Column index="19" width="22,1700000762939" options="2" />
+      <Column index="20" width="22,1700000762939" options="2" />
+      <Column index="21" width="22,1700000762939" options="2" />
+      <Column index="22" width="22,1700000762939" options="2" />
+      <Column index="23" width="22,1700000762939" options="2" />
+      <Column index="24" width="22,1700000762939" options="2" />
+      <Column index="25" width="22,1700000762939" options="2" />
+      <Column index="26" width="22,1700000762939" options="2" />
+      <Column index="27" width="22,1700000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">$(getvar, 2570_Растительный слой_значение_между_поперечниками\слева)</Cell>
+        <Cell index="6" style="style_2">$(getvar, 2570_Растительный слой_значение_между_поперечниками\справа)</Cell>
+        <Cell index="7" style="style_2">$(getvar, 2571_Выторфовывание_значение_между_поперечниками\слева)</Cell>
+        <Cell index="8" style="style_2">$(getvar, 2571_Выторфовывание_значение_между_поперечниками\справа)</Cell>
+        <Cell index="9" style="style_2">$(getvar, 2600_Насыпь_значение_между_поперечниками\слева)</Cell>
+        <Cell index="10" style="style_2">$(getvar, 2600_Насыпь_значение_между_поперечниками\справа)</Cell>
+        <Cell index="11" style="style_2">$(getvar, 2650_Выемка_значение_между_поперечниками\слева)</Cell>
+        <Cell index="12" style="style_2">$(getvar, 2650_Выемка_значение_между_поперечниками\справа)</Cell>
+        <Cell index="13" style="style_2">$(getvar, 2620_Выемка кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="14" style="style_2">$(getvar, 2620_Выемка кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="15" style="style_2">$(+, $(getvar, 2680_Досыпка растительного грунта на откосы_значение_между_поперечниками\слева, 0), $(getvar, 2681_Дополнительная досыпка растительного грунта на откосы_значение_между_поперечниками\слева, 0))</Cell>
+        <Cell index="16" style="style_2">$(+, $(getvar, 2680_Досыпка растительного грунта на откосы_значение_между_поперечниками\справа, 0), $(getvar, 2681_Дополнительная досыпка растительного грунта на откосы_значение_между_поперечниками\справа, 0))</Cell>
+        <Cell index="17" style="style_2">$(getvar, 2563_Присыпная обочина_значение_между_поперечниками\слева)</Cell>
+        <Cell index="18" style="style_2">$(getvar, 2563_Присыпная обочина_значение_между_поперечниками\справа)</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2590_Разделительная полоса_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2590_Разделительная полоса_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2746_Срезка обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2746_Срезка обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2035_УС_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2695_Рыхление откосов_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2690_Снятие существующей конструкции_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2691_Выемка существующей конструкции_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="27" style="style_2">$(getvar, 2550_Рабочий слой_значение_между_поперечниками\сумма)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого по километру" id="KmSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="22,1700000762939" options="2" />
+      <Column index="6" width="22,1700000762939" options="2" />
+      <Column index="7" width="22,1700000762939" options="2" />
+      <Column index="8" width="22,1700000762939" options="2" />
+      <Column index="9" width="22,1700000762939" options="2" />
+      <Column index="10" width="22,1700000762939" options="2" />
+      <Column index="11" width="22,1700000762939" options="2" />
+      <Column index="12" width="22,1700000762939" options="2" />
+      <Column index="13" width="22,1700000762939" options="2" />
+      <Column index="14" width="22,1700000762939" options="2" />
+      <Column index="15" width="22,1700000762939" options="2" />
+      <Column index="16" width="22,1700000762939" options="2" />
+      <Column index="17" width="22,1700000762939" options="2" />
+      <Column index="18" width="22,1700000762939" options="2" />
+      <Column index="19" width="22,1700000762939" options="2" />
+      <Column index="20" width="22,1700000762939" options="2" />
+      <Column index="21" width="22,1700000762939" options="2" />
+      <Column index="22" width="22,1700000762939" options="2" />
+      <Column index="23" width="22,1700000762939" options="2" />
+      <Column index="24" width="22,1700000762939" options="2" />
+      <Column index="25" width="22,1700000762939" options="2" />
+      <Column index="26" width="22,1700000762939" options="2" />
+      <Column index="27" width="22,1700000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">$(getvar, 2570_Растительный слой_значение_между_поперечниками\слева)</Cell>
+        <Cell index="6" style="style_2">$(getvar, 2570_Растительный слой_значение_между_поперечниками\справа)</Cell>
+        <Cell index="7" style="style_2">$(getvar, 2571_Выторфовывание_значение_между_поперечниками\слева)</Cell>
+        <Cell index="8" style="style_2">$(getvar, 2571_Выторфовывание_значение_между_поперечниками\справа)</Cell>
+        <Cell index="9" style="style_2">$(getvar, 2600_Насыпь_значение_между_поперечниками\слева)</Cell>
+        <Cell index="10" style="style_2">$(getvar, 2600_Насыпь_значение_между_поперечниками\справа)</Cell>
+        <Cell index="11" style="style_2">$(getvar, 2650_Выемка_значение_между_поперечниками\слева)</Cell>
+        <Cell index="12" style="style_2">$(getvar, 2650_Выемка_значение_между_поперечниками\справа)</Cell>
+        <Cell index="13" style="style_2">$(getvar, 2620_Выемка кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="14" style="style_2">$(getvar, 2620_Выемка кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="15" style="style_2">$(+, $(getvar, 2680_Досыпка растительного грунта на откосы_значение_между_поперечниками\слева, 0), $(getvar, 2681_Дополнительная досыпка растительного грунта на откосы_значение_между_поперечниками\слева, 0))</Cell>
+        <Cell index="16" style="style_2">$(+, $(getvar, 2680_Досыпка растительного грунта на откосы_значение_между_поперечниками\справа, 0), $(getvar, 2681_Дополнительная досыпка растительного грунта на откосы_значение_между_поперечниками\справа, 0))</Cell>
+        <Cell index="17" style="style_2">$(getvar, 2563_Присыпная обочина_значение_между_поперечниками\слева)</Cell>
+        <Cell index="18" style="style_2">$(getvar, 2563_Присыпная обочина_значение_между_поперечниками\справа)</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2590_Разделительная полоса_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2590_Разделительная полоса_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2746_Срезка обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2746_Срезка обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2035_УС_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2695_Рыхление откосов_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2690_Снятие существующей конструкции_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2691_Выемка существующей конструкции_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="27" style="style_2">$(getvar, 2550_Рабочий слой_значение_между_поперечниками\сумма)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого по пикету" id="PkSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="22,1700000762939" options="2" />
+      <Column index="6" width="22,1700000762939" options="2" />
+      <Column index="7" width="22,1700000762939" options="2" />
+      <Column index="8" width="22,1700000762939" options="2" />
+      <Column index="9" width="22,1700000762939" options="2" />
+      <Column index="10" width="22,1700000762939" options="2" />
+      <Column index="11" width="22,1700000762939" options="2" />
+      <Column index="12" width="22,1700000762939" options="2" />
+      <Column index="13" width="22,1700000762939" options="2" />
+      <Column index="14" width="22,1700000762939" options="2" />
+      <Column index="15" width="22,1700000762939" options="2" />
+      <Column index="16" width="22,1700000762939" options="2" />
+      <Column index="17" width="22,1700000762939" options="2" />
+      <Column index="18" width="22,1700000762939" options="2" />
+      <Column index="19" width="22,1700000762939" options="2" />
+      <Column index="20" width="22,1700000762939" options="2" />
+      <Column index="21" width="22,1700000762939" options="2" />
+      <Column index="22" width="22,1700000762939" options="2" />
+      <Column index="23" width="22,1700000762939" options="2" />
+      <Column index="24" width="22,1700000762939" options="2" />
+      <Column index="25" width="22,1700000762939" options="2" />
+      <Column index="26" width="22,1700000762939" options="2" />
+      <Column index="27" width="22,1700000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">$(getvar, 2570_Растительный слой_значение_между_поперечниками\слева)</Cell>
+        <Cell index="6" style="style_2">$(getvar, 2570_Растительный слой_значение_между_поперечниками\справа)</Cell>
+        <Cell index="7" style="style_2">$(getvar, 2571_Выторфовывание_значение_между_поперечниками\слева)</Cell>
+        <Cell index="8" style="style_2">$(getvar, 2571_Выторфовывание_значение_между_поперечниками\справа)</Cell>
+        <Cell index="9" style="style_2">$(getvar, 2600_Насыпь_значение_между_поперечниками\слева)</Cell>
+        <Cell index="10" style="style_2">$(getvar, 2600_Насыпь_значение_между_поперечниками\справа)</Cell>
+        <Cell index="11" style="style_2">$(getvar, 2650_Выемка_значение_между_поперечниками\слева)</Cell>
+        <Cell index="12" style="style_2">$(getvar, 2650_Выемка_значение_между_поперечниками\справа)</Cell>
+        <Cell index="13" style="style_2">$(getvar, 2620_Выемка кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="14" style="style_2">$(getvar, 2620_Выемка кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="15" style="style_2">$(+, $(getvar, 2680_Досыпка растительного грунта на откосы_значение_между_поперечниками\слева, 0), $(getvar, 2681_Дополнительная досыпка растительного грунта на откосы_значение_между_поперечниками\слева, 0))</Cell>
+        <Cell index="16" style="style_2">$(+, $(getvar, 2680_Досыпка растительного грунта на откосы_значение_между_поперечниками\справа, 0), $(getvar, 2681_Дополнительная досыпка растительного грунта на откосы_значение_между_поперечниками\справа, 0))</Cell>
+        <Cell index="17" style="style_2">$(getvar, 2563_Присыпная обочина_значение_между_поперечниками\слева)</Cell>
+        <Cell index="18" style="style_2">$(getvar, 2563_Присыпная обочина_значение_между_поперечниками\справа)</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2590_Разделительная полоса_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2590_Разделительная полоса_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2746_Срезка обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2746_Срезка обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2035_УС_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2695_Рыхление откосов_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2690_Снятие существующей конструкции_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2691_Выемка существующей конструкции_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="27" style="style_2">$(getvar, 2550_Рабочий слой_значение_между_поперечниками\сумма)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="AllSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="22,1700000762939" options="2" />
+      <Column index="6" width="22,1700000762939" options="2" />
+      <Column index="7" width="22,1700000762939" options="2" />
+      <Column index="8" width="22,1700000762939" options="2" />
+      <Column index="9" width="22,1700000762939" options="2" />
+      <Column index="10" width="22,1700000762939" options="2" />
+      <Column index="11" width="22,1700000762939" options="2" />
+      <Column index="12" width="22,1700000762939" options="2" />
+      <Column index="13" width="22,1700000762939" options="2" />
+      <Column index="14" width="22,1700000762939" options="2" />
+      <Column index="15" width="22,1700000762939" options="2" />
+      <Column index="16" width="22,1700000762939" options="2" />
+      <Column index="17" width="22,1700000762939" options="2" />
+      <Column index="18" width="22,1700000762939" options="2" />
+      <Column index="19" width="22,1700000762939" options="2" />
+      <Column index="20" width="22,1700000762939" options="2" />
+      <Column index="21" width="22,1700000762939" options="2" />
+      <Column index="22" width="22,1700000762939" options="2" />
+      <Column index="23" width="22,1700000762939" options="2" />
+      <Column index="24" width="22,1700000762939" options="2" />
+      <Column index="25" width="22,1700000762939" options="2" />
+      <Column index="26" width="22,1700000762939" options="2" />
+      <Column index="27" width="22,1700000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">$(getvar, 2570_Растительный слой_значение_между_поперечниками\слева)</Cell>
+        <Cell index="6" style="style_2">$(getvar, 2570_Растительный слой_значение_между_поперечниками\справа)</Cell>
+        <Cell index="7" style="style_2">$(getvar, 2571_Выторфовывание_значение_между_поперечниками\слева)</Cell>
+        <Cell index="8" style="style_2">$(getvar, 2571_Выторфовывание_значение_между_поперечниками\справа)</Cell>
+        <Cell index="9" style="style_2">$(getvar, 2600_Насыпь_значение_между_поперечниками\слева)</Cell>
+        <Cell index="10" style="style_2">$(getvar, 2600_Насыпь_значение_между_поперечниками\справа)</Cell>
+        <Cell index="11" style="style_2">$(getvar, 2650_Выемка_значение_между_поперечниками\слева)</Cell>
+        <Cell index="12" style="style_2">$(getvar, 2650_Выемка_значение_между_поперечниками\справа)</Cell>
+        <Cell index="13" style="style_2">$(getvar, 2620_Выемка кювета_значение_между_поперечниками\слева)</Cell>
+        <Cell index="14" style="style_2">$(getvar, 2620_Выемка кювета_значение_между_поперечниками\справа)</Cell>
+        <Cell index="15" style="style_2">$(+, $(getvar, 2680_Досыпка растительного грунта на откосы_значение_между_поперечниками\слева, 0), $(getvar, 2681_Дополнительная досыпка растительного грунта на откосы_значение_между_поперечниками\слева, 0))</Cell>
+        <Cell index="16" style="style_2">$(+, $(getvar, 2680_Досыпка растительного грунта на откосы_значение_между_поперечниками\справа, 0), $(getvar, 2681_Дополнительная досыпка растительного грунта на откосы_значение_между_поперечниками\справа, 0))</Cell>
+        <Cell index="17" style="style_2">$(getvar, 2563_Присыпная обочина_значение_между_поперечниками\слева)</Cell>
+        <Cell index="18" style="style_2">$(getvar, 2563_Присыпная обочина_значение_между_поперечниками\справа)</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2590_Разделительная полоса_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2590_Разделительная полоса_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2746_Срезка обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2746_Срезка обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2035_УС_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2695_Рыхление откосов_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2690_Снятие существующей конструкции_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2691_Выемка существующей конструкции_значение_между_поперечниками\сумма)</Cell>
+        <Cell index="27" style="style_2">$(getvar, 2550_Рабочий слой_значение_между_поперечниками\сумма)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="ConstructionOfPavement" name="Конструкция дорожной одежды">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="23,1800003051758" options="2" />
+      <Column index="6" width="23,1800003051758" options="2" />
+      <Column index="7" width="23,1800003051758" options="2" />
+      <Column index="8" width="23,1800003051758" options="2" />
+      <Column index="9" width="23,1800003051758" options="2" />
+      <Column index="10" width="23,1800003051758" options="2" />
+      <Column index="11" width="23,1800003051758" options="2" />
+      <Column index="12" width="23,1800003051758" options="2" />
+      <Column index="13" width="23,1800003051758" options="2" />
+      <Column index="14" width="23,1800003051758" options="2" />
+      <Column index="15" width="23,1800003051758" options="2" />
+      <Column index="16" width="23,1800003051758" options="2" />
+      <Column index="17" width="23,1800003051758" options="2" />
+      <Column index="18" width="23,1800003051758" options="2" />
+      <Column index="19" width="23,1800003051758" options="2" />
+      <Column index="20" width="23,1800003051758" options="2" />
+      <Column index="21" width="23,1800003051758" options="2" />
+      <Column index="22" width="23,1800003051758" options="2" />
+      <Column index="23" width="23,1800003051758" options="2" />
+      <Column index="24" width="23,1800003051758" options="2" />
+      <Column index="25" width="23,1800003051758" options="2" />
+      <Column index="26" width="23,1800003051758" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="27" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="27" style="style_0">Конструкция дорожной одежды</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" colspan="5" style="style_0">Расстояние</Cell>
+        <Cell index="5" colspan="10" style="style_0">Ширина, м</Cell>
+        <Cell index="15" colspan="10" style="style_0">Площадь, м2</Cell>
+        <Cell index="25" rowspan="2" colspan="2" style="style_0">Объем подстилающего слоя, м3</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Километраж</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Пикет</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Плюс</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Пикетаж</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="5" colspan="2" style="style_0">Проезжей части</Cell>
+        <Cell index="7" colspan="4" style="style_0">Основания</Cell>
+        <Cell index="11" colspan="2" style="style_0">Укрепленной части обочины</Cell>
+        <Cell index="13" colspan="2" style="style_0">Разделительной полосы</Cell>
+        <Cell index="15" colspan="2" style="style_0">Проезжей части</Cell>
+        <Cell index="17" colspan="4" style="style_0">Основания</Cell>
+        <Cell index="21" colspan="2" style="style_0">Укрепленной части обочины</Cell>
+        <Cell index="23" colspan="2" style="style_0">Разделительной полосы</Cell>
+      </Row>
+      <Row index="4" height="7" options="2">
+        <Cell index="5" style="style_0">Слева</Cell>
+        <Cell index="6" style="style_0">Справа</Cell>
+        <Cell index="7" style="style_0">Слева 1-ый слой</Cell>
+        <Cell index="8" style="style_0">Справа 1-ый слой</Cell>
+        <Cell index="9" style="style_0">Слева 2-ый слой</Cell>
+        <Cell index="10" style="style_0">Справа 2-ый слой</Cell>
+        <Cell index="11" style="style_0">Слева</Cell>
+        <Cell index="12" style="style_0">Справа</Cell>
+        <Cell index="13" style="style_0">Слева</Cell>
+        <Cell index="14" style="style_0">Справа</Cell>
+        <Cell index="15" style="style_0">Слева</Cell>
+        <Cell index="16" style="style_0">Справа</Cell>
+        <Cell index="17" style="style_0">Слева 1-ый слой</Cell>
+        <Cell index="18" style="style_0">Справа 1-ый слой</Cell>
+        <Cell index="19" style="style_0">Слева 2-ый слой</Cell>
+        <Cell index="20" style="style_0">Справа 2-ый слой</Cell>
+        <Cell index="21" style="style_0">Слева</Cell>
+        <Cell index="22" style="style_0">Справа</Cell>
+        <Cell index="23" style="style_0">Слева</Cell>
+        <Cell index="24" style="style_0">Справа</Cell>
+        <Cell index="25" style="style_0">Слева</Cell>
+        <Cell index="26" style="style_0">Справа</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="По поперечнику" id="OnSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="23,1800003051758" options="2" />
+      <Column index="6" width="23,1800003051758" options="2" />
+      <Column index="7" width="23,1800003051758" options="2" />
+      <Column index="8" width="23,1800003051758" options="2" />
+      <Column index="9" width="23,1800003051758" options="2" />
+      <Column index="10" width="23,1800003051758" options="2" />
+      <Column index="11" width="23,1800003051758" options="2" />
+      <Column index="12" width="23,1800003051758" options="2" />
+      <Column index="13" width="23,1800003051758" options="2" />
+      <Column index="14" width="23,1800003051758" options="2" />
+      <Column index="15" width="23,1800003051758" options="2" />
+      <Column index="16" width="23,1800003051758" options="2" />
+      <Column index="17" width="23,1800003051758" options="2" />
+      <Column index="18" width="23,1800003051758" options="2" />
+      <Column index="19" width="23,1800003051758" options="2" />
+      <Column index="20" width="23,1800003051758" options="2" />
+      <Column index="21" width="23,1800003051758" options="2" />
+      <Column index="22" width="23,1800003051758" options="2" />
+      <Column index="23" width="23,1800003051758" options="2" />
+      <Column index="24" width="23,1800003051758" options="2" />
+      <Column index="25" width="23,1800003051758" options="2" />
+      <Column index="26" width="23,1800003051758" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Kilometer)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Piket)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Plus)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Station)</Cell>
+        <Cell index="4" style="style_2">
+        </Cell>
+        <Cell index="5" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_на_поперечнике\слева)</Cell>
+        <Cell index="6" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_на_поперечнике\справа)</Cell>
+        <Cell index="7" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_на_поперечнике\слева)</Cell>
+        <Cell index="8" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_на_поперечнике\справа)</Cell>
+        <Cell index="9" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_на_поперечнике\слева)</Cell>
+        <Cell index="10" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_на_поперечнике\справа)</Cell>
+        <Cell index="11" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_на_поперечнике\слева)</Cell>
+        <Cell index="12" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_на_поперечнике\справа)</Cell>
+        <Cell index="13" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_на_поперечнике\слева)</Cell>
+        <Cell index="14" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_на_поперечнике\справа)</Cell>
+        <Cell index="15" style="style_2">
+        </Cell>
+        <Cell index="16" style="style_2">
+        </Cell>
+        <Cell index="17" style="style_2">
+        </Cell>
+        <Cell index="18" style="style_2">
+        </Cell>
+        <Cell index="19" style="style_2">
+        </Cell>
+        <Cell index="20" style="style_2">
+        </Cell>
+        <Cell index="21" style="style_2">
+        </Cell>
+        <Cell index="22" style="style_2">
+        </Cell>
+        <Cell index="23" style="style_2">
+        </Cell>
+        <Cell index="24" style="style_2">
+        </Cell>
+        <Cell index="25" style="style_2">
+        </Cell>
+        <Cell index="26" style="style_2">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Между поперечниками" id="BetweenSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="23,1800003051758" options="2" />
+      <Column index="6" width="23,1800003051758" options="2" />
+      <Column index="7" width="23,1800003051758" options="2" />
+      <Column index="8" width="23,1800003051758" options="2" />
+      <Column index="9" width="23,1800003051758" options="2" />
+      <Column index="10" width="23,1800003051758" options="2" />
+      <Column index="11" width="23,1800003051758" options="2" />
+      <Column index="12" width="23,1800003051758" options="2" />
+      <Column index="13" width="23,1800003051758" options="2" />
+      <Column index="14" width="23,1800003051758" options="2" />
+      <Column index="15" width="23,1800003051758" options="2" />
+      <Column index="16" width="23,1800003051758" options="2" />
+      <Column index="17" width="23,1800003051758" options="2" />
+      <Column index="18" width="23,1800003051758" options="2" />
+      <Column index="19" width="23,1800003051758" options="2" />
+      <Column index="20" width="23,1800003051758" options="2" />
+      <Column index="21" width="23,1800003051758" options="2" />
+      <Column index="22" width="23,1800003051758" options="2" />
+      <Column index="23" width="23,1800003051758" options="2" />
+      <Column index="24" width="23,1800003051758" options="2" />
+      <Column index="25" width="23,1800003051758" options="2" />
+      <Column index="26" width="23,1800003051758" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+        <Cell index="7" style="style_2">
+        </Cell>
+        <Cell index="8" style="style_2">
+        </Cell>
+        <Cell index="9" style="style_2">
+        </Cell>
+        <Cell index="10" style="style_2">
+        </Cell>
+        <Cell index="11" style="style_2">
+        </Cell>
+        <Cell index="12" style="style_2">
+        </Cell>
+        <Cell index="13" style="style_2">
+        </Cell>
+        <Cell index="14" style="style_2">
+        </Cell>
+        <Cell index="15" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_между_поперечниками\слева)</Cell>
+        <Cell index="16" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_между_поперечниками\справа)</Cell>
+        <Cell index="17" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_между_поперечниками\слева)</Cell>
+        <Cell index="18" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_между_поперечниками\справа)</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_между_поперечниками\слева)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_между_поперечниками\справа)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2540_Подстилающий слой_значение_между_поперечниками\слева)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2540_Подстилающий слой_значение_между_поперечниками\справа)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого по километру" id="KmSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="23,1800003051758" options="2" />
+      <Column index="6" width="23,1800003051758" options="2" />
+      <Column index="7" width="23,1800003051758" options="2" />
+      <Column index="8" width="23,1800003051758" options="2" />
+      <Column index="9" width="23,1800003051758" options="2" />
+      <Column index="10" width="23,1800003051758" options="2" />
+      <Column index="11" width="23,1800003051758" options="2" />
+      <Column index="12" width="23,1800003051758" options="2" />
+      <Column index="13" width="23,1800003051758" options="2" />
+      <Column index="14" width="23,1800003051758" options="2" />
+      <Column index="15" width="23,1800003051758" options="2" />
+      <Column index="16" width="23,1800003051758" options="2" />
+      <Column index="17" width="23,1800003051758" options="2" />
+      <Column index="18" width="23,1800003051758" options="2" />
+      <Column index="19" width="23,1800003051758" options="2" />
+      <Column index="20" width="23,1800003051758" options="2" />
+      <Column index="21" width="23,1800003051758" options="2" />
+      <Column index="22" width="23,1800003051758" options="2" />
+      <Column index="23" width="23,1800003051758" options="2" />
+      <Column index="24" width="23,1800003051758" options="2" />
+      <Column index="25" width="23,1800003051758" options="2" />
+      <Column index="26" width="23,1800003051758" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+        <Cell index="7" style="style_2">
+        </Cell>
+        <Cell index="8" style="style_2">
+        </Cell>
+        <Cell index="9" style="style_2">
+        </Cell>
+        <Cell index="10" style="style_2">
+        </Cell>
+        <Cell index="11" style="style_2">
+        </Cell>
+        <Cell index="12" style="style_2">
+        </Cell>
+        <Cell index="13" style="style_2">
+        </Cell>
+        <Cell index="14" style="style_2">
+        </Cell>
+        <Cell index="15" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_между_поперечниками\слева)</Cell>
+        <Cell index="16" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_между_поперечниками\справа)</Cell>
+        <Cell index="17" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_между_поперечниками\слева)</Cell>
+        <Cell index="18" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_между_поперечниками\справа)</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_между_поперечниками\слева)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_между_поперечниками\справа)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2540_Подстилающий слой_значение_между_поперечниками\слева)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2540_Подстилающий слой_значение_между_поперечниками\справа)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого по пикету" id="PkSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="23,1800003051758" options="2" />
+      <Column index="6" width="23,1800003051758" options="2" />
+      <Column index="7" width="23,1800003051758" options="2" />
+      <Column index="8" width="23,1800003051758" options="2" />
+      <Column index="9" width="23,1800003051758" options="2" />
+      <Column index="10" width="23,1800003051758" options="2" />
+      <Column index="11" width="23,1800003051758" options="2" />
+      <Column index="12" width="23,1800003051758" options="2" />
+      <Column index="13" width="23,1800003051758" options="2" />
+      <Column index="14" width="23,1800003051758" options="2" />
+      <Column index="15" width="23,1800003051758" options="2" />
+      <Column index="16" width="23,1800003051758" options="2" />
+      <Column index="17" width="23,1800003051758" options="2" />
+      <Column index="18" width="23,1800003051758" options="2" />
+      <Column index="19" width="23,1800003051758" options="2" />
+      <Column index="20" width="23,1800003051758" options="2" />
+      <Column index="21" width="23,1800003051758" options="2" />
+      <Column index="22" width="23,1800003051758" options="2" />
+      <Column index="23" width="23,1800003051758" options="2" />
+      <Column index="24" width="23,1800003051758" options="2" />
+      <Column index="25" width="23,1800003051758" options="2" />
+      <Column index="26" width="23,1800003051758" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+        <Cell index="7" style="style_2">
+        </Cell>
+        <Cell index="8" style="style_2">
+        </Cell>
+        <Cell index="9" style="style_2">
+        </Cell>
+        <Cell index="10" style="style_2">
+        </Cell>
+        <Cell index="11" style="style_2">
+        </Cell>
+        <Cell index="12" style="style_2">
+        </Cell>
+        <Cell index="13" style="style_2">
+        </Cell>
+        <Cell index="14" style="style_2">
+        </Cell>
+        <Cell index="15" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_между_поперечниками\слева)</Cell>
+        <Cell index="16" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_между_поперечниками\справа)</Cell>
+        <Cell index="17" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_между_поперечниками\слева)</Cell>
+        <Cell index="18" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_между_поперечниками\справа)</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_между_поперечниками\слева)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_между_поперечниками\справа)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2540_Подстилающий слой_значение_между_поперечниками\слева)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2540_Подстилающий слой_значение_между_поперечниками\справа)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="AllSection">
+      <Column index="0" width="21" options="2" />
+      <Column index="1" width="16" options="2" />
+      <Column index="2" width="16" options="2" />
+      <Column index="3" width="21" options="2" />
+      <Column index="4" width="21" options="2" />
+      <Column index="5" width="23,1800003051758" options="2" />
+      <Column index="6" width="23,1800003051758" options="2" />
+      <Column index="7" width="23,1800003051758" options="2" />
+      <Column index="8" width="23,1800003051758" options="2" />
+      <Column index="9" width="23,1800003051758" options="2" />
+      <Column index="10" width="23,1800003051758" options="2" />
+      <Column index="11" width="23,1800003051758" options="2" />
+      <Column index="12" width="23,1800003051758" options="2" />
+      <Column index="13" width="23,1800003051758" options="2" />
+      <Column index="14" width="23,1800003051758" options="2" />
+      <Column index="15" width="23,1800003051758" options="2" />
+      <Column index="16" width="23,1800003051758" options="2" />
+      <Column index="17" width="23,1800003051758" options="2" />
+      <Column index="18" width="23,1800003051758" options="2" />
+      <Column index="19" width="23,1800003051758" options="2" />
+      <Column index="20" width="23,1800003051758" options="2" />
+      <Column index="21" width="23,1800003051758" options="2" />
+      <Column index="22" width="23,1800003051758" options="2" />
+      <Column index="23" width="23,1800003051758" options="2" />
+      <Column index="24" width="23,1800003051758" options="2" />
+      <Column index="25" width="23,1800003051758" options="2" />
+      <Column index="26" width="23,1800003051758" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Lable)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+        <Cell index="7" style="style_2">
+        </Cell>
+        <Cell index="8" style="style_2">
+        </Cell>
+        <Cell index="9" style="style_2">
+        </Cell>
+        <Cell index="10" style="style_2">
+        </Cell>
+        <Cell index="11" style="style_2">
+        </Cell>
+        <Cell index="12" style="style_2">
+        </Cell>
+        <Cell index="13" style="style_2">
+        </Cell>
+        <Cell index="14" style="style_2">
+        </Cell>
+        <Cell index="15" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_между_поперечниками\слева)</Cell>
+        <Cell index="16" style="style_2">$(getvar, 2501_Ширина слоя покрытия_значение_между_поперечниками\справа)</Cell>
+        <Cell index="17" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_между_поперечниками\слева)</Cell>
+        <Cell index="18" style="style_2">$(getvar, 2521_Ширина слоя основания_значение_между_поперечниками\справа)</Cell>
+        <Cell index="19" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_между_поперечниками\слева)</Cell>
+        <Cell index="20" style="style_2">$(getvar, 2522_Ширина слоя основания2_значение_между_поперечниками\справа)</Cell>
+        <Cell index="21" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_между_поперечниками\слева)</Cell>
+        <Cell index="22" style="style_2">$(getvar, 2564_Ширина укрепленной части обочины_значение_между_поперечниками\справа)</Cell>
+        <Cell index="23" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_между_поперечниками\слева)</Cell>
+        <Cell index="24" style="style_2">$(getvar, 2530_Ширина разделительной полосы_значение_между_поперечниками\справа)</Cell>
+        <Cell index="25" style="style_2">$(getvar, 2540_Подстилающий слой_значение_между_поперечниками\слева)</Cell>
+        <Cell index="26" style="style_2">$(getvar, 2540_Подстилающий слой_значение_между_поперечниками\справа)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

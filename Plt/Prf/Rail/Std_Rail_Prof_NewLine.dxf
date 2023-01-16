@@ -1,0 +1,4812 @@
+    0
+SECTION
+    2
+HEADER
+    9
+$ACADVER
+    1
+AC1015
+    9
+$DWGCODEPAGE
+    3
+ANSI_1251
+    9
+$HANDSEED
+    5
+28A
+    9
+$TILEMODE
+    70
+1
+    9
+$CECOLOR
+    62
+256
+    9
+$CELTSCALE
+    40
+1
+    9
+$CELTYPE
+    6
+Continuous
+    9
+$CELWEIGHT
+    370
+-1
+    9
+$CLAYER
+    8
+0
+    9
+$CMLSTYLE
+    2
+Standard
+    9
+$DIMSTYLE
+    2
+Standard
+    9
+$INSBASE
+    10
+0
+    20
+0
+    30
+0
+    9
+$PDMODE
+    70
+0
+    9
+$PDSIZE
+    40
+0
+    9
+$TEXTSTYLE
+    7
+Standard
+    9
+$LWDISPLAY
+    290
+0
+    9
+$LTSCALE
+    40
+1
+    9
+$PSLTSCALE
+    70
+0
+    9
+$LIMMIN
+    10
+0
+    20
+-1.7568991666E-06
+    9
+$LIMMAX
+    10
+150.833335876465
+    20
+162.5
+    9
+$MEASUREMENT
+    70
+1
+    0
+ENDSEC
+    0
+SECTION
+    2
+CLASSES
+    0
+CLASS
+    1
+RASTERVARIABLES
+    2
+AcDbRasterVariables
+    3
+ISM
+    90
+0
+    280
+0
+    281
+0
+    0
+CLASS
+    1
+IMAGEDEF
+    2
+AcDbRasterImageDef
+    3
+ISM
+    90
+0
+    280
+0
+    281
+0
+    0
+CLASS
+    1
+IMAGEDEF_REACTOR
+    2
+AcDbRasterImageDefReactor
+    3
+ISM
+    90
+1
+    280
+0
+    281
+0
+    0
+CLASS
+    1
+IMAGE
+    2
+AcDbRasterImage
+    3
+ISM
+    90
+2175
+    280
+0
+    281
+1
+    0
+CLASS
+    1
+WIPEOUT
+    2
+AcDbWipeout
+    3
+"WipeOut|Product Desc: Object Enabler for WipeOut entity^I^I^I^I^I^I|Company: Autodesk, Inc.^I^I^I^I^I^I|WEB Address: www.autodesk.com"
+    90
+2175
+    280
+0
+    281
+1
+    0
+CLASS
+    1
+WIPEOUTVARIABLES
+    2
+AcDbWipeoutVariables
+    3
+"WipeOut|Product Desc:     WipeOut Dbx Application|Company:          Autodesk, Inc.|WEB Address:      www.autodesk.com"
+    90
+0
+    280
+0
+    281
+0
+    0
+CLASS
+    1
+ARC_DIMENSION
+    2
+AcDbArcDimension
+    3
+ObjectDBX Classes
+    90
+1025
+    280
+0
+    281
+1
+    0
+CLASS
+    1
+LARGE_RADIAL_DIMENSION
+    2
+AcDbRadialDimensionLarge
+    3
+ObjectDBX Classes
+    90
+1025
+    280
+0
+    281
+1
+    0
+CLASS
+    1
+LAYOUT
+    2
+AcDbLayout
+    3
+ObjectDBX Classes
+    90
+0
+    280
+0
+    281
+0
+    0
+CLASS
+    1
+FIELD
+    2
+AcDbField
+    3
+ObjectDBX Classes
+    90
+1152
+    280
+0
+    281
+0
+    0
+CLASS
+    1
+FIELDLIST
+    2
+AcDbFieldList
+    3
+ObjectDBX Classes
+    90
+1152
+    280
+0
+    281
+0
+    0
+ENDSEC
+    0
+SECTION
+    2
+TABLES
+    0
+TABLE
+    2
+VPORT
+    5
+1
+    100
+AcDbSymbolTable
+    0
+ENDTAB
+    0
+TABLE
+    2
+LTYPE
+    5
+2
+    100
+AcDbSymbolTable
+    0
+LTYPE
+    5
+205
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLinetypeTableRecord
+    2
+ByLayer
+    3
+По слою
+    70
+0
+    72
+65
+    73
+0
+    40
+0
+    0
+LTYPE
+    5
+206
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLinetypeTableRecord
+    2
+ByBlock
+    3
+По блоку
+    70
+0
+    72
+65
+    73
+0
+    40
+0
+    0
+LTYPE
+    5
+207
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLinetypeTableRecord
+    2
+Continuous
+    3
+Сплошная
+    70
+0
+    72
+65
+    73
+0
+    40
+0
+    0
+LTYPE
+    5
+208
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLinetypeTableRecord
+    2
+GeologyDash
+    3
+Штриховая линия элементов геологии
+    70
+0
+    72
+65
+    73
+2
+    40
+3.33333325386047
+    49
+1.66666662693024
+    74
+0
+    49
+-1.66666662693024
+    74
+0
+    0
+ENDTAB
+    0
+TABLE
+    2
+LAYER
+    5
+1A
+    102
+{ACAD_XDICTIONARY
+    360
+1B
+    102
+}
+    330
+0
+    100
+AcDbSymbolTable
+    0
+LAYER
+    5
+10
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+0
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+20B
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Черный профиль
+    70
+0
+    62
+3
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+20C
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Красный профиль
+    70
+0
+    62
+1
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+20D
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Коммуникации
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+20E
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Таблица
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+20F
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Красные отметки
+    70
+0
+    62
+1
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+210
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Черные отметки
+    70
+0
+    62
+3
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+211
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Пикеты
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+212
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Километры
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+213
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Прямые и кривые в плане
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+214
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Развернутый план
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+215
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Рабочие отметки
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+216
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Таблица отметок
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+217
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_штриховки
+    70
+0
+    62
+8
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+218
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_контуры
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+219
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_выработки
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+21A
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_подписи
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+21B
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_мерзлота
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+21C
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_вода
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+21D
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_опробование
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+21E
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_список_ИГЭ
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+21F
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Линейка абсолютных высот
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+220
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_испытания_крыльчаткой
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+221
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Ссылочные профили
+    70
+0
+    62
+144
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+222
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+УВВ
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+LAYER
+    5
+223
+    100
+AcDbSymbolTableRecord
+    100
+AcDbLayerTableRecord
+    2
+Геология_точки_статического_зондирования
+    70
+0
+    62
+7
+    6
+Continuous
+    370
+-3
+    390
+19
+    0
+ENDTAB
+    0
+TABLE
+    2
+STYLE
+    5
+5
+    100
+AcDbSymbolTable
+    0
+STYLE
+    5
+201
+    100
+AcDbSymbolTableRecord
+    100
+AcDbTextStyleTableRecord
+    2
+Standard
+    70
+0
+    40
+0
+    41
+1
+    50
+0
+    71
+0
+    42
+2.5
+    3
+txt.shx
+    4
+
+    0
+STYLE
+    5
+202
+    100
+AcDbSymbolTableRecord
+    100
+AcDbTextStyleTableRecord
+    2
+Legend
+    70
+0
+    40
+0
+    41
+1
+    50
+0
+    71
+0
+    42
+2.5
+    3
+CALIBRI.TTF
+    4
+
+    0
+STYLE
+    5
+203
+    100
+AcDbSymbolTableRecord
+    100
+AcDbTextStyleTableRecord
+    2
+DynamicDimensions
+    70
+0
+    40
+0
+    41
+1
+    50
+0
+    71
+0
+    42
+1.60000002384186
+    3
+arial.ttf
+    4
+
+    0
+ENDTAB
+    0
+TABLE
+    2
+VIEW
+    5
+7
+    100
+AcDbSymbolTable
+    0
+ENDTAB
+    0
+TABLE
+    2
+UCS
+    5
+8
+    100
+AcDbSymbolTable
+    0
+ENDTAB
+    0
+TABLE
+    2
+APPID
+    5
+9
+    100
+AcDbSymbolTable
+    0
+APPID
+    5
+A
+    100
+AcDbSymbolTableRecord
+    100
+AcDbRegAppTableRecord
+    2
+ACAD
+    70
+0
+    0
+APPID
+    5
+108
+    330
+9
+    100
+AcDbSymbolTableRecord
+    100
+AcDbRegAppTableRecord
+    2
+AcAecLayerStandard
+    70
+0
+    0
+APPID
+    5
+107
+    330
+9
+    100
+AcDbSymbolTableRecord
+    100
+AcDbRegAppTableRecord
+    2
+ACAD_MLEADERVER
+    70
+0
+  0
+APPID
+  5
+DF
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD_DSTYLE_DIMJAG
+ 70
+     0
+  0
+APPID
+  5
+E0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD_DSTYLE_DIMTALN
+ 70
+     0
+    0
+ENDTAB
+    0
+TABLE
+    2
+DIMSTYLE
+    5
+B
+    330
+0
+    100
+AcDbSymbolTable
+    70
+2
+    100
+AcDbDimStyleTable
+    71
+2
+    0
+DIMSTYLE
+    105
+22A
+    330
+B
+    100
+AcDbSymbolTableRecord
+    100
+AcDbDimStyleTableRecord
+    2
+Standard
+    70
+0
+    340
+201
+    0
+DIMSTYLE
+    105
+22B
+    330
+B
+    100
+AcDbSymbolTableRecord
+    100
+AcDbDimStyleTableRecord
+    2
+ISO-25
+    70
+0
+    43
+3.75
+    42
+0.625
+    44
+1.25
+    41
+2.5
+    141
+2.5
+    140
+2.5
+    147
+0.625
+    77
+1
+    73
+0
+    74
+0
+    172
+1
+    271
+2
+    278
+44
+    78
+8
+    171
+3
+    143
+0.0393700003623962
+    272
+2
+    283
+0
+    284
+8
+    274
+3
+    340
+201
+    0
+DIMSTYLE
+    105
+22C
+    330
+B
+    100
+AcDbSymbolTableRecord
+    100
+AcDbDimStyleTableRecord
+    2
+DYNDIM
+    70
+0
+    43
+0.375
+    42
+0.1875
+    44
+0.0625
+    41
+0
+    141
+0.0625
+    178
+6
+    140
+0.15625
+    147
+0.03125
+    77
+1
+    73
+0
+    74
+0
+    174
+1
+    279
+2
+    172
+1
+    271
+3
+    276
+1
+    78
+3
+    179
+2
+    272
+5
+    340
+201
+    0
+ENDTAB
+    0
+TABLE
+    2
+BLOCK_RECORD
+    5
+C
+    100
+AcDbSymbolTable
+    0
+BLOCK_RECORD
+    5
+238
+    100
+AcDbSymbolTableRecord
+    100
+AcDbBlockTableRecord
+    2
+*MODEL_SPACE
+    0
+BLOCK_RECORD
+    5
+E
+    100
+AcDbSymbolTableRecord
+    100
+AcDbBlockTableRecord
+    2
+*PAPER_SPACE
+    0
+ENDTAB
+    0
+ENDSEC
+    0
+SECTION
+    2
+BLOCKS
+    0
+BLOCK
+    5
+239
+    330
+238
+    100
+AcDbEntity
+    8
+0
+    100
+AcDbBlockBegin
+    2
+*MODEL_SPACE
+    70
+0
+    10
+0
+    20
+0
+    30
+0
+    3
+*MODEL_SPACE
+    1
+
+    4
+
+    0
+ENDBLK
+    5
+23A
+    100
+AcDbEntity
+    8
+0
+    100
+AcDbBlockEnd
+    0
+BLOCK
+    5
+11
+    330
+E
+    100
+AcDbEntity
+    8
+0
+    100
+AcDbBlockBegin
+    2
+*PAPER_SPACE
+    70
+0
+    10
+0
+    20
+0
+    30
+0
+    3
+*PAPER_SPACE
+    1
+
+    4
+
+    0
+ENDBLK
+    5
+12
+    100
+AcDbEntity
+    8
+0
+    100
+AcDbBlockEnd
+    0
+ENDSEC
+    0
+SECTION
+    2
+ENTITIES
+    0
+TEXT
+    5
+23B
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_точки_статического_зондирования
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&GEOLOGY_CONEPENETRATIONTESTS
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+23C
+    330
+238
+    100
+AcDbEntity
+    8
+0
+    6
+Continuous
+    100
+AcDbText
+    10
+3.0398533666234E-16
+    20
+160
+    30
+0
+    11
+3.0398533666234E-16
+    21
+160
+    31
+0
+    40
+2.5
+    1
+&TITLE Профиль новой однопутной линии
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+23D
+    330
+238
+    100
+AcDbEntity
+    8
+Развернутый план
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+110
+    30
+0
+    11
+80
+    21
+110
+    31
+0
+    40
+2.5
+    1
+&PLAN_IMPELLERTESTS
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+23E
+    330
+238
+    100
+AcDbEntity
+    8
+Развернутый план
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+110
+    30
+0
+    11
+80
+    21
+110
+    31
+0
+    40
+2.5
+    1
+&PLAN_BOREHOLES
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+23F
+    330
+238
+    100
+AcDbEntity
+    8
+Коммуникации
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&COMMUNICATIONS
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+240
+    330
+238
+    100
+AcDbEntity
+    8
+Прямые и кривые в плане
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+20
+    30
+0
+    11
+80
+    21
+20
+    31
+0
+    40
+2.5
+    1
+&PLN-RAIL 0 2 2
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+241
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+120
+    30
+0
+    11
+80
+    21
+120
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+242
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+100.00000010152
+    30
+0
+    11
+80
+    21
+100.00000010152
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+243
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+90.0000001015205
+    30
+0
+    11
+80
+    21
+90.0000001015205
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+244
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+85
+    30
+0
+    11
+80
+    21
+85
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+245
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+-1.7568991666E-06
+    30
+0
+    11
+80
+    21
+-1.7568991666E-06
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+246
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+5
+    20
+5
+    30
+0
+    11
+5
+    21
+5
+    31
+0
+    40
+2
+    1
+Указатель километров
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+247
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+5
+    20
+20
+    30
+0
+    11
+5
+    21
+20
+    31
+0
+    40
+2
+    1
+Прямые и кривые в плане
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+248
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+15
+    20
+30
+    30
+0
+    11
+15
+    21
+30
+    31
+0
+    40
+2
+    1
+Пикет
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+249
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+15
+    20
+40
+    30
+0
+    11
+15
+    21
+40
+    31
+0
+    40
+2
+    1
+Расстояние, М
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+24A
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+15
+    20
+51
+    30
+0
+    11
+15
+    21
+51
+    31
+0
+    40
+2
+    1
+Отметка земли, М
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+24B
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+15
+    20
+62
+    30
+0
+    11
+15
+    21
+62
+    31
+0
+    40
+2
+    1
+Длина, М
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+24C
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+55
+    20
+66
+    30
+0
+    11
+55
+    21
+66
+    31
+0
+    40
+2
+    1
+Уклон, %%%.
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+24D
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+15
+    20
+80
+    30
+0
+    11
+15
+    21
+80
+    31
+0
+    40
+2
+    1
+Отметка бровки
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+24E
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+15
+    20
+75
+    30
+0
+    11
+15
+    21
+75
+    31
+0
+    40
+2
+    1
+земляного полотна, М
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+24F
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+15
+    20
+86
+    30
+0
+    11
+15
+    21
+86
+    31
+0
+    40
+2
+    1
+Тип поперечного профиля
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+250
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+5
+    20
+96
+    30
+0
+    11
+5
+    21
+96
+    31
+0
+    40
+2
+    1
+Инженерно-геологическая
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+251
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+15
+    20
+92
+    30
+0
+    11
+15
+    21
+92
+    31
+0
+    40
+2
+    1
+характеристика
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+252
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+5
+    20
+121
+    30
+0
+    11
+5
+    21
+121
+    31
+0
+    40
+2
+    1
+Тип и глубина болота, М
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+253
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+5
+    20
+110
+    30
+0
+    11
+5
+    21
+110
+    31
+0
+    40
+2
+    1
+Развернутый план пути
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+254
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+4
+    20
+37
+    30
+0
+    11
+4
+    21
+37
+    31
+0
+    40
+2
+    1
+Фактические
+    50
+90.0000025044782
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+255
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+8
+    20
+40
+    30
+0
+    11
+8
+    21
+40
+    31
+0
+    40
+2
+    1
+данные
+    50
+90.0000025044782
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+256
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+4
+    20
+65
+    30
+0
+    11
+4
+    21
+65
+    31
+0
+    40
+2
+    1
+Проектные
+    50
+90.0000025044782
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+257
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+8
+    20
+70
+    30
+0
+    11
+8
+    21
+70
+    31
+0
+    40
+2
+    1
+данные
+    50
+90.0000025044782
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+258
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+0
+    20
+145
+    30
+0
+    11
+0
+    21
+145
+    31
+0
+    40
+2.5
+    1
+&SH 10000
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+259
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+0
+    20
+140
+    30
+0
+    11
+0
+    21
+140
+    31
+0
+    40
+2.5
+    1
+&SV 200
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+25A
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+0
+    20
+135
+    30
+0
+    11
+0
+    21
+135
+    31
+0
+    40
+2.5
+    1
+&SG 100
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+25B
+    330
+238
+    100
+AcDbEntity
+    8
+0
+    6
+Continuous
+    100
+AcDbText
+    10
+0
+    20
+154.608842982224
+    30
+0
+    11
+0
+    21
+154.608842982224
+    31
+0
+    40
+2.5
+    1
+&LV 420 &LH 297
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+25C
+    330
+238
+    100
+AcDbEntity
+    8
+Черный профиль
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&EP
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+25D
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_список_ИГЭ
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&GEOLOGY_LEGEND
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+25E
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_подписи
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&GEOLOGY_NOTES
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+25F
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_вода
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&GEOLOGY_WATER
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+260
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_мерзлота
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&GEOLOGY_FROST
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+261
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_опробование
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+1.25
+    1
+&GEOLOGY_ASSAYS 2.0
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+262
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_испытания_крыльчаткой
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&GEOLOGY_IMPELLERTESTS 1.0
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+263
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_выработки
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&GEOLOGY_BOREHOLES 1.0
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+264
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_контуры
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&GEOLOGY_CONTOURS
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+265
+    330
+238
+    100
+AcDbEntity
+    8
+Геология_штриховки
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&GEOLOGY_GROUNDS_HATCHES
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+266
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+267
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+35
+    30
+0
+    11
+80
+    21
+35
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+268
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+45
+    30
+0
+    11
+80
+    21
+45
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+269
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+60
+    30
+0
+    11
+80
+    21
+60
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+26A
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+70
+    30
+0
+    11
+80
+    21
+70
+    31
+0
+    40
+2
+    1
+&L
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+26B
+    330
+238
+    100
+AcDbEntity
+    8
+Пикеты
+    6
+Continuous
+    100
+AcDbText
+    10
+76.3333332538605
+    20
+30
+    30
+0
+    11
+80
+    21
+30
+    31
+0
+    40
+2.5
+    1
+&PKT
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    72
+1
+    100
+AcDbText
+    73
+1
+    0
+TEXT
+    5
+26C
+    330
+238
+    100
+AcDbEntity
+    8
+Развернутый план
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+110
+    30
+0
+    11
+80
+    21
+110
+    31
+0
+    40
+2.5
+    1
+&UP
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+26D
+    330
+238
+    100
+AcDbEntity
+    8
+Красные отметки
+    6
+Continuous
+    100
+AcDbText
+    10
+81.2500002914093
+    20
+70.8333330700811
+    30
+0
+    11
+80
+    21
+77.5
+    31
+0
+    40
+2.5
+    1
+&RE PRF
+    50
+90.0000025044782
+    41
+0.800000011920929
+    51
+0
+    72
+1
+    100
+AcDbText
+    73
+2
+    0
+TEXT
+    5
+26E
+    330
+238
+    100
+AcDbEntity
+    8
+Черные отметки
+    6
+Continuous
+    100
+AcDbText
+    10
+81.2500002476979
+    20
+46.8333330700811
+    30
+0
+    11
+80
+    21
+52.5
+    31
+0
+    40
+2.5
+    1
+&E CHZ
+    50
+90.0000025044782
+    41
+0.800000011920929
+    51
+0
+    72
+1
+    100
+AcDbText
+    73
+2
+    0
+TEXT
+    5
+26F
+    330
+238
+    100
+AcDbEntity
+    8
+Черные отметки
+    6
+Continuous
+    100
+AcDbText
+    10
+74.3333330154419
+    20
+38.75
+    30
+0
+    11
+80
+    21
+40
+    31
+0
+    40
+2.5
+    1
+&D CHZ
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    72
+1
+    100
+AcDbText
+    73
+2
+    0
+TEXT
+    5
+270
+    330
+238
+    100
+AcDbEntity
+    8
+Километры
+    6
+Continuous
+    100
+AcDbText
+    10
+76.3333332538605
+    20
+7.5
+    30
+0
+    11
+80
+    21
+7.5
+    31
+0
+    40
+2.5
+    1
+&K 2
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    72
+1
+    100
+AcDbText
+    73
+1
+    0
+LWPOLYLINE
+    5
+271
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+0
+    20
+125
+    10
+75
+    20
+125
+    0
+LWPOLYLINE
+    5
+272
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+75
+    20
+120
+    10
+0
+    20
+120
+    0
+LWPOLYLINE
+    5
+273
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+0
+    20
+99.9999999999999
+    10
+75
+    20
+99.9999999999999
+    0
+LWPOLYLINE
+    5
+274
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+75
+    20
+90
+    10
+0
+    20
+90
+    0
+LWPOLYLINE
+    5
+275
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+10
+    20
+85
+    10
+75
+    20
+85
+    0
+LWPOLYLINE
+    5
+276
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+75
+    20
+70
+    10
+10
+    20
+70
+    0
+LWPOLYLINE
+    5
+277
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+10
+    20
+70
+    10
+75
+    20
+60
+    0
+LWPOLYLINE
+    5
+278
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+75
+    20
+60
+    10
+0
+    20
+60
+    0
+LWPOLYLINE
+    5
+279
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+10
+    20
+45
+    10
+75
+    20
+45
+    0
+LWPOLYLINE
+    5
+27A
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+75
+    20
+35
+    10
+0
+    20
+35
+    0
+LWPOLYLINE
+    5
+27B
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+75
+    20
+0
+    10
+0
+    20
+0
+    0
+LWPOLYLINE
+    5
+27C
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+0
+    20
+0
+    10
+0
+    20
+125
+    0
+LWPOLYLINE
+    5
+27D
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+10
+    20
+90
+    10
+10
+    20
+35
+    0
+LWPOLYLINE
+    5
+27E
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица
+    6
+Continuous
+    100
+AcDbPolyline
+    90
+2
+    70
+128
+    10
+75
+    20
+125
+    10
+75
+    20
+0
+    0
+TEXT
+    5
+27F
+    330
+238
+    100
+AcDbEntity
+    8
+Рабочие отметки
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&EW
+    50
+90.0000025044782
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+280
+    330
+238
+    100
+AcDbEntity
+    8
+Таблица отметок
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&ET
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+281
+    330
+238
+    100
+AcDbEntity
+    8
+Линейка абсолютных высот
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&ABS_ELEVATIONS_RANGE_LINE
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+282
+    330
+238
+    100
+AcDbEntity
+    8
+Красный профиль
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&RPP
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+283
+    330
+238
+    100
+AcDbEntity
+    8
+Красный профиль
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&RPC
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+284
+    330
+238
+    100
+AcDbEntity
+    8
+Красные отметки
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+63.749997950992
+    30
+0
+    11
+80
+    21
+64.999997950992
+    31
+0
+    40
+2.5
+    1
+&RG PRF
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+2
+    0
+TEXT
+    5
+285
+    330
+238
+    100
+AcDbEntity
+    8
+Красный профиль
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+63.75
+    30
+0
+    11
+80
+    21
+65
+    31
+0
+    40
+2.5
+    1
+&RD
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+2
+    0
+TEXT
+    5
+286
+    330
+238
+    100
+AcDbEntity
+    8
+0
+    6
+Continuous
+    100
+AcDbText
+    10
+71.3333330154419
+    20
+86.5
+    30
+0
+    11
+80
+    21
+87.5
+    31
+0
+    40
+2
+    1
+&CRS_TYPE
+    50
+0
+    41
+1
+    51
+0
+    72
+1
+    100
+AcDbText
+    73
+2
+    0
+TEXT
+    5
+287
+    330
+238
+    100
+AcDbEntity
+    8
+Ссылочные профили
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&REFP 1
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+288
+    330
+238
+    100
+AcDbEntity
+    8
+Ссылочные профили
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&REFP 0
+    50
+0
+    41
+0.800000011920929
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+TEXT
+    5
+289
+    330
+238
+    100
+AcDbEntity
+    8
+УВВ
+    6
+Continuous
+    100
+AcDbText
+    10
+80
+    20
+125
+    30
+0
+    11
+80
+    21
+125
+    31
+0
+    40
+2.5
+    1
+&UVV
+    50
+0
+    41
+1
+    51
+0
+    100
+AcDbText
+    73
+0
+    0
+ENDSEC
+    0
+SECTION
+    2
+OBJECTS
+    0
+DICTIONARY
+    5
+13
+    330
+0
+    100
+AcDbDictionary
+    281
+1
+    3
+ACAD_GROUP
+    350
+14
+    3
+ACAD_MLINESTYLE
+    350
+16
+    3
+ACAD_PLOTSETTINGS
+    350
+17
+    3
+ACAD_IMAGE_DICT
+    350
+14D
+    3
+ACAD_IMAGE_VARS
+    350
+14E
+    3
+ACAD_WIPEOUT_VARS
+    350
+E7
+    3
+ACAD_PLOTSTYLENAME
+    350
+18
+    3
+ACAD_LAYOUT
+    350
+227
+    0
+DICTIONARY
+    5
+14
+    330
+13
+    100
+AcDbDictionary
+    281
+1
+    0
+DICTIONARY
+    5
+17
+    102
+{ACAD_REACTORS
+    330
+13
+    102
+}
+    330
+13
+    100
+AcDbDictionary
+    281
+1
+    0
+ACDBDICTIONARYWDFLT
+    5
+18
+    102
+{ACAD_REACTORS
+    330
+13
+    102
+}
+    330
+13
+    100
+AcDbDictionary
+    281
+1
+    3
+Normal
+    350
+19
+    100
+AcDbDictionaryWithDefault
+    340
+19
+    0
+ACDBPLACEHOLDER
+    5
+19
+    102
+{ACAD_REACTORS
+    330
+18
+    102
+}
+    330
+18
+    0
+DICTIONARY
+    5
+7E
+    102
+{ACAD_REACTORS
+    330
+C
+    102
+}
+    330
+C
+    100
+AcDbDictionary
+    281
+1
+    3
+Standard
+    350
+7F
+    0
+WIPEOUTVARIABLES
+    5
+E7
+    102
+{ACAD_REACTORS
+    330
+C
+    102
+}
+    330
+C
+    100
+AcDbWipeoutVariables
+    70
+0
+    0
+DICTIONARY
+    5
+1B
+    330
+1A
+    100
+AcDbDictionary
+    280
+1
+    281
+1
+    3
+ACLYDICTIONARY
+    360
+230
+    3
+ACAD_LAYERSTATES
+    360
+22E
+    0
+DICTIONARY
+    5
+22E
+    102
+{ACAD_REACTORS
+    330
+1B
+    102
+}
+    330
+1B
+    100
+AcDbDictionary
+    281
+1
+    0
+DICTIONARY
+    5
+230
+    102
+{ACAD_REACTORS
+    330
+1B
+    102
+}
+    330
+1B
+    100
+AcDbDictionary
+    281
+1
+    3
+*A1
+    350
+232
+    3
+*A2
+    350
+235
+    0
+XRECORD
+    5
+232
+    102
+{ACAD_REACTORS
+    330
+230
+    102
+}
+    330
+230
+    100
+AcDbXrecord
+    280
+1
+    1
+AcLyLayerFilter
+    90
+1
+    300
+Все используемые слои
+    301
+USED=="TRUE" AND VPOVERRIDES=="FALSE"
+    0
+XRECORD
+    5
+235
+    102
+{ACAD_REACTORS
+    330
+230
+    102
+}
+    330
+230
+    100
+AcDbXrecord
+    280
+1
+    1
+AcLyLayerFilter
+    90
+1
+    300
+Все видимые слои
+    301
+OFF=="FALSE"
+    0
+DICTIONARY
+    5
+227
+    102
+{ACAD_REACTORS
+    330
+C
+    102
+}
+    330
+C
+    100
+AcDbDictionary
+    281
+1
+    3
+Model
+    350
+228
+    0
+LAYOUT
+    5
+228
+    100
+AcDbPlotSettings
+    1
+
+    2
+none_device
+    4
+
+    6
+
+    40
+0
+    41
+0
+    42
+0
+    43
+0
+    44
+297
+    45
+210
+    46
+0
+    47
+0
+    48
+0
+    49
+0
+    140
+0
+    141
+0
+    142
+1
+    143
+1
+    70
+4784
+    72
+1
+    73
+0
+    74
+5
+    7
+
+    75
+0
+    147
+1
+    148
+0
+    149
+0
+    100
+AcDbLayout
+    1
+Model
+    70
+1
+    71
+0
+    330
+238
+    0
+DICTIONARY
+    5
+E6
+    330
+10
+    100
+AcDbDictionary
+    280
+1
+    281
+1
+    3
+ADSK_XREC_LAYER_RECONCILED
+    360
+155
+    0
+DICTIONARY
+    5
+16
+    102
+{ACAD_REACTORS
+    330
+C
+    102
+}
+    330
+C
+    100
+AcDbDictionary
+    281
+1
+    3
+Standard
+    350
+225
+    0
+MLINESTYLE
+    5
+225
+    102
+{ACAD_REACTORS
+    330
+16
+    102
+}
+    330
+16
+    100
+AcDbMlineStyle
+    2
+Standard
+    70
+0
+    3
+
+    62
+256
+    51
+90.0000025044782
+    52
+90.0000025044782
+    71
+2
+    49
+0.5
+    62
+256
+    6
+Continuous
+    49
+-0.5
+    62
+256
+    6
+Continuous
+    0
+DICTIONARY
+    5
+14D
+    102
+{ACAD_REACTORS
+    330
+C
+    102
+}
+    330
+C
+    100
+AcDbDictionary
+    281
+1
+    0
+RASTERVARIABLES
+    5
+14E
+    102
+{ACAD_REACTORS
+    330
+C
+    102
+}
+    330
+C
+    100
+AcDbRasterVariables
+    90
+0
+    70
+1
+    71
+1
+    72
+5
+    0
+XRECORD
+    5
+155
+    102
+{ACAD_REACTORS
+    330
+E6
+    102
+}
+    330
+E6
+    100
+AcDbXrecord
+    280
+1
+    290
+1
+    0
+ENDSEC
+    0
+EOF

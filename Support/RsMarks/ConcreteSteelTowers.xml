@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body>
+    <MarkConcreteSteelRecs aType="0">
+      <MarkConcreteSteelRec Mark="СКЖ1.20" Armature="4D4Bp1" B="100" L="2" L1="0.5" M="49.7" ConcreteExpense="0.02" SteelExpense="1.73" Fundament="Ф1" />
+      <MarkConcreteSteelRec Mark="СКЖ1.25" Armature="4D4Bp1" B="100" L="2.5" L1="0.5" M="62" ConcreteExpense="0.025" SteelExpense="2" Fundament="Ф1" />
+      <MarkConcreteSteelRec Mark="СКЖ1.30" Armature="4D4Bp1" B="100" L="3" L1="0.5" M="74.3" ConcreteExpense="0.03" SteelExpense="2.25" Fundament="Ф1" />
+      <MarkConcreteSteelRec Mark="СКЖ1.35" Armature="4D4Bp1" B="100" L="3.5" L1="1" M="86.5" ConcreteExpense="0.035" SteelExpense="2.52" Fundament="Ф1" />
+      <MarkConcreteSteelRec Mark="СКЖ1.40" Armature="4D4Bp1" B="100" L="4" L1="1" M="98.8" ConcreteExpense="0.04" SteelExpense="2.76" Fundament="Ф1" />
+      <MarkConcreteSteelRec Mark="СКЖ2.30" Armature="4D6A111" B="100" L="3" L1="0.5" M="75.8" ConcreteExpense="0.03" SteelExpense="3.8" Fundament="Ф1" />
+      <MarkConcreteSteelRec Mark="СКЖ2.35" Armature="4D6A111" B="100" L="3.5" L1="1" M="88.3" ConcreteExpense="0.035" SteelExpense="4.33" Fundament="Ф1" />
+      <MarkConcreteSteelRec Mark="СКЖ2.40" Armature="4D6A111" B="100" L="4" L1="1" M="100.8" ConcreteExpense="0.04" SteelExpense="4.83" Fundament="Ф1" />
+      <MarkConcreteSteelRec Mark="СКЖ2.45" Armature="4D6A111" B="100" L="4.5" L1="1" M="113.4" ConcreteExpense="0.045" SteelExpense="5.36" Fundament="Ф1" />
+      <MarkConcreteSteelRec Mark="СКЖ3.30" Armature="4D10A111" B="100" L="3" L1="0.5" M="80.5" ConcreteExpense="0.03" SteelExpense="8.51" Fundament="Ф2" />
+      <MarkConcreteSteelRec Mark="СКЖ3.35" Armature="4D10A111" B="100" L="3.5" L1="1" M="93.8" ConcreteExpense="0.035" SteelExpense="9.83" Fundament="Ф2" />
+      <MarkConcreteSteelRec Mark="СКЖ3.40" Armature="4D10A111" B="100" L="4" L1="1" M="107.1" ConcreteExpense="0.04" SteelExpense="11.14" Fundament="Ф2" />
+      <MarkConcreteSteelRec Mark="СКЖ3.45" Armature="4D10A111" B="100" L="4.5" L1="1" M="120.4" ConcreteExpense="0.045" SteelExpense="12.44" Fundament="Ф2" />
+      <MarkConcreteSteelRec Mark="СКЖ4.35" Armature="6D8A111" B="140" L="3.5" L1="1" M="127.2" ConcreteExpense="0.049" SteelExpense="9.63" Fundament="Ф3" />
+      <MarkConcreteSteelRec Mark="СКЖ4.40" Armature="6D8A111" B="140" L="4" L1="1" M="145.3" ConcreteExpense="0.056" SteelExpense="10.89" Fundament="Ф3" />
+      <MarkConcreteSteelRec Mark="СКЖ4.45" Armature="6D8A111" B="140" L="4.5" L1="1" M="163.4" ConcreteExpense="0.063" SteelExpense="12.1" Fundament="Ф3" />
+      <MarkConcreteSteelRec Mark="СКЖ4.55" Armature="6D8A111" B="140" L="5.5" L1="1.5" M="199.5" ConcreteExpense="0.077" SteelExpense="17.73" Fundament="Ф3" />
+      <MarkConcreteSteelRec Mark="СКЖ4.65" Armature="6D8A111" B="140" L="6.5" L1="1.5" M="235.7" ConcreteExpense="0.091" SteelExpense="17.19" Fundament="Ф3" />
+      <MarkConcreteSteelRec Mark="СКЖ5.45" Armature="6D8A111" B="180" L="4.5" L1="1" M="207.3" ConcreteExpense="0.081" SteelExpense="12.92" Fundament="Ф3" />
+      <MarkConcreteSteelRec Mark="СКЖ5.55" Armature="6D8A111" B="180" L="5.5" L1="1.5" M="253.1" ConcreteExpense="0.099" SteelExpense="15.51" Fundament="Ф3" />
+      <MarkConcreteSteelRec Mark="СКЖ5.65" Armature="6D8A111" B="180" L="6.5" L1="1.5" M="298.9" ConcreteExpense="0.117" SteelExpense="18.1" Fundament="Ф3" />
+      <MarkConcreteSteelRec Mark="СКЖ6.55" Armature="6D10A111" B="220" L="5.5" L1="1.5" M="313.4" ConcreteExpense="0.121" SteelExpense="23.02" Fundament="Ф3" />
+      <MarkConcreteSteelRec Mark="СКЖ6.65" Armature="6D10A111" B="220" L="6.5" L1="1.5" M="369.2" ConcreteExpense="0.143" SteelExpense="26.98" Fundament="Ф3" />
+    </MarkConcreteSteelRecs>
+  </Body>
+</Stg>

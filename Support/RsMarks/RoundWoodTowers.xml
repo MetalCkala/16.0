@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body>
+    <MarkRoundWoodRecs aType="0">
+      <MarkRoundWoodRec Mark="СКД1.25" D="90" H="1" L="2.5" M="9.16" WoodExpense="0.015" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД1.30" D="90" H="1" L="3" M="10.5" WoodExpense="0.018" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД1.35" D="90" H="1" L="3.5" M="11.8" WoodExpense="0.02" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД1.40" D="90" H="1" L="4" M="12.8" WoodExpense="0.021" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД1.45" D="90" H="1" L="4.5" M="13.8" WoodExpense="0.023" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД2.25" D="120" H="1" L="2.5" M="16.4" WoodExpense="0.027" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД2.30" D="120" H="1" L="3" M="19.1" WoodExpense="0.032" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД2.35" D="120" H="1" L="3.5" M="21.5" WoodExpense="0.036" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД2.40" D="120" H="1" L="4" M="23.8" WoodExpense="0.04" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД2.45" D="120" H="1" L="4.5" M="25.9" WoodExpense="0.043" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД2.50" D="120" H="1" L="5" M="27.8" WoodExpense="0.046" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД3.35" D="150" H="1.2" L="3.5" M="35.3" WoodExpense="0.059" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД3.40" D="150" H="1.2" L="4" M="39.7" WoodExpense="0.066" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД3.45" D="150" H="1.2" L="4.5" M="43.4" WoodExpense="0.072" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД3.50" D="150" H="1.2" L="5" M="46.5" WoodExpense="0.077" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД4.40" D="170" H="1.2" L="4" M="50.9" WoodExpense="0.085" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД4.45" D="170" H="1.2" L="4.5" M="55.9" WoodExpense="0.093" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД4.50" D="170" H="1.2" L="5" M="60.6" WoodExpense="0.101" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД5.40" D="200" H="1.2" L="4" M="71.1" WoodExpense="0.119" Fundament="" />
+      <MarkRoundWoodRec Mark="СКД5.50" D="200" H="1.2" L="5" M="85.4" WoodExpense="0.143" Fundament="" />
+    </MarkRoundWoodRecs>
+  </Body>
+</Stg>

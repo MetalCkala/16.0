@@ -1,0 +1,75 @@
+[General]
+Description=Двускатный проофиль
+NodeCount=7
+LineCount=3
+RayCount=0
+
+[Node0]
+Description=левая сторона тротуар
+Link=1
+Code=258
+FormulaX=-2
+FormulaY=0.04
+
+[Node1]
+Description=левая строна верх бордюра
+Code=322
+FormulaX=LX1-0.01
+FormulaY=LX1 * 0.02 + 0.15
+
+[Node2]
+Description=левая сторона низ бордюра
+Code=260
+FormulaX=LX1
+FormulaY=LY1
+
+[Node3]
+Description=ось трассы
+Code=257
+FormulaX=X0
+FormulaY=Y0
+
+[Node4]
+Description=правая сторона низ бордюра
+Code=261
+FormulaX=RX1
+FormulaY=RY1
+
+[Node5]
+Description=правая строна верх бордюра
+Code=323
+FormulaX=RX1+0.01
+FormulaY=-RX1*0.02+0.15
+
+[Node6]
+Description=правая сторона тротуар
+Link=5
+Code=259
+FormulaX=2
+FormulaY=0.04
+
+[Line0]
+Description=верх земполотна
+Code=400
+Count=7
+Item0=0
+Item1=1
+Item2=2
+Item3=3
+Item4=4
+Item5=5
+Item6=6
+
+[Line1]
+Description=левая сторона
+Code=460
+Count=2
+Item0=3
+Item1=2
+
+[Line2]
+Description=правая сторона
+Code=460
+Count=2
+Item0=3
+Item1=4

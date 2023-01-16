@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость дорожных ограждений">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="roadFences" name="Дорожные ограждения">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="29.5499992370605" options="2" />
+      <Column index="1" width="18.5499992370605" options="2" />
+      <Column index="2" width="16.5499992370605" options="2" />
+      <Column index="3" width="18.5499992370605" options="2" />
+      <Column index="4" width="18.5499992370605" options="2" />
+      <Column index="5" width="21.5499992370605" options="2" />
+      <Column index="6" width="20.5499992370605" options="2" />
+      <Column index="7" width="20.5499992370605" options="2" />
+      <Column index="8" width="20.5499992370605" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="9" style="style_0">$(getvar, sheetName)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок подобъекта" id="AlignmentHead">
+      <Column index="0" width="29.5499992370605" options="2" />
+      <Column index="1" width="18.5499992370605" options="2" />
+      <Column index="2" width="16.5499992370605" options="2" />
+      <Column index="3" width="18.5499992370605" options="2" />
+      <Column index="4" width="18.5499992370605" options="2" />
+      <Column index="5" width="21.5499992370605" options="2" />
+      <Column index="6" width="20.5499992370605" options="2" />
+      <Column index="7" width="20.5499992370605" options="2" />
+      <Column index="8" width="20.5499992370605" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="9" style="style_0">$(getvar, algName)</Cell>
+      </Row>
+      <Row index="1" height="11.625" options="2">
+        <Cell index="0" style="style_0">Марка</Cell>
+        <Cell index="1" style="style_0">Уровень удерж. спос-ти</Cell>
+        <Cell index="2" style="style_0">Сторона</Cell>
+        <Cell index="3" style="style_0">Начало ПК+</Cell>
+        <Cell index="4" style="style_0">Конец ПК+</Cell>
+        <Cell index="5" style="style_0">Протяженность, м</Cell>
+        <Cell index="6" style="style_0">Тип участка</Cell>
+        <Cell index="7" style="style_0">Признак</Cell>
+        <Cell index="8" style="style_0">Примечание</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Row">
+      <Column index="0" width="29.5499992370605" options="2" />
+      <Column index="1" width="18.5499992370605" options="2" />
+      <Column index="2" width="16.5499992370605" options="2" />
+      <Column index="3" width="18.5499992370605" options="2" />
+      <Column index="4" width="18.5499992370605" options="2" />
+      <Column index="5" width="21.5499992370605" options="2" />
+      <Column index="6" width="20.5499992370605" options="2" />
+      <Column index="7" width="20.5499992370605" options="2" />
+      <Column index="8" width="20.5499992370605" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, mark)</Cell>
+        <Cell index="1" style="style_0">$(getvar, holdingLevel)</Cell>
+        <Cell index="2" style="style_2">$(getvar, side)</Cell>
+        <Cell index="3" style="style_0">$(getvar, pktFrom)</Cell>
+        <Cell index="4" style="style_0">$(getvar, pktTo)</Cell>
+        <Cell index="5" style="style_2">$(getvar, length)</Cell>
+        <Cell index="6" style="style_0">$(getvar, type)</Cell>
+        <Cell index="7" style="style_0">$(getvar, flag)</Cell>
+        <Cell index="8" style="style_0">$(getvar, description)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="directingDevices" name="Сигнальные столбики">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="26.4200000762939" options="2" />
+      <Column index="1" width="26.4200000762939" options="2" />
+      <Column index="2" width="26.4200000762939" options="2" />
+      <Column index="3" width="26.4200000762939" options="2" />
+      <Column index="4" width="26.4200000762939" options="2" />
+      <Column index="5" width="26.4200000762939" options="2" />
+      <Column index="6" width="26.4200000762939" options="2" />
+      <Row index="0" height="8" options="2">
+        <Cell index="0" colspan="7" style="style_0">Ведомость направляющих устройств</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок подобъекта" id="AlignmentHead">
+      <Column index="0" width="26.4200000762939" options="2" />
+      <Column index="1" width="26.4200000762939" options="2" />
+      <Column index="2" width="26.4200000762939" options="2" />
+      <Column index="3" width="26.4200000762939" options="2" />
+      <Column index="4" width="26.4200000762939" options="2" />
+      <Column index="5" width="26.4200000762939" options="2" />
+      <Column index="6" width="26.4200000762939" options="2" />
+      <Row index="0" height="8" options="1">
+        <Cell index="0" colspan="7" style="style_0">$(getvar, algName)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок для группы" id="DirectingDeviceSideHead">
+      <Column index="0" width="26.4200000762939" options="2" />
+      <Column index="1" width="26.4200000762939" options="2" />
+      <Column index="2" width="26.4200000762939" options="2" />
+      <Column index="3" width="26.4200000762939" options="2" />
+      <Column index="4" width="26.4200000762939" options="2" />
+      <Column index="5" width="26.4200000762939" options="2" />
+      <Column index="6" width="26.4200000762939" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="7" style="style_0">Сигнальные столбики $(getvar, side)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" style="style_1">Начало, ПК+</Cell>
+        <Cell index="1" style="style_0">Конец, ПК+</Cell>
+        <Cell index="2" style="style_2">Протяженность, м</Cell>
+        <Cell index="3" style="style_2">Шаг столбиков, м</Cell>
+        <Cell index="4" style="style_0">Количество, шт</Cell>
+        <Cell index="5" style="style_0">Признак</Cell>
+        <Cell index="6" style="style_0">Примечание</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="DirectingDeviceRow">
+      <Column index="0" width="26.4200000762939" options="2" />
+      <Column index="1" width="26.4200000762939" options="2" />
+      <Column index="2" width="26.4200000762939" options="2" />
+      <Column index="3" width="26.4200000762939" options="2" />
+      <Column index="4" width="26.4200000762939" options="2" />
+      <Column index="5" width="26.4200000762939" options="2" />
+      <Column index="6" width="26.4200000762939" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, pktFrom)</Cell>
+        <Cell index="1" style="style_0">$(getvar, pktTo)</Cell>
+        <Cell index="2" style="style_2">$(getvar, length)</Cell>
+        <Cell index="3" style="style_2">$(getvar, step)</Cell>
+        <Cell index="4" style="style_1">$(getvar, count)</Cell>
+        <Cell index="5" style="style_0">$(getvar, flag)</Cell>
+        <Cell index="6" style="style_0">$(getvar, description)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="DirectingDeviceSumm">
+      <Column index="0" width="26.4200000762939" options="2" />
+      <Column index="1" width="26.4200000762939" options="2" />
+      <Column index="2" width="26.4200000762939" options="2" />
+      <Column index="3" width="26.4200000762939" options="2" />
+      <Column index="4" width="26.4200000762939" options="2" />
+      <Column index="5" width="26.4200000762939" options="2" />
+      <Column index="6" width="26.4200000762939" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_1">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">Всего</Cell>
+        <Cell index="4" style="style_1">$(getvar, sCount)</Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="specs" name="Спецификации">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="29" options="2" />
+      <Column index="1" width="13.1999998092651" options="2" />
+      <Column index="2" width="13.1999998092651" options="2" />
+      <Column index="3" width="18" options="2" />
+      <Column index="4" width="13.1999998092651" options="2" />
+      <Column index="5" width="18" options="2" />
+      <Column index="6" width="13.1999998092651" options="2" />
+      <Column index="7" width="18" options="2" />
+      <Column index="8" width="13.1999998092651" options="2" />
+      <Column index="9" width="18" options="2" />
+      <Column index="10" width="18" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="11" style="style_0">Спецификации барьерных ограждений</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок" id="AlignmentHead">
+      <Column index="0" width="29" options="2" />
+      <Column index="1" width="13.1999998092651" options="2" />
+      <Column index="2" width="13.1999998092651" options="2" />
+      <Column index="3" width="18" options="2" />
+      <Column index="4" width="13.1999998092651" options="2" />
+      <Column index="5" width="18" options="2" />
+      <Column index="6" width="13.1999998092651" options="2" />
+      <Column index="7" width="18" options="2" />
+      <Column index="8" width="13.1999998092651" options="2" />
+      <Column index="9" width="18" options="2" />
+      <Column index="10" width="18" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="11" style="style_0">$(getvar, algName)</Cell>
+      </Row>
+      <Row index="1" height="11.625" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Марка</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Длина секции балки</Cell>
+        <Cell index="2" colspan="2" style="style_0">Начальные участки</Cell>
+        <Cell index="4" colspan="2" style="style_0">Рабочие установки</Cell>
+        <Cell index="6" colspan="2" style="style_0">Конечные установки</Cell>
+        <Cell index="8" colspan="2" style="style_0">Сопрягающие участки</Cell>
+        <Cell index="10" rowspan="2" style="style_0">Примечание</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="2" style="style_0">Длина, м</Cell>
+        <Cell index="3" style="style_0">Количество, шт</Cell>
+        <Cell index="4" style="style_0">Длина, м</Cell>
+        <Cell index="5" style="style_0">Количество, шт</Cell>
+        <Cell index="6" style="style_0">Длина, м</Cell>
+        <Cell index="7" style="style_0">Количество, шт</Cell>
+        <Cell index="8" style="style_0">Длина, м</Cell>
+        <Cell index="9" style="style_0">Количество, шт</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="SpecsRow">
+      <Column index="0" width="29" options="2" />
+      <Column index="1" width="13.1999998092651" options="2" />
+      <Column index="2" width="13.1999998092651" options="2" />
+      <Column index="3" width="18" options="2" />
+      <Column index="4" width="13.1999998092651" options="2" />
+      <Column index="5" width="18" options="2" />
+      <Column index="6" width="13.1999998092651" options="2" />
+      <Column index="7" width="18" options="2" />
+      <Column index="8" width="13.1999998092651" options="2" />
+      <Column index="9" width="18" options="2" />
+      <Column index="10" width="18" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_1">$(getvar, mark)</Cell>
+        <Cell index="1" style="style_1">$(getvar, length)</Cell>
+        <Cell index="2" style="style_2">$(getvar, openSectionsLength)</Cell>
+        <Cell index="3" style="style_1">$(getvar, openSectionsCount)</Cell>
+        <Cell index="4" style="style_2">$(getvar, workSectionsLength)</Cell>
+        <Cell index="5" style="style_0">$(getvar, workSectionsCount)</Cell>
+        <Cell index="6" style="style_2">$(getvar, endSectionsLength)</Cell>
+        <Cell index="7" style="style_0">$(getvar, endSectionsCount)</Cell>
+        <Cell index="8" style="style_2">$(getvar, connectSectionsLength)</Cell>
+        <Cell index="9" style="style_0">$(getvar, connectSectionsCount)</Cell>
+        <Cell index="10" style="style_0">$(getvar, description)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

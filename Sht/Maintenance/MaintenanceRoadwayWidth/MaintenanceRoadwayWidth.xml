@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables title="Ведомость ширины проезжей части">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Maintenance" name="Проезжая часть">
+    <Subtable name="Заголовок" id="Head">
+      <Row index="0" height="7" options="2">
+        <Cell index="0" colspan="15" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="15">
+        <Cell index="0" rowspan="4" style="style_0">Адрес начала участка пк+</Cell>
+        <Cell index="1" colspan="6" style="style_0">Обратное направление</Cell>
+        <Cell index="7" rowspan="3" colspan="2" style="style_0">Разделительная полоса</Cell>
+        <Cell index="9" colspan="6" style="style_0">Прямое направление</Cell>
+      </Row>
+      <Row index="2" height="15">
+        <Cell index="1" rowspan="3" style="style_0">Тип покрытия 1-6</Cell>
+        <Cell index="2" rowspan="3" style="style_0">Бордюр, м</Cell>
+        <Cell index="3" colspan="4" style="style_0">Ширина проезжей части, м</Cell>
+        <Cell index="9" colspan="4" style="style_0">Ширина проезжей части, м</Cell>
+        <Cell index="13" rowspan="3" style="style_0">Бордюр, м</Cell>
+        <Cell index="14" rowspan="3" style="style_0">Тип покрытия 1-6</Cell>
+      </Row>
+      <Row index="3" height="15">
+        <Cell index="3" rowspan="2" style="style_0">Общая, м</Cell>
+        <Cell index="4" colspan="3" style="style_0">В том числе:</Cell>
+        <Cell index="9" colspan="3" style="style_0">В том числе:</Cell>
+        <Cell index="12" rowspan="2" style="style_0">Общая, м</Cell>
+      </Row>
+      <Row index="4" height="15">
+        <Cell index="4" style="style_0">Прочая, м</Cell>
+        <Cell index="5" style="style_0">На полосах транз. движ.</Cell>
+        <Cell index="6" style="style_0">Укреп. полоса у разд. полосы</Cell>
+        <Cell index="7" style="style_0">Ширина, м</Cell>
+        <Cell index="8" style="style_0">Код констр. 1-2</Cell>
+        <Cell index="9" style="style_0">Укреп. полоса у разд. полосы</Cell>
+        <Cell index="10" style="style_0">На полосах транз. движ.</Cell>
+        <Cell index="11" style="style_0">Прочая, м</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Параметры" id="MaintenanceData">
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_0">$(getvar, CoverType)</Cell>
+        <Cell index="2" style="style_0">$(getvar, Border)</Cell>
+        <Cell index="3" style="style_0">$(getvar, Roadway)</Cell>
+        <Cell index="4" style="style_0">$(getvar, Roadway2)</Cell>
+        <Cell index="5" style="style_0">$(getvar, Roadway3)</Cell>
+        <Cell index="6" style="style_0">$(getvar, Roadway4)</Cell>
+        <Cell index="7" style="style_0">$(getvar, Width)</Cell>
+        <Cell index="8" style="style_0">$(getvar, MedianType)</Cell>
+        <Cell index="9" style="style_0">$(getvar, Roadway8)</Cell>
+        <Cell index="10" style="style_0">$(getvar, Roadway7)</Cell>
+        <Cell index="11" style="style_0">$(getvar, Roadway6)</Cell>
+        <Cell index="12" style="style_0">$(getvar, Roadway5)</Cell>
+        <Cell index="13" style="style_0">$(getvar, Border2)</Cell>
+        <Cell index="14" style="style_0">$(getvar, CoverType2)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

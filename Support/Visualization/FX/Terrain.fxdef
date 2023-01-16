@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Shader version="1">
+    <Name>Terrain.fx</Name>
+    <Technique>Main</Technique>
+    <VertexFormat>1</VertexFormat>
+    <VS>VS_2_0</VS>
+    <PS>PS_2_0</PS>
+    <UIName>Поверхность</UIName>
+    <UIDescription>Визуализирует поверхность</UIDescription>
+    <Parameters aType="0">
+      <Parameter Name="DiffuseColor" Type="float3" Value="0.1, 0.1, 0.1" UIName="Цвет по умолчанию" UIDescription="" UIWidget="color" UIHidden="False" />
+      <Parameter Name="BasicTexture" Type="texture2D" Value="earth.dds" UIName="Текстура" UIDescription="Текстура базового цвета" UIWidget="Texture" UIHidden="False" />
+      <Parameter Name="BumpMap" Type="texture2D" Value="earth_bump.dds" UIName="Карта рельефа" UIDescription="Карта нормалей и высот" UIWidget="Texture" UIHidden="False" Compress="False" GenMipMaps="True" NormalMap="True" />
+      <Parameter Name="BaseTextureRepeat" Type="float" Value="10" UIMin="1" UIMax="1000" UIStep="0.1" UIName="Размер текстуры" UIDescription="Задаёт реальный размер текстуры" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="HeightMapScale" Type="float" Value="0.02" UIMin="0.001" UIMax="0.2" UIStep="0.01" UIName="Степень рельефности" UIDescription="Задаёт диапозон значений для расчета высот рельефа" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="LODThreshold" Type="int" Value="3" UIMin="3" UIMax="100" UIStep="1" UIName="Уровень оптимизации" UIDescription="Задаёт mip map уровень карты рельефа при котором шейдер переходит к расчету с помощью алгоритма bump mapping" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="SpecularPower" Type="float" Value="100" UIMin="0.01" UIMax="100" UIStep="0.01" UIName="Степень блеска" UIDescription="Задаёт степень зеркального блеска объекта" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="SpecularLevel" Type="float" Value="1" UIMin="0.01" UIMax="1" UIStep="0.01" UIName="Уровень блеска" UIDescription="Задаёт влияние степени зеркального блеска на результирующий цвет" UIWidget="slider" UIHidden="False" />
+    </Parameters>
+  </Shader>
+</Stg>

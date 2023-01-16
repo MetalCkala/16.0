@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body>
+    <MarkSquareWoodRecs aType="0">
+      <MarkSquareWoodRec Mark="СКД6.25" A="60" B="100" L="2.5" M="9" WoodExpense="0.015" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД6.30" A="60" B="100" L="3" M="10.8" WoodExpense="0.018" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД6.35" A="60" B="100" L="3.5" M="12.6" WoodExpense="0.021" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД6.40" A="60" B="100" L="4" M="14.4" WoodExpense="0.024" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД6.45" A="60" B="100" L="4.5" M="16.2" WoodExpense="0.027" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД7.35" A="75" B="125" L="3.5" M="19.8" WoodExpense="0.033" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД7.40" A="75" B="125" L="4" M="22.8" WoodExpense="0.038" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД7.45" A="75" B="125" L="4.5" M="25.2" WoodExpense="0.042" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД7.50" A="75" B="125" L="5" M="28.2" WoodExpense="0.047" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД8.35" A="100" B="150" L="3.5" M="31.8" WoodExpense="0.053" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД8.40" A="100" B="150" L="4" M="36" WoodExpense="0.06" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД8.45" A="100" B="150" L="4.5" M="40.8" WoodExpense="0.068" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД8.50" A="100" B="150" L="4.5" M="45" WoodExpense="0.075" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД9.40" A="125" B="150" L="4" M="45" WoodExpense="0.075" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД9.45" A="125" B="150" L="4.5" M="50.4" WoodExpense="0.084" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД9.50" A="125" B="150" L="5" M="56.4" WoodExpense="0.094" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД9.55" A="125" B="150" L="5.5" M="61.8" WoodExpense="0.103" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД10.40" A="125" B="200" L="4" M="60" WoodExpense="0.1" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД10.45" A="125" B="200" L="4.5" M="67.8" WoodExpense="0.113" Fundament="" />
+      <MarkSquareWoodRec Mark="СКД10.55" A="125" B="200" L="5.5" M="82.8" WoodExpense="0.138" Fundament="" />
+    </MarkSquareWoodRecs>
+  </Body>
+</Stg>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables title="Ведомость наличия объектов сервиса">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Maintenance" name="Объекты сервиса">
+    <Subtable name="Заголовок" id="Head">
+      <Row index="0" height="7" options="2">
+        <Cell index="0" colspan="14" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="7">
+        <Cell index="0" rowspan="2" style="style_0">Местоположение пк+</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Код объекта сервиса: 1-10</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Расположение: 1-слева 2-справа</Cell>
+        <Cell index="3" colspan="8" style="style_0">Количество объектов сервиса, шт</Cell>
+        <Cell index="11" rowspan="2" style="style_0">Код размера участка 1-8</Cell>
+        <Cell index="12" rowspan="2" style="style_0">Минимальное расстояние от бровки, м</Cell>
+        <Cell index="13" rowspan="2" style="style_0">Принадлежность</Cell>
+      </Row>
+      <Row index="2" height="7">
+        <Cell index="3" style="style_0">Магазин</Cell>
+        <Cell index="4" style="style_0">Ларек, киоск</Cell>
+        <Cell index="5" style="style_0">Кафе, столовая</Cell>
+        <Cell index="6" style="style_0">Ресторан, бар</Cell>
+        <Cell index="7" style="style_0">Пункт автосервиса</Cell>
+        <Cell index="8" style="style_0">Гостиничный корпус</Cell>
+        <Cell index="9" style="style_0">Торговый павильон</Cell>
+        <Cell index="10" style="style_0">Прочее</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Параметры" id="MaintenanceData">
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_0">$(getvar, ObjectCode)</Cell>
+        <Cell index="2" style="style_0">$(getvar, Side)</Cell>
+        <Cell index="3" style="style_0">$(getvar, Shop)</Cell>
+        <Cell index="4" style="style_0">$(getvar, Shop2)</Cell>
+        <Cell index="5" style="style_0">$(getvar, Cafe)</Cell>
+        <Cell index="6" style="style_0">$(getvar, Bar)</Cell>
+        <Cell index="7" style="style_0">$(getvar, Auto)</Cell>
+        <Cell index="8" style="style_0">$(getvar, Hotel)</Cell>
+        <Cell index="9" style="style_0">$(getvar, Pavilion)</Cell>
+        <Cell index="10" style="style_0">$(getvar, Other)</Cell>
+        <Cell index="11" style="style_0">$(getvar, Size)</Cell>
+        <Cell index="12" style="style_0">$(getvar, MinDistance)</Cell>
+        <Cell index="13" style="style_0">$(getvar, Belongingness)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

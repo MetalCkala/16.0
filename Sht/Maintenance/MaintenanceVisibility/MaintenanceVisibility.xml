@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables title="Ведомость расстояний видимости">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Maintenance" name="Видимость">
+    <Subtable name="Заголовок" id="Head">
+      <Row index="0" height="15" options="2">
+        <Cell index="0" colspan="6" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="7">
+        <Cell index="0" colspan="2" style="style_0">Адрес участка</Cell>
+        <Cell index="2" colspan="2" style="style_0">Расстояние видимости, м</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Код причины ограничения видимости в плане</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Нормативное расстояние видимости в профиле, м</Cell>
+      </Row>
+      <Row index="2" height="7">
+        <Cell index="0" style="style_0">Начало пк+</Cell>
+        <Cell index="1" style="style_0">Конец пк+</Cell>
+        <Cell index="2" style="style_0">В плане</Cell>
+        <Cell index="3" style="style_0">В профиле</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Параметры" id="MaintenanceData">
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, PositionStartPk)</Cell>
+        <Cell index="1" style="style_0">$(getvar, PositionEndPk)</Cell>
+        <Cell index="2" style="style_0">$(getvar, VisibilityPlan)</Cell>
+        <Cell index="3" style="style_0">$(getvar, VisibilityProfile)</Cell>
+        <Cell index="4" style="style_0">$(getvar, LimitationCode)</Cell>
+        <Cell index="5" style="style_0">$(getvar, VisibilityNorm)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables title="Ведомость наличия и состояния снегозащитных лесных полос">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Maintenance" name="Снегозащитные лесные полосы">
+    <Subtable name="Заголовок" id="Head">
+      <Row index="0" height="7" options="2">
+        <Cell index="0" colspan="9" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="15">
+        <Cell index="0" style="style_0">Начало участка пк+</Cell>
+        <Cell index="1" style="style_0">Конец участка пк+</Cell>
+        <Cell index="2" style="style_0">Расположение: 1-слева 2-справа</Cell>
+        <Cell index="3" style="style_0">Код ситуации</Cell>
+        <Cell index="4" style="style_0">Расстояние от бровки земполотна, м</Cell>
+        <Cell index="5" style="style_0">Живая изнородь: 0-нет 1-есть</Cell>
+        <Cell index="6" style="style_0">Конструкция (количество полос в лесополосе)</Cell>
+        <Cell index="7" style="style_0">Количество рядов деревьев (для лесополос)</Cell>
+        <Cell index="8" style="style_0">Признак: 1-низкокрон. 2-высококрон. деревья</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Параметры" id="MaintenanceData">
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, PositionStartPk)</Cell>
+        <Cell index="1" style="style_0">$(getvar, PositionEndPk)</Cell>
+        <Cell index="2" style="style_0">$(getvar, Side)</Cell>
+        <Cell index="3" style="style_0">$(getvar, SituationCode)</Cell>
+        <Cell index="4" style="style_0">$(getvar, DistanceFromCover)</Cell>
+        <Cell index="5" style="style_0">$(getvar, Hedge)</Cell>
+        <Cell index="6" style="style_0">$(getvar, Construction)</Cell>
+        <Cell index="7" style="style_0">$(getvar, Trees)</Cell>
+        <Cell index="8" style="style_0">$(getvar, TreeType)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

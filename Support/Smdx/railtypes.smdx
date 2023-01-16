@@ -1,0 +1,170 @@
+[
+  {
+    "id": "SmdxRailAggregatesP50",
+    "name": "Р50",
+    "parent": "SmdxRailAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Р50",
+        "fixed":  true
+      },
+      {
+        "tag": "height",
+        "value": 152.0,
+        "fixed":  true
+      },
+      {
+        "tag": "neck_height",
+        "value": 83.0,
+        "fixed":  true
+      },
+      {
+        "tag": "head_width",
+        "value": 72.0,
+        "fixed":  true
+      },
+      {
+        "tag": "bottom_width",
+        "value": 132.0,
+        "fixed":  true
+      },
+      {
+        "tag": "neck_thickness",
+        "value": 16.0,
+        "fixed":  true
+      },
+      {
+        "tag": "pen_height",
+        "value": 10.5,
+        "fixed":  true
+      }
+    ]
+  },
+  {
+    "id": "SmdxRailAggregatesP65",
+    "name": "Р65",
+    "parent": "SmdxRailAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Р65",
+        "fixed":  true
+      },
+      {
+        "tag": "height",
+        "value": 180.0,
+        "fixed":  true
+      },
+      {
+        "tag": "neck_height",
+        "value": 105.0,
+        "fixed":  true
+      },
+      {
+        "tag": "head_width",
+        "value": 75.0,
+        "fixed":  true
+      },
+      {
+        "tag": "bottom_width",
+        "value": 150.0,
+        "fixed":  true
+      },
+      {
+        "tag": "neck_thickness",
+        "value": 18.0,
+        "fixed":  true
+      },
+      {
+        "tag": "pen_height",
+        "value": 11.2,
+        "fixed":  true
+      }
+    ]
+  },
+  {
+    "id": "SmdxRailAggregatesP65K",
+    "name": "Р65К",
+    "parent": "SmdxRailAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Р65К",
+        "fixed":  true
+      },
+      {
+        "tag": "height",
+        "value": 181.0,
+        "fixed":  true
+      },
+      {
+        "tag": "neck_height",
+        "value": 105.0,
+        "fixed":  true
+      },
+      {
+        "tag": "head_width",
+        "value": 75.0,
+        "fixed":  true
+      },
+      {
+        "tag": "bottom_width",
+        "value": 150.0,
+        "fixed":  true
+      },
+      {
+        "tag": "neck_thickness",
+        "value": 18.0,
+        "fixed":  true
+      },
+      {
+        "tag": "pen_height",
+        "value": 11.2,
+        "fixed":  true
+      }
+    ]
+  },
+  {
+    "id": "SmdxRailAggregatesP75",
+    "name": "Р75",
+    "parent": "SmdxRailAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Р75",
+        "fixed":  true
+      },
+      {
+        "tag": "height",
+        "value": 192.0,
+        "fixed":  true
+      },
+      {
+        "tag": "neck_height",
+        "value": 104.4,
+        "fixed":  true
+      },
+      {
+        "tag": "head_width",
+        "value": 75.0,
+        "fixed":  true
+      },
+      {
+        "tag": "bottom_width",
+        "value": 150.0,
+        "fixed":  true
+      },
+      {
+        "tag": "neck_thickness",
+        "value": 20.0,
+        "fixed":  true
+      },
+      {
+        "tag": "pen_height",
+        "value": 13.5,
+        "fixed":  true
+      }
+    ]
+  }
+]

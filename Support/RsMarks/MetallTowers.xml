@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body>
+    <MarkMetallRecs aType="0">
+      <MarkMetallRec Mark="СКМ1.20" D="40" S="3" L="2" M="5.5" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ1.25" D="40" S="3" L="2.5" M="6.9" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ1.30" D="40" S="3" L="3" M="8.2" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ1.35" D="40" S="3" L="3.5" M="9.6" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ1.40" D="40" S="3" L="4" M="11" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ1.45" D="40" S="3" L="4.5" M="12.3" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ2.20" D="53" S="3" L="2" M="7.4" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ2.30" D="53" S="3" L="3" M="11.1" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ2.35" D="53" S="3" L="3.5" M="13" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ2.40" D="53" S="3" L="4" M="14.8" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ2.45" D="53" S="3" L="4.5" M="16.7" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ2.50" D="53" S="3" L="5" M="18.5" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ3.30" D="70" S="3" L="3" M="14.9" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ3.35" D="70" S="3" L="3.5" M="17.4" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ3.40" D="70" S="3" L="4" M="19.8" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ3.45" D="70" S="3" L="4.5" M="22.3" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ3.50" D="70" S="3" L="5" M="24.8" Fundament="Ф1" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ4.30" D="102" S="3" L="3" M="22" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ4.35" D="102" S="3" L="3.5" M="25.6" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ4.40" D="102" S="3" L="4" M="29.3" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ4.45" D="102" S="3" L="4.5" M="32.9" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ4.50" D="102" S="3" L="5" M="36.6" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ4.55" D="102" S="3" L="5.5" M="40.3" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ5.30" D="102" S="5" L="3" M="35.9" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ5.35" D="102" S="5" L="3.5" M="41.9" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ5.40" D="102" S="5" L="4" M="47.8" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ5.45" D="102" S="5" L="4.5" M="53.8" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ5.55" D="102" S="5" L="5.5" M="65.8" Fundament="Ф2" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ6.40" D="152" S="4" L="4" M="58.4" Fundament="Ф3" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ6.45" D="152" S="4" L="4.5" M="65.7" Fundament="Ф3" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ6.55" D="152" S="4" L="5.5" M="80.3" Fundament="Ф3" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ6.65" D="152" S="4" L="6.5" M="94.9" Fundament="Ф3" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ7.55" D="178" S="6" L="5.5" M="140" Fundament="Ф3" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="СКМ7.65" D="178" S="6" L="6.5" M="165.4" Fundament="Ф3" Document="Типовой 3.503.9-80.1"/>
+      <MarkMetallRec Mark="ОМ-40/3-2.0" D="40" S="3" L="2" M="5.5" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-40/3-2.5" D="40" S="3" L="2.5" M="6.9" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-40/3-3.0" D="40" S="3" L="3" M="8.2" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-40/3-3.5" D="40" S="3" L="3.5" M="9.6" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-40/3-4.0" D="40" S="3" L="4" M="11" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-40/3-4.5" D="40" S="3" L="4.5" M="12.3" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-57/3-2.0" D="57" S="3" L="2" M="8" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-57/3-3.0" D="57" S="3" L="3" M="12" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-57/3-3.5" D="57" S="3" L="3.5" M="14" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-57/3-4.0" D="57" S="3" L="4" M="16" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-57/3-4.5" D="57" S="3" L="4.5" M="18" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-57/3-5.0" D="57" S="3" L="5" M="20" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-76/3-3.0" D="76" S="3" L="3" M="16.2" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-76/3-3.5" D="76" S="3" L="3.5" M="18.9" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-76/3-4.0" D="76" S="3" L="4" M="21.6" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-76/3-4.5" D="76" S="3" L="4.5" M="24.3" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-76/3-5.0" D="76" S="3" L="5" M="27" Fundament="Ф1" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/3-3.0" D="102" S="3" L="3" M="22" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/3-3.5" D="102" S="3" L="3.5" M="25.6" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/3-4.0" D="102" S="3" L="4" M="29.3" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/3-4.5" D="102" S="3" L="4.5" M="32.9" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/3-5.0" D="102" S="3" L="5" M="36.6" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/3-5.5" D="102" S="3" L="5.5" M="40.3" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/5-3.0" D="102" S="5" L="3" M="35.9" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/5-3.5" D="102" S="5" L="3.5" M="41.9" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/5-4.0" D="102" S="5" L="4" M="47.9" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/5-4.5" D="102" S="5" L="4.5" M="53.8" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-102/5-5.5" D="102" S="5" L="5.5" M="65.8" Fundament="Ф2" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-152/4-4.0" D="152" S="4" L="4" M="58.4" Fundament="Ф3" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-152/4-4.5" D="152" S="4" L="4.5" M="65.7" Fundament="Ф3" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-152/4-5.5" D="152" S="4" L="5.5" M="80.3" Fundament="Ф3" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-152/4-6.5" D="152" S="4" L="6.5" M="94.9" Fundament="Ф3" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-168/6-5.5" D="168" S="6" L="5.5" M="131.8" Fundament="Ф3" Document="СТО 05765820-008-2017"/>
+      <MarkMetallRec Mark="ОМ-168/6-6.5" D="168" S="6" L="6.5" M="155.8" Fundament="Ф3" Document="СТО 05765820-008-2017"/>
+    </MarkMetallRecs>
+  </Body>
+</Stg>

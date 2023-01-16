@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость подстилающего слоя">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Bottom" name="Ведомость подстилающего слоя">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="23.2299995422363" options="2" />
+      <Column index="1" width="23.2299995422363" options="2" />
+      <Column index="2" width="23.2299995422363" options="2" />
+      <Column index="3" width="23.2299995422363" options="2" />
+      <Column index="4" width="23.2299995422363" options="2" />
+      <Column index="5" width="23.2299995422363" options="2" />
+      <Column index="6" width="23.2299995422363" options="2" />
+      <Column index="7" width="23.2299995422363" options="2" />
+      <Column index="8" width="23.2299995422363" options="2" />
+      <Column index="9" width="23.2299995422363" options="2" />
+      <Column index="10" width="23.2299995422363" options="2" />
+      <Column index="11" width="23.2299995422363" options="2" />
+      <Column index="12" width="23.2299995422363" options="2" />
+      <Column index="13" width="23.2299995422363" options="2" />
+      <Column index="14" width="23.2299995422363" options="2" />
+      <Column index="15" width="23.2299995422363" options="2" />
+      <Column index="16" width="23.2299995422363" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="17" style="style_0">$(getvar, filename)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="4" style="style_0">ПК</Cell>
+        <Cell index="1" rowspan="4" style="style_0">Расстояние от начала трассы, м</Cell>
+        <Cell index="2" rowspan="4" style="style_0">Проектная отметка по оси,м</Cell>
+        <Cell index="3" rowspan="2" colspan="2" style="style_0">Расстояния, м</Cell>
+        <Cell index="5" rowspan="2" colspan="3" style="style_0">Отметки, м</Cell>
+        <Cell index="8" rowspan="2" colspan="2" style="style_0">Уклоны, ‰</Cell>
+        <Cell index="10" rowspan="4" style="style_0">Примечание</Cell>
+        <Cell index="11" colspan="6" style="style_0">Координаты, м</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="11" rowspan="2" colspan="2" style="style_0">Левая сторона</Cell>
+        <Cell index="13" rowspan="2" colspan="2" style="style_0">Ось</Cell>
+        <Cell index="15" rowspan="2" colspan="2" style="style_0">Правая сторона</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="3" rowspan="2" style="style_0">Левая сторона</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Правая сторона</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Левая сторона</Cell>
+        <Cell index="6" rowspan="2" style="style_0">Ось</Cell>
+        <Cell index="7" rowspan="2" style="style_0">Правая сторона</Cell>
+        <Cell index="8" rowspan="2" style="style_0">Левая сторона</Cell>
+        <Cell index="9" rowspan="2" style="style_0">Правая сторона</Cell>
+      </Row>
+      <Row index="4" height="5" options="2">
+        <Cell index="11" style="style_0">Северная</Cell>
+        <Cell index="12" style="style_0">Восточная</Cell>
+        <Cell index="13" style="style_0">Северная</Cell>
+        <Cell index="14" style="style_0">Восточная</Cell>
+        <Cell index="15" style="style_0">Северная</Cell>
+        <Cell index="16" style="style_0">Восточная</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Row">
+      <Column index="0" width="23.2299995422363" options="2" />
+      <Column index="1" width="23.2299995422363" options="2" />
+      <Column index="2" width="23.2299995422363" options="2" />
+      <Column index="3" width="23.2299995422363" options="2" />
+      <Column index="4" width="23.2299995422363" options="2" />
+      <Column index="5" width="23.2299995422363" options="2" />
+      <Column index="6" width="23.2299995422363" options="2" />
+      <Column index="7" width="23.2299995422363" options="2" />
+      <Column index="8" width="23.2299995422363" options="2" />
+      <Column index="9" width="23.2299995422363" options="2" />
+      <Column index="10" width="23.2299995422363" options="2" />
+      <Column index="11" width="23.2299995422363" options="2" />
+      <Column index="12" width="23.2299995422363" options="2" />
+      <Column index="13" width="23.2299995422363" options="2" />
+      <Column index="14" width="23.2299995422363" options="2" />
+      <Column index="15" width="23.2299995422363" options="2" />
+      <Column index="16" width="23.2299995422363" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Elevation)</Cell>
+        <Cell index="3" style="style_1">$(getvar, LeftOffset)</Cell>
+        <Cell index="4" style="style_1">$(getvar, RightOffset)</Cell>
+        <Cell index="5" style="style_1">$(getvar, LeftElevation)</Cell>
+        <Cell index="6" style="style_1">$(getvar, AxisElevation)</Cell>
+        <Cell index="7" style="style_1">$(getvar, RightElevation)</Cell>
+        <Cell index="8" style="style_1">$(getvar, LeftInclination)</Cell>
+        <Cell index="9" style="style_1">$(getvar, RightInclination)</Cell>
+        <Cell index="10" style="style_0">$(getvar, Notes)</Cell>
+        <Cell index="11" style="style_1">$(getvar, LeftY)</Cell>
+        <Cell index="12" style="style_1">$(getvar, LeftX)</Cell>
+        <Cell index="13" style="style_1">$(getvar, AxisY)</Cell>
+        <Cell index="14" style="style_1">$(getvar, AxisX)</Cell>
+        <Cell index="15" style="style_1">$(getvar, RightY)</Cell>
+        <Cell index="16" style="style_1">$(getvar, RightX)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

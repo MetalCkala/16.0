@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость 3d-видимости">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>10</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Visibility3d" name="Ведомость 3d-видимости">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="10" options="2" />
+      <Column index="1" width="10" options="2" />
+      <Column index="2" width="10" options="2" />
+      <Column index="3" width="10" options="2" />
+      <Column index="4" width="10" options="2" />
+      <Column index="5" width="10" options="2" />
+      <Column index="6" width="10" options="2" />
+      <Column index="7" width="10" options="2" />
+      <Column index="8" width="10" options="2" />
+      <Column index="9" width="10" options="2" />
+      <Column index="10" width="10" options="2" />
+      <Column index="11" width="11,3333886809015" options="2" />
+      <Column index="12" width="10" options="2" />
+      <Column index="13" width="10" options="2" />
+      <Column index="14" width="10" options="2" />
+      <Column index="15" width="10" options="2" />
+      <Column index="16" width="10" options="2" />
+      <Column index="17" width="10" options="2" />
+      <Column index="18" width="10" options="2" />
+      <Column index="19" width="10" options="2" />
+      <Column index="20" width="10" options="2" />
+      <Column index="21" width="10" options="2" />
+      <Column index="22" width="10" options="2" />
+      <Column index="23" width="10" options="2" />
+      <Column index="24" width="10" options="2" />
+      <Column index="25" width="10" options="2" />
+      <Column index="26" width="10" options="2" />
+      <Column index="27" width="10" options="2" />
+      <Column index="28" width="10" options="2" />
+      <Column index="29" width="10" options="2" />
+      <Column index="30" width="10" options="2" />
+      <Column index="31" width="10" options="2" />
+      <Column index="32" width="10" options="2" />
+      <Column index="33" width="10" options="2" />
+      <Column index="34" width="10" options="2" />
+      <Column index="35" width="10" options="2" />
+      <Column index="36" width="10" options="2" />
+      <Column index="37" width="12" options="2" />
+      <Column index="38" width="10" options="2" />
+      <Column index="39" width="10" options="2" />
+      <Column index="40" width="10" options="2" />
+      <Column index="41" width="10" options="2" />
+      <Column index="42" width="10" options="2" />
+      <Column index="43" width="10" options="2" />
+      <Column index="44" width="10" options="2" />
+      <Column index="45" width="10" options="2" />
+      <Column index="46" width="10" options="2" />
+      <Column index="47" width="10" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="48" style="style_0">Расстояние 3d-видимости по полосам (максимальное - $(getvar, maxSight) м)</Cell>
+      </Row>
+      <Row index="1" height="11,625" options="2">
+        <Cell index="0" colspan="24" style="style_0">Прямое направление движения</Cell>
+        <Cell index="24" colspan="24" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="2" height="2,90494918823242" options="2">
+        <Cell index="0" colspan="2" style="style_0">Полоса 1(смещ. = $(getvar, forwardStrip1Offset) м)</Cell>
+        <Cell index="2" colspan="2" style="style_0">Полоса 2(смещ. = $(getvar, forwardStrip2Offset) м)</Cell>
+        <Cell index="4" colspan="2" style="style_0">Полоса 3(смещ. = $(getvar, forwardStrip3Offset) м)</Cell>
+        <Cell index="6" colspan="2" style="style_0">Полоса 4(смещ. = $(getvar, forwardStrip4Offset) м)</Cell>
+        <Cell index="8" colspan="2" style="style_0">Полоса 5(смещ. = $(getvar, forwardStrip5Offset) м)</Cell>
+        <Cell index="10" colspan="2" style="style_0">Полоса 6(смещ. = $(getvar, forwardStrip6Offset) м)</Cell>
+        <Cell index="12" colspan="2" style="style_0">Полоса 7(смещ. = $(getvar, forwardStrip7Offset) м)</Cell>
+        <Cell index="14" colspan="2" style="style_0">Полоса 8(смещ. = $(getvar, forwardStrip8Offset) м)</Cell>
+        <Cell index="16" colspan="2" style="style_0">Полоса 9(смещ. = $(getvar, forwardStrip9Offset) м)</Cell>
+        <Cell index="18" colspan="2" style="style_0">Полоса 10(смещ. = $(getvar, forwardStrip10Offset) м)</Cell>
+        <Cell index="20" colspan="2" style="style_0">Полоса 11(смещ. = $(getvar, forwardStrip11Offset) м)</Cell>
+        <Cell index="22" colspan="2" style="style_0">Полоса 12(смещ. = $(getvar, forwardStrip12Offset) м)</Cell>
+        <Cell index="24" colspan="2" style="style_0">Полоса 1(смещ. = $(getvar, backwardStrip1Offset) м)</Cell>
+        <Cell index="26" colspan="2" style="style_0">Полоса 2(смещ. = $(getvar, backwardStrip2Offset) м)</Cell>
+        <Cell index="28" colspan="2" style="style_0">Полоса 3(смещ. = $(getvar, backwardStrip3Offset) м)</Cell>
+        <Cell index="30" colspan="2" style="style_0">Полоса 4(смещ. = $(getvar, backwardStrip4Offset) м)</Cell>
+        <Cell index="32" colspan="2" style="style_0">Полоса 5(смещ. = $(getvar, backwardStrip5Offset) м)</Cell>
+        <Cell index="34" colspan="2" style="style_0">Полоса 6(смещ. = $(getvar, backwardStrip6Offset) м)</Cell>
+        <Cell index="36" colspan="2" style="style_0">Полоса 7(смещ. = $(getvar, backwardStrip7Offset) м)</Cell>
+        <Cell index="38" colspan="2" style="style_0">Полоса 8(смещ. = $(getvar, backwardStrip8Offset) м)</Cell>
+        <Cell index="40" colspan="2" style="style_0">Полоса 9(смещ. = $(getvar, backwardStrip9Offset) м)</Cell>
+        <Cell index="42" colspan="2" style="style_0">Полоса 10(смещ. = $(getvar, backwardStrip10Offset) м)</Cell>
+        <Cell index="44" colspan="2" style="style_0">Полоса 11(смещ. = $(getvar, backwardStrip11Offset) м)</Cell>
+        <Cell index="46" colspan="2" style="style_0">Полоса 12(смещ. = $(getvar, backwardStrip12Offset) м)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Row">
+      <Column index="0" width="10" options="2" />
+      <Column index="1" width="10" options="2" />
+      <Column index="2" width="10" options="2" />
+      <Column index="3" width="10" options="2" />
+      <Column index="4" width="10" options="2" />
+      <Column index="5" width="10" options="2" />
+      <Column index="6" width="10" options="2" />
+      <Column index="7" width="10" options="2" />
+      <Column index="8" width="10" options="2" />
+      <Column index="9" width="10" options="2" />
+      <Column index="10" width="10" options="2" />
+      <Column index="11" width="11,3333886809015" options="2" />
+      <Column index="12" width="10" options="2" />
+      <Column index="13" width="10" options="2" />
+      <Column index="14" width="10" options="2" />
+      <Column index="15" width="10" options="2" />
+      <Column index="16" width="10" options="2" />
+      <Column index="17" width="10" options="2" />
+      <Column index="18" width="10" options="2" />
+      <Column index="19" width="10" options="2" />
+      <Column index="20" width="10" options="2" />
+      <Column index="21" width="10" options="2" />
+      <Column index="22" width="10" options="2" />
+      <Column index="23" width="10" options="2" />
+      <Column index="24" width="10" options="2" />
+      <Column index="25" width="10" options="2" />
+      <Column index="26" width="10" options="2" />
+      <Column index="27" width="10" options="2" />
+      <Column index="28" width="10" options="2" />
+      <Column index="29" width="10" options="2" />
+      <Column index="30" width="10" options="2" />
+      <Column index="31" width="10" options="2" />
+      <Column index="32" width="10" options="2" />
+      <Column index="33" width="10" options="2" />
+      <Column index="34" width="10" options="2" />
+      <Column index="35" width="10" options="2" />
+      <Column index="36" width="10" options="2" />
+      <Column index="37" width="12" options="2" />
+      <Column index="38" width="10" options="2" />
+      <Column index="39" width="10" options="2" />
+      <Column index="40" width="10" options="2" />
+      <Column index="41" width="10" options="2" />
+      <Column index="42" width="10" options="2" />
+      <Column index="43" width="10" options="2" />
+      <Column index="44" width="10" options="2" />
+      <Column index="45" width="10" options="2" />
+      <Column index="46" width="10" options="2" />
+      <Column index="47" width="10" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, forwardStrip1Pk)</Cell>
+        <Cell index="1" style="style_1">$(getvar, forwardStrip1Visibility)</Cell>
+        <Cell index="2" style="style_0">$(getvar, forwardStrip2Pk)</Cell>
+        <Cell index="3" style="style_0">$(getvar, forwardStrip2Visibility)</Cell>
+        <Cell index="4" style="style_0">$(getvar, forwardStrip3Pk)</Cell>
+        <Cell index="5" style="style_0">$(getvar, forwardStrip3Visibility)</Cell>
+        <Cell index="6" style="style_0">$(getvar, forwardStrip4Pk)</Cell>
+        <Cell index="7" style="style_0">$(getvar, forwardStrip4Visibility)</Cell>
+        <Cell index="8" style="style_0">$(getvar, forwardStrip5Pk)</Cell>
+        <Cell index="9" style="style_0">$(getvar, forwardStrip5Visibility)</Cell>
+        <Cell index="10" style="style_0">$(getvar, forwardStrip6Pk)</Cell>
+        <Cell index="11" style="style_0">$(getvar, forwardStrip6Visibility)</Cell>
+        <Cell index="12" style="style_0">$(getvar, forwardStrip7Pk)</Cell>
+        <Cell index="13" style="style_0">$(getvar, forwardStrip7Visibility)</Cell>
+        <Cell index="14" style="style_0">$(getvar, forwardStrip8Pk)</Cell>
+        <Cell index="15" style="style_0">$(getvar, forwardStrip8Visibility)</Cell>
+        <Cell index="16" style="style_0">$(getvar, forwardStrip9Pk)</Cell>
+        <Cell index="17" style="style_0">$(getvar, forwardStrip9Visibility)</Cell>
+        <Cell index="18" style="style_0">$(getvar, forwardStrip10Pk)</Cell>
+        <Cell index="19" style="style_0">$(getvar, forwardStrip10Visibility)</Cell>
+        <Cell index="20" style="style_0">$(getvar, forwardStrip11Pk)</Cell>
+        <Cell index="21" style="style_0">$(getvar, forwardStrip11Visibility)</Cell>
+        <Cell index="22" style="style_0">$(getvar, forwardStrip12Pk)</Cell>
+        <Cell index="23" style="style_0">$(getvar, backwardStrip12Visibility)</Cell>
+        <Cell index="24" style="style_0">$(getvar, backwardStrip1Pk)</Cell>
+        <Cell index="25" style="style_0">$(getvar, backwardStrip1Visibility)</Cell>
+        <Cell index="26" style="style_0">$(getvar, backwardStrip2Pk)</Cell>
+        <Cell index="27" style="style_0">$(getvar, backwardStrip2Visibility)</Cell>
+        <Cell index="28" style="style_0">$(getvar, backwardStrip3Pk)</Cell>
+        <Cell index="29" style="style_0">$(getvar, backwardStrip3Visibility)</Cell>
+        <Cell index="30" style="style_0">$(getvar, backwardStrip4Pk)</Cell>
+        <Cell index="31" style="style_0">$(getvar, backwardStrip4Visibility)</Cell>
+        <Cell index="32" style="style_0">$(getvar, backwardStrip5Pk)</Cell>
+        <Cell index="33" style="style_0">$(getvar, backwardStrip5Visibility)</Cell>
+        <Cell index="34" style="style_0">$(getvar, backwardStrip6Pk)</Cell>
+        <Cell index="35" style="style_0">$(getvar, backwardStrip6Visibility)</Cell>
+        <Cell index="36" style="style_0">$(getvar, backwardStrip7Pk)</Cell>
+        <Cell index="37" style="style_0">$(getvar, backwardStrip7Visibility)</Cell>
+        <Cell index="38" style="style_0">$(getvar, backwardStrip8Pk)</Cell>
+        <Cell index="39" style="style_0">$(getvar, backwardStrip8Visibility)</Cell>
+        <Cell index="40" style="style_0">$(getvar, backwardStrip9Pk)</Cell>
+        <Cell index="41" style="style_0">$(getvar, backwardStrip9Visibility)</Cell>
+        <Cell index="42" style="style_0">$(getvar, backwardStrip10Pk)</Cell>
+        <Cell index="43" style="style_0">$(getvar, backwardStrip10Visibility)</Cell>
+        <Cell index="44" style="style_0">$(getvar, backwardStrip11Pk)</Cell>
+        <Cell index="45" style="style_0">$(getvar, backwardStrip11Visibility)</Cell>
+        <Cell index="46" style="style_0">$(getvar, backwardStrip12Pk)</Cell>
+        <Cell index="47" style="style_0">$(getvar, backwardStrip12Visibility)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

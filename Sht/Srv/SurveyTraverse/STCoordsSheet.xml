@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость координат и высот теодолитных ходов">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_3">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_4">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>1</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_5">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>1</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_6">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>1</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="SurveyTraversSheet" name="Ведомость координат и высот теодолитных ходов">    
+    <Subtable name="Заголовок съёмки" id="PointHead" breakBefore="1">
+      <Column index="0" width="49" options="2" />
+      <Column index="1" width="49" options="2" />
+      <Column index="2" width="49" options="2" />
+      <Column index="3" width="49" options="2" />
+      <Column index="4" width="49" options="2" />
+      <Column index="5" width="49" options="2" />
+      <Column index="6" width="49" options="2" />
+      <Column index="7" width="49" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="8" style="style_0">Ведомость координат и высот теодолитных ходов</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_0">Съёмка</Cell>
+        <Cell index="3" colspan="5" style="style_1">$(getvar, SurveyName)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_0">Ход</Cell>
+        <Cell index="3" colspan="5" style="style_1">$(getvar, LineName)</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">№</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Наименование стоянки</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Углы левые</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Дирекционные углы</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Горизонтальное положение, м</Cell>
+        <Cell index="5" colspan="3" style="style_0">Координаты, м</Cell>
+      </Row>
+      <Row index="4" height="5" options="2">
+        <Cell index="5" style="style_0">X</Cell>
+        <Cell index="6" style="style_0">Y</Cell>
+        <Cell index="7" style="style_0">H</Cell>
+      </Row>
+      <Row index="5" height="5" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+        <Cell index="5" style="style_0">6</Cell>
+        <Cell index="6" style="style_0">7</Cell>
+        <Cell index="7" style="style_0">8</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные съёмки" id="PointData">
+      <Column index="0" width="49" options="2" />
+      <Column index="1" width="49" options="2" />
+      <Column index="2" width="49" options="2" />
+      <Column index="3" width="49" options="2" />
+      <Column index="4" width="49" options="2" />
+      <Column index="5" width="49" options="2" />
+      <Column index="6" width="49" options="2" />
+      <Column index="7" width="49" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_2">$(getvar, RowIndex)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Name)</Cell>
+        <Cell index="2" style="style_1">$(getvar, HorizontalAngle)</Cell>
+        <Cell index="3" style="style_3">
+        </Cell>
+        <Cell index="4" style="style_3">
+        </Cell>
+        <Cell index="5" style="style_1">$(getvar, Easting)</Cell>
+        <Cell index="6" style="style_1">$(getvar, Northing)</Cell>
+        <Cell index="7" style="style_1">$(getvar, Elevation)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" style="style_1">
+        </Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_1">$(getvar, SolvedDirectionAngle)</Cell>
+        <Cell index="4" style="style_1">$(getvar, SolvedHorizontalDistance)</Cell>
+        <Cell index="5" style="style_1">
+        </Cell>
+        <Cell index="6" style="style_1">
+        </Cell>
+        <Cell index="7" style="style_1">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="Summary">
+      <Column index="0" width="49" options="2" />
+      <Column index="1" width="49" options="2" />
+      <Column index="2" width="49" options="2" />
+      <Column index="3" width="49" options="2" />
+      <Column index="4" width="49" options="2" />
+      <Column index="5" width="49" options="2" />
+      <Column index="6" width="49" options="2" />
+      <Column index="7" width="49" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="8" style="style_0">Нормативные невязки</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_4">Угловая:</Cell>
+        <Cell index="3" style="style_5">$(getvar, NormaAngleDiscrepancy)</Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_4">Относительная линейная:</Cell>
+        <Cell index="3" style="style_5">$(getvar, NormativeLinearDiscrepancy)</Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" colspan="8" style="style_0">Результаты расчета</Cell>
+      </Row>
+      <Row index="4" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_4">Угловая невязка:</Cell>
+        <Cell index="3" style="style_5">$(getvar, SolvedAngleDiscrepancy)</Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="5" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_4">Относительная линейная невязка, м:</Cell>
+        <Cell index="3" style="style_6">$(getvar, SolvedLinearDiscrepancy)</Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="6" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_4">Невязка по X, м:</Cell>
+        <Cell index="3" style="style_5">$(getvar, SolvedXAxisDiscrepancy)</Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="7" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_4">Невязка по Y, м:</Cell>
+        <Cell index="3" style="style_5">$(getvar, SolvedYAxisDiscrepancy)</Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="8" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_4">Сумма длин, м:</Cell>
+        <Cell index="3" style="style_5">$(getvar, MeasuredDistanceSum)</Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="9" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_4">СКП, мм:</Cell>
+        <Cell index="3" style="style_5">$(getvar, SolvedXYRmse)</Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2.5" LastUsedHeight="1" Oblique="0.261799395084381" Ratio="0.800000011920929" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="LIKE17" FileName="d431.shx" Flags="0" FontName="d431" Height="0" LastUsedHeight="2.5" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

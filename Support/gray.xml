@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conversions>
+  <LayersConversion Name="Серая">
+    <Layer Regex="\.0$">8</Layer>
+    <Layer Regex="Геодезические пункты">8</Layer>
+    <Layer Regex="Сетка">8</Layer>
+    <Layer Regex="Здания и строения">8</Layer>
+    <Layer Regex="Арки и галереи">8</Layer>
+    <Layer Regex="Элементы зданий">8</Layer>
+    <Layer Regex="Инженерно-технические сооружения">8</Layer>
+    <Layer Regex="Объекты электропередачи">8</Layer>
+    <Layer Regex="Поребрики">8</Layer>
+    <Layer Regex="Путевое хозяйство">8</Layer>
+    <Layer Regex="Границы покрытий и угодий">8</Layer>
+    <Layer Regex="Гидрография">8</Layer>
+    <Layer Regex="Рельеф">8</Layer>
+    <Layer Regex="Растительность">8</Layer>
+    <Layer Regex="Ограждения">8</Layer>
+    <Layer Regex="Топонимика">8</Layer>
+    <Layer Regex="Зарамочное оформление">8</Layer>
+    <Layer Regex="Горизонтали">8</Layer>
+    <Layer Regex="Канализация">8</Layer>
+    <Layer Regex="Водопровод">8</Layer>
+    <Layer Regex="Теплосеть">8</Layer>
+    <Layer Regex="Газопровод">8</Layer>
+    <Layer Regex="Трубопроводы спецназначения">8</Layer>
+    <Layer Regex="Телефон">8</Layer>
+    <Layer Regex="Слаботочные кабели">8</Layer>
+    <Layer Regex="Кабель низкого напряжения">8</Layer>
+    <Layer Regex="Кабели высокого напряжения">8</Layer>
+    <Layer Regex="Кабель постоянного тока">8</Layer>
+    <Layer Regex="Защита от электрокоррозии">8</Layer>
+    <Layer Regex="Зоны кабелей">8</Layer>
+    <Layer Regex="Кабельные колодцы">8</Layer>
+    <Layer Regex="Футляры и каналы">8</Layer>
+    <Layer Regex="Крышки колодцев">8</Layer>
+    <Layer Regex="Номера колодцев">8</Layer>
+    <Layer Regex="Отметки высот на зданиях и сооружениях">8</Layer>
+    <Layer Regex="Отметки высоты поверхности">8</Layer>
+    <Layer Regex="Отметки высот уреза воды">8</Layer>
+    <Layer Regex="Дополнительные отметки">8</Layer>
+    <Layer Regex="Сельскохозяйственные угодья">8</Layer>
+    <Layer Regex="Границы$">8</Layer>
+  </LayersConversion>
+</Conversions>

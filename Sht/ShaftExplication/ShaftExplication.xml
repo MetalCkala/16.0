@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Экспликация колодцев">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="ShaftExplication" name="Экспликация колодцев">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="28" options="2" />
+      <Column index="1" width="28" options="2" />
+      <Column index="2" width="28" options="2" />
+      <Column index="3" width="28" options="2" />
+      <Column index="4" width="28" options="2" />
+      <Column index="5" width="28" options="2" />
+      <Column index="6" width="28" options="2" />
+      <Column index="7" width="28" options="2" />
+      <Column index="8" width="28" options="2" />
+      <Column index="9" width="28" options="2" />
+      <Column index="10" width="28" options="2" />
+      <Column index="11" width="28" options="2" />
+      <Column index="12" width="28" options="2" />
+      <Column index="13" width="28" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" colspan="5" style="style_0">$(getvar, AlignmentName)</Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">
+        </Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+        <Cell index="13" style="style_0">$(getvar, Numbers)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="3" style="style_0">№№ колодц.</Cell>
+        <Cell index="1" rowspan="3" style="style_0">Назначение</Cell>
+        <Cell index="2" colspan="5" style="style_0">Колодцы</Cell>
+        <Cell index="7" colspan="4" style="style_0">Трубы</Cell>
+        <Cell index="11" rowspan="2" colspan="2" style="style_0">Время обслед</Cell>
+        <Cell index="13" rowspan="3" style="style_0">Примечание</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="2" rowspan="2" colspan="2" style="style_0">габарит</Cell>
+        <Cell index="4" rowspan="2" style="style_0">материал</Cell>
+        <Cell index="5" colspan="2" style="style_0">отметка</Cell>
+        <Cell index="7" rowspan="2" style="style_0">№№</Cell>
+        <Cell index="8" rowspan="2" style="style_0">материал</Cell>
+        <Cell index="9" rowspan="2" style="style_0">диаметр и сечение</Cell>
+        <Cell index="10" rowspan="2" style="style_0">отметки</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="5" style="style_0">крышки</Cell>
+        <Cell index="6" style="style_0">дна</Cell>
+        <Cell index="11" style="style_0">первичное(г.)</Cell>
+        <Cell index="12" style="style_0">последующ.(г.)</Cell>
+      </Row>
+      <Row index="4" height="5" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" colspan="2" style="style_0">3</Cell>
+        <Cell index="4" style="style_0">4</Cell>
+        <Cell index="5" style="style_0">5</Cell>
+        <Cell index="6" style="style_0">6</Cell>
+        <Cell index="7" style="style_0">7</Cell>
+        <Cell index="8" style="style_0">8</Cell>
+        <Cell index="9" style="style_0">9</Cell>
+        <Cell index="10" style="style_0">10</Cell>
+        <Cell index="11" style="style_0">11</Cell>
+        <Cell index="12" style="style_0">12</Cell>
+        <Cell index="13" style="style_0">13</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Data">
+      <Column index="0" width="28" options="2" />
+      <Column index="1" width="28" options="2" />
+      <Column index="2" width="28" options="2" />
+      <Column index="3" width="28" options="2" />
+      <Column index="4" width="28" options="2" />
+      <Column index="5" width="28" options="2" />
+      <Column index="6" width="28" options="2" />
+      <Column index="7" width="28" options="2" />
+      <Column index="8" width="28" options="2" />
+      <Column index="9" width="28" options="2" />
+      <Column index="10" width="28" options="2" />
+      <Column index="11" width="28" options="2" />
+      <Column index="12" width="28" options="2" />
+      <Column index="13" width="28" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Destiny)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Width)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Length)</Cell>
+        <Cell index="4" style="style_1">$(getvar, Material)</Cell>
+        <Cell index="5" style="style_1">$(getvar, TopElevation)</Cell>
+        <Cell index="6" style="style_1">$(getvar, BotElevation)</Cell>
+        <Cell index="7" style="style_1">$(getvar, PipeNumber)</Cell>
+        <Cell index="8" style="style_1">$(getvar, PipeMaterial)</Cell>
+        <Cell index="9" style="style_1">$(getvar, PipeDiameter)</Cell>
+        <Cell index="10" style="style_1">$(getvar, PipeElevation)</Cell>
+        <Cell index="11" style="style_1">$(getvar, FirstInspectionDate)</Cell>
+        <Cell index="12" style="style_1">$(getvar, NextInspectionDate)</Cell>
+        <Cell index="13" style="style_1">$(getvar, Note)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="LIKE17" FileName="d431.shx" Flags="0" FontName="d431" Height="0" LastUsedHeight="2.5" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

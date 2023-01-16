@@ -1,0 +1,276 @@
+[
+  {
+    "id": "SmdxFasteningMaterialWood",
+    "name": "Дерево",
+    "parent": "SmdxFasteningMaterialAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Дерево"
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningMaterialConcrete",
+    "name": "Железобетон",
+    "parent": "SmdxFasteningMaterialAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Железобетон"
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningAggregatesСrutch",
+    "name": "Костыльное",
+    "parent": "SmdxFasteningAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Костыльное"
+      },
+      {
+        "tag": "rail_gasket",
+        "value": 0.0
+      },
+      {
+        "tag": "liner",
+        "value": 16.0
+      },
+      {
+        "tag": "liner_gasket",
+        "value": 8.0
+      },
+      {
+        "tag": "material",
+        "name": "Материал",
+        "value": { "type": "SmdxFasteningMaterialWood" }
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningAggregatesKD",
+    "name": "КД",
+    "parent": "SmdxFasteningAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "КД"
+      },
+      {
+        "tag": "rail_gasket",
+        "value": 7.0
+      },
+      {
+        "tag": "liner",
+        "value": 16.0
+      },
+      {
+        "tag": "liner_gasket",
+        "value": 8.0
+      },
+      {
+        "tag": "material",
+        "name": "Материал",
+        "value": { "type": "SmdxFasteningMaterialWood" }
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningAggregatesKB65",
+    "name": "КБ-65",
+    "parent": "SmdxFasteningAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "КБ-65"
+      },
+      {
+        "tag": "rail_gasket",
+        "value": 8.0
+      },
+      {
+        "tag": "liner",
+        "value": 15.5
+      },
+      {
+        "tag": "liner_gasket",
+        "value": 10.0
+      },
+      {
+        "tag": "material",
+        "name": "Материал",
+        "value": { "type": "SmdxFasteningMaterialConcrete" }
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningAggregatesAPC04",
+    "name": "АРС-04",
+    "parent": "SmdxFasteningAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "АРС-04"
+      },
+      {
+        "tag": "rail_gasket",
+        "value": 14.0
+      },
+      {
+        "tag": "liner",
+        "value": 0.0
+      },
+      {
+        "tag": "liner_gasket",
+        "value": 0.0
+      },
+      {
+        "tag": "material",
+        "name": "Материал",
+        "value": { "type": "SmdxFasteningMaterialConcrete" }
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningAggregatesGBR65",
+    "name": "ЖБР-65",
+    "parent": "SmdxFasteningAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "ЖБР-65"
+      },
+      {
+        "tag": "rail_gasket",
+        "value": 10.0
+      },
+      {
+        "tag": "liner",
+        "value": 0.0
+      },
+      {
+        "tag": "liner_gasket",
+        "value": 0.0
+      },
+      {
+        "tag": "material",
+        "name": "Материал",
+        "value": { "type": "SmdxFasteningMaterialConcrete" }
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningAggregatesGBR66Sh",
+    "name": "ЖБР-66Ш",
+    "parent": "SmdxFasteningAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "ЖБР-66Ш"
+      },
+      {
+        "tag": "rail_gasket",
+        "value": 10.0
+      },
+      {
+        "tag": "liner",
+        "value": 0.0
+      },
+      {
+        "tag": "liner_gasket",
+        "value": 0.0
+      },
+      {
+        "tag": "material",
+        "name": "Материал",
+        "value": { "type": "SmdxFasteningMaterialConcrete" }
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningAggregatesGBR65PShM",
+    "name": "ЖБР-65ПШМ",
+    "parent": "SmdxFasteningAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "ЖБР-65ПШМ"
+      },
+      {
+        "tag": "rail_gasket",
+        "value": 7.0
+      },
+      {
+        "tag": "liner",
+        "value": 5.0
+      },
+      {
+        "tag": "liner_gasket",
+        "value": 0.0
+      },
+      {
+        "tag": "material",
+        "name": "Материал",
+        "value": { "type": "SmdxFasteningMaterialConcrete" }
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningAggregatesGBR65P",
+    "name": "ЖБР-65П",
+    "parent": "SmdxFasteningAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "ЖБР-65П"
+      },
+      {
+        "tag": "rail_gasket",
+        "value": 9.0
+      },
+      {
+        "tag": "liner",
+        "value": 17.0
+      },
+      {
+        "tag": "liner_gasket",
+        "value": 0.0
+      },
+      {
+        "tag": "material",
+        "name": "Материал",
+        "value": { "type": "SmdxFasteningMaterialConcrete" }
+      }
+    ]
+  },
+  {
+    "id": "SmdxFasteningAggregatesSM1",
+    "name": "СМ-1",
+    "parent": "SmdxFasteningAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "СМ-1"
+      },
+      {
+        "tag": "rail_gasket",
+        "value": 10.0
+      },
+      {
+        "tag": "liner",
+        "value": 0.0
+      },
+      {
+        "tag": "liner_gasket",
+        "value": 0.0
+      },
+      {
+        "tag": "material",
+        "name": "Материал",
+        "value": { "type": "SmdxFasteningMaterialConcrete" }
+      }
+    ]
+  }  
+]

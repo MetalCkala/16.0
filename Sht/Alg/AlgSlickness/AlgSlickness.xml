@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Исполнительная съемка">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Report" name="Отчет">
+    <Subtable name="Отчет" id="Report">
+      <Column index="0" width="50" options="2" />
+      <Column index="1" width="45" options="2" />
+      <Column index="2" width="45" options="2" />
+      <Column index="3" width="45" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" colspan="4" style="style_0">Отчет</Cell>
+      </Row>
+      <Row index="1" height="6" options="2">
+        <Cell index="0" style="style_0">Подобъект</Cell>
+        <Cell index="1" colspan="3" style="style_0">$(getvar, AlignmentName)</Cell>
+      </Row>
+      <Row index="2" height="6" options="2">
+        <Cell index="0" style="style_0">Участок</Cell>
+        <Cell index="1" colspan="3" style="style_1">$(getvar, Stationing)</Cell>
+      </Row>
+      <Row index="3" height="10" options="2">
+        <Cell index="0" style="style_0">Всего измерений</Cell>
+        <Cell index="1" style="style_2">$(getvar, Am5Count)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Am10Count)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Am20Count)</Cell>
+      </Row>
+      <Row index="4" height="10" options="2">
+        <Cell index="0" style="style_0">Шаг нивелирования</Cell>
+        <Cell index="1" style="style_0">5 м</Cell>
+        <Cell index="2" style="style_0">10 м</Cell>
+        <Cell index="3" style="style_0">20 м</Cell>
+      </Row>
+      <Row index="5" height="16" options="2">
+        <Cell index="0" style="style_0">Количество измерений меньше (равно) допустимого</Cell>
+        <Cell index="1" style="style_2">$(getvar, Am5CountLessAdm)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Am10CountLessAdm)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Am20CountLessAdm)</Cell>
+      </Row>
+      <Row index="6" height="5" options="2">
+        <Cell index="0" style="style_0">Процент</Cell>
+        <Cell index="1" style="style_1">$(getvar, Am5CountLessAdmPrc)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Am10CountLessAdmPrc)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Am20CountLessAdmPrc)</Cell>
+      </Row>
+      <Row index="7" height="16" options="2">
+        <Cell index="0" style="style_0">Количество измерений превышающих допуск</Cell>
+        <Cell index="1" style="style_2">$(getvar, Am5CountExcAdm)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Am10CountExcAdm)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Am20CountExcAdm)</Cell>
+      </Row>
+      <Row index="8" height="5" options="2">
+        <Cell index="0" style="style_0">Процент</Cell>
+        <Cell index="1" style="style_1">$(getvar, Am5CountExcAdmPrc)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Am10CountExcAdmPrc)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Am20CountExcAdmPrc)</Cell>
+      </Row>
+      <Row index="9" height="16" options="2">
+        <Cell index="0" style="style_0">Количество измерений не превышающтх 1,5 допуск</Cell>
+        <Cell index="1" style="style_2">$(getvar, Am5CountLessOneAndHalfAdm)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Am10CountLessOneAndHalfAdm)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Am20CountLessOneAndHalfAdm)</Cell>
+      </Row>
+      <Row index="10" height="5" options="2">
+        <Cell index="0" style="style_0">Процент</Cell>
+        <Cell index="1" style="style_1">$(getvar, Am5CountLessOneAndHalfAdmPrc)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Am10CountLessOneAndHalfAdmPrc)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Am20CountLessOneAndHalfAdmPrc)</Cell>
+      </Row>
+      <Row index="11" height="16" options="2">
+        <Cell index="0" style="style_0">Количество измерений свыше 1,5 допуска</Cell>
+        <Cell index="1" style="style_2">$(getvar, Am5CountExcOneAndHalfAdm)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Am10CountExcOneAndHalfAdm)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Am20CountExcOneAndHalfAdm)</Cell>
+      </Row>
+      <Row index="12" height="5" options="2">
+        <Cell index="0" style="style_0">Процент</Cell>
+        <Cell index="1" style="style_1">$(getvar, Am5CountExcOneAndHalfAdmPrc)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Am10CountExcOneAndHalfAdmPrc)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Am20CountExcOneAndHalfAdmPrc)</Cell>
+      </Row>
+      <Row index="13" height="10" options="2">
+        <Cell index="0" style="style_0">Максимальное отклонение в мм</Cell>
+        <Cell index="1" style="style_2">$(getvar, Am5MaxDeviation)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Am10MaxDeviation)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Am20MaxDeviation)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="Slickness" name="Неровности">
+    <Subtable name="Заголовок" id="SlicknessHead">
+      <Column index="0" width="36" options="2" />
+      <Column index="1" width="36" options="2" />
+      <Column index="2" width="36" options="2" />
+      <Column index="3" width="36" options="2" />
+      <Column index="4" width="36" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" colspan="5" style="style_0">Неровности</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="5" style="style_0">№ п/п</Cell>
+        <Cell index="1" rowspan="5" style="style_0">Пикетажное значение створа</Cell>
+        <Cell index="2" colspan="3" style="style_0">Фактическое значение неровности в мм</Cell>
+      </Row>
+      <Row index="2" height="6" options="2">
+        <Cell index="2" colspan="3" style="style_0">Шаг амплитуды</Cell>
+      </Row>
+      <Row index="3" height="6" options="2">
+        <Cell index="2" style="style_0">5 м</Cell>
+        <Cell index="3" style="style_0">10 м</Cell>
+        <Cell index="4" style="style_0">20 м</Cell>
+      </Row>
+      <Row index="4" height="5" options="2">
+        <Cell index="2" colspan="3" style="style_0">Допустимое отклонение амплитуды в мм</Cell>
+      </Row>
+      <Row index="5" height="6" options="2">
+        <Cell index="2" style="style_2">$(getvar, AmplitudeTolerance5)</Cell>
+        <Cell index="3" style="style_2">$(getvar, AmplitudeTolerance10)</Cell>
+        <Cell index="4" style="style_2">$(getvar, AmplitudeTolerance20)</Cell>
+      </Row>
+      <Row index="6" height="6" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок диапазона" id="SlicknessDataHeader">
+      <Column index="0" width="36" options="2" />
+      <Column index="1" width="36" options="2" />
+      <Column index="2" width="36" options="2" />
+      <Column index="3" width="36" options="2" />
+      <Column index="4" width="36" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" style="style_2">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Piket)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Slickness5)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Slickness10)</Cell>
+        <Cell index="4" style="style_1">$(getvar, Slickness20)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="SlicknessData">
+      <Column index="0" width="36" options="2" />
+      <Column index="1" width="36" options="2" />
+      <Column index="2" width="36" options="2" />
+      <Column index="3" width="36" options="2" />
+      <Column index="4" width="36" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" style="style_2">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Piket)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Slickness5)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Slickness10)</Cell>
+        <Cell index="4" style="style_1">$(getvar, Slickness20)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="Dimensions" name="Измерения">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="24" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="25" options="2" />
+      <Column index="3" width="25" options="2" />
+      <Column index="4" width="25" options="2" />
+      <Column index="5" width="25" options="2" />
+      <Column index="6" width="25" options="2" />
+      <Column index="7" width="25" options="2" />
+      <Column index="8" width="25" options="2" />
+      <Column index="9" width="25" options="2" />
+      <Column index="10" width="24" options="2" />
+      <Column index="11" width="24" options="2" />
+      <Column index="12" width="24" options="2" />
+      <Column index="13" width="24" options="2" />
+      <Column index="14" width="25" options="2" />
+      <Column index="15" width="25" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" colspan="16" style="style_0">Параметры покрытия</Cell>
+      </Row>
+      <Row index="1" height="6" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Пикет</Cell>
+        <Cell index="1" colspan="3" style="style_0">Уклон слева</Cell>
+        <Cell index="4" colspan="3" style="style_0">Уклон справа</Cell>
+        <Cell index="7" colspan="3" style="style_0">Ширина слева</Cell>
+        <Cell index="10" colspan="3" style="style_0">Ширина справа</Cell>
+        <Cell index="13" colspan="3" style="style_0">Отметка оси</Cell>
+      </Row>
+      <Row index="2" height="6" options="2">
+        <Cell index="1" style="style_0">Проект.</Cell>
+        <Cell index="2" style="style_0">Факт.</Cell>
+        <Cell index="3" style="style_0">Разница</Cell>
+        <Cell index="4" style="style_0">Проект.</Cell>
+        <Cell index="5" style="style_0">Факт.</Cell>
+        <Cell index="6" style="style_0">Разница</Cell>
+        <Cell index="7" style="style_0">Проект.</Cell>
+        <Cell index="8" style="style_0">Факт.</Cell>
+        <Cell index="9" style="style_0">Разница</Cell>
+        <Cell index="10" style="style_0">Проект.</Cell>
+        <Cell index="11" style="style_0">Факт.</Cell>
+        <Cell index="12" style="style_0">Разница</Cell>
+        <Cell index="13" style="style_0">Проект.</Cell>
+        <Cell index="14" style="style_0">Факт.</Cell>
+        <Cell index="15" style="style_0">Разница</Cell>
+      </Row>
+      <Row index="3" height="6" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+        <Cell index="5" style="style_0">6</Cell>
+        <Cell index="6" style="style_0">7</Cell>
+        <Cell index="7" style="style_0">8</Cell>
+        <Cell index="8" style="style_0">9</Cell>
+        <Cell index="9" style="style_0">10</Cell>
+        <Cell index="10" style="style_0">11</Cell>
+        <Cell index="11" style="style_0">12</Cell>
+        <Cell index="12" style="style_0">13</Cell>
+        <Cell index="13" style="style_0">14</Cell>
+        <Cell index="14" style="style_0">15</Cell>
+        <Cell index="15" style="style_0">16</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="DimensionsData">
+      <Column index="0" width="24" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="25" options="2" />
+      <Column index="3" width="25" options="2" />
+      <Column index="4" width="25" options="2" />
+      <Column index="5" width="25" options="2" />
+      <Column index="6" width="25" options="2" />
+      <Column index="7" width="25" options="2" />
+      <Column index="8" width="25" options="2" />
+      <Column index="9" width="25" options="2" />
+      <Column index="10" width="24" options="2" />
+      <Column index="11" width="24" options="2" />
+      <Column index="12" width="24" options="2" />
+      <Column index="13" width="24" options="2" />
+      <Column index="14" width="25" options="2" />
+      <Column index="15" width="25" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" style="style_1">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_1">$(getvar, LeftInclinationProject)</Cell>
+        <Cell index="2" style="style_1">$(getvar, LeftInclinationFact)</Cell>
+        <Cell index="3" style="style_1">$(getvar, LeftInclinationFact)</Cell>
+        <Cell index="4" style="style_1">$(getvar, RightInclinationProject)</Cell>
+        <Cell index="5" style="style_1">$(getvar, RightInclinationFact)</Cell>
+        <Cell index="6" style="style_1">$(getvar, RightInclinationDiff)</Cell>
+        <Cell index="7" style="style_1">$(getvar, LeftWidthProject)</Cell>
+        <Cell index="8" style="style_1">$(getvar, LeftWidthFact)</Cell>
+        <Cell index="9" style="style_1">$(getvar, LeftWidthDiff)</Cell>
+        <Cell index="10" style="style_1">$(getvar, RightWidthProject)</Cell>
+        <Cell index="11" style="style_1">$(getvar, RightWidthFact)</Cell>
+        <Cell index="12" style="style_1">$(getvar, RightWidthDiff)</Cell>
+        <Cell index="13" style="style_1">$(getvar, AxisElevationProject)</Cell>
+        <Cell index="14" style="style_1">$(getvar, AxisElevationFact)</Cell>
+        <Cell index="15" style="style_1">$(getvar, AxisElevationDiff)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="LIKE17" FileName="d431.shx" Flags="0" FontName="d431" Height="0" LastUsedHeight="2,5" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

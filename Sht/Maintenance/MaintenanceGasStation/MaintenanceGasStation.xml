@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables title="Ведомость наличия и состояния АЗС">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Maintenance" name="АЗС">
+    <Subtable name="Заголовок" id="Head">
+      <Row index="0" height="7" options="2">
+        <Cell index="0" colspan="7" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="5">
+        <Cell index="0" style="style_0">Местоположение пк+</Cell>
+        <Cell index="1" style="style_0">Код: 1-одностор. 2-двустор. </Cell>
+        <Cell index="2" style="style_0">Код расположения: 1-слева 2-справа </Cell>
+        <Cell index="3" style="style_0">Расстояние от трассы, км</Cell>
+        <Cell index="4" style="style_0">Кол-во заправ. колонок</Cell>
+        <Cell index="5" style="style_0">Площадь, кв. м</Cell>
+        <Cell index="6" style="style_0">Принадлежность</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Пикет" id="MaintenanceData">
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Code)</Cell>
+        <Cell index="2" style="style_0">$(getvar, Side)</Cell>
+        <Cell index="3" style="style_0">$(getvar, DistanceFromRoad)</Cell>
+        <Cell index="4" style="style_0">$(getvar, Columns)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+        <Cell index="6" style="style_0">$(getvar, Belongingness)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conversions>
+  <LayersConversion Default="rastr">
+    <Layer Regex="\.0$">0</Layer>
+    <Layer Regex="Геодезические пункты">01_Геодезические пункты</Layer>
+    <Layer Regex="^Сетка$">02_Сетка</Layer>
+    <Layer Regex="Здания и строения">03_Здания и строения</Layer>
+    <Layer Regex="Арки и галереи">04_Арки и галереи</Layer>
+    <Layer Regex="Элементы зданий">05_Элементы зданий</Layer>
+    <Layer Regex="Инженерно-технические сооружения">06_Инженерно-технические сооружения</Layer>
+    <Layer Regex="Объекты электропередачи">07_Объекты электропередачи</Layer>
+    <Layer Regex="Поребрики">08_Поребрики</Layer>
+    <Layer Regex="Путевое хозяйство">09_Путевое хозяйство</Layer>
+    <Layer Regex="Границы покрытий и угодий">10_Границы покрытий и угодий</Layer>
+    <Layer Regex="Гидрография">11_Гидрография</Layer>
+    <Layer Regex="Рельеф">12_Рельеф</Layer>
+    <Layer Regex="Растительность">13_Растительность</Layer>
+    <Layer Regex="Ограждения">14_Ограждения</Layer>
+    <Layer Regex="Топонимика">17_Топонимика</Layer>
+    <Layer Regex="^Зарамочное оформление$">18_Зарамочное оформление</Layer>
+    <Layer Regex="^Видовые экраны$">18_Зарамочное оформление</Layer>
+    <Layer Regex="Горизонтали">19_Горизонтали</Layer>
+    <Layer Regex="Канализация">30_Канализация</Layer>
+    <Layer Regex="Водопровод">31_Водопровод</Layer>
+    <Layer Regex="Теплосеть">32_Теплосеть</Layer>
+    <Layer Regex="Газопровод">33_Газопровод</Layer>
+    <Layer Regex="Трубопроводы спецназначения">34_Трубопроводы спецназначения</Layer>
+    <Layer Regex="Телефон">35_Телефон</Layer>
+    <Layer Regex="Слаботочные кабели">36_Слаботочные кабели</Layer>
+    <Layer Regex="Кабель низкого напряжения">37_Кабель низкого напряжения</Layer>
+    <Layer Regex="Кабели высокого напряжения">38_Кабели высокого напряжения</Layer>
+    <Layer Regex="Кабель постоянного тока">39_Кабель постоянного тока</Layer>
+    <Layer Regex="Защита от электрокоррозии">40_Защита от электрокоррозии</Layer>
+    <Layer Regex="Зоны кабелей">41_Зоны кабелей</Layer>
+    <Layer Regex="Кабельные колодцы">42_Кабельные колодцы</Layer>
+    <Layer Regex="Футляры и каналы">43_Футляры и каналы</Layer>
+    <Layer Regex="Крышки колодцев">44_Крышки колодцев</Layer>
+    <Layer Regex="Номера колодцев">45_Номера колодцев</Layer>
+    <Layer Regex="Отметки высот на зданиях и сооружениях">60_Отметки высот на зданиях и сооружениях</Layer>
+    <Layer Regex="Отметки высоты поверхности">61_Отметки высоты поверхности</Layer>
+    <Layer Regex="Отметки высоты уреза воды">62_Отметки высот уреза воды</Layer>
+    <Layer Regex="Дополнительные отметки">63_Дополнительные отметки</Layer>
+    <Layer Regex="Сельскохозяйственные угодья">64_Сельскохозяйственные угодья</Layer>
+    <Layer Regex="Границы$">65_Границы</Layer>
+  </LayersConversion>
+  <BlocksConversion>
+    <Block Regex="^altitude_mark$">g_330</Block>
+    <Block Regex="^axes_intersection$">g_012</Block>
+    <Block Regex="^g_scratch$">g_329_6</Block>
+    <Block Regex="^\[ 108 \] 1\)">g_106_1a</Block>
+    <Block Regex="^\[ 011 \]">g_011</Block>
+    <Block Regex="^\[ 295 \]">g_295</Block>
+  </BlocksConversion>
+  <BlocksColors>
+    <Block Regex="g_121_7e">1</Block>
+  </BlocksColors>
+  <StylesConversion>
+    <Style Regex="^bm431.shx$">LIKE11</Style>
+    <Style Regex="^p131.shx$">LIKE14</Style>
+    <Style Regex="^d431.shx$">LIKE17</Style>
+    <Style Regex="^peteri.shx$">LIKE32</Style>
+    <Style Regex="^pragma.shx$">LIKE34</Style>
+    <Style Regex="^pragmai.shx$">LIKE36</Style>
+  </StylesConversion>
+  <LinetypesConversion>
+    <Linetype Regex="^additional_horizontal$">g_05x1</Linetype>
+    <Linetype Regex="^auxiliary_horizontal$">g_02x1</Linetype>
+    <Linetype Regex="^overhang_horizontal$">g_03x1</Linetype>
+  </LinetypesConversion>
+</Conversions>

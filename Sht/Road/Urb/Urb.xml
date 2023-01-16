@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Расширенный шаблон">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Urb" name="Ведомость верха покрытия">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="25" options="2" />
+      <Column index="3" width="25" options="2" />
+      <Column index="4" width="25" options="2" />
+      <Column index="5" width="15" options="2" />
+      <Column index="6" width="10" options="2" />
+      <Column index="7" width="10" options="2" />
+      <Column index="8" width="10" options="2" />
+      <Column index="9" width="10" options="2" />
+      <Column index="10" width="10" options="2" />
+      <Column index="11" width="15" options="2" />
+      <Column index="12" width="15" options="2" />
+      <Column index="13" width="10" options="2" />
+      <Column index="14" width="10" options="2" />
+      <Column index="15" width="10" options="2" />
+      <Column index="16" width="10" options="2" />
+      <Column index="17" width="10" options="2" />
+      <Column index="18" width="15" options="2" />
+      <Column index="19" width="25" options="2" />
+      <Column index="20" width="25" options="2" />
+      <Column index="21" width="15" options="2" />
+      <Column index="22" width="25" options="2" />
+      <Column index="23" width="15" options="2" />
+      <Column index="24" width="15" options="2" />
+      <Column index="25" width="10" options="2" />
+      <Column index="26" width="10" options="2" />
+      <Column index="27" width="10" options="2" />
+      <Column index="28" width="10" options="2" />
+      <Column index="29" width="10" options="2" />
+      <Column index="30" width="15" options="2" />
+      <Column index="31" width="15" options="2" />
+      <Column index="32" width="15" options="2" />
+      <Column index="33" width="15" options="2" />
+      <Column index="34" width="15" options="2" />
+      <Column index="35" width="10" options="2" />
+      <Column index="36" width="10" options="2" />
+      <Column index="37" width="10" options="2" />
+      <Column index="38" width="10" options="2" />
+      <Column index="39" width="10" options="2" />
+      <Column index="40" width="15" options="2" />
+      <Column index="41" width="15" options="2" />
+      <Column index="42" width="25" options="2" />
+      <Column index="43" width="15" options="2" />
+      <Column index="44" width="20" options="2" />
+      <Column index="45" width="25" options="2" />
+      <Column index="46" width="15" options="2" />
+      <Column index="47" width="15" options="2" />
+      <Column index="48" width="10" options="2" />
+      <Column index="49" width="10" options="2" />
+      <Column index="50" width="10" options="2" />
+      <Column index="51" width="10" options="2" />
+      <Column index="52" width="10" options="2" />
+      <Column index="53" width="15" options="2" />
+      <Column index="54" width="15" options="2" />
+      <Column index="55" width="15" options="2" />
+      <Column index="56" width="15" options="2" />
+      <Column index="57" width="15" options="2" />
+      <Column index="58" width="10" options="2" />
+      <Column index="59" width="10" options="2" />
+      <Column index="60" width="10" options="2" />
+      <Column index="61" width="10" options="2" />
+      <Column index="62" width="10" options="2" />
+      <Column index="63" width="15" options="2" />
+      <Column index="64" width="15" options="2" />
+      <Column index="65" width="25" options="2" />
+      <Column index="66" width="15" options="2" />
+      <Column index="67" width="25" options="2" />
+      <Column index="68" width="25" options="2" />
+      <Column index="69" width="15" options="2" />
+      <Column index="70" width="10" options="2" />
+      <Column index="71" width="10" options="2" />
+      <Column index="72" width="10" options="2" />
+      <Column index="73" width="10" options="2" />
+      <Column index="74" width="10" options="2" />
+      <Column index="75" width="15" options="2" />
+      <Column index="76" width="15" options="2" />
+      <Column index="77" width="10" options="2" />
+      <Column index="78" width="10" options="2" />
+      <Column index="79" width="10" options="2" />
+      <Column index="80" width="10" options="2" />
+      <Column index="81" width="10" options="2" />
+      <Column index="82" width="15" options="2" />
+      <Column index="83" width="25" options="2" />
+      <Column index="84" width="25" options="2" />
+      <Column index="85" width="20" options="2" />
+      <Column index="86" width="25" options="2" />
+      <Column index="87" width="25" options="2" />
+      <Column index="88" width="25" options="2" />
+      <Column index="89" width="25" options="2" />
+      <Column index="90" width="25" options="2" />
+      <Column index="91" width="25" options="2" />
+      <Column index="92" width="25" options="2" />
+      <Column index="93" width="25" options="2" />
+      <Column index="94" width="25" options="2" />
+      <Column index="95" width="25" options="2" />
+      <Column index="96" width="25" options="2" />
+      <Column index="97" width="25" options="2" />
+      <Column index="98" width="25" options="2" />
+      <Column index="99" width="25" options="2" />
+      <Column index="100" width="25" options="2" />
+      <Column index="101" width="25" options="2" />
+      <Column index="102" width="25" options="2" />
+      <Column index="103" width="25" options="2" />
+      <Column index="104" width="25" options="2" />
+      <Column index="105" width="25" options="2" />
+      <Column index="106" width="25" options="2" />
+      <Column index="107" width="25" options="2" />
+      <Column index="108" width="25" options="2" />
+      <Column index="109" width="25" options="2" />
+      <Column index="110" width="25" options="2" />
+      <Column index="111" width="25" options="2" />
+      <Column index="112" width="25" options="2" />
+      <Column index="113" width="25" options="2" />
+      <Column index="114" width="25" options="2" />
+      <Column index="115" width="25" options="2" />
+      <Column index="116" width="25" options="2" />
+      <Column index="117" width="25" options="2" />
+      <Column index="118" width="25" options="2" />
+      <Column index="119" width="25" options="2" />
+      <Column index="120" width="25" options="2" />
+      <Column index="121" width="25" options="2" />
+      <Column index="122" width="25" options="2" />
+      <Column index="123" width="25" options="2" />
+      <Column index="124" width="15" options="2" />
+      <Column index="125" width="25" options="2" />
+      <Column index="126" width="15" options="2" />
+      <Column index="127" width="10" options="2" />
+      <Column index="128" width="10" options="2" />
+      <Column index="129" width="10" options="2" />
+      <Column index="130" width="10" options="2" />
+      <Column index="131" width="10" options="2" />
+      <Column index="132" width="15" options="2" />
+      <Column index="133" width="10" options="2" />
+      <Column index="134" width="15" options="2" />
+      <Column index="135" width="10" options="2" />
+      <Column index="136" width="10" options="2" />
+      <Column index="137" width="10" options="2" />
+      <Column index="138" width="10" options="2" />
+      <Column index="139" width="10" options="2" />
+      <Column index="140" width="15" options="2" />
+      <Column index="141" width="25" options="2" />
+      <Column index="142" width="15" options="2" />
+      <Column index="143" width="15" options="2" />
+      <Column index="144" width="25" options="2" />
+      <Column index="145" width="15" options="2" />
+      <Column index="146" width="10" options="2" />
+      <Column index="147" width="10" options="2" />
+      <Column index="148" width="10" options="2" />
+      <Column index="149" width="10" options="2" />
+      <Column index="150" width="10" options="2" />
+      <Column index="151" width="15" options="2" />
+      <Column index="152" width="10" options="2" />
+      <Column index="153" width="20" options="2" />
+      <Column index="154" width="10" options="2" />
+      <Column index="155" width="10" options="2" />
+      <Column index="156" width="10" options="2" />
+      <Column index="157" width="10" options="2" />
+      <Column index="158" width="10" options="2" />
+      <Column index="159" width="15" options="2" />
+      <Column index="160" width="25" options="2" />
+      <Column index="161" width="15" options="2" />
+      <Row index="0" height="7" options="2">
+        <Cell index="0" colspan="162" style="style_0">$(getvar, SheetName)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="4" style="style_0">ПК</Cell>
+        <Cell index="1" rowspan="4" style="style_0">Расстояние от начала трассы, м</Cell>
+        <Cell index="2" rowspan="4" style="style_0">Проектная отметка по оси, м</Cell>
+        <Cell index="3" rowspan="2" colspan="18" style="style_0">Ширины, м</Cell>
+        <Cell index="21" rowspan="2" colspan="23" style="style_0">Превышения, м</Cell>
+        <Cell index="44" rowspan="2" colspan="23" style="style_0">Отметки, м</Cell>
+        <Cell index="67" rowspan="2" colspan="18" style="style_0">Уклоны, ‰</Cell>
+        <Cell index="85" rowspan="4" style="style_0">Примечание</Cell>
+        <Cell index="86" colspan="38" style="style_0">Координаты, м</Cell>
+        <Cell index="124" rowspan="2" colspan="19" style="style_0">Рабочие отметки, м</Cell>
+        <Cell index="143" rowspan="2" colspan="19" style="style_0">Интерполированные отметки, м</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="86" colspan="18" style="style_0">Левая сторона</Cell>
+        <Cell index="104" rowspan="2" colspan="2" style="style_0">Ось</Cell>
+        <Cell index="106" colspan="18" style="style_0">Правая сторона</Cell>
+      </Row>
+      <Row index="3" height="7" options="2">
+        <Cell index="3" colspan="9" style="style_0">Левая сторона</Cell>
+        <Cell index="12" colspan="9" style="style_0">Правая сторона</Cell>
+        <Cell index="21" colspan="11" style="style_0">Левая сторона</Cell>
+        <Cell index="32" rowspan="2" style="style_0">Ось</Cell>
+        <Cell index="33" colspan="11" style="style_0">Правая сторона</Cell>
+        <Cell index="44" colspan="11" style="style_0">Левая сторона</Cell>
+        <Cell index="55" rowspan="2" style="style_0">Ось</Cell>
+        <Cell index="56" colspan="11" style="style_0">Правая сторона</Cell>
+        <Cell index="67" colspan="9" style="style_0">Левая сторона</Cell>
+        <Cell index="76" colspan="9" style="style_0">Правая сторона</Cell>
+        <Cell index="86" colspan="2" style="style_0">Бровка</Cell>
+        <Cell index="88" colspan="2" style="style_0">Укр. часть обочины</Cell>
+        <Cell index="90" colspan="2" style="style_0">Кромка</Cell>
+        <Cell index="92" colspan="2" style="style_0">5 полоса</Cell>
+        <Cell index="94" colspan="2" style="style_0">4 полоса</Cell>
+        <Cell index="96" colspan="2" style="style_0">3 полоса</Cell>
+        <Cell index="98" colspan="2" style="style_0">2 полоса</Cell>
+        <Cell index="100" colspan="2" style="style_0">1 полоса</Cell>
+        <Cell index="102" colspan="2" style="style_0">Разделительная</Cell>
+        <Cell index="106" colspan="2" style="style_0">Разделительная</Cell>
+        <Cell index="108" colspan="2" style="style_0">1 полоса</Cell>
+        <Cell index="110" colspan="2" style="style_0">2 полоса</Cell>
+        <Cell index="112" colspan="2" style="style_0">3 полоса</Cell>
+        <Cell index="114" colspan="2" style="style_0">4 полоса</Cell>
+        <Cell index="116" colspan="2" style="style_0">5 полоса</Cell>
+        <Cell index="118" colspan="2" style="style_0">Кромка</Cell>
+        <Cell index="120" colspan="2" style="style_0">Укр. часть обочины</Cell>
+        <Cell index="122" colspan="2" style="style_0">Бровка</Cell>
+        <Cell index="124" colspan="9" style="style_0">Левая сторона</Cell>
+        <Cell index="133" rowspan="2" style="style_0">Ось</Cell>
+        <Cell index="134" colspan="9" style="style_0">Правая сторона</Cell>
+        <Cell index="143" colspan="9" style="style_0">Левая сторона</Cell>
+        <Cell index="152" rowspan="2" style="style_0">Ось</Cell>
+        <Cell index="153" colspan="9" style="style_0">Правая сторона</Cell>
+      </Row>
+      <Row index="4" height="7" options="2">
+        <Cell index="3" style="style_0">Неукрепленная часть обочины</Cell>
+        <Cell index="4" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="5" style="style_0">Краевая полоса</Cell>
+        <Cell index="6" style="style_0">5 полоса</Cell>
+        <Cell index="7" style="style_0">4 полоса</Cell>
+        <Cell index="8" style="style_0">3 полоса</Cell>
+        <Cell index="9" style="style_0">2 полоса</Cell>
+        <Cell index="10" style="style_0">1 полоса</Cell>
+        <Cell index="11" style="style_0">Разделит.</Cell>
+        <Cell index="12" style="style_0">Разделит.</Cell>
+        <Cell index="13" style="style_0">1 полоса</Cell>
+        <Cell index="14" style="style_0">2 полоса</Cell>
+        <Cell index="15" style="style_0">3 полоса</Cell>
+        <Cell index="16" style="style_0">4 полоса</Cell>
+        <Cell index="17" style="style_0">5 полоса</Cell>
+        <Cell index="18" style="style_0">Краевая полоса</Cell>
+        <Cell index="19" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="20" style="style_0">Неукрепленная часть обочины</Cell>
+        <Cell index="21" style="style_0">Бровка</Cell>
+        <Cell index="22" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="23" style="style_0">Верх бордюра</Cell>
+        <Cell index="24" style="style_0">Кромка</Cell>
+        <Cell index="25" style="style_0">5 полоса</Cell>
+        <Cell index="26" style="style_0">4 полоса</Cell>
+        <Cell index="27" style="style_0">3 полоса</Cell>
+        <Cell index="28" style="style_0">2 полоса</Cell>
+        <Cell index="29" style="style_0">1 полоса</Cell>
+        <Cell index="30" style="style_0">Низ бордюра</Cell>
+        <Cell index="31" style="style_0">Разделит.</Cell>
+        <Cell index="33" style="style_0">Разделит.</Cell>
+        <Cell index="34" style="style_0">Низ бордюра</Cell>
+        <Cell index="35" style="style_0">1 полоса</Cell>
+        <Cell index="36" style="style_0">2 полоса</Cell>
+        <Cell index="37" style="style_0">3 полоса</Cell>
+        <Cell index="38" style="style_0">4 полоса</Cell>
+        <Cell index="39" style="style_0">5 полоса</Cell>
+        <Cell index="40" style="style_0">Кромка</Cell>
+        <Cell index="41" style="style_0">Верх бордюра</Cell>
+        <Cell index="42" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="43" style="style_0">Бровка</Cell>
+        <Cell index="44" style="style_0">Бровка</Cell>
+        <Cell index="45" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="46" style="style_0">Верх бордюра</Cell>
+        <Cell index="47" style="style_0">Кромка</Cell>
+        <Cell index="48" style="style_0">5 полоса</Cell>
+        <Cell index="49" style="style_0">4 полоса</Cell>
+        <Cell index="50" style="style_0">3 полоса</Cell>
+        <Cell index="51" style="style_0">2 полоса</Cell>
+        <Cell index="52" style="style_0">1 полоса</Cell>
+        <Cell index="53" style="style_0">Низ бордюра</Cell>
+        <Cell index="54" style="style_0">Разделит.</Cell>
+        <Cell index="56" style="style_0">Разделит.</Cell>
+        <Cell index="57" style="style_0">Низ бордюра</Cell>
+        <Cell index="58" style="style_0">1 полоса</Cell>
+        <Cell index="59" style="style_0">2 полоса</Cell>
+        <Cell index="60" style="style_0">3 полоса</Cell>
+        <Cell index="61" style="style_0">4 полоса</Cell>
+        <Cell index="62" style="style_0">5 полоса</Cell>
+        <Cell index="63" style="style_0">Кромка</Cell>
+        <Cell index="64" style="style_0">Верх бордюра</Cell>
+        <Cell index="65" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="66" style="style_0">Бровка</Cell>
+        <Cell index="67" style="style_0">Неукрепленная часть обочины</Cell>
+        <Cell index="68" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="69" style="style_0">Краевая полоса</Cell>
+        <Cell index="70" style="style_0">5 полоса</Cell>
+        <Cell index="71" style="style_0">4 полоса</Cell>
+        <Cell index="72" style="style_0">3 полоса</Cell>
+        <Cell index="73" style="style_0">2 полоса</Cell>
+        <Cell index="74" style="style_0">1 полоса</Cell>
+        <Cell index="75" style="style_0">Разделит.</Cell>
+        <Cell index="76" style="style_0">Разделит.</Cell>
+        <Cell index="77" style="style_0">1 полоса</Cell>
+        <Cell index="78" style="style_0">2 полоса</Cell>
+        <Cell index="79" style="style_0">3 полоса</Cell>
+        <Cell index="80" style="style_0">4 полоса</Cell>
+        <Cell index="81" style="style_0">5 полоса</Cell>
+        <Cell index="82" style="style_0">Краевая полоса</Cell>
+        <Cell index="83" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="84" style="style_0">Неукрепленная часть обочины</Cell>
+        <Cell index="86" style="style_0">Северная</Cell>
+        <Cell index="87" style="style_0">Восточная</Cell>
+        <Cell index="88" style="style_0">Северная</Cell>
+        <Cell index="89" style="style_0">Восточная</Cell>
+        <Cell index="90" style="style_0">Северная</Cell>
+        <Cell index="91" style="style_0">Восточная</Cell>
+        <Cell index="92" style="style_0">Северная</Cell>
+        <Cell index="93" style="style_0">Восточная</Cell>
+        <Cell index="94" style="style_0">Северная</Cell>
+        <Cell index="95" style="style_0">Восточная</Cell>
+        <Cell index="96" style="style_0">Северная</Cell>
+        <Cell index="97" style="style_0">Восточная</Cell>
+        <Cell index="98" style="style_0">Северная</Cell>
+        <Cell index="99" style="style_0">Восточная</Cell>
+        <Cell index="100" style="style_0">Северная</Cell>
+        <Cell index="101" style="style_0">Восточная</Cell>
+        <Cell index="102" style="style_0">Северная</Cell>
+        <Cell index="103" style="style_0">Восточная</Cell>
+        <Cell index="104" style="style_0">Северная</Cell>
+        <Cell index="105" style="style_0">Восточная</Cell>
+        <Cell index="106" style="style_0">Северная</Cell>
+        <Cell index="107" style="style_0">Восточная</Cell>
+        <Cell index="108" style="style_0">Северная</Cell>
+        <Cell index="109" style="style_0">Восточная</Cell>
+        <Cell index="110" style="style_0">Северная</Cell>
+        <Cell index="111" style="style_0">Восточная</Cell>
+        <Cell index="112" style="style_0">Северная</Cell>
+        <Cell index="113" style="style_0">Восточная</Cell>
+        <Cell index="114" style="style_0">Северная</Cell>
+        <Cell index="115" style="style_0">Восточная</Cell>
+        <Cell index="116" style="style_0">Северная</Cell>
+        <Cell index="117" style="style_0">Восточная</Cell>
+        <Cell index="118" style="style_0">Северная</Cell>
+        <Cell index="119" style="style_0">Восточная</Cell>
+        <Cell index="120" style="style_0">Северная</Cell>
+        <Cell index="121" style="style_0">Восточная</Cell>
+        <Cell index="122" style="style_0">Северная</Cell>
+        <Cell index="123" style="style_0">Восточная</Cell>
+        <Cell index="124" style="style_0">Бровка</Cell>
+        <Cell index="125" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="126" style="style_0">Кромка</Cell>
+        <Cell index="127" style="style_0">5 полоса</Cell>
+        <Cell index="128" style="style_0">4 полоса</Cell>
+        <Cell index="129" style="style_0">3 полоса</Cell>
+        <Cell index="130" style="style_0">2 полоса</Cell>
+        <Cell index="131" style="style_0">1 полоса</Cell>
+        <Cell index="132" style="style_0">Разделит.</Cell>
+        <Cell index="134" style="style_0">Разделит.</Cell>
+        <Cell index="135" style="style_0">1 полоса</Cell>
+        <Cell index="136" style="style_0">2 полоса</Cell>
+        <Cell index="137" style="style_0">3 полоса</Cell>
+        <Cell index="138" style="style_0">4 полоса</Cell>
+        <Cell index="139" style="style_0">5 полоса</Cell>
+        <Cell index="140" style="style_0">Кромка</Cell>
+        <Cell index="141" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="142" style="style_0">Бровка</Cell>
+        <Cell index="143" style="style_0">Бровка</Cell>
+        <Cell index="144" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="145" style="style_0">Кромка</Cell>
+        <Cell index="146" style="style_0">5 полоса</Cell>
+        <Cell index="147" style="style_0">4 полоса</Cell>
+        <Cell index="148" style="style_0">3 полоса</Cell>
+        <Cell index="149" style="style_0">2 полоса</Cell>
+        <Cell index="150" style="style_0">1 полоса</Cell>
+        <Cell index="151" style="style_0">Разделит.</Cell>
+        <Cell index="153" style="style_0">Разделит.</Cell>
+        <Cell index="154" style="style_0">1 полоса</Cell>
+        <Cell index="155" style="style_0">2 полоса</Cell>
+        <Cell index="156" style="style_0">3 полоса</Cell>
+        <Cell index="157" style="style_0">4 полоса</Cell>
+        <Cell index="158" style="style_0">5 полоса</Cell>
+        <Cell index="159" style="style_0">Кромка</Cell>
+        <Cell index="160" style="style_0">Укрепленная часть обочины</Cell>
+        <Cell index="161" style="style_0">Бровка</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="UrbRow">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="25" options="2" />
+      <Column index="3" width="25" options="2" />
+      <Column index="4" width="25" options="2" />
+      <Column index="5" width="15" options="2" />
+      <Column index="6" width="10" options="2" />
+      <Column index="7" width="10" options="2" />
+      <Column index="8" width="10" options="2" />
+      <Column index="9" width="10" options="2" />
+      <Column index="10" width="10" options="2" />
+      <Column index="11" width="15" options="2" />
+      <Column index="12" width="15" options="2" />
+      <Column index="13" width="10" options="2" />
+      <Column index="14" width="10" options="2" />
+      <Column index="15" width="10" options="2" />
+      <Column index="16" width="10" options="2" />
+      <Column index="17" width="10" options="2" />
+      <Column index="18" width="15" options="2" />
+      <Column index="19" width="25" options="2" />
+      <Column index="20" width="25" options="2" />
+      <Column index="21" width="15" options="2" />
+      <Column index="22" width="25" options="2" />
+      <Column index="23" width="15" options="2" />
+      <Column index="24" width="15" options="2" />
+      <Column index="25" width="10" options="2" />
+      <Column index="26" width="10" options="2" />
+      <Column index="27" width="10" options="2" />
+      <Column index="28" width="10" options="2" />
+      <Column index="29" width="10" options="2" />
+      <Column index="30" width="15" options="2" />
+      <Column index="31" width="15" options="2" />
+      <Column index="32" width="15" options="2" />
+      <Column index="33" width="15" options="2" />
+      <Column index="34" width="15" options="2" />
+      <Column index="35" width="10" options="2" />
+      <Column index="36" width="10" options="2" />
+      <Column index="37" width="10" options="2" />
+      <Column index="38" width="10" options="2" />
+      <Column index="39" width="10" options="2" />
+      <Column index="40" width="15" options="2" />
+      <Column index="41" width="15" options="2" />
+      <Column index="42" width="25" options="2" />
+      <Column index="43" width="15" options="2" />
+      <Column index="44" width="20" options="2" />
+      <Column index="45" width="25" options="2" />
+      <Column index="46" width="15" options="2" />
+      <Column index="47" width="15" options="2" />
+      <Column index="48" width="10" options="2" />
+      <Column index="49" width="10" options="2" />
+      <Column index="50" width="10" options="2" />
+      <Column index="51" width="10" options="2" />
+      <Column index="52" width="10" options="2" />
+      <Column index="53" width="15" options="2" />
+      <Column index="54" width="15" options="2" />
+      <Column index="55" width="15" options="2" />
+      <Column index="56" width="15" options="2" />
+      <Column index="57" width="15" options="2" />
+      <Column index="58" width="10" options="2" />
+      <Column index="59" width="10" options="2" />
+      <Column index="60" width="10" options="2" />
+      <Column index="61" width="10" options="2" />
+      <Column index="62" width="10" options="2" />
+      <Column index="63" width="15" options="2" />
+      <Column index="64" width="15" options="2" />
+      <Column index="65" width="25" options="2" />
+      <Column index="66" width="15" options="2" />
+      <Column index="67" width="25" options="2" />
+      <Column index="68" width="25" options="2" />
+      <Column index="69" width="15" options="2" />
+      <Column index="70" width="10" options="2" />
+      <Column index="71" width="10" options="2" />
+      <Column index="72" width="10" options="2" />
+      <Column index="73" width="10" options="2" />
+      <Column index="74" width="10" options="2" />
+      <Column index="75" width="15" options="2" />
+      <Column index="76" width="15" options="2" />
+      <Column index="77" width="10" options="2" />
+      <Column index="78" width="10" options="2" />
+      <Column index="79" width="10" options="2" />
+      <Column index="80" width="10" options="2" />
+      <Column index="81" width="10" options="2" />
+      <Column index="82" width="15" options="2" />
+      <Column index="83" width="25" options="2" />
+      <Column index="84" width="25" options="2" />
+      <Column index="85" width="20" options="2" />
+      <Column index="86" width="25" options="2" />
+      <Column index="87" width="25" options="2" />
+      <Column index="88" width="25" options="2" />
+      <Column index="89" width="25" options="2" />
+      <Column index="90" width="25" options="2" />
+      <Column index="91" width="25" options="2" />
+      <Column index="92" width="25" options="2" />
+      <Column index="93" width="25" options="2" />
+      <Column index="94" width="25" options="2" />
+      <Column index="95" width="25" options="2" />
+      <Column index="96" width="25" options="2" />
+      <Column index="97" width="25" options="2" />
+      <Column index="98" width="25" options="2" />
+      <Column index="99" width="25" options="2" />
+      <Column index="100" width="25" options="2" />
+      <Column index="101" width="25" options="2" />
+      <Column index="102" width="25" options="2" />
+      <Column index="103" width="25" options="2" />
+      <Column index="104" width="25" options="2" />
+      <Column index="105" width="25" options="2" />
+      <Column index="106" width="25" options="2" />
+      <Column index="107" width="25" options="2" />
+      <Column index="108" width="25" options="2" />
+      <Column index="109" width="25" options="2" />
+      <Column index="110" width="25" options="2" />
+      <Column index="111" width="25" options="2" />
+      <Column index="112" width="25" options="2" />
+      <Column index="113" width="25" options="2" />
+      <Column index="114" width="25" options="2" />
+      <Column index="115" width="25" options="2" />
+      <Column index="116" width="25" options="2" />
+      <Column index="117" width="25" options="2" />
+      <Column index="118" width="25" options="2" />
+      <Column index="119" width="25" options="2" />
+      <Column index="120" width="25" options="2" />
+      <Column index="121" width="25" options="2" />
+      <Column index="122" width="25" options="2" />
+      <Column index="123" width="25" options="2" />
+      <Column index="124" width="15" options="2" />
+      <Column index="125" width="25" options="2" />
+      <Column index="126" width="15" options="2" />
+      <Column index="127" width="10" options="2" />
+      <Column index="128" width="10" options="2" />
+      <Column index="129" width="10" options="2" />
+      <Column index="130" width="10" options="2" />
+      <Column index="131" width="10" options="2" />
+      <Column index="132" width="15" options="2" />
+      <Column index="133" width="10" options="2" />
+      <Column index="134" width="15" options="2" />
+      <Column index="135" width="10" options="2" />
+      <Column index="136" width="10" options="2" />
+      <Column index="137" width="10" options="2" />
+      <Column index="138" width="10" options="2" />
+      <Column index="139" width="10" options="2" />
+      <Column index="140" width="15" options="2" />
+      <Column index="141" width="25" options="2" />
+      <Column index="142" width="15" options="2" />
+      <Column index="143" width="15" options="2" />
+      <Column index="144" width="25" options="2" />
+      <Column index="145" width="15" options="2" />
+      <Column index="146" width="10" options="2" />
+      <Column index="147" width="10" options="2" />
+      <Column index="148" width="10" options="2" />
+      <Column index="149" width="10" options="2" />
+      <Column index="150" width="10" options="2" />
+      <Column index="151" width="15" options="2" />
+      <Column index="152" width="10" options="2" />
+      <Column index="153" width="20" options="2" />
+      <Column index="154" width="10" options="2" />
+      <Column index="155" width="10" options="2" />
+      <Column index="156" width="10" options="2" />
+      <Column index="157" width="10" options="2" />
+      <Column index="158" width="10" options="2" />
+      <Column index="159" width="15" options="2" />
+      <Column index="160" width="25" options="2" />
+      <Column index="161" width="15" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Проектная отметка по оси)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Ширины\Левая сторона\Неукрепленная часть обочины)</Cell>
+        <Cell index="4" style="style_1">$(getvar, Ширины\Левая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Ширины\Левая сторона\Краевая полоса)</Cell>
+        <Cell index="6" style="style_1">$(getvar, Ширины\Левая сторона\5 полоса)</Cell>
+        <Cell index="7" style="style_1">$(getvar, Ширины\Левая сторона\4 полоса)</Cell>
+        <Cell index="8" style="style_1">$(getvar, Ширины\Левая сторона\3 полоса)</Cell>
+        <Cell index="9" style="style_1">$(getvar, Ширины\Левая сторона\2 полоса)</Cell>
+        <Cell index="10" style="style_1">$(getvar, Ширины\Левая сторона\1 полоса)</Cell>
+        <Cell index="11" style="style_1">$(getvar, Ширины\Левая сторона\Разделит.)</Cell>
+        <Cell index="12" style="style_1">$(getvar, Ширины\Правая сторона\Разделит.)</Cell>
+        <Cell index="13" style="style_1">$(getvar, Ширины\Правая сторона\1 полоса)</Cell>
+        <Cell index="14" style="style_1">$(getvar, Ширины\Правая сторона\2 полоса)</Cell>
+        <Cell index="15" style="style_1">$(getvar, Ширины\Правая сторона\3 полоса)</Cell>
+        <Cell index="16" style="style_1">$(getvar, Ширины\Правая сторона\4 полоса)</Cell>
+        <Cell index="17" style="style_1">$(getvar, Ширины\Правая сторона\5 полоса)</Cell>
+        <Cell index="18" style="style_1">$(getvar, Ширины\Правая сторона\Краевая полоса)</Cell>
+        <Cell index="19" style="style_1">$(getvar, Ширины\Правая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="20" style="style_1">$(getvar, Ширины\Правая сторона\Неукрепленная часть обочины)</Cell>
+        <Cell index="21" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\Бровка), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="22" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\Укрепленная часть обочины), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="23" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\Верх бордюра), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="24" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\Кромка), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="25" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\5 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="26" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\4 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="27" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\3 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="28" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\2 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="29" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\1 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="30" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\Низ бордюра), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="31" style="style_1">$(rtos,$(-, $(getvar, Отметки\Левая сторона\Разделит.), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="32" style="style_1">$(rtos,$(-, $(getvar, Проектная отметка по оси), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="33" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\Разделит.), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="34" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\Низ бордюра), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="35" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\1 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="36" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\2 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="37" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\3 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="38" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\4 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="39" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\5 полоса), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="40" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\Кромка), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="41" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\Верх бордюра), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="42" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\Укрепленная часть обочины), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="43" style="style_1">$(rtos,$(-, $(getvar, Отметки\Правая сторона\Бровка), $(getvar, Проектная отметка по оси)), 1, 2)</Cell>
+        <Cell index="44" style="style_1">$(getvar, Отметки\Левая сторона\Бровка)</Cell>
+        <Cell index="45" style="style_1">$(getvar, Отметки\Левая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="46" style="style_1">$(getvar, Отметки\Левая сторона\Верх бордюра)</Cell>
+        <Cell index="47" style="style_1">$(getvar, Отметки\Левая сторона\Кромка)</Cell>
+        <Cell index="48" style="style_1">$(getvar, Отметки\Левая сторона\5 полоса)</Cell>
+        <Cell index="49" style="style_1">$(getvar, Отметки\Левая сторона\4 полоса)</Cell>
+        <Cell index="50" style="style_1">$(getvar, Отметки\Левая сторона\3 полоса)</Cell>
+        <Cell index="51" style="style_1">$(getvar, Отметки\Левая сторона\2 полоса)</Cell>
+        <Cell index="52" style="style_1">$(getvar, Отметки\Левая сторона\1 полоса)</Cell>
+        <Cell index="53" style="style_1">$(getvar, Отметки\Левая сторона\Низ бордюра)</Cell>
+        <Cell index="54" style="style_1">$(getvar, Отметки\Левая сторона\Разделит.)</Cell>
+        <Cell index="55" style="style_1">$(getvar, Проектная отметка по оси)</Cell>
+        <Cell index="56" style="style_1">$(getvar, Отметки\Правая сторона\Разделит.)</Cell>
+        <Cell index="57" style="style_1">$(getvar, Отметки\Правая сторона\Низ бордюра)</Cell>
+        <Cell index="58" style="style_1">$(getvar, Отметки\Правая сторона\1 полоса)</Cell>
+        <Cell index="59" style="style_1">$(getvar, Отметки\Правая сторона\2 полоса)</Cell>
+        <Cell index="60" style="style_1">$(getvar, Отметки\Правая сторона\3 полоса)</Cell>
+        <Cell index="61" style="style_1">$(getvar, Отметки\Правая сторона\4 полоса)</Cell>
+        <Cell index="62" style="style_1">$(getvar, Отметки\Правая сторона\5 полоса)</Cell>
+        <Cell index="63" style="style_1">$(getvar, Отметки\Правая сторона\Кромка)</Cell>
+        <Cell index="64" style="style_1">$(getvar, Отметки\Правая сторона\Верх бордюра)</Cell>
+        <Cell index="65" style="style_1">$(getvar, Отметки\Правая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="66" style="style_1">$(getvar, Отметки\Правая сторона\Бровка)</Cell>
+        <Cell index="67" style="style_1">$(getvar, Уклоны\Левая сторона\Неукрепленная часть обочины)</Cell>
+        <Cell index="68" style="style_1">$(getvar, Уклоны\Левая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="69" style="style_1">$(getvar, Уклоны\Левая сторона\Краевая полоса)</Cell>
+        <Cell index="70" style="style_1">$(getvar, Уклоны\Левая сторона\5 полоса)</Cell>
+        <Cell index="71" style="style_1">$(getvar, Уклоны\Левая сторона\4 полоса)</Cell>
+        <Cell index="72" style="style_1">$(getvar, Уклоны\Левая сторона\3 полоса)</Cell>
+        <Cell index="73" style="style_1">$(getvar, Уклоны\Левая сторона\2 полоса)</Cell>
+        <Cell index="74" style="style_1">$(getvar, Уклоны\Левая сторона\1 полоса)</Cell>
+        <Cell index="75" style="style_1">$(getvar, Уклоны\Левая сторона\Разделит.)</Cell>
+        <Cell index="76" style="style_1">$(getvar, Уклоны\Правая сторона\Разделит.)</Cell>
+        <Cell index="77" style="style_1">$(getvar, Уклоны\Правая сторона\1 полоса)</Cell>
+        <Cell index="78" style="style_1">$(getvar, Уклоны\Правая сторона\2 полоса)</Cell>
+        <Cell index="79" style="style_1">$(getvar, Уклоны\Правая сторона\3 полоса)</Cell>
+        <Cell index="80" style="style_1">$(getvar, Уклоны\Правая сторона\4 полоса)</Cell>
+        <Cell index="81" style="style_1">$(getvar, Уклоны\Правая сторона\5 полоса)</Cell>
+        <Cell index="82" style="style_1">$(getvar, Уклоны\Правая сторона\Краевая полоса)</Cell>
+        <Cell index="83" style="style_1">$(getvar, Уклоны\Правая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="84" style="style_1">$(getvar, Уклоны\Правая сторона\Неукрепленная часть обочины)</Cell>
+        <Cell index="85" style="style_0">$(getvar, Notes)</Cell>
+        <Cell index="86" style="style_1">$(getvar, Координаты\Левая сторона\Бровка\Северная)</Cell>
+        <Cell index="87" style="style_1">$(getvar, Координаты\Левая сторона\Бровка\Восточная)</Cell>
+        <Cell index="88" style="style_1">$(getvar, Координаты\Левая сторона\Укр. часть обочины\Северная)</Cell>
+        <Cell index="89" style="style_1">$(getvar, Координаты\Левая сторона\Укр. часть обочины\Восточная)</Cell>
+        <Cell index="90" style="style_1">$(getvar, Координаты\Левая сторона\Кромка\Северная)</Cell>
+        <Cell index="91" style="style_1">$(getvar, Координаты\Левая сторона\Кромка\Восточная)</Cell>
+        <Cell index="92" style="style_1">$(getvar, Координаты\Левая сторона\5 полоса\Северная)</Cell>
+        <Cell index="93" style="style_1">$(getvar, Координаты\Левая сторона\5 полоса\Восточная)</Cell>
+        <Cell index="94" style="style_1">$(getvar, Координаты\Левая сторона\4 полоса\Северная)</Cell>
+        <Cell index="95" style="style_1">$(getvar, Координаты\Левая сторона\4 полоса\Восточная)</Cell>
+        <Cell index="96" style="style_1">$(getvar, Координаты\Левая сторона\3 полоса\Северная)</Cell>
+        <Cell index="97" style="style_1">$(getvar, Координаты\Левая сторона\3 полоса\Восточная)</Cell>
+        <Cell index="98" style="style_1">$(getvar, Координаты\Левая сторона\2 полоса\Северная)</Cell>
+        <Cell index="99" style="style_1">$(getvar, Координаты\Левая сторона\2 полоса\Восточная)</Cell>
+        <Cell index="100" style="style_1">$(getvar, Координаты\Левая сторона\1 полоса\Северная)</Cell>
+        <Cell index="101" style="style_1">$(getvar, Координаты\Левая сторона\1 полоса\Восточная)</Cell>
+        <Cell index="102" style="style_1">$(getvar, Координаты\Левая сторона\Разделительная\Северная)</Cell>
+        <Cell index="103" style="style_1">$(getvar, Координаты\Левая сторона\Разделительная\Восточная)</Cell>
+        <Cell index="104" style="style_1">$(getvar, Координаты\Ось\Северная)</Cell>
+        <Cell index="105" style="style_1">$(getvar, Координаты\Ось\Восточная)</Cell>
+        <Cell index="106" style="style_1">$(getvar, Координаты\Правая сторона\Разделительная\Северная)</Cell>
+        <Cell index="107" style="style_1">$(getvar, Координаты\Правая сторона\Разделительная\Восточная)</Cell>
+        <Cell index="108" style="style_1">$(getvar, Координаты\Правая сторона\1 полоса\Северная)</Cell>
+        <Cell index="109" style="style_1">$(getvar, Координаты\Правая сторона\1 полоса\Восточная)</Cell>
+        <Cell index="110" style="style_1">$(getvar, Координаты\Правая сторона\2 полоса\Северная)</Cell>
+        <Cell index="111" style="style_1">$(getvar, Координаты\Правая сторона\2 полоса\Восточная)</Cell>
+        <Cell index="112" style="style_1">$(getvar, Координаты\Правая сторона\3 полоса\Северная)</Cell>
+        <Cell index="113" style="style_1">$(getvar, Координаты\Правая сторона\3 полоса\Восточная)</Cell>
+        <Cell index="114" style="style_1">$(getvar, Координаты\Правая сторона\4 полоса\Северная)</Cell>
+        <Cell index="115" style="style_1">$(getvar, Координаты\Правая сторона\4 полоса\Восточная)</Cell>
+        <Cell index="116" style="style_1">$(getvar, Координаты\Правая сторона\5 полоса\Северная)</Cell>
+        <Cell index="117" style="style_1">$(getvar, Координаты\Правая сторона\5 полоса\Восточная)</Cell>
+        <Cell index="118" style="style_1">$(getvar, Координаты\Правая сторона\Кромка\Северная)</Cell>
+        <Cell index="119" style="style_1">$(getvar, Координаты\Правая сторона\Кромка\Восточная)</Cell>
+        <Cell index="120" style="style_1">$(getvar, Координаты\Правая сторона\Укр. часть обочины\Северная)</Cell>
+        <Cell index="121" style="style_1">$(getvar, Координаты\Правая сторона\Укр. часть обочины\Восточная)</Cell>
+        <Cell index="122" style="style_1">$(getvar, Координаты\Правая сторона\Бровка\Северная)</Cell>
+        <Cell index="123" style="style_1">$(getvar, Координаты\Правая сторона\Бровка\Восточная)</Cell>
+        <Cell index="124" style="style_1">$(getvar, Рабочие отметки\Левая сторона\Бровка)</Cell>
+        <Cell index="125" style="style_1">$(getvar, Рабочие отметки\Левая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="126" style="style_1">$(getvar, Рабочие отметки\Левая сторона\Кромка)</Cell>
+        <Cell index="127" style="style_1">$(getvar, Рабочие отметки\Левая сторона\5 полоса)</Cell>
+        <Cell index="128" style="style_1">$(getvar, Рабочие отметки\Левая сторона\4 полоса)</Cell>
+        <Cell index="129" style="style_1">$(getvar, Рабочие отметки\Левая сторона\3 полоса)</Cell>
+        <Cell index="130" style="style_1">$(getvar, Рабочие отметки\Левая сторона\2 полоса)</Cell>
+        <Cell index="131" style="style_1">$(getvar, Рабочие отметки\Левая сторона\1 полоса)</Cell>
+        <Cell index="132" style="style_1">$(getvar, Рабочие отметки\Левая сторона\Разделит.)</Cell>
+        <Cell index="133" style="style_1">$(getvar, Рабочие отметки\Ось)</Cell>
+        <Cell index="134" style="style_1">$(getvar, Рабочие отметки\Правая сторона\Разделит.)</Cell>
+        <Cell index="135" style="style_1">$(getvar, Рабочие отметки\Правая сторона\1 полоса)</Cell>
+        <Cell index="136" style="style_1">$(getvar, Рабочие отметки\Правая сторона\2 полоса)</Cell>
+        <Cell index="137" style="style_1">$(getvar, Рабочие отметки\Правая сторона\3 полоса)</Cell>
+        <Cell index="138" style="style_1">$(getvar, Рабочие отметки\Правая сторона\4 полоса)</Cell>
+        <Cell index="139" style="style_1">$(getvar, Рабочие отметки\Правая сторона\5 полоса)</Cell>
+        <Cell index="140" style="style_1">$(getvar, Рабочие отметки\Правая сторона\Кромка)</Cell>
+        <Cell index="141" style="style_1">$(getvar, Рабочие отметки\Правая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="142" style="style_1">$(getvar, Рабочие отметки\Правая сторона\Бровка)</Cell>
+        <Cell index="143" style="style_1">$(getvar, Интерполированные отметки\Левая сторона\Бровка)</Cell>
+        <Cell index="144" style="style_1">$(getvar, Интерполированные отметки\Левая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="145" style="style_1">$(getvar, Интерполированные отметки\Левая сторона\Кромка)</Cell>
+        <Cell index="146" style="style_1">$(getvar, Интерполированные отметки\Левая сторона\5 полоса)</Cell>
+        <Cell index="147" style="style_1">$(getvar, Интерполированные отметки\Левая сторона\4 полоса)</Cell>
+        <Cell index="148" style="style_1">$(getvar, Интерполированные отметки\Левая сторона\3 полоса)</Cell>
+        <Cell index="149" style="style_1">$(getvar, Интерполированные отметки\Левая сторона\2 полоса)</Cell>
+        <Cell index="150" style="style_1">$(getvar, Интерполированные отметки\Левая сторона\1 полоса)</Cell>
+        <Cell index="151" style="style_1">$(getvar, Интерполированные отметки\Левая сторона\Разделит.)</Cell>
+        <Cell index="152" style="style_1">$(getvar, Интерполированные отметки\Ось)</Cell>
+        <Cell index="153" style="style_1">$(getvar, Интерполированные отметки\Правая сторона\Разделит.)</Cell>
+        <Cell index="154" style="style_1">$(getvar, Интерполированные отметки\Правая сторона\1 полоса)</Cell>
+        <Cell index="155" style="style_1">$(getvar, Интерполированные отметки\Правая сторона\2 полоса)</Cell>
+        <Cell index="156" style="style_1">$(getvar, Интерполированные отметки\Правая сторона\3 полоса)</Cell>
+        <Cell index="157" style="style_1">$(getvar, Интерполированные отметки\Правая сторона\4 полоса)</Cell>
+        <Cell index="158" style="style_1">$(getvar, Интерполированные отметки\Правая сторона\5 полоса)</Cell>
+        <Cell index="159" style="style_1">$(getvar, Интерполированные отметки\Правая сторона\Кромка)</Cell>
+        <Cell index="160" style="style_1">$(getvar, Интерполированные отметки\Правая сторона\Укрепленная часть обочины)</Cell>
+        <Cell index="161" style="style_1">$(getvar, Интерполированные отметки\Правая сторона\Бровка)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

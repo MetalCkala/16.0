@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body Caption="Геология">
+    <Classes aType="0">
+      <Class Name="Topomatic.Smt.SemanticStringNode, Topomatic.Smt" />
+      <Class Name="Topomatic.Smt.SemanticJumper, Topomatic.Smt" />
+      <Class Name="Topomatic.Dwg.UI.Design.AreaSignNameConverter, Topomatic.Dwg.UI" />
+      <Class Name="Topomatic.Dwg.UI.Design.AreaSignEditor, Topomatic.Dwg.UI" />
+      <Class Name="Topomatic.Smt.SemanticDoubleNode, Topomatic.Smt" />
+      <Class Name="Topomatic.Smt.SemanticIntegerNode, Topomatic.Smt" />
+      <Class Name="Topomatic.Glg.Controller.Design.IntColorConverter, Topomatic.Glg.Controller" />
+      <Class Name="Topomatic.Glg.Controller.Design.IntColorEditor, Topomatic.Glg.Controller" />
+      <Class Name="Topomatic.Dwg.UI.Design.LinearSignNameConverter, Topomatic.Dwg.UI" />
+      <Class Name="Topomatic.Dwg.UI.Design.LinearSignEditor, Topomatic.Dwg.UI" />
+    </Classes>
+    <Items aType="0">
+      <Item Caption="Грунт" Handle="999">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Шифр" Handle="1" Tag="Cipher" Description="Шифр грунта" />
+          <Property ClassName="0" Caption="Категория по разработке " Handle="158" Tag="ExcavationCategory" Description="Категория по разработке согласно ГЭСН" />
+          <Property ClassName="0" Caption="Генезис" Handle="163" Tag="Genesis" Description="Генезис" />
+          <Property ClassName="1" Caption="Плотность" Handle="2" Tag="Density" Description="Плотность грунта">
+            <Items aType="0">
+              <Item Caption="Не указана" Handle="3" Tag="None" />
+              <Item Caption="Плотный" Handle="4" Tag="Dense" />
+              <Item Caption="Средней плотности" Handle="5" Tag="MiddleDense" />
+              <Item Caption="Рыхлый" Handle="6" Tag="Mellow" />
+            </Items>
+          </Property>
+          <Property ClassName="1" Caption="Состояние грунта" Handle="7" Tag="State" Description="Состояние грунта">
+            <Items aType="0">
+              <Item Caption="Не указана" Handle="8" Tag="None" />
+              <Item Caption="Твердая | Малой степени водонасыщения" Handle="23" Tag="Solid" />
+              <Item Caption="Полутвердая" Handle="24" Tag="HalfSolid" />
+              <Item Caption="Тугопластичная" Handle="25" Tag="DifPlastic" />
+              <Item Caption="Пластичная" Handle="26" Tag="Plastic" />
+              <Item Caption="Средней степени водонасыщения" Handle="27" Tag="Damp" />
+              <Item Caption="Мягкопластичная" Handle="28" Tag="SoftPlastic" />
+              <Item Caption="Текучепластичная" Handle="44" Tag="FluidPlastic" />
+              <Item Caption="Текучая | Насыщенный водой" Handle="45" Tag="Fluid" />
+              <Item Caption="Мерзлый" Handle="46" Tag="Frost" />
+            </Items>
+          </Property>
+          <Property ClassName="1" Caption="Категория грунта по просадочности" Handle="9" Tag="Subsidence" Description="Категория грунта по просадочности">
+            <Items aType="0">
+              <Item Caption="Не указана" Handle="10" Tag="None" />
+              <Item Caption="I категория" Handle="29" Tag="First" />
+              <Item Caption="II категория" Handle="30" Tag="Second" />
+              <Item Caption="III категория" Handle="31" Tag="Third" />
+              <Item Caption="IV категория" Handle="32" Tag="Fourth" />
+              <Item Caption="IVa категория" Handle="33" Tag="FourthA" />
+            </Items>
+          </Property>
+          <Property ClassName="1" Caption="Графическое обозначение (штриховка)" Handle="11" Tag="Hatch" Description="Графическое обозначение (штриховка) для грунта">
+            <Items aType="0">
+              <Item Caption="Заливка" Handle="41">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="42" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="FdMhgRQIZ0qwG+hii7WlYQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О01-Алевролит" Handle="12" Tag="001">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="13" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="uz4Y+u3g/kGR64FK+/5fqA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О02 - Ангидрит" Handle="46">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="47" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="NpRuwt4lc0OmUF+LavpCMA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О03-Аргиллит" Handle="14" Tag="003">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="15" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="XpovRBXcT0+q/kf+FrlttA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О04 - Брекчия" Handle="17">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="19" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="Ox93VY054USdzqTLSwxnQA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О05 - Валуны" Handle="16">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="76" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="lCxw2zFs80yEkLabfTku1Q==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О06 - Галька" Handle="34">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="77" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="stuKXkzcZkGM4oTIQcrhKA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О07 - Гипс" Handle="18">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="20" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="O40ly+M74U+uTMSEWn0tZg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О08 - Глина" Handle="36">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="78" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="26d9/bIcCUKPAif5KmLguQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О09 - Гравелит" Handle="43">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="79" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="cEY5r9vz5E2QJJ6z4epP5g==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О10 - Гравий" Handle="48">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="80" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="H3jFSROKuE6HcWXn5kWvCw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О11 - Доломит" Handle="49">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="81" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="ABYclZOg9EeE9QT2noSAEg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О12 - Дресва" Handle="50">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="82" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="AvoeB2+JO0GPY95ONTdkIQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О13 - Известняк" Handle="51">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="83" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="QlD7UZXROUaWn0DTObUHeA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О14 - Ил" Handle="52">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="84" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="sg208y59X0ircOEKryhl/g==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О15 - Каменная соль" Handle="53">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="85" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="niFGEUnZtEC4nsk4eczw2w==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О17 - Камни, глыбы" Handle="54">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="86" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="L/CoUzsY/EiBsBGM/9MCFw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О18 - Конгломерат" Handle="55">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="87" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="+mUP3uda+UOwyTLLAeoTXQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О19 - Лесс" Handle="56">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="88" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="hlTg3t4+U0GU4Nbn8dCTow==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О20 - Мел" Handle="57">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="89" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="pgmjIEzB+kuRTSgszI7bFQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О21 - Мергель" Handle="58">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="90" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="Q2RiLz1pqkmXhLb0y9IQyg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О22 - Опока" Handle="59">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="91" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="nZE3rYc450SMzSbce5Z93g==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О23 - Песок гравелистый" Handle="60">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="92" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="CHnncoKB8kihND5IY3fxIg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О24 - Песок крупный" Handle="61">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="93" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="glBw8oWNUE62BEUJKX8SQA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О25 - Песок мелкий" Handle="62">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="94" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="Wpa45DTcDkiFNLDMctkOEQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О26 - Песок пылеватый" Handle="63">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="95" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="9FCQEurWZ0K0Lh9pwhsDZg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О27 - Песок средний" Handle="64">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="96" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="+Rg2+jSUnUSOz4KTpCqZhg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О28 - Песчаник" Handle="65">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="97" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="agOoVviQck6nAZ3VqJWfAw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О29 - Слой почвенно-растительный" Handle="66">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="98" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="fRmxr/R5S0eHyDcsAanqEg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О30 - Сапропель" Handle="67">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="99" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="GJf7DSUFS0+NmDylXRzMsw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О31 - Суглинок" Handle="68">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="100" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="Yx5Fa/Ejm0uN/VASmAUcdw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О32 - Суглинок моренный" Handle="69">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="101" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="oZhS+A/cDku/Gt11SjkrIQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О33 - Супесь" Handle="70">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="102" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="grDkPgQP906Fco3sUUHfHw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О34 - Супесь моренная" Handle="71">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="103" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="EVczrmwyCkW8K2pSNLGjzw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О35 - Торф" Handle="72">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="104" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="FEJjJIf6I0iofoF/zBlsIg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О36 - Трепел" Handle="73">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="105" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="kLDuaXjZ606BeDladEsTjw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О37 - Туфит известковый" Handle="74">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="106" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="lx23MP4RtE6bPhefXyZYng==" />
+                </Propertys>
+              </Item>
+              <Item Caption="О38 - Щебень" Handle="75">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="107" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="Lb9gabff90uNEVANrONITw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="И02 - Намывные" Handle="108">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="114" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="OJDDd3+E1ECUehUuyt5aUQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="И03- Скальные" Handle="109">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="115" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="Rt4mXyEBE0mB6oZbxIUSlA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="И04 - Пылеватые" Handle="110">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="116" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="tCnZtRpzpEaW2XHqa7v9Fg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="И05 - Песчаные" Handle="111">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="117" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="ei+9Jhv5q0Ksx/DitmQvFA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="И06 - Уплотненные" Handle="112">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="118" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="nqFWSebuRU2n+XJTY+R1PQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Г01 - Габродиорит" Handle="113">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="124" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="Tbfql3u5mEePDJ9XjIfjZg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Г02 - Гранит" Handle="119">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="125" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="hgfuMCXqRECgOJnHfRMCsA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Г03 - Гранит-порфир" Handle="120">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="126" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="CgsfZAjjB0m89ugi5FsqWQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Г04 - Гранодиорит" Handle="121">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="127" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="MWznlArCrUe3J3FHuk9i5w==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Г05 - Граносиенит" Handle="122">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="128" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="aNmFoBsNRk+9Tp6anVdBEQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Г06 - Диорит" Handle="123">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="129" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="m2btHERiFkmX0Dp2nSzNYA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Г07 - Перидотит" Handle="130">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="134" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="UBzplT7udEqPwALS2fqmhQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Г08 - Сиенит" Handle="131">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="135" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="jAfqy0vwf0WfBDwOuM5iIg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Э01 - Лава-кс" Handle="132">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="140" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="7IUBJR+RUUuXCHPdWLHJZA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Э01 - Лава-ос" Handle="133">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="141" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="/owJVrMQ3UqmppBB1cKBzw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Э01 - Лава-рс" Handle="136">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="142" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="5DJwguzN5UuZzUN5FGtcyg==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Э01 - Лава-сс" Handle="137">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="143" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="hVsXI5XvVUC9vtOruI0EhQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Э01 - Лава-щс" Handle="138">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="144" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="x7uD+NhW+U+E/bt/CW7uHw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Э01 - Лава-щс (альт.)" Handle="139">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="145" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="OM6n+5LDA0mCOnsFgV91Ng==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Э02 - Пемза" Handle="146">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="150" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="0d+DRrLneU+3sA9gtwihTQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="М01 - Амфиболит" Handle="147">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="151" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="nHA0tAsRUk+h7D7qNmRU6A==" />
+                </Propertys>
+              </Item>
+              <Item Caption="М02 - Гнейс а)" Handle="148">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="152" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="ZcxDmKiQ3EeI/Bnl13iWFQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="М02 - Гнейс б)" Handle="149">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="153" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="KOvr+Iv40UOA36v9NMJIhw==" />
+                </Propertys>
+              </Item>
+              <Item Caption="М03 - Кварцит" Handle="154">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="156" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="2Guh1FDofU+YBpHUXJcgHA==" />
+                </Propertys>
+              </Item>
+              <Item Caption="М05 - Мрамор" Handle="155">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="157" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="2" Editor="3" Value="mS0nLJH3gUmaHW9IN1kaIQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Другая" Handle="159" Tag="Custom">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="160" Tag="AreaSign" Description="Ссылка на площадной условный знак из библиотеки." Converter="2" Editor="3" Value="FdMhgRQIZ0qwG+hii7WlYQ==" />
+                </Propertys>
+              </Item>
+            </Items>
+          </Property>
+          <Property ClassName="4" Caption="Масштаб штриховки" Handle="161" Tag="HatchScale" Description="Масштаб основной штриховки" Value="1" />
+          <Property ClassName="0" Caption="Наименование" Handle="21" Tag="Name" Description="Наименование грунта" />
+          <Property ClassName="0" Caption="Описание" Handle="22" Tag="Description" Description="Примечания" />
+          <Property ClassName="5" Caption="Цвет" Handle="35" Tag="Color" Description="Цвет грунта" Converter="6" Editor="7" Value="7" />
+          <Property ClassName="1" Caption="Дополнительная штриховка" Handle="37" Tag="HatchEx" Description="Дополнительная штриховка для особых графических обозначений грунтов">
+            <Items aType="0">
+              <Item Caption="Нет" Handle="38" Tag="No" />
+              <Item Caption="Да" Handle="39" Tag="Yes">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Условный знак" Handle="40" Tag="AreaSignEx" Description="Ссылка на площадной условный знак из библиотеки." Converter="2" Editor="3" Value="atD+pS98jEmzwPYXDQISww==" />
+                  <Property ClassName="4" Caption="Масштаб" Handle="162" Tag="HatchExScale" Description="Масштаб дополнительной штриховки" />
+                </Propertys>
+              </Item>
+            </Items>
+          </Property>
+          <Property ClassName="4" Caption="γ - Удельный вес " Handle="164" Tag="Gamma" Description="Удельный вес естественного грунта, кН/м³" />
+          <Property ClassName="4" Caption="φ - Угол внутреннего трения" Handle="165" Tag="Fi" Description="Угол внутреннего трения, [град.]" />
+          <Property ClassName="4" Caption="c - Сцепление" Handle="166" Tag="C" Description="Сцепление грунта, кПа" />
+          <Property ClassName="4" Caption="γSat - Удельный вес (водонасыщ.) " Handle="167" Tag="GammaSat" Description="Удельный вес водонасыщенного грунта, кН/м³" />
+          <Property ClassName="4" Caption="φSat - Угол внутреннего трения (замач.)" Handle="168" Tag="FiSat" Description="Угол внутреннего трения при замачивании, [град.]" />
+          <Property ClassName="4" Caption="cSat - Сцепление (замач.)" Handle="169" Tag="CSat" Description="Сцепление грунта при замачивании, кПа" />
+          <Property ClassName="4" Caption="Расчетное сопротивление R0, кПа" Handle="170" Tag="R0" Description="Расчетное сопротивление R0, кПа" />
+          <Property ClassName="0" Caption="Категория по трудоемкости бурения" Handle="171" Tag="DrillingCategory" Description="Категория по трудоемкости бурения" />
+        </Propertys>
+      </Item>
+      <Item Caption="Линия вечной мерзлоты" Handle="998">
+        <Propertys aType="0">
+          <Property ClassName="5" Caption="Цвет" Handle="1" Tag="Color" Description="Цвет линии" Converter="6" Editor="7" Value="6" />
+          <Property ClassName="1" Caption="Тип линии" Handle="2" Tag="LineType" Description="Тип линии">
+            <Items aType="0">
+              <Item Caption="Вечная мерзлота" Handle="4" Tag="FrostLine">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Линейный знак" Handle="10" Tag="LinearSign" Description="Ссылка на линейный условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="8" Editor="9" Value="3H9mDmaedEid7GGeDsTCog==" />
+                </Propertys>
+              </Item>
+				<Item Caption="Сезонное промерзание" Handle="6" Tag="SeasonFrostLine">
+					<Propertys aType="0">
+						<Property ClassName="0" Caption="Линейный знак" Handle="11" Tag="LinearSign" Description="Ссылка на линейный условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="8" Editor="9" Value="zwfs1G9kP0OsKiukSh/dew==" />
+					</Propertys>
+				</Item>
+				<Item Caption="Сезонное оттаивание" Handle="9" Tag="SeasonFrostThawing">
+					<Propertys aType="0">
+						<Property ClassName="0" Caption="Линейный знак" Handle="12" Tag="LinearSign" Description="Ссылка на линейный условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="8" Editor="9" Value="zwfs1G9kP0OsKiukSh/dew==" />
+					</Propertys>
+				</Item>
+            </Items>
+          </Property>
+          <Property ClassName="1" Caption="Тип границы" Handle="5" Tag="BorderType" Description="Тип границы">
+            <Items aType="0">
+              <Item Caption="Верхняя" Handle="7" Tag="Top" />
+              <Item Caption="Нижняя" Handle="8" Tag="Bottom" />
+            </Items>
+          </Property>
+        </Propertys>
+      </Item>
+      <Item Caption="Линия уровня грунтовых вод" Handle="997" Color="16711680">
+        <Propertys aType="0">
+          <Property ClassName="5" Caption="Цвет" Handle="1" Tag="Color" Description="Цвет линии" Converter="6" Editor="7" Value="5"  />
+          <Property ClassName="1" Caption="Тип линии" Handle="2" Tag="LineType" Description="Тип линии">
+            <Items aType="0">
+				<Item Caption="Уровень грунтовых вод (штрихпунктирная)" Handle="7" Tag="WaterLine">
+					<Propertys aType="0">
+						<Property ClassName="0" Caption="Линейный знак" Handle="8" Tag="LinearSign" Description="Ссылка на линейный условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="8" Editor="9" Value="GONQWA8iPEqvYjxr0ThFiQ==" />
+					</Propertys>
+				</Item>
+              <Item Caption="Уровень грунтовых вод (сплошная)" Handle="3" Tag="WaterLine">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Линейный знак" Handle="4" Tag="LinearSign" Description="Ссылка на линейный условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="8" Editor="9" Value="/sT7b87UBESuCOVZoB0a5w==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Предполагаемый уровень грунтовых вод" Handle="5" Tag="ProspectiveWaterLine">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Линейный знак" Handle="6" Tag="LinearSign" Description="Ссылка на линейный условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="8" Editor="9" Value="5uPE7zuN6EiqnRYxS3FmXA==" />
+                </Propertys>
+              </Item>
+            </Items>
+          </Property>
+        </Propertys>
+      </Item>
+      <Item Caption="Линия сезонной мерзлоты" Handle="996">
+        <Propertys aType="0">
+          <Property ClassName="1" Caption="Тип линии" Handle="5" Tag="BorderType" Description="Тип линии">
+            <Items aType="0">
+              <Item Caption="Оттаивание" Handle="6" Tag="Thawing">
+                <Propertys aType="0">
+                  <Property ClassName="5" Caption="Цвет" Handle="7" Tag="Color" Description="Цвет линии" Converter="6" Editor="7" Value="1" ReadOnly="true" Visible="false" />
+                </Propertys>
+              </Item>
+              <Item Caption="Промерзание" Handle="8" Tag="Frost">
+                <Propertys aType="0">
+                  <Property ClassName="5" Caption="Цвет" Handle="10" Tag="Color" Description="Цвет линии" Converter="6" Editor="7" Value="5" ReadOnly="true" Visible="false" />
+                </Propertys>
+              </Item>
+            </Items>
+          </Property>
+          <Property ClassName="1" Caption="Направление" Handle="9" Tag="BorderDirection" Description="Направление">
+            <Items aType="0">
+              <Item Caption="Вверх" Handle="6" Tag="Top">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Линейный знак" Handle="11" Tag="LinearSign" Description="Ссылка на линейный условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="8" Editor="9" Value="+79OTQhXhEi8oEaTdTbcHQ==" />
+                </Propertys>
+              </Item>
+              <Item Caption="Вниз" Handle="9" Tag="Down">
+                <Propertys aType="0">
+                  <Property ClassName="0" Caption="Линейный знак" Handle="8" Tag="LinearSign" Description="Ссылка на линейный условный знак из библиотеки." ReadOnly="true" Visible="false" Converter="8" Editor="9" Value="zwfs1G9kP0OsKiukSh/dew==" />
+                </Propertys>
+              </Item>
+            </Items>
+          </Property>
+        </Propertys>
+      </Item>
+    </Items>
+  </Body>
+</Stg>

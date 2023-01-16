@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость снятия ПРС">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_3">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="GrassSheet" name="Ведомость ПРС">
+    <Subtable name="Заголовок" id="Head" excluded="0">
+      <Column index="0" width="25,6499996185303" options="1" />
+      <Column index="1" width="22,5" options="1" />
+      <Column index="2" width="34,0499992370605" options="1" />
+      <Column index="3" width="35,5499992370605" options="1" />
+      <Column index="4" width="35,3250007629395" options="1" />
+      <Column index="5" width="36,8250007629395" options="1" />
+      <Column index="6" width="33" options="1" />
+      <Column index="7" width="34,5" options="1" />
+      <Column index="8" width="37,0499992370605" options="1" />
+      <Column index="9" width="38,5499992370605" options="1" />
+      <Column index="10" width="30,2999992370605" options="1" />
+      <Column index="11" width="31,7999992370605" options="1" />
+      <Column index="12" width="31,5750007629395" options="1" />
+      <Column index="13" width="33,0750007629395" options="1" />
+      <Column index="14" width="29,25" options="1" />
+      <Column index="15" width="30,75" options="1" />
+      <Column index="16" width="33,2999992370605" options="1" />
+      <Column index="17" width="34,7999992370605" options="1" />
+      <Column index="18" width="44,3250007629395" options="1" />
+      <Column index="19" width="45,8250007629395" options="1" />
+      <Column index="20" width="45,5999984741211" options="1" />
+      <Column index="21" width="47,0999984741211" options="1" />
+      <Column index="22" width="43,2750015258789" options="1" />
+      <Column index="23" width="44,7750015258789" options="1" />
+      <Column index="24" width="47,3250007629395" options="1" />
+      <Column index="25" width="48,8250007629395" options="1" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="26" style="style_0">$(getvar, SheetName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" rowspan="3" style="style_0">ПК+</Cell>
+        <Cell index="1" rowspan="3" style="style_0">Длина участка, м</Cell>
+        <Cell index="2" colspan="8" style="style_0">Снятие ПРС с откосов</Cell>
+        <Cell index="10" colspan="8" style="style_0">Снятие ПРС при устройстве ЗП</Cell>
+        <Cell index="18" colspan="8" style="style_0">Снятие ПРС с отвода</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="2" colspan="2" style="style_0">ширина, м</Cell>
+        <Cell index="4" colspan="2" style="style_0">толщина, м</Cell>
+        <Cell index="6" colspan="2" style="style_0">площадь, м2</Cell>
+        <Cell index="8" colspan="2" style="style_0">объем, м3</Cell>
+        <Cell index="10" colspan="2" style="style_0">ширина, м</Cell>
+        <Cell index="12" colspan="2" style="style_0">толщина, м</Cell>
+        <Cell index="14" colspan="2" style="style_0">площадь, м2</Cell>
+        <Cell index="16" colspan="2" style="style_0">объем, м3</Cell>
+        <Cell index="18" colspan="2" style="style_0">ширина, м</Cell>
+        <Cell index="20" colspan="2" style="style_0">толщина, м</Cell>
+        <Cell index="22" colspan="2" style="style_0">площадь, м2</Cell>
+        <Cell index="24" colspan="2" style="style_0">объем, м3</Cell>
+      </Row>
+      <Row index="3" height="0" options="1">
+        <Cell index="2" style="style_0">слева</Cell>
+        <Cell index="3" style="style_0">справа</Cell>
+        <Cell index="4" style="style_0">слева</Cell>
+        <Cell index="5" style="style_0">справа</Cell>
+        <Cell index="6" style="style_0">слева</Cell>
+        <Cell index="7" style="style_0">справа</Cell>
+        <Cell index="8" style="style_0">слева</Cell>
+        <Cell index="9" style="style_0">справа</Cell>
+        <Cell index="10" style="style_0">слева</Cell>
+        <Cell index="11" style="style_0">справа</Cell>
+        <Cell index="12" style="style_0">слева</Cell>
+        <Cell index="13" style="style_0">справа</Cell>
+        <Cell index="14" style="style_0">слева</Cell>
+        <Cell index="15" style="style_0">справа</Cell>
+        <Cell index="16" style="style_0">слева</Cell>
+        <Cell index="17" style="style_0">справа</Cell>
+        <Cell index="18" style="style_0">слева</Cell>
+        <Cell index="19" style="style_0">справа</Cell>
+        <Cell index="20" style="style_0">слева</Cell>
+        <Cell index="21" style="style_0">справа</Cell>
+        <Cell index="22" style="style_0">слева</Cell>
+        <Cell index="23" style="style_0">справа</Cell>
+        <Cell index="24" style="style_0">слева</Cell>
+        <Cell index="25" style="style_0">справа</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные по поперечникам" id="SectionRow" excluded="0">
+      <Column index="0" width="25,6499996185303" options="1" />
+      <Column index="1" width="22,5" options="1" />
+      <Column index="2" width="34,0499992370605" options="1" />
+      <Column index="3" width="35,5499992370605" options="1" />
+      <Column index="4" width="35,3250007629395" options="1" />
+      <Column index="5" width="36,8250007629395" options="1" />
+      <Column index="6" width="33" options="1" />
+      <Column index="7" width="34,5" options="1" />
+      <Column index="8" width="37,0499992370605" options="1" />
+      <Column index="9" width="38,5499992370605" options="1" />
+      <Column index="10" width="30,2999992370605" options="1" />
+      <Column index="11" width="31,7999992370605" options="1" />
+      <Column index="12" width="31,5750007629395" options="1" />
+      <Column index="13" width="33,0750007629395" options="1" />
+      <Column index="14" width="29,25" options="1" />
+      <Column index="15" width="30,75" options="1" />
+      <Column index="16" width="33,2999992370605" options="1" />
+      <Column index="17" width="34,7999992370605" options="1" />
+      <Column index="18" width="44,3250007629395" options="1" />
+      <Column index="19" width="45,8250007629395" options="1" />
+      <Column index="20" width="45,5999984741211" options="1" />
+      <Column index="21" width="47,0999984741211" options="1" />
+      <Column index="22" width="43,2750015258789" options="1" />
+      <Column index="23" width="44,7750015258789" options="1" />
+      <Column index="24" width="47,3250007629395" options="1" />
+      <Column index="25" width="48,8250007629395" options="1" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="1" style="style_2">
+        </Cell>
+        <Cell index="2" style="style_1">$(getvar, LeftWidthSlope)</Cell>
+        <Cell index="3" style="style_1">$(getvar, RightWidthSlope)</Cell>
+        <Cell index="4" style="style_1">$(getvar, LeftHeightSlope)</Cell>
+        <Cell index="5" style="style_1">$(getvar, RightHeightSlope)</Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+        <Cell index="7" style="style_2">
+        </Cell>
+        <Cell index="8" style="style_2">
+        </Cell>
+        <Cell index="9" style="style_2">
+        </Cell>
+        <Cell index="10" style="style_1">$(getvar, LeftWidthUrb)</Cell>
+        <Cell index="11" style="style_1">$(getvar, RightWidthUrb)</Cell>
+        <Cell index="12" style="style_1">$(getvar, LeftHeightUrb)</Cell>
+        <Cell index="13" style="style_1">$(getvar, RightHeightUrb)</Cell>
+        <Cell index="14" style="style_2">
+        </Cell>
+        <Cell index="15" style="style_2">
+        </Cell>
+        <Cell index="16" style="style_2">
+        </Cell>
+        <Cell index="17" style="style_2">
+        </Cell>
+        <Cell index="18" style="style_1">$(getvar, LeftWidthOccupation)</Cell>
+        <Cell index="19" style="style_1">$(getvar, RightWidthOccupation)</Cell>
+        <Cell index="20" style="style_1">$(getvar, LeftHeightOccupation)</Cell>
+        <Cell index="21" style="style_1">$(getvar, RightHeightOccupation)</Cell>
+        <Cell index="22" style="style_3">
+        </Cell>
+        <Cell index="23" style="style_3">
+        </Cell>
+        <Cell index="24" style="style_3">
+        </Cell>
+        <Cell index="25" style="style_3">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные между поперечниками" id="BetweenRow" excluded="0">
+      <Column index="0" width="25,6499996185303" options="1" />
+      <Column index="1" width="22,5" options="1" />
+      <Column index="2" width="34,0499992370605" options="1" />
+      <Column index="3" width="35,5499992370605" options="1" />
+      <Column index="4" width="35,3250007629395" options="1" />
+      <Column index="5" width="36,8250007629395" options="1" />
+      <Column index="6" width="33" options="1" />
+      <Column index="7" width="34,5" options="1" />
+      <Column index="8" width="37,0499992370605" options="1" />
+      <Column index="9" width="38,5499992370605" options="1" />
+      <Column index="10" width="30,2999992370605" options="1" />
+      <Column index="11" width="31,7999992370605" options="1" />
+      <Column index="12" width="31,5750007629395" options="1" />
+      <Column index="13" width="33,0750007629395" options="1" />
+      <Column index="14" width="29,25" options="1" />
+      <Column index="15" width="30,75" options="1" />
+      <Column index="16" width="33,2999992370605" options="1" />
+      <Column index="17" width="34,7999992370605" options="1" />
+      <Column index="18" width="44,3250007629395" options="1" />
+      <Column index="19" width="45,8250007629395" options="1" />
+      <Column index="20" width="45,5999984741211" options="1" />
+      <Column index="21" width="47,0999984741211" options="1" />
+      <Column index="22" width="43,2750015258789" options="1" />
+      <Column index="23" width="44,7750015258789" options="1" />
+      <Column index="24" width="47,3250007629395" options="1" />
+      <Column index="25" width="48,8250007629395" options="1" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_2">
+        </Cell>
+        <Cell index="1" style="style_1">$(getvar, Length)</Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">
+        </Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_1">$(getvar, LeftAreaSlope)</Cell>
+        <Cell index="7" style="style_1">$(getvar, RightAreaSlope)</Cell>
+        <Cell index="8" style="style_1">$(getvar, LeftVolumeSlope)</Cell>
+        <Cell index="9" style="style_1">$(getvar, RightVolumeSlope)</Cell>
+        <Cell index="10" style="style_2">
+        </Cell>
+        <Cell index="11" style="style_2">
+        </Cell>
+        <Cell index="12" style="style_2">
+        </Cell>
+        <Cell index="13" style="style_2">
+        </Cell>
+        <Cell index="14" style="style_1">$(getvar, LeftAreaUrb)</Cell>
+        <Cell index="15" style="style_1">$(getvar, RightAreaUrb)</Cell>
+        <Cell index="16" style="style_1">$(getvar, LeftVolumeUrb)</Cell>
+        <Cell index="17" style="style_1">$(getvar, RightVolumeUrb)</Cell>
+        <Cell index="18" style="style_2">
+        </Cell>
+        <Cell index="19" style="style_2">
+        </Cell>
+        <Cell index="20" style="style_2">
+        </Cell>
+        <Cell index="21" style="style_2">
+        </Cell>
+        <Cell index="22" style="style_1">$(getvar, LeftAreaOccupation)</Cell>
+        <Cell index="23" style="style_1">$(getvar, RightAreaOccupation)</Cell>
+        <Cell index="24" style="style_1">$(getvar, LeftVolumeOccupation)</Cell>
+        <Cell index="25" style="style_1">$(getvar, RightVolumeOccupation)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные по пикетам" id="StationRow" excluded="0">
+      <Column index="0" width="25,6499996185303" options="1" />
+      <Column index="1" width="22,5" options="1" />
+      <Column index="2" width="34,0499992370605" options="1" />
+      <Column index="3" width="35,5499992370605" options="1" />
+      <Column index="4" width="35,3250007629395" options="1" />
+      <Column index="5" width="36,8250007629395" options="1" />
+      <Column index="6" width="33" options="1" />
+      <Column index="7" width="34,5" options="1" />
+      <Column index="8" width="37,0499992370605" options="1" />
+      <Column index="9" width="38,5499992370605" options="1" />
+      <Column index="10" width="30,2999992370605" options="1" />
+      <Column index="11" width="31,7999992370605" options="1" />
+      <Column index="12" width="31,5750007629395" options="1" />
+      <Column index="13" width="33,0750007629395" options="1" />
+      <Column index="14" width="29,25" options="1" />
+      <Column index="15" width="30,75" options="1" />
+      <Column index="16" width="33,2999992370605" options="1" />
+      <Column index="17" width="34,7999992370605" options="1" />
+      <Column index="18" width="44,3250007629395" options="1" />
+      <Column index="19" width="45,8250007629395" options="1" />
+      <Column index="20" width="45,5999984741211" options="1" />
+      <Column index="21" width="47,0999984741211" options="1" />
+      <Column index="22" width="43,2750015258789" options="1" />
+      <Column index="23" width="44,7750015258789" options="1" />
+      <Column index="24" width="47,3250007629395" options="1" />
+      <Column index="25" width="48,8250007629395" options="1" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Length)</Cell>
+        <Cell index="2" style="style_0">-</Cell>
+        <Cell index="3" style="style_0">-</Cell>
+        <Cell index="4" style="style_0">-</Cell>
+        <Cell index="5" style="style_0">-</Cell>
+        <Cell index="6" style="style_1">$(getvar, LeftAreaSlope)</Cell>
+        <Cell index="7" style="style_1">$(getvar, RightAreaSlope)</Cell>
+        <Cell index="8" style="style_1">$(getvar, LeftVolumeSlope)</Cell>
+        <Cell index="9" style="style_1">$(getvar, RightVolumeSlope)</Cell>
+        <Cell index="10" style="style_0">-</Cell>
+        <Cell index="11" style="style_0">-</Cell>
+        <Cell index="12" style="style_0">-</Cell>
+        <Cell index="13" style="style_0">-</Cell>
+        <Cell index="14" style="style_1">$(getvar, LeftAreaUrb)</Cell>
+        <Cell index="15" style="style_1">$(getvar, RightAreaUrb)</Cell>
+        <Cell index="16" style="style_1">$(getvar, LeftVolumeUrb)</Cell>
+        <Cell index="17" style="style_1">$(getvar, RightVolumeUrb)</Cell>
+        <Cell index="18" style="style_0">-</Cell>
+        <Cell index="19" style="style_0">-</Cell>
+        <Cell index="20" style="style_0">-</Cell>
+        <Cell index="21" style="style_0">-</Cell>
+        <Cell index="22" style="style_1">$(getvar, LeftAreaOccupation)</Cell>
+        <Cell index="23" style="style_1">$(getvar, RightAreaOccupation)</Cell>
+        <Cell index="24" style="style_1">$(getvar, LeftVolumeOccupation)</Cell>
+        <Cell index="25" style="style_1">$(getvar, RightVolumeOccupation)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="SummRow" excluded="0">
+      <Column index="0" width="25,6499996185303" options="1" />
+      <Column index="1" width="22,5" options="1" />
+      <Column index="2" width="34,0499992370605" options="1" />
+      <Column index="3" width="35,5499992370605" options="1" />
+      <Column index="4" width="35,3250007629395" options="1" />
+      <Column index="5" width="36,8250007629395" options="1" />
+      <Column index="6" width="33" options="1" />
+      <Column index="7" width="34,5" options="1" />
+      <Column index="8" width="37,0499992370605" options="1" />
+      <Column index="9" width="38,5499992370605" options="1" />
+      <Column index="10" width="30,2999992370605" options="1" />
+      <Column index="11" width="31,7999992370605" options="1" />
+      <Column index="12" width="31,5750007629395" options="1" />
+      <Column index="13" width="33,0750007629395" options="1" />
+      <Column index="14" width="29,25" options="1" />
+      <Column index="15" width="30,75" options="1" />
+      <Column index="16" width="33,2999992370605" options="1" />
+      <Column index="17" width="34,7999992370605" options="1" />
+      <Column index="18" width="44,3250007629395" options="1" />
+      <Column index="19" width="45,8250007629395" options="1" />
+      <Column index="20" width="45,5999984741211" options="1" />
+      <Column index="21" width="47,0999984741211" options="1" />
+      <Column index="22" width="43,2750015258789" options="1" />
+      <Column index="23" width="44,7750015258789" options="1" />
+      <Column index="24" width="47,3250007629395" options="1" />
+      <Column index="25" width="48,8250007629395" options="1" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">Итого</Cell>
+        <Cell index="1" style="style_1">-</Cell>
+        <Cell index="2" style="style_0">-</Cell>
+        <Cell index="3" style="style_0">-</Cell>
+        <Cell index="4" style="style_0">-</Cell>
+        <Cell index="5" style="style_0">-</Cell>
+        <Cell index="6" style="style_1">$(getvar, LeftAreaSlope)</Cell>
+        <Cell index="7" style="style_1">$(getvar, RightAreaSlope)</Cell>
+        <Cell index="8" style="style_1">$(getvar, LeftVolumeSlope)</Cell>
+        <Cell index="9" style="style_1">$(getvar, RightVolumeSlope)</Cell>
+        <Cell index="10" style="style_0">-</Cell>
+        <Cell index="11" style="style_0">-</Cell>
+        <Cell index="12" style="style_0">-</Cell>
+        <Cell index="13" style="style_0">-</Cell>
+        <Cell index="14" style="style_1">$(getvar, LeftAreaUrb)</Cell>
+        <Cell index="15" style="style_1">$(getvar, RightAreaUrb)</Cell>
+        <Cell index="16" style="style_1">$(getvar, LeftVolumeUrb)</Cell>
+        <Cell index="17" style="style_1">$(getvar, RightVolumeUrb)</Cell>
+        <Cell index="18" style="style_0">-</Cell>
+        <Cell index="19" style="style_0">-</Cell>
+        <Cell index="20" style="style_0">-</Cell>
+        <Cell index="21" style="style_0">-</Cell>
+        <Cell index="22" style="style_1">$(getvar, LeftAreaOccupation)</Cell>
+        <Cell index="23" style="style_1">$(getvar, RightAreaOccupation)</Cell>
+        <Cell index="24" style="style_1">$(getvar, LeftVolumeOccupation)</Cell>
+        <Cell index="25" style="style_1">$(getvar, RightVolumeOccupation)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

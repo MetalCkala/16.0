@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body Caption="Поперечники">
+    <Classes aType="0">
+      <Class Name="Topomatic.Smt.SemanticStringNode, Topomatic.Smt" />
+      <Class Name="Topomatic.Visualization.Controller.Design.VisualizationSemanticConverter, Topomatic.Visualization.Controller" />
+      <Class Name="Topomatic.Visualization.Controller.Design.LinearVisualizationSemanticEditor, Topomatic.Visualization.Controller" />
+      <Class Name="Topomatic.Smt.SemanticIntegerNode, Topomatic.Smt" />
+    </Classes>
+    <Items aType="0">
+      <Item Caption="Верх покрытия" Handle="400">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Контроллер визуализации линейного объекта" Handle="1" Tag="&lt;class&gt;LinearVisualizationTemplate&lt;/class&gt;" ReadOnly="true" Visible="false" Converter="1" Editor="2" Value="QlNURwIA6f0AAAAaBUNsYXNzCVRlbXBsYXRlcwZTaGFkZXIHVmVyc2lvbgROYW1lCVRlY2huaXF1ZQxWZXJ0ZXhGb3JtYXQCVlMCUFMGVUlOYW1lDVVJRGVzY3JpcHRpb24IU29ydGFibGUKUGFyYW1ldGVycwRUeXBlBVZhbHVlCFVJV2lkZ2V0CFVJSGlkZGVuCENvbXByZXNzCkdlbk1pcE1hcHMJTm9ybWFsTWFwCUhlaWdodE1hcAVVSU1pbgVVSU1heAZVSVN0ZXAEQnVtcA1Cb3JkZXJzU21vb3RoAgAA7Q0BCgBsVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlci5UZW1wbGF0ZXMuTGluZWFyVmlzdWFsaXphdGlvblRlbXBsYXRlLCBUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyAQEBAAH2DAEKAFxUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyLlRlbXBsYXRlcy5SZWxpZWZQYXRjaCwgVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlcgMAAgEGAwEJCgQKVGVycmFpbi5meAoFBE1haW4GBgEKBwZWU18xXzEKCAZQU18xXzEKCRbQn9C+0LLQtdGA0YXQvdC+0YHRgtGMCgox0JLQuNC30YPQsNC70LjQt9C40YDRg9C10YIg0L/QvtCy0LXRgNGF0L3QvtGB0YLRjAYLAAEMAAhbBwoEDERpZmZ1c2VDb2xvcgoNBmZsb2F0MwoODTAuNSwgMC41LCAwLjUKCSDQptCy0LXRgiDQv9C+INGD0LzQvtC70YfQsNC90LjRjgoKAAoPBWNvbG9yAhAAAIsBCwoEDEJhc2ljVGV4dHVyZQoNCXRleHR1cmUyRAoOEEFzcGhhbHRUeXBlMi5wbmcCEQECEgECEwACFAAKCRDQotC10LrRgdGC0YPRgNCwCgos0KLQtdC60YHRgtGD0YDQsCDQsdCw0LfQvtCy0L7Qs9C+INGG0LLQtdGC0LAKDwdUZXh0dXJlAhAAAIwBCwoEB0J1bXBNYXAKDQl0ZXh0dXJlMkQKDhBBc3BoYWx0VHlwZTIucG5nAhEAAhIBAhMBAhQACgkZ0JrQsNGA0YLQsCDRgNC10LvRjNC10YTQsAoKKdCa0LDRgNGC0LAg0L3QvtGA0LzQsNC70LXQuSDQuCDQstGL0YHQvtGCCg8HVGV4dHVyZQIQAACeAQoKBBFCYXNlVGV4dHVyZVJlcGVhdAoNBWZsb2F0Cg4BNwgVAACAPwgWAAB6RAgXzczMPQoJHdCg0LDQt9C80LXRgCDRgtC10LrRgdGC0YPRgNGLCgo70JfQsNC00LDRkdGCINGA0LXQsNC70YzQvdGL0Lkg0YDQsNC30LzQtdGAINGC0LXQutGB0YLRg9GA0YsKDwZzbGlkZXICEAAAyQEKCgQOSGVpZ2h0TWFwU2NhbGUKDQVmbG9hdAoOBDAuMDEIFW8SgzoIFs3MTD4IFwrXIzwKCSXQodGC0LXQv9C10L3RjCDRgNC10LvRjNC10YTQvdC+0YHRgtC4Cgpe0JfQsNC00LDRkdGCINC00LjQsNC/0L7Qt9C+0L0g0LfQvdCw0YfQtdC90LjQuSDQtNC70Y8g0YDQsNGB0YfQtdGC0LAg0LLRi9GB0L7RgiDRgNC10LvRjNC10YTQsAoPBnNsaWRlcgIQAACTAgoKBAxMT0RUaHJlc2hvbGQKDQNpbnQKDgE1BhUDBhZkBhcBCgkl0KPRgNC+0LLQtdC90Ywg0L7Qv9GC0LjQvNC40LfQsNGG0LjQuAoKtwHQl9Cw0LTQsNGR0YIgbWlwIG1hcCDRg9GA0L7QstC10L3RjCDQutCw0YDRgtGLINGA0LXQu9GM0LXRhNCwINC/0YDQuCDQutC+0YLQvtGA0L7QvCDRiNC10LnQtNC10YAg0L/QtdGA0LXRhdC+0LTQuNGCINC6INGA0LDRgdGH0LXRgtGDINGBINC/0L7QvNC+0YnRjNGOINCw0LvQs9C+0YDQuNGC0LzQsCBidW1wIG1hcHBpbmcKDwZzbGlkZXICEAAArAEKCgQNU3BlY3VsYXJQb3dlcgoNBWZsb2F0Cg4CNjAIFQrXIzwIFgAAyEIIFwrXIzwKCRvQodGC0LXQv9C10L3RjCDQsdC70LXRgdC60LAKCk7Ql9Cw0LTQsNGR0YIg0YHRgtC10L/QtdC90Ywg0LfQtdGA0LrQsNC70YzQvdC+0LPQviDQsdC70LXRgdC60LAg0L7QsdGK0LXQutGC0LAKDwZzbGlkZXICEAAA1gEKCgQNU3BlY3VsYXJMZXZlbAoNBWZsb2F0Cg4BMQgVCtcjPAgWAACAPwgXCtcjPAoJG9Cj0YDQvtCy0LXQvdGMINCx0LvQtdGB0LrQsAoKedCX0LDQtNCw0ZHRgiDQstC70LjRj9C90LjQtSDRgdGC0LXQv9C10L3QuCDQt9C10YDQutCw0LvRjNC90L7Qs9C+INCx0LvQtdGB0LrQsCDQvdCwINGA0LXQt9GD0LvRjNGC0LjRgNGD0Y7RidC40Lkg0YbQstC10YIKDwZzbGlkZXICEAAAABgBCA4K16M7AAAZAQgOAAAAAAAARU9G" />
+        </Propertys>
+      </Item>
+      <Item Caption="Верх подстилающего слоя" Handle="401" />
+      <Item Caption="Низ подстилающего слоя" Handle="402" Color="6579455" />
+      <Item Caption="Подстилающий слой" Handle="450" />
+      <Item Caption="Присыпная обочина" Handle="451" />
+      <Item Caption="Разделительная полоса" Handle="452" Color="16774086">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Контроллер визуализации линейного объекта" Handle="1" Tag="&lt;class&gt;LinearVisualizationTemplate&lt;/class&gt;" ReadOnly="true" Visible="false" Converter="1" Editor="2" Value="QlNURwIA6f0AAAAaBUNsYXNzCVRlbXBsYXRlcwZTaGFkZXIHVmVyc2lvbgROYW1lCVRlY2huaXF1ZQxWZXJ0ZXhGb3JtYXQCVlMCUFMGVUlOYW1lDVVJRGVzY3JpcHRpb24IU29ydGFibGUKUGFyYW1ldGVycwRUeXBlBVZhbHVlCENvbXByZXNzCkdlbk1pcE1hcHMJTm9ybWFsTWFwCUhlaWdodE1hcAhVSVdpZGdldAhVSUhpZGRlbgVVSU1pbgVVSU1heAZVSVN0ZXAEQnVtcA1Cb3JkZXJzU21vb3RoAgAAjA0BCgBsVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlci5UZW1wbGF0ZXMuTGluZWFyVmlzdWFsaXphdGlvblRlbXBsYXRlLCBUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyAQEBAAGVDAEKAFxUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyLlRlbXBsYXRlcy5SZWxpZWZQYXRjaCwgVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlcgMAAgEGAwEJCgQKVGVycmFpbi5meAoFBE1haW4GBgEKBwZWU18xXzEKCAZQU18xXzEKCRbQn9C+0LLQtdGA0YXQvdC+0YHRgtGMCgox0JLQuNC30YPQsNC70LjQt9C40YDRg9C10YIg0L/QvtCy0LXRgNGF0L3QvtGB0YLRjAYLAAEMAAeHAQsKBAxCYXNpY1RleHR1cmUKDQl0ZXh0dXJlMkQKDgxTaG91bGRlci5wbmcCDwECEAECEQACEgAKCRDQotC10LrRgdGC0YPRgNCwCgos0KLQtdC60YHRgtGD0YDQsCDQsdCw0LfQvtCy0L7Qs9C+INGG0LLQtdGC0LAKEwdUZXh0dXJlAhQAAIgBCwoEB0J1bXBNYXAKDQl0ZXh0dXJlMkQKDgxTaG91bGRlci5wbmcCDwACEAECEQECEgAKCRnQmtCw0YDRgtCwINGA0LXQu9GM0LXRhNCwCgop0JrQsNGA0YLQsCDQvdC+0YDQvNCw0LvQtdC5INC4INCy0YvRgdC+0YIKEwdUZXh0dXJlAhQAAJ8BCgoEEUJhc2VUZXh0dXJlUmVwZWF0Cg0FZmxvYXQKDgIxMAgVAACAPwgWAAB6RAgXzczMPQoJHdCg0LDQt9C80LXRgCDRgtC10LrRgdGC0YPRgNGLCgo70JfQsNC00LDRkdGCINGA0LXQsNC70YzQvdGL0Lkg0YDQsNC30LzQtdGAINGC0LXQutGB0YLRg9GA0YsKEwZzbGlkZXICFAAAyQEKCgQOSGVpZ2h0TWFwU2NhbGUKDQVmbG9hdAoOBDAuMDEIFW8SgzoIFs3MTD4IFwrXIzwKCSXQodGC0LXQv9C10L3RjCDRgNC10LvRjNC10YTQvdC+0YHRgtC4Cgpe0JfQsNC00LDRkdGCINC00LjQsNC/0L7Qt9C+0L0g0LfQvdCw0YfQtdC90LjQuSDQtNC70Y8g0YDQsNGB0YfQtdGC0LAg0LLRi9GB0L7RgiDRgNC10LvRjNC10YTQsAoTBnNsaWRlcgIUAACTAgoKBAxMT0RUaHJlc2hvbGQKDQNpbnQKDgEzBhUDBhZkBhcBCgkl0KPRgNC+0LLQtdC90Ywg0L7Qv9GC0LjQvNC40LfQsNGG0LjQuAoKtwHQl9Cw0LTQsNGR0YIgbWlwIG1hcCDRg9GA0L7QstC10L3RjCDQutCw0YDRgtGLINGA0LXQu9GM0LXRhNCwINC/0YDQuCDQutC+0YLQvtGA0L7QvCDRiNC10LnQtNC10YAg0L/QtdGA0LXRhdC+0LTQuNGCINC6INGA0LDRgdGH0LXRgtGDINGBINC/0L7QvNC+0YnRjNGOINCw0LvQs9C+0YDQuNGC0LzQsCBidW1wIG1hcHBpbmcKEwZzbGlkZXICFAAArAEKCgQNU3BlY3VsYXJQb3dlcgoNBWZsb2F0Cg4CNzAIFQrXIzwIFgAAyEIIFwrXIzwKCRvQodGC0LXQv9C10L3RjCDQsdC70LXRgdC60LAKCk7Ql9Cw0LTQsNGR0YIg0YHRgtC10L/QtdC90Ywg0LfQtdGA0LrQsNC70YzQvdC+0LPQviDQsdC70LXRgdC60LAg0L7QsdGK0LXQutGC0LAKEwZzbGlkZXICFAAA2AEKCgQNU3BlY3VsYXJMZXZlbAoNBWZsb2F0Cg4DMC41CBUK1yM8CBYAAIA/CBcK1yM8Cgkb0KPRgNC+0LLQtdC90Ywg0LHQu9C10YHQutCwCgp50JfQsNC00LDRkdGCINCy0LvQuNGP0L3QuNC1INGB0YLQtdC/0LXQvdC4INC30LXRgNC60LDQu9GM0L3QvtCz0L4g0LHQu9C10YHQutCwINC90LAg0YDQtdC30YPQu9GM0YLQuNGA0YPRjtGJ0LjQuSDRhtCy0LXRggoTBnNsaWRlcgIUAAAAGAEIDgAAAAAAABkBCA4AAAAAAABFT0Y=" />
+        </Propertys>
+      </Item>
+      <Item Caption="Проектное покрытие" Handle="460" />
+      <Item Caption="Черный поперечник без учета врезаемых поверхностей" Handle="509" Color="32512" />
+      <Item Caption="Черный поперечник" Handle="510" Color="65280" />
+      <Item Caption="Красный поперечник" Handle="514" Color="255" />
+      <Item Caption="Низ растительного слоя" Handle="515" Color="6604900" />
+      <Item Caption="Проектный поперечник (по верху земполотна с кюветами с учетом укрепления)" Handle="513" />
+      <Item Caption="Проектный поперечник (по верху земполотна с кюветами)" Handle="516" />
+      <Item Caption="Проектный поперечник (по верху земполотна без кюветов)" Handle="517" />
+      <Item Caption="Проектный поперечник (по верху земполотна с кюветами без рабочего слоя)" Handle="519" Color="33023" />
+      <Item Caption="Заполнение" Handle="520" />
+      <Item Caption="Заполнение" Handle="521" />
+      <Item Caption="Заполнение" Handle="522" />
+      <Item Caption="Заполнение" Handle="523" />
+      <Item Caption="Заполнение" Handle="524" />
+      <Item Caption="Заполнение" Handle="525" />
+      <Item Caption="Заполнение" Handle="526" />
+      <Item Caption="Заполнение" Handle="527" />
+      <Item Caption="Заполнение" Handle="528" />
+      <Item Caption="Заполнение" Handle="529" />
+      <Item Caption="Заполнение" Handle="530" />
+      <Item Caption="Заполнение" Handle="531" />
+      <Item Caption="Заполнение" Handle="532" />
+      <Item Caption="Заполнение" Handle="533" />
+      <Item Caption="Заполнение" Handle="534" />
+      <Item Caption="Заполнение" Handle="535" />
+      <Item Caption="Заполнение" Handle="536" />
+      <Item Caption="Заполнение" Handle="537" />
+      <Item Caption="Заполнение" Handle="538" />
+      <Item Caption="Заполнение" Handle="539" />
+      <Item Caption="Заполнение" Handle="540" />
+      <Item Caption="Заполнение" Handle="541" />
+      <Item Caption="Заполнение" Handle="542" />
+      <Item Caption="Заполнение" Handle="543" />
+      <Item Caption="Заполнение" Handle="544" />
+      <Item Caption="Заполнение" Handle="545" />
+      <Item Caption="Заполнение" Handle="546" />
+      <Item Caption="Заполнение" Handle="547" />
+      <Item Caption="Заполнение" Handle="548" />
+      <Item Caption="Заполнение" Handle="549" />
+      <Item Caption="Заполнение" Handle="550" />
+      <Item Caption="Заполнение" Handle="551" />
+      <Item Caption="Проектная поверхность" Handle="555" Color="255" />
+      <Item Caption="Укрепление кюветов" Handle="701" Color="16776960" />
+      <Item Caption="Планировка откосов насыпи" Handle="703" Color="16776960">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Контроллер визуализации линейного объекта" Handle="1" Tag="&lt;class&gt;LinearVisualizationTemplate&lt;/class&gt;" ReadOnly="true" Visible="false" Converter="1" Editor="2" Value="QlNURwIA6f0AAAAaBUNsYXNzCVRlbXBsYXRlcwZTaGFkZXIHVmVyc2lvbgROYW1lCVRlY2huaXF1ZQxWZXJ0ZXhGb3JtYXQCVlMCUFMGVUlOYW1lDVVJRGVzY3JpcHRpb24IU29ydGFibGUKUGFyYW1ldGVycwRUeXBlBVZhbHVlCFVJV2lkZ2V0CFVJSGlkZGVuCENvbXByZXNzCkdlbk1pcE1hcHMJTm9ybWFsTWFwCUhlaWdodE1hcAVVSU1pbgVVSU1heAZVSVN0ZXAEQnVtcA1Cb3JkZXJzU21vb3RoAgAA2Q0BCgBsVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlci5UZW1wbGF0ZXMuTGluZWFyVmlzdWFsaXphdGlvblRlbXBsYXRlLCBUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyAQEBAAHiDAEKAFxUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyLlRlbXBsYXRlcy5SZWxpZWZQYXRjaCwgVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlcgMAAgEGAwEJCgQKVGVycmFpbi5meAoFBE1haW4GBgEKBwZWU18xXzEKCAZQU18xXzEKCRbQn9C+0LLQtdGA0YXQvdC+0YHRgtGMCgox0JLQuNC30YPQsNC70LjQt9C40YDRg9C10YIg0L/QvtCy0LXRgNGF0L3QvtGB0YLRjAYLAAEMAAhVBwoEDERpZmZ1c2VDb2xvcgoNBmZsb2F0MwoOBzAsIDEsIDAKCSDQptCy0LXRgiDQv9C+INGD0LzQvtC70YfQsNC90LjRjgoKAAoPBWNvbG9yAhAAAIQBCwoEDEJhc2ljVGV4dHVyZQoNCXRleHR1cmUyRAoOCVNsb3BlLnBuZwIRAQISAQITAAIUAAoJENCi0LXQutGB0YLRg9GA0LAKCizQotC10LrRgdGC0YPRgNCwINCx0LDQt9C+0LLQvtCz0L4g0YbQstC10YLQsAoPB1RleHR1cmUCEAAAhQELCgQHQnVtcE1hcAoNCXRleHR1cmUyRAoOCVNsb3BlLnBuZwIRAAISAQITAQIUAAoJGdCa0LDRgNGC0LAg0YDQtdC70YzQtdGE0LAKCinQmtCw0YDRgtCwINC90L7RgNC80LDQu9C10Lkg0Lgg0LLRi9GB0L7RggoPB1RleHR1cmUCEAAAngEKCgQRQmFzZVRleHR1cmVSZXBlYXQKDQVmbG9hdAoOATUIFQAAgD8IFgAAekQIF83MzD0KCR3QoNCw0LfQvNC10YAg0YLQtdC60YHRgtGD0YDRiwoKO9CX0LDQtNCw0ZHRgiDRgNC10LDQu9GM0L3Ri9C5INGA0LDQt9C80LXRgCDRgtC10LrRgdGC0YPRgNGLCg8Gc2xpZGVyAhAAAMkBCgoEDkhlaWdodE1hcFNjYWxlCg0FZmxvYXQKDgQwLjAyCBVvEoM6CBbNzEw+CBcK1yM8Cgkl0KHRgtC10L/QtdC90Ywg0YDQtdC70YzQtdGE0L3QvtGB0YLQuAoKXtCX0LDQtNCw0ZHRgiDQtNC40LDQv9C+0LfQvtC9INC30L3QsNGH0LXQvdC40Lkg0LTQu9GPINGA0LDRgdGH0LXRgtCwINCy0YvRgdC+0YIg0YDQtdC70YzQtdGE0LAKDwZzbGlkZXICEAAAkwIKCgQMTE9EVGhyZXNob2xkCg0DaW50Cg4BNQYVAwYWZAYXAQoJJdCj0YDQvtCy0LXQvdGMINC+0L/RgtC40LzQuNC30LDRhtC40LgKCrcB0JfQsNC00LDRkdGCIG1pcCBtYXAg0YPRgNC+0LLQtdC90Ywg0LrQsNGA0YLRiyDRgNC10LvRjNC10YTQsCDQv9GA0Lgg0LrQvtGC0L7RgNC+0Lwg0YjQtdC50LTQtdGAINC/0LXRgNC10YXQvtC00LjRgiDQuiDRgNCw0YHRh9C10YLRgyDRgSDQv9C+0LzQvtGJ0YzRjiDQsNC70LPQvtGA0LjRgtC80LAgYnVtcCBtYXBwaW5nCg8Gc2xpZGVyAhAAAKwBCgoEDVNwZWN1bGFyUG93ZXIKDQVmbG9hdAoOAjYwCBUK1yM8CBYAAMhCCBcK1yM8Cgkb0KHRgtC10L/QtdC90Ywg0LHQu9C10YHQutCwCgpO0JfQsNC00LDRkdGCINGB0YLQtdC/0LXQvdGMINC30LXRgNC60LDQu9GM0L3QvtCz0L4g0LHQu9C10YHQutCwINC+0LHRitC10LrRgtCwCg8Gc2xpZGVyAhAAANYBCgoEDVNwZWN1bGFyTGV2ZWwKDQVmbG9hdAoOATEIFQrXIzwIFgAAgD8IFwrXIzwKCRvQo9GA0L7QstC10L3RjCDQsdC70LXRgdC60LAKCnnQl9Cw0LTQsNGR0YIg0LLQu9C40Y/QvdC40LUg0YHRgtC10L/QtdC90Lgg0LfQtdGA0LrQsNC70YzQvdC+0LPQviDQsdC70LXRgdC60LAg0L3QsCDRgNC10LfRg9C70YzRgtC40YDRg9GO0YnQuNC5INGG0LLQtdGCCg8Gc2xpZGVyAhAAAAAYAQgOAAAAAAAAGQEIDgAAAAAAAEVPRg==" />
+          <Property ClassName="3" Caption="Тип откоса" Handle="2" Tag="TYPE" ReadOnly="true" Visible="false" Value="1" />
+        </Propertys>
+      </Item>
+      <Item Caption="Планировка кюветов" Handle="705" Color="16776960" />
+      <Item Caption="Планировка откосов выемки" Handle="707" Color="16776960">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Контроллер визуализации линейного объекта" Handle="1" Tag="&lt;class&gt;LinearVisualizationTemplate&lt;/class&gt;" ReadOnly="true" Visible="false" Converter="1" Editor="2" Value="QlNURwIA6f0AAAAaBUNsYXNzCVRlbXBsYXRlcwZTaGFkZXIHVmVyc2lvbgROYW1lCVRlY2huaXF1ZQxWZXJ0ZXhGb3JtYXQCVlMCUFMGVUlOYW1lDVVJRGVzY3JpcHRpb24IU29ydGFibGUKUGFyYW1ldGVycwRUeXBlBVZhbHVlCFVJV2lkZ2V0CFVJSGlkZGVuCENvbXByZXNzCkdlbk1pcE1hcHMJTm9ybWFsTWFwCUhlaWdodE1hcAVVSU1pbgVVSU1heAZVSVN0ZXAEQnVtcA1Cb3JkZXJzU21vb3RoAgAA2w0BCgBsVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlci5UZW1wbGF0ZXMuTGluZWFyVmlzdWFsaXphdGlvblRlbXBsYXRlLCBUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyAQEBAAHkDAEKAFxUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyLlRlbXBsYXRlcy5SZWxpZWZQYXRjaCwgVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlcgMAAgEGAwEJCgQKVGVycmFpbi5meAoFBE1haW4GBgEKBwZWU18xXzEKCAZQU18xXzEKCRbQn9C+0LLQtdGA0YXQvdC+0YHRgtGMCgox0JLQuNC30YPQsNC70LjQt9C40YDRg9C10YIg0L/QvtCy0LXRgNGF0L3QvtGB0YLRjAYLAAEMAAhVBwoEDERpZmZ1c2VDb2xvcgoNBmZsb2F0MwoOBzAsIDEsIDAKCSDQptCy0LXRgiDQv9C+INGD0LzQvtC70YfQsNC90LjRjgoKAAoPBWNvbG9yAhAAAIQBCwoEDEJhc2ljVGV4dHVyZQoNCXRleHR1cmUyRAoOCVNsb3BlLnBuZwIRAQISAQITAAIUAAoJENCi0LXQutGB0YLRg9GA0LAKCizQotC10LrRgdGC0YPRgNCwINCx0LDQt9C+0LLQvtCz0L4g0YbQstC10YLQsAoPB1RleHR1cmUCEAAAhQELCgQHQnVtcE1hcAoNCXRleHR1cmUyRAoOCVNsb3BlLnBuZwIRAAISAQITAQIUAAoJGdCa0LDRgNGC0LAg0YDQtdC70YzQtdGE0LAKCinQmtCw0YDRgtCwINC90L7RgNC80LDQu9C10Lkg0Lgg0LLRi9GB0L7RggoPB1RleHR1cmUCEAAAngEKCgQRQmFzZVRleHR1cmVSZXBlYXQKDQVmbG9hdAoOATUIFQAAgD8IFgAAekQIF83MzD0KCR3QoNCw0LfQvNC10YAg0YLQtdC60YHRgtGD0YDRiwoKO9CX0LDQtNCw0ZHRgiDRgNC10LDQu9GM0L3Ri9C5INGA0LDQt9C80LXRgCDRgtC10LrRgdGC0YPRgNGLCg8Gc2xpZGVyAhAAAMkBCgoEDkhlaWdodE1hcFNjYWxlCg0FZmxvYXQKDgQwLjAyCBVvEoM6CBbNzEw+CBcK1yM8Cgkl0KHRgtC10L/QtdC90Ywg0YDQtdC70YzQtdGE0L3QvtGB0YLQuAoKXtCX0LDQtNCw0ZHRgiDQtNC40LDQv9C+0LfQvtC9INC30L3QsNGH0LXQvdC40Lkg0LTQu9GPINGA0LDRgdGH0LXRgtCwINCy0YvRgdC+0YIg0YDQtdC70YzQtdGE0LAKDwZzbGlkZXICEAAAkwIKCgQMTE9EVGhyZXNob2xkCg0DaW50Cg4BNQYVAwYWZAYXAQoJJdCj0YDQvtCy0LXQvdGMINC+0L/RgtC40LzQuNC30LDRhtC40LgKCrcB0JfQsNC00LDRkdGCIG1pcCBtYXAg0YPRgNC+0LLQtdC90Ywg0LrQsNGA0YLRiyDRgNC10LvRjNC10YTQsCDQv9GA0Lgg0LrQvtGC0L7RgNC+0Lwg0YjQtdC50LTQtdGAINC/0LXRgNC10YXQvtC00LjRgiDQuiDRgNCw0YHRh9C10YLRgyDRgSDQv9C+0LzQvtGJ0YzRjiDQsNC70LPQvtGA0LjRgtC80LAgYnVtcCBtYXBwaW5nCg8Gc2xpZGVyAhAAAKwBCgoEDVNwZWN1bGFyUG93ZXIKDQVmbG9hdAoOAjYwCBUK1yM8CBYAAMhCCBcK1yM8Cgkb0KHRgtC10L/QtdC90Ywg0LHQu9C10YHQutCwCgpO0JfQsNC00LDRkdGCINGB0YLQtdC/0LXQvdGMINC30LXRgNC60LDQu9GM0L3QvtCz0L4g0LHQu9C10YHQutCwINC+0LHRitC10LrRgtCwCg8Gc2xpZGVyAhAAANgBCgoEDVNwZWN1bGFyTGV2ZWwKDQVmbG9hdAoOAzAuMwgVCtcjPAgWAACAPwgXCtcjPAoJG9Cj0YDQvtCy0LXQvdGMINCx0LvQtdGB0LrQsAoKedCX0LDQtNCw0ZHRgiDQstC70LjRj9C90LjQtSDRgdGC0LXQv9C10L3QuCDQt9C10YDQutCw0LvRjNC90L7Qs9C+INCx0LvQtdGB0LrQsCDQvdCwINGA0LXQt9GD0LvRjNGC0LjRgNGD0Y7RidC40Lkg0YbQstC10YIKDwZzbGlkZXICEAAAABgBCA4AAAAAAAAZAQgOAAAAAAAARU9G" />
+          <Property ClassName="3" Caption="Тип откоса" Handle="2" Tag="TYPE" ReadOnly="true" Visible="false" Value="2" />
+        </Propertys>
+      </Item>
+      <Item Caption="Планировка обочин" Handle="709" Color="16776960" />
+      <Item Caption="Укрепление обочин" Handle="711" Color="16776960" />
+      <Item Caption="Укрепление кюветов" Handle="801" Color="8380415" />
+      <Item Caption="Укрепление откосов насыпи" Handle="802" Color="16776960" />
+      <Item Caption="Укрепление кюветов" Handle="803" Color="16776960" />
+      <Item Caption="Укрепление откосов выемки" Handle="804" Color="16776960" />
+      <Item Caption="Планировка обочины" Handle="805" Color="16776960" />
+      <Item Caption="Укрепление обочины" Handle="806" Color="16776960" />
+      <Item Caption="Присыпная обочина" Handle="807" Color="65535" />
+      <Item Caption="Контур кювета выемки" Handle="808" Color="8380415" />
+      <Item Caption="Контур насыпи" Handle="809" Color="65535" />
+      <Item Caption="Контур выемки" Handle="810" Color="32767" />
+      <Item Caption="Срезка обочины" Handle="811" Color="10746618" />
+      <Item Caption="Контур нераспределен" Handle="812" Color="13346556" />
+      <Item Caption="Нарезка уступов" Handle="814" />
+      <Item Caption="Рыхление откосов" Handle="815" Color="32896" />
+      <Item Caption="Существующая дорожная одежда" Handle="816" Color="12632256" />
+      <Item Caption="Разборка существующей дорожной одежды" Handle="817" Color="4227327" />
+      <Item Caption="Толщины покрытия" Handle="600" />
+      <Item Caption="Тип 1 усиление" Handle="601" Color="6579455" />
+      <Item Caption="Тип 2 усиление" Handle="602" Color="6618980" />
+      <Item Caption="Тип 3 усиление" Handle="603" Color="16737380" />
+      <Item Caption="Тип 4 усиление" Handle="604" Color="3289855" />
+      <Item Caption="Тип 5 усиление" Handle="605" Color="3342130" />
+      <Item Caption="Тип 6 усиление" Handle="606" Color="16724530" />
+      <Item Caption="Тип 7 усиление" Handle="607" Color="255" />
+      <Item Caption="Тип 8 усиление" Handle="608" Color="65280" />
+      <Item Caption="Тип 9 усиление" Handle="609" Color="16711680" />
+      <Item Caption="Тип 11 фрезерование" Handle="611" Color="13158655" />
+      <Item Caption="Тип 12 фрезерование" Handle="612" Color="13172680" />
+      <Item Caption="Тип 13 фрезерование" Handle="613" Color="16763080" />
+      <Item Caption="Тип 14 фрезерование" Handle="614" Color="9869055" />
+      <Item Caption="Тип 15 фрезерование" Handle="615" Color="9895830" />
+      <Item Caption="Тип 16 фрезерование" Handle="616" Color="16750230" />
+      <Item Caption="Тип 17 фрезерование" Handle="617" Color="7237320" />
+      <Item Caption="Тип 18 фрезерование" Handle="618" Color="7260270" />
+      <Item Caption="Тип 19 фрезерование" Handle="619" Color="13135470" />
+      <Item Caption="Тип 20 переустройство" Handle="620" Color="3289650" />
+      <Item Caption="Обочина" Handle="819" Color="65535">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Контроллер визуализации линейного объекта" Handle="1" Tag="&lt;class&gt;LinearVisualizationTemplate&lt;/class&gt;" ReadOnly="true" Visible="false" Converter="1" Editor="2" Value="QlNURwIA6f0AAAAaBUNsYXNzCVRlbXBsYXRlcwZTaGFkZXIHVmVyc2lvbgROYW1lCVRlY2huaXF1ZQxWZXJ0ZXhGb3JtYXQCVlMCUFMGVUlOYW1lDVVJRGVzY3JpcHRpb24IU29ydGFibGUKUGFyYW1ldGVycwRUeXBlBVZhbHVlCENvbXByZXNzCkdlbk1pcE1hcHMJTm9ybWFsTWFwCUhlaWdodE1hcAhVSVdpZGdldAhVSUhpZGRlbgVVSU1pbgVVSU1heAZVSVN0ZXAEQnVtcA1Cb3JkZXJzU21vb3RoAgAAig0BCgBsVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlci5UZW1wbGF0ZXMuTGluZWFyVmlzdWFsaXphdGlvblRlbXBsYXRlLCBUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyAQEBAAGTDAEKAFxUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyLlRlbXBsYXRlcy5SZWxpZWZQYXRjaCwgVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlcgMAAgEGAwEJCgQKVGVycmFpbi5meAoFBE1haW4GBgEKBwZWU18xXzEKCAZQU18xXzEKCRbQn9C+0LLQtdGA0YXQvdC+0YHRgtGMCgox0JLQuNC30YPQsNC70LjQt9C40YDRg9C10YIg0L/QvtCy0LXRgNGF0L3QvtGB0YLRjAYLAAEMAAeHAQsKBAxCYXNpY1RleHR1cmUKDQl0ZXh0dXJlMkQKDgxTaG91bGRlci5wbmcCDwECEAECEQACEgAKCRDQotC10LrRgdGC0YPRgNCwCgos0KLQtdC60YHRgtGD0YDQsCDQsdCw0LfQvtCy0L7Qs9C+INGG0LLQtdGC0LAKEwdUZXh0dXJlAhQAAIgBCwoEB0J1bXBNYXAKDQl0ZXh0dXJlMkQKDgxTaG91bGRlci5wbmcCDwACEAECEQECEgAKCRnQmtCw0YDRgtCwINGA0LXQu9GM0LXRhNCwCgop0JrQsNGA0YLQsCDQvdC+0YDQvNCw0LvQtdC5INC4INCy0YvRgdC+0YIKEwdUZXh0dXJlAhQAAJ4BCgoEEUJhc2VUZXh0dXJlUmVwZWF0Cg0FZmxvYXQKDgEyCBUAAIA/CBYAAHpECBfNzMw9Cgkd0KDQsNC30LzQtdGAINGC0LXQutGB0YLRg9GA0YsKCjvQl9Cw0LTQsNGR0YIg0YDQtdCw0LvRjNC90YvQuSDRgNCw0LfQvNC10YAg0YLQtdC60YHRgtGD0YDRiwoTBnNsaWRlcgIUAADKAQoKBA5IZWlnaHRNYXBTY2FsZQoNBWZsb2F0Cg4FMC4wMDYIFW8SgzoIFs3MTD4IFwrXIzwKCSXQodGC0LXQv9C10L3RjCDRgNC10LvRjNC10YTQvdC+0YHRgtC4Cgpe0JfQsNC00LDRkdGCINC00LjQsNC/0L7Qt9C+0L0g0LfQvdCw0YfQtdC90LjQuSDQtNC70Y8g0YDQsNGB0YfQtdGC0LAg0LLRi9GB0L7RgiDRgNC10LvRjNC10YTQsAoTBnNsaWRlcgIUAACTAgoKBAxMT0RUaHJlc2hvbGQKDQNpbnQKDgE1BhUDBhZkBhcBCgkl0KPRgNC+0LLQtdC90Ywg0L7Qv9GC0LjQvNC40LfQsNGG0LjQuAoKtwHQl9Cw0LTQsNGR0YIgbWlwIG1hcCDRg9GA0L7QstC10L3RjCDQutCw0YDRgtGLINGA0LXQu9GM0LXRhNCwINC/0YDQuCDQutC+0YLQvtGA0L7QvCDRiNC10LnQtNC10YAg0L/QtdGA0LXRhdC+0LTQuNGCINC6INGA0LDRgdGH0LXRgtGDINGBINC/0L7QvNC+0YnRjNGOINCw0LvQs9C+0YDQuNGC0LzQsCBidW1wIG1hcHBpbmcKEwZzbGlkZXICFAAArAEKCgQNU3BlY3VsYXJQb3dlcgoNBWZsb2F0Cg4CNjAIFQrXIzwIFgAAyEIIFwrXIzwKCRvQodGC0LXQv9C10L3RjCDQsdC70LXRgdC60LAKCk7Ql9Cw0LTQsNGR0YIg0YHRgtC10L/QtdC90Ywg0LfQtdGA0LrQsNC70YzQvdC+0LPQviDQsdC70LXRgdC60LAg0L7QsdGK0LXQutGC0LAKEwZzbGlkZXICFAAA1gEKCgQNU3BlY3VsYXJMZXZlbAoNBWZsb2F0Cg4BMAgVCtcjPAgWAACAPwgXCtcjPAoJG9Cj0YDQvtCy0LXQvdGMINCx0LvQtdGB0LrQsAoKedCX0LDQtNCw0ZHRgiDQstC70LjRj9C90LjQtSDRgdGC0LXQv9C10L3QuCDQt9C10YDQutCw0LvRjNC90L7Qs9C+INCx0LvQtdGB0LrQsCDQvdCwINGA0LXQt9GD0LvRjNGC0LjRgNGD0Y7RidC40Lkg0YbQstC10YIKEwZzbGlkZXICFAAAABgBCA4AAAAAAAAZAQgOAAAAAAAARU9G" />
+        </Propertys>
+      </Item>
+      <Item Caption="Дно кювета" Handle="720" Color="16777130">
+        <Propertys aType="0">
+          <Property ClassName="0" Caption="Контроллер визуализации линейного объекта" Handle="1" Tag="&lt;class&gt;LinearVisualizationTemplate&lt;/class&gt;" ReadOnly="true" Visible="false" Converter="1" Editor="2" Value="QlNURwIA6f0AAAAaBUNsYXNzCVRlbXBsYXRlcwZTaGFkZXIHVmVyc2lvbgROYW1lCVRlY2huaXF1ZQxWZXJ0ZXhGb3JtYXQCVlMCUFMGVUlOYW1lDVVJRGVzY3JpcHRpb24IU29ydGFibGUKUGFyYW1ldGVycwRUeXBlBVZhbHVlCFVJV2lkZ2V0CFVJSGlkZGVuCENvbXByZXNzCkdlbk1pcE1hcHMJTm9ybWFsTWFwCUhlaWdodE1hcAVVSU1pbgVVSU1heAZVSVN0ZXAEQnVtcA1Cb3JkZXJzU21vb3RoAgAA3A0BCgBsVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlci5UZW1wbGF0ZXMuTGluZWFyVmlzdWFsaXphdGlvblRlbXBsYXRlLCBUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyAQEBAAHlDAEKAFxUb3BvbWF0aWMuVmlzdWFsaXphdGlvbi5Db250cm9sbGVyLlRlbXBsYXRlcy5SZWxpZWZQYXRjaCwgVG9wb21hdGljLlZpc3VhbGl6YXRpb24uQ29udHJvbGxlcgMAAgEGAwEJCgQKVGVycmFpbi5meAoFBE1haW4GBgEKBwZWU18xXzEKCAZQU18xXzEKCRbQn9C+0LLQtdGA0YXQvdC+0YHRgtGMCgox0JLQuNC30YPQsNC70LjQt9C40YDRg9C10YIg0L/QvtCy0LXRgNGF0L3QvtGB0YLRjAYLAAEMAAhVBwoEDERpZmZ1c2VDb2xvcgoNBmZsb2F0MwoOBzAsIDEsIDAKCSDQptCy0LXRgiDQv9C+INGD0LzQvtC70YfQsNC90LjRjgoKAAoPBWNvbG9yAhAAAIQBCwoEDEJhc2ljVGV4dHVyZQoNCXRleHR1cmUyRAoOCVNsb3BlLnBuZwIRAQISAQITAAIUAAoJENCi0LXQutGB0YLRg9GA0LAKCizQotC10LrRgdGC0YPRgNCwINCx0LDQt9C+0LLQvtCz0L4g0YbQstC10YLQsAoPB1RleHR1cmUCEAAAhQELCgQHQnVtcE1hcAoNCXRleHR1cmUyRAoOCVNsb3BlLnBuZwIRAAISAQITAQIUAAoJGdCa0LDRgNGC0LAg0YDQtdC70YzQtdGE0LAKCinQmtCw0YDRgtCwINC90L7RgNC80LDQu9C10Lkg0Lgg0LLRi9GB0L7RggoPB1RleHR1cmUCEAAAngEKCgQRQmFzZVRleHR1cmVSZXBlYXQKDQVmbG9hdAoOATUIFQAAgD8IFgAAekQIF83MzD0KCR3QoNCw0LfQvNC10YAg0YLQtdC60YHRgtGD0YDRiwoKO9CX0LDQtNCw0ZHRgiDRgNC10LDQu9GM0L3Ri9C5INGA0LDQt9C80LXRgCDRgtC10LrRgdGC0YPRgNGLCg8Gc2xpZGVyAhAAAMoBCgoEDkhlaWdodE1hcFNjYWxlCg0FZmxvYXQKDgUwLjAwNwgVbxKDOggWzcxMPggXCtcjPAoJJdCh0YLQtdC/0LXQvdGMINGA0LXQu9GM0LXRhNC90L7RgdGC0LgKCl7Ql9Cw0LTQsNGR0YIg0LTQuNCw0L/QvtC30L7QvSDQt9C90LDRh9C10L3QuNC5INC00LvRjyDRgNCw0YHRh9C10YLQsCDQstGL0YHQvtGCINGA0LXQu9GM0LXRhNCwCg8Gc2xpZGVyAhAAAJMCCgoEDExPRFRocmVzaG9sZAoNA2ludAoOATUGFQMGFmQGFwEKCSXQo9GA0L7QstC10L3RjCDQvtC/0YLQuNC80LjQt9Cw0YbQuNC4Cgq3AdCX0LDQtNCw0ZHRgiBtaXAgbWFwINGD0YDQvtCy0LXQvdGMINC60LDRgNGC0Ysg0YDQtdC70YzQtdGE0LAg0L/RgNC4INC60L7RgtC+0YDQvtC8INGI0LXQudC00LXRgCDQv9C10YDQtdGF0L7QtNC40YIg0Log0YDQsNGB0YfQtdGC0YMg0YEg0L/QvtC80L7RidGM0Y4g0LDQu9Cz0L7RgNC40YLQvNCwIGJ1bXAgbWFwcGluZwoPBnNsaWRlcgIQAACsAQoKBA1TcGVjdWxhclBvd2VyCg0FZmxvYXQKDgI2MAgVCtcjPAgWAADIQggXCtcjPAoJG9Ch0YLQtdC/0LXQvdGMINCx0LvQtdGB0LrQsAoKTtCX0LDQtNCw0ZHRgiDRgdGC0LXQv9C10L3RjCDQt9C10YDQutCw0LvRjNC90L7Qs9C+INCx0LvQtdGB0LrQsCDQvtCx0YrQtdC60YLQsAoPBnNsaWRlcgIQAADYAQoKBA1TcGVjdWxhckxldmVsCg0FZmxvYXQKDgMwLjMIFQrXIzwIFgAAgD8IFwrXIzwKCRvQo9GA0L7QstC10L3RjCDQsdC70LXRgdC60LAKCnnQl9Cw0LTQsNGR0YIg0LLQu9C40Y/QvdC40LUg0YHRgtC10L/QtdC90Lgg0LfQtdGA0LrQsNC70YzQvdC+0LPQviDQsdC70LXRgdC60LAg0L3QsCDRgNC10LfRg9C70YzRgtC40YDRg9GO0YnQuNC5INGG0LLQtdGCCg8Gc2xpZGVyAhAAAAAYAQgOAAAAAAAAGQEIDgAAAAAAAEVPRg==" />
+        </Propertys>
+      </Item>
+      <Item Caption="Интерполированная земля" Handle="518" Color="65535" />
+      <Item Caption="Велодорожка" Handle="552" Color="9352189" />
+      <Item Caption="Тротуар" Handle="553" Color="15177376" />
+      <Item Caption="Газон" Handle="554" Color="6750131" />
+      <Item Caption="Проектный поперечник (по верху земполотна с учетом реконструкции)" Handle="512" />
+    </Items>
+  </Body>
+</Stg>

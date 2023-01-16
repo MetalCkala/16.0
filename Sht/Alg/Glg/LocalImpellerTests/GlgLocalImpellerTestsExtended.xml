@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость испытаний крыльчаткой по подобъекту (расширенная)">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_3">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_4">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_5">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="GlgLocalImpellerTests" name="Испытания">
+    <Subtable name="Заголовок каталога точек испытаний грунтов" id="HeadPoint" excluded="0">
+      <Column index="0" width="43" options="2" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="44" options="2" />
+      <Column index="3" width="44" options="2" />
+      <Column index="4" width="44" options="2" />
+      <Column index="5" width="44" options="2" />
+      <Column index="6" width="44" options="2" />
+      <Column index="7" width="44" options="2" />
+      <Column index="8" width="44" options="2" />
+      <Column index="9" width="44" options="2" />
+      <Column index="10" width="44" options="2" />
+      <Column index="11" width="44" options="2" />
+      <Column index="12" width="44" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="13" style="style_0">Испытания</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="12" style="style_0">Проект: $(getvar, ProjectName) / Подобъект: $(getvar, AlignmentName)</Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" colspan="12" style="style_0">Каталог точек испытаний грунтов методом вращательного среза</Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Номер испытания</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_1">
+        </Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+        <Cell index="5" colspan="5" style="style_0">Местоположение выработки</Cell>
+        <Cell index="10" colspan="2" style="style_0">Привязка в абс. координатах</Cell>
+        <Cell index="12" rowspan="2" style="style_0">Отметка, м</Cell>
+      </Row>
+      <Row index="4" height="5" options="2">
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_1">
+        </Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+        <Cell index="5" style="style_0">км</Cell>
+        <Cell index="6" style="style_0">Пикет</Cell>
+        <Cell index="7" style="style_0">Плюс</Cell>
+        <Cell index="8" style="style_0">Лево, м</Cell>
+        <Cell index="9" style="style_0">Право, м</Cell>
+        <Cell index="10" style="style_0">N</Cell>
+        <Cell index="11" style="style_0">E</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные каталога точек испытаний грунтов" id="DataPoint" excluded="0">
+      <Column index="0" width="43" options="2" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="44" options="2" />
+      <Column index="3" width="44" options="2" />
+      <Column index="4" width="44" options="2" />
+      <Column index="5" width="44" options="2" />
+      <Column index="6" width="44" options="2" />
+      <Column index="7" width="44" options="2" />
+      <Column index="8" width="44" options="2" />
+      <Column index="9" width="44" options="2" />
+      <Column index="10" width="44" options="2" />
+      <Column index="11" width="44" options="2" />
+      <Column index="12" width="44" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_2">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_1">
+        </Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+        <Cell index="5" style="style_2">$(getvar, KM)</Cell>
+        <Cell index="6" style="style_2">$(getvar, Station)</Cell>
+        <Cell index="7" style="style_3">$(getvar, Plus)</Cell>
+        <Cell index="8" style="style_3">$(getvar, Left)</Cell>
+        <Cell index="9" style="style_3">$(getvar, Right)</Cell>
+        <Cell index="10" style="style_3">$(getvar, N)</Cell>
+        <Cell index="11" style="style_3">$(getvar, E)</Cell>
+        <Cell index="12" style="style_3">$(getvar, Elevation)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок показаний измерительного устройства" id="HeadImpellerTest" excluded="0">
+      <Column index="0" width="43" options="2" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="44" options="2" />
+      <Column index="3" width="44" options="2" />
+      <Column index="4" width="44" options="2" />
+      <Column index="5" width="44" options="2" />
+      <Column index="6" width="44" options="2" />
+      <Column index="7" width="44" options="2" />
+      <Column index="8" width="44" options="2" />
+      <Column index="9" width="44" options="2" />
+      <Column index="10" width="44" options="2" />
+      <Column index="11" width="44" options="2" />
+      <Column index="12" width="44" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_2">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_1">
+        </Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+        <Cell index="7" style="style_3">
+        </Cell>
+        <Cell index="8" style="style_3">
+        </Cell>
+        <Cell index="9" style="style_3">
+        </Cell>
+        <Cell index="10" style="style_3">$(getvar, Key)</Cell>
+        <Cell index="11" style="style_3">$(getvar, TestingDate)</Cell>
+        <Cell index="12" style="style_3">$(getvar, Description)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Глубина, м</Cell>
+        <Cell index="1" rowspan="2" style="style_1">Отказ</Cell>
+        <Cell index="2" colspan="3" style="style_1">Показания измерительного устройства, см</Cell>
+        <Cell index="5" colspan="3" style="style_0">Крутящие моменты, кН * см</Cell>
+        <Cell index="8" colspan="4" style="style_0">Удельное сопротивление срезу, мПа</Cell>
+        <Cell index="12" rowspan="2" style="style_0">Показатель чувствительности грунта, St</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="2" style="style_1">Ненаруш. (N max)</Cell>
+        <Cell index="3" style="style_1">Нарушен. (N уст.)</Cell>
+        <Cell index="4" style="style_1">Трение (N 0)</Cell>
+        <Cell index="5" style="style_0">Ненаруш. (M max)</Cell>
+        <Cell index="6" style="style_0">Нарушен. (М уст.)</Cell>
+        <Cell index="7" style="style_0">Трение (М 0)</Cell>
+        <Cell index="8" style="style_0">τ ненаруш. (max)</Cell>
+        <Cell index="9" style="style_0">τ наруш. (уст.)</Cell>
+        <Cell index="10" style="style_0">τ ненаруш. (max)</Cell>
+        <Cell index="11" style="style_0">τ наруш. (уст.)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные показаний измерительного устройства" id="DataImpellerTest" excluded="0">
+      <Column index="0" width="43" options="2" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="44" options="2" />
+      <Column index="3" width="44" options="2" />
+      <Column index="4" width="44" options="2" />
+      <Column index="5" width="44" options="2" />
+      <Column index="6" width="44" options="2" />
+      <Column index="7" width="44" options="2" />
+      <Column index="8" width="44" options="2" />
+      <Column index="9" width="44" options="2" />
+      <Column index="10" width="44" options="2" />
+      <Column index="11" width="44" options="2" />
+      <Column index="12" width="44" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_3">$(getvar, Depth)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Refuse)</Cell>
+        <Cell index="2" style="style_4">$(getvar, NMax)</Cell>
+        <Cell index="3" style="style_4">$(getvar, NUst)</Cell>
+        <Cell index="4" style="style_4">$(getvar, N0)</Cell>
+        <Cell index="5" style="style_3">$(getvar, MMax)</Cell>
+        <Cell index="6" style="style_3">$(getvar, MUst)</Cell>
+        <Cell index="7" style="style_3">$(getvar, M0)</Cell>
+        <Cell index="8" style="style_3">$(getvar, TauMax)</Cell>
+        <Cell index="9" style="style_3">$(getvar, TauUst)</Cell>
+        <Cell index="10" style="style_3">$(getvar, TauMaxAlt)</Cell>
+        <Cell index="11" style="style_3">$(getvar, TauUstAlt)</Cell>
+        <Cell index="12" style="style_3">$(getvar, PStrPlotn)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок ключей и постоянных крыльчатки" id="HeadImpellerConst" excluded="0">
+      <Column index="0" width="43" options="2" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="44" options="2" />
+      <Column index="3" width="44" options="2" />
+      <Column index="4" width="44" options="2" />
+      <Column index="5" width="44" options="2" />
+      <Column index="6" width="44" options="2" />
+      <Column index="7" width="44" options="2" />
+      <Column index="8" width="44" options="2" />
+      <Column index="9" width="44" options="2" />
+      <Column index="10" width="44" options="2" />
+      <Column index="11" width="44" options="2" />
+      <Column index="12" width="44" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="12" style="style_0">Ключи и постоянные крыльчатки</Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" style="style_0">№ п/п</Cell>
+        <Cell index="1" style="style_1">Номер ключа</Cell>
+        <Cell index="2" style="style_1">Высота, мм</Cell>
+        <Cell index="3" style="style_1">Ширина, мм</Cell>
+        <Cell index="4" style="style_1">Постоян. крыльч., см3</Cell>
+        <Cell index="5" style="style_0">Тарировка</Cell>
+        <Cell index="6" style="style_0">Дата заводской калибровки</Cell>
+        <Cell index="7" style="style_0">Дата очередной тарировки</Cell>
+        <Cell index="8" style="style_0">Примечания</Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные ключей и постоянных крыльчатки" id="DataImpellerConst" excluded="0">
+      <Column index="0" width="43" options="2" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="44" options="2" />
+      <Column index="3" width="44" options="2" />
+      <Column index="4" width="44" options="2" />
+      <Column index="5" width="44" options="2" />
+      <Column index="6" width="44" options="2" />
+      <Column index="7" width="44" options="2" />
+      <Column index="8" width="44" options="2" />
+      <Column index="9" width="44" options="2" />
+      <Column index="10" width="44" options="2" />
+      <Column index="11" width="44" options="2" />
+      <Column index="12" width="44" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_2">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Key)</Cell>
+        <Cell index="2" style="style_4">$(getvar, Height)</Cell>
+        <Cell index="3" style="style_4">$(getvar, Width)</Cell>
+        <Cell index="4" style="style_5">$(getvar, ImpConst)</Cell>
+        <Cell index="5" style="style_3">$(getvar, Calibration)</Cell>
+        <Cell index="6" style="style_0">$(getvar, FactCalibr)</Cell>
+        <Cell index="7" style="style_0">$(getvar, CurrCalibr)</Cell>
+        <Cell index="8" style="style_0">$(getvar, Description)</Cell>
+        <Cell index="9" style="style_2">
+        </Cell>
+        <Cell index="10" style="style_2">
+        </Cell>
+        <Cell index="11" style="style_2">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Пустая строка" id="EmptyRow" excluded="0">
+      <Column index="0" width="43" options="2" />
+      <Column index="1" width="16" options="1" />
+      <Column index="2" width="44" options="2" />
+      <Column index="3" width="44" options="2" />
+      <Column index="4" width="44" options="2" />
+      <Column index="5" width="44" options="2" />
+      <Column index="6" width="44" options="2" />
+      <Column index="7" width="44" options="2" />
+      <Column index="8" width="44" options="2" />
+      <Column index="9" width="44" options="2" />
+      <Column index="10" width="44" options="2" />
+      <Column index="11" width="44" options="2" />
+      <Column index="12" width="44" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_1">
+        </Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">
+        </Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+        <Cell index="12" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="LIKE17" FileName="d431.shx" Flags="0" FontName="d431" Height="0" LastUsedHeight="2,5" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

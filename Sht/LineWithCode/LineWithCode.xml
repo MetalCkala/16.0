@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость по линии с кодом">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="LineWithCode" name="Ведомость по линии с кодом">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="23,2299995422363" options="2" />
+      <Column index="1" width="23,2299995422363" options="2" />
+      <Column index="2" width="23,2299995422363" options="2" />
+      <Column index="3" width="23,2299995422363" options="2" />
+      <Column index="4" width="23,2299995422363" options="2" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Column index="7" width="22,7000007629395" options="1" />
+      <Column index="8" width="23,2299995422363" options="2" />
+      <Column index="9" width="19,6000003814697" options="1" />
+      <Column index="10" width="19,6000003814697" options="1" />
+      <Column index="11" width="19,6000003814697" options="1" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="9" style="style_0">$(getvar, filename)</Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+        <Cell index="10" style="style_0">
+        </Cell>
+        <Cell index="11" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" colspan="9" style="style_0">$(getcolumn, pointNumber)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" style="style_0">ПК</Cell>
+        <Cell index="1" style="style_0">Расстояние от начала трассы, м</Cell>
+        <Cell index="2" style="style_0">Проектная отметка по профилю, м</Cell>
+        <Cell index="3" style="style_0">Код</Cell>
+        <Cell index="4" style="style_0">Отметка, м</Cell>
+        <Cell index="5" style="style_0">Смещение, м</Cell>
+        <Cell index="6" style="style_0">Сущ. отметка, м</Cell>
+        <Cell index="7" style="style_0">Раб. отметка, м</Cell>
+        <Cell index="8" style="style_0">Сев. коорд., м</Cell>
+        <Cell index="9" style="style_0">Вост. коорд., м</Cell>
+        <Cell index="10" style="style_0">Расстояние, м</Cell>
+        <Cell index="11" style="style_0">Уклон</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Row">
+      <Column index="0" width="23,2299995422363" options="2" />
+      <Column index="1" width="23,2299995422363" options="2" />
+      <Column index="2" width="23,2299995422363" options="2" />
+      <Column index="3" width="23,2299995422363" options="2" />
+      <Column index="4" width="23,2299995422363" options="2" />
+      <Column index="5" width="19,6000003814697" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Column index="7" width="22,7000007629395" options="1" />
+      <Column index="8" width="23,2299995422363" options="2" />
+      <Column index="9" width="19,6000003814697" options="1" />
+      <Column index="10" width="19,6000003814697" options="1" />
+      <Column index="11" width="19,6000003814697" options="1" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, pk)</Cell>
+        <Cell index="1" style="style_1">$(getvar, station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, projectElevation)</Cell>
+        <Cell index="3" style="style_0">$(getcolumn, code)</Cell>
+        <Cell index="4" style="style_1">$(getcolumn, elevation)</Cell>
+        <Cell index="5" style="style_1">$(getcolumn, offset)</Cell>
+        <Cell index="6" style="style_1">$(getcolumn, egElevation)</Cell>
+        <Cell index="7" style="style_1">$(getcolumn, workElevation)</Cell>
+        <Cell index="8" style="style_1">$(getcolumn, coordY)</Cell>
+        <Cell index="9" style="style_1">$(getcolumn, coordX)</Cell>
+        <Cell index="10" style="style_1">$(getcolumn, distance)</Cell>
+        <Cell index="11" style="style_1">$(getcolumn, inclination)</Cell>
+      </Row>
+    </Subtable>
+    <ColumnTemplate columnContextId="pointNumber" X1="3" X2="11" Y1="1" Y2="3">
+      <ColumnTemplate columnContextId="code" X1="0" X2="0" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="coordY" X1="5" X2="5" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="elevation" X1="1" X2="1" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="offset" X1="2" X2="2" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="egElevation" X1="3" X2="3" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="workElevation" X1="4" X2="4" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="coordX" X1="6" X2="6" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="distance" X1="7" X2="7" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="inclination" X1="8" X2="8" Y1="2" Y2="2" />
+    </ColumnTemplate>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

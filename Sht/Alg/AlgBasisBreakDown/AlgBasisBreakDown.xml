@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Разбивка от базиса">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="AlgBasisBreakDown" name="Разбивка от базиса">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="90" options="2" />
+      <Column index="1" width="90" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="2" style="style_0">$(getvar, SheetName)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="2" style="style_0">Разбивка относительно подобъекта $(getvar, BasisName)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" style="style_0">Расстояние от начала, м</Cell>
+        <Cell index="1" style="style_0">Смещение, м</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="StaOffsetData">
+      <Column index="0" width="90" options="2" />
+      <Column index="1" width="90" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Offset)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

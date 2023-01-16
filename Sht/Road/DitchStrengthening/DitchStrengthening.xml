@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Укрепления кюветов">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderWidth>1</LeftBorderWidth>
+      <RightBorderWidth>1</RightBorderWidth>
+      <TopBorderWidth>1</TopBorderWidth>
+      <BottomBorderWidth>1</BottomBorderWidth>
+      <Alignment>4</Alignment>
+    </Style>
+    <Style id="style_1">
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>3</FloatDisplayStyleDigits>
+      <Alignment>4</Alignment>
+    </Style>
+    <Style id="style_2">
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <Alignment>4</Alignment>
+    </Style>
+    <Style id="style_3">
+      <Alignment>4</Alignment>
+    </Style>
+  </Styles>
+  <Table name="Левый кювет" id="LeftDitchStrengthening">
+    <Subtable id="Head" name ="Заголовок">
+      <Row index="0">
+      </Row>
+      <Row index="1">
+        <Cell index="0" rowspan="2" style="style_0">Пикет
+начала</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Пикет
+конца</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Уклон, ‰</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Средний
+периметр,
+м</Cell>
+        <Cell index="5" colspan="4" style="style_0">Площадь укреплений откосов, м2</Cell>
+        <Cell index="9" colspan="4" style="style_0">Площадь укреплений дна, м2</Cell>
+      </Row>
+      <Row index="2">
+        <Cell index="5" style="style_0">Засев трав</Cell>
+        <Cell index="6" style="style_0">Мощение</Cell>
+        <Cell index="7" style="style_0">Бетонирование</Cell>
+        <Cell index="8" style="style_0">Быстроток</Cell>
+        <Cell index="9" style="style_0">Засев трав</Cell>
+        <Cell index="10" style="style_0">Мощение</Cell>
+        <Cell index="11" style="style_0">Бетонирование</Cell>
+        <Cell index="12" style="style_0">Быстроток</Cell>
+      </Row>
+    </Subtable>
+    <Subtable id="DitchStrengtheningRow" name ="Данные">
+      <Row index="0">
+        <Cell index="0" style="style_3">$(getvar, StartPicket)</Cell>
+        <Cell index="1" style="style_3">$(getvar, EndPicket)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Length)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Inclination)</Cell>
+        <Cell index="4" style="style_2">$(getvar, Perimeter)</Cell>
+        <Cell index="5" style="style_2">$(getvar, SlopeStrengtheningGrass)</Cell>
+        <Cell index="6" style="style_2">$(getvar, SlopeStrengtheningPave)</Cell>
+        <Cell index="7" style="style_2">$(getvar, SlopeStrengtheningConcrete)</Cell>
+        <Cell index="8" style="style_2">$(getvar, SlopeStrengtheningRapidFlow)</Cell>
+        <Cell index="9" style="style_2">$(getvar, BottomStrengtheningGrass)</Cell>
+        <Cell index="10" style="style_2">$(getvar, BottomStrengtheningPave)</Cell>
+        <Cell index="11" style="style_2">$(getvar, BottomStrengtheningConcrete)</Cell>
+        <Cell index="12" style="style_2">$(getvar, BottomStrengtheningRapidFlow)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table name="Правый кювет" id="RightDitchStrengthening">
+    <Subtable id="Head" name ="Заголовок">
+      <Row index="0">
+      </Row>
+      <Row index="1">
+        <Cell index="0" rowspan="2" style="style_0">Пикет
+начала</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Пикет
+конца</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Уклон, ‰</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Средний
+периметр,
+м</Cell>
+        <Cell index="5" colspan="4" style="style_0">Площадь укреплений откосов, м2</Cell>
+        <Cell index="9" colspan="4" style="style_0">Площадь укреплений дна, м2</Cell>
+      </Row>
+      <Row index="2">
+        <Cell index="5" style="style_0">Засев трав</Cell>
+        <Cell index="6" style="style_0">Мощение</Cell>
+        <Cell index="7" style="style_0">Бетонирование</Cell>
+        <Cell index="8" style="style_0">Быстроток</Cell>
+        <Cell index="9" style="style_0">Засев трав</Cell>
+        <Cell index="10" style="style_0">Мощение</Cell>
+        <Cell index="11" style="style_0">Бетонирование</Cell>
+        <Cell index="12" style="style_0">Быстроток</Cell>
+      </Row>
+    </Subtable>
+    <Subtable id="DitchStrengtheningRow" name ="Данные">
+      <Row index="0">
+        <Cell index="0" style="style_3">$(getvar, StartPicket)</Cell>
+        <Cell index="1" style="style_3">$(getvar, EndPicket)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Length)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Inclination)</Cell>
+        <Cell index="4" style="style_2">$(getvar, Perimeter)</Cell>
+        <Cell index="5" style="style_2">$(getvar, SlopeStrengtheningGrass)</Cell>
+        <Cell index="6" style="style_2">$(getvar, SlopeStrengtheningPave)</Cell>
+        <Cell index="7" style="style_2">$(getvar, SlopeStrengtheningConcrete)</Cell>
+        <Cell index="8" style="style_2">$(getvar, SlopeStrengtheningRapidFlow)</Cell>
+        <Cell index="9" style="style_2">$(getvar, BottomStrengtheningGrass)</Cell>
+        <Cell index="10" style="style_2">$(getvar, BottomStrengtheningPave)</Cell>
+        <Cell index="11" style="style_2">$(getvar, BottomStrengtheningConcrete)</Cell>
+        <Cell index="12" style="style_2">$(getvar, BottomStrengtheningRapidFlow)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

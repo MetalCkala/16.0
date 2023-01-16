@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость распределения земляных масс (упрощенная)">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Soilworks" name="Ведомость распределения земляных масс">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="16" options="1" />
+      <Column index="1" width="23,25" options="1" />
+      <Column index="2" width="22" options="1" />
+      <Column index="3" width="28,1000003814697" options="1" />
+      <Column index="4" width="20,7999992370605" options="1" />
+      <Column index="5" width="20,8999996185303" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Column index="7" width="22,25" options="1" />
+      <Column index="8" width="25,4750061035156" options="2" />
+      <Column index="9" width="36,5999984741211" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" rowspan="5" colspan="2" style="style_0">Участники распределения</Cell>
+        <Cell index="2" colspan="4" style="style_0">Объем земляных работ</Cell>
+        <Cell index="6" colspan="2" style="style_0">Распределение земляных масс</Cell>
+        <Cell index="8" colspan="2" style="style_0">Распределение по видам разработки и транспортировки</Cell>
+      </Row>
+      <Row index="1" height="5,125" options="2">
+        <Cell index="2" style="style_0">Насыпь: (потребители)</Cell>
+        <Cell index="3" rowspan="4" style="style_0">Сумма по насыпям</Cell>
+        <Cell index="4" style="style_0">Выемка: (поставщики)</Cell>
+        <Cell index="5" rowspan="4" style="style_0">Сумма по поставщикам</Cell>
+        <Cell index="6" rowspan="3" style="style_0">$(getcolumn, hauledCut)</Cell>
+        <Cell index="7" rowspan="4" style="style_0">Оплачиваемые земляные работы</Cell>
+        <Cell index="8" colspan="2" style="style_0">$(getcolumn, haulageType)</Cell>
+      </Row>
+      <Row index="2" height="8,83333206176758" options="2">
+        <Cell index="2" rowspan="3" style="style_0">$(getcolumn, embankment)</Cell>
+        <Cell index="4" rowspan="2" style="style_0">$(getcolumn, cut)</Cell>
+        <Cell index="8" style="style_0">Минимальное расстояние</Cell>
+        <Cell index="9" style="style_1">$(getcolumn, haulageTypeMinDistance)</Cell>
+      </Row>
+      <Row index="3" height="9,75" options="2">
+        <Cell index="8" style="style_0">Максимальное расстояние</Cell>
+        <Cell index="9" style="style_1">$(getcolumn, haulageTypeMaxDistance)</Cell>
+      </Row>
+      <Row index="4" height="0" options="1">
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">№ по СНиП</Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок объекта" id="SoilworksObjectHead">
+      <Column index="0" width="16" options="1" />
+      <Column index="1" width="23,25" options="1" />
+      <Column index="2" width="22" options="1" />
+      <Column index="3" width="28,1000003814697" options="1" />
+      <Column index="4" width="20,7999992370605" options="1" />
+      <Column index="5" width="20,8999996185303" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Column index="7" width="22,25" options="1" />
+      <Column index="8" width="25,4750061035156" options="2" />
+      <Column index="9" width="36,5999984741211" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="2" style="style_0">$(getvar, soilworksObjectName)</Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+        <Cell index="7" style="style_0">
+        </Cell>
+        <Cell index="8" style="style_0">
+        </Cell>
+        <Cell index="9" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Row">
+      <Column index="0" width="16" options="1" />
+      <Column index="1" width="23,25" options="1" />
+      <Column index="2" width="22" options="1" />
+      <Column index="3" width="28,1000003814697" options="1" />
+      <Column index="4" width="20,7999992370605" options="1" />
+      <Column index="5" width="20,8999996185303" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Column index="7" width="22,25" options="1" />
+      <Column index="8" width="25,4750061035156" options="2" />
+      <Column index="9" width="36,5999984741211" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, label)</Cell>
+        <Cell index="1" style="style_0">$(getvar, sectorStations)</Cell>
+        <Cell index="2" style="style_1">$(getcolumn, volume)</Cell>
+        <Cell index="3" style="style_1">$(getvar, embankmentsSumm)</Cell>
+        <Cell index="4" style="style_1">$(getcolumn, volume)</Cell>
+        <Cell index="5" style="style_1">$(getvar, cutsSumm)</Cell>
+        <Cell index="6" style="style_1">$(getcolumn, volume)</Cell>
+        <Cell index="7" style="style_1">$(getvar, hauledSumm)</Cell>
+        <Cell index="8" style="style_1">
+        </Cell>
+        <Cell index="9" style="style_1">$(getcolumn, volume)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого по километру" id="SummByKm">
+      <Column index="0" width="16" options="1" />
+      <Column index="1" width="23,25" options="1" />
+      <Column index="2" width="22" options="1" />
+      <Column index="3" width="28,1000003814697" options="1" />
+      <Column index="4" width="20,7999992370605" options="1" />
+      <Column index="5" width="20,8999996185303" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Column index="7" width="22,25" options="1" />
+      <Column index="8" width="25,4750061035156" options="2" />
+      <Column index="9" width="36,5999984741211" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, label)</Cell>
+        <Cell index="1" style="style_0">$(getvar, sectorStations)</Cell>
+        <Cell index="2" style="style_1">$(getcolumn, volume)</Cell>
+        <Cell index="3" style="style_1">$(getvar, embankmentsSumm)</Cell>
+        <Cell index="4" style="style_1">$(getcolumn, volume)</Cell>
+        <Cell index="5" style="style_1">$(getvar, cutsSumm)</Cell>
+        <Cell index="6" style="style_1">$(getcolumn, volume)</Cell>
+        <Cell index="7" style="style_1">$(getvar, hauledSumm)</Cell>
+        <Cell index="8" style="style_1">
+        </Cell>
+        <Cell index="9" style="style_1">$(getcolumn, volume)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="Summ">
+      <Column index="0" width="16" options="1" />
+      <Column index="1" width="23,25" options="1" />
+      <Column index="2" width="22" options="1" />
+      <Column index="3" width="28,1000003814697" options="1" />
+      <Column index="4" width="20,7999992370605" options="1" />
+      <Column index="5" width="20,8999996185303" options="1" />
+      <Column index="6" width="19,6000003814697" options="1" />
+      <Column index="7" width="22,25" options="1" />
+      <Column index="8" width="25,4750061035156" options="2" />
+      <Column index="9" width="36,5999984741211" options="1" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, label)</Cell>
+        <Cell index="1" style="style_0">$(getvar, sectorStations)</Cell>
+        <Cell index="2" style="style_1">$(getcolumn, volume)</Cell>
+        <Cell index="3" style="style_1">$(getvar, embankmentsSumm)</Cell>
+        <Cell index="4" style="style_1">$(getcolumn, volume)</Cell>
+        <Cell index="5" style="style_1">$(getvar, cutsSumm)</Cell>
+        <Cell index="6" style="style_1">$(getcolumn, volume)</Cell>
+        <Cell index="7" style="style_1">$(getvar, hauledSumm)</Cell>
+        <Cell index="8" style="style_1">
+        </Cell>
+        <Cell index="9" style="style_1">$(getcolumn, volume)</Cell>
+      </Row>
+    </Subtable>
+    <ColumnTemplate columnContextId="embankment" X1="2" X2="2" Y1="2" Y2="8">
+      <ColumnTemplate columnContextId="volume" X1="0" X2="0" Y1="4" Y2="4" />
+      <ColumnTemplate columnContextId="volume" X1="0" X2="0" Y1="5" Y2="5" />
+      <ColumnTemplate columnContextId="volume" X1="0" X2="0" Y1="6" Y2="6" />
+    </ColumnTemplate>
+    <ColumnTemplate columnContextId="cut" X1="4" X2="4" Y1="2" Y2="8">
+      <ColumnTemplate columnContextId="volume" X1="0" X2="0" Y1="4" Y2="4" />
+      <ColumnTemplate columnContextId="volume" X1="0" X2="0" Y1="5" Y2="5" />
+      <ColumnTemplate columnContextId="volume" X1="0" X2="0" Y1="6" Y2="6" />
+    </ColumnTemplate>
+    <ColumnTemplate columnContextId="hauledCut" X1="6" X2="6" Y1="1" Y2="8">
+      <ColumnTemplate columnContextId="volume" X1="0" X2="0" Y1="5" Y2="5" />
+      <ColumnTemplate columnContextId="volume" X1="0" X2="0" Y1="6" Y2="6" />
+      <ColumnTemplate columnContextId="volume" X1="0" X2="0" Y1="7" Y2="7" />
+    </ColumnTemplate>
+    <ColumnTemplate columnContextId="haulageType" X1="8" X2="9" Y1="1" Y2="8">
+      <ColumnTemplate columnContextId="haulageTypeMinDistance" X1="1" X2="1" Y1="1" Y2="1" />
+      <ColumnTemplate columnContextId="haulageTypeMaxDistance" X1="1" X2="1" Y1="2" Y2="2" />
+      <ColumnTemplate columnContextId="volume" X1="1" X2="1" Y1="5" Y2="5" />
+      <ColumnTemplate columnContextId="volume" X1="1" X2="1" Y1="6" Y2="6" />
+      <ColumnTemplate columnContextId="volume" X1="1" X2="1" Y1="7" Y2="7" />
+    </ColumnTemplate>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

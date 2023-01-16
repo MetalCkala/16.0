@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость междупутий и сдвижек полная">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Its" name="Ведомость междупутий">
+    <Subtable name="Заголовок таблицы" id="HeadGlobal">
+      <Column index="0" width="37" options="2" />
+      <Column index="1" width="37" options="2" />
+      <Column index="2" width="37" options="2" />
+      <Column index="3" width="37" options="2" />
+      <Column index="4" width="37" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="5" style="style_0">Ведомость междупутий</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="5" style="style_0">Проект: $(getvar, ProjectName) | Подобъект: $(getvar, AlignmentName)</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="0" colspan="5" style="style_0">Величины междупутий</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок данных" id="HeadInfo">
+      <Column index="0" width="37" options="2" />
+      <Column index="1" width="37" options="2" />
+      <Column index="2" width="37" options="2" />
+      <Column index="3" width="37" options="2" />
+      <Column index="4" width="37" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" style="style_1">ПК+</Cell>
+        <Cell index="1" style="style_1">Проектное, м</Cell>
+        <Cell index="2" style="style_1">Существующее, м</Cell>
+        <Cell index="3" style="style_1">Временное 1, м</Cell>
+        <Cell index="4" style="style_1">Временное 2, м</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" colspan="4" style="style_0">от ПР. $(getvar, Des) ; СУЩ. $(getvar, Ex) до ПР. $(getvar, DesNext) ; СУЩ. $(getvar, ExNext)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Info">
+      <Column index="0" width="37" options="2" />
+      <Column index="1" width="37" options="2" />
+      <Column index="2" width="37" options="2" />
+      <Column index="3" width="37" options="2" />
+      <Column index="4" width="37" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Project)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Exist)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Temp1)</Cell>
+        <Cell index="4" style="style_2">$(getvar, Temp2)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

@@ -1,0 +1,221 @@
+[
+  {
+    "id": "SmdxSleeperMaterialWood",
+    "name": "Дерево",
+    "parent": "SmdxSleeperMaterialAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Дерево"
+      }
+    ]
+  },
+  {
+    "id": "SmdxSleeperMaterialConcrete",
+    "name": "Железобетон",
+    "parent": "SmdxSleeperMaterialAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Железобетон"
+      }
+    ]
+  },
+  {
+    "id": "SmdxSleeperMaterialOther",
+    "name": "Другое",
+    "parent": "SmdxSleeperMaterialAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Другое"
+      }
+    ]
+  },
+  {
+    "id": "SmdxSleeperAggregatesType1",
+    "name": "Тип I",
+    "parent": "SmdxSleeperAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Тип I"
+      },
+      {
+        "tag": "material",
+        "value": { "type": "SmdxSleeperMaterialWood" }
+      },
+      {
+        "tag": "height",
+        "value": 180.0
+      },
+      {
+        "tag": "width",
+        "value": 250.0
+      },
+      {
+        "tag": "length",
+        "value": 2750.0
+      },
+      {
+        "tag": "depth",
+        "value": 150.0
+      }
+    ]
+  },
+  {
+    "id": "SmdxSleeperAggregatesType2",
+    "name": "Тип II",
+    "parent": "SmdxSleeperAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Тип II"
+      },
+      {
+        "tag": "material",
+        "value": { "type": "SmdxSleeperMaterialWood" }
+      },
+      {
+        "tag": "height",
+        "value": 160.0
+      },
+      {
+        "tag": "width",
+        "value": 230.0
+      },
+      {
+        "tag": "length",
+        "value": 2750.0
+      },
+      {
+        "tag": "depth",
+        "value": 130.0
+      }
+    ]
+  },
+  {
+    "id": "SmdxSleeperAggregatesType3",
+    "name": "Тип III",
+    "parent": "SmdxSleeperAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Тип III"
+      },
+      {
+        "tag": "material",
+        "value": { "type": "SmdxSleeperMaterialWood" }
+      },
+      {
+        "tag": "height",
+        "value": 150.0
+      },
+      {
+        "tag": "width",
+        "value": 230.0
+      },
+      {
+        "tag": "length",
+        "value": 2750.0
+      },
+      {
+        "tag": "depth",
+        "value": 120.0
+      }
+    ]
+  },
+  {
+    "id": "SmdxSleeperAggregatesSH1",
+    "name": "Ш1",
+    "parent": "SmdxSleeperAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Ш1"
+      },
+      {
+        "tag": "material",
+        "value": { "type": "SmdxSleeperMaterialConcrete" }
+      },
+      {
+        "tag": "height",
+        "value": 193.0
+      },
+      {
+        "tag": "width",
+        "value": 250.0
+      },
+      {
+        "tag": "length",
+        "value": 2700.0
+      },
+      {
+        "tag": "depth",
+        "value": 145.0
+      }
+    ]
+  },
+  {
+    "id": "SmdxSleeperAggregatesSH2",
+    "name": "Ш2",
+    "parent": "SmdxSleeperAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Ш2"
+      },
+      {
+        "tag": "material",
+        "value": { "type": "SmdxSleeperMaterialConcrete" }
+      },
+      {
+        "tag": "height",
+        "value": 193.0
+      },
+      {
+        "tag": "width",
+        "value": 250.0
+      },
+      {
+        "tag": "length",
+        "value": 2700.0
+      },
+      {
+        "tag": "depth",
+        "value": 145.0
+      }
+    ]
+  },
+  {
+    "id": "SmdxSleeperAggregatesSH3",
+    "name": "Ш3",
+    "parent": "SmdxSleeperAggregates",
+    "properties": [
+      {
+        "tag": "caption",
+        "value": "Ш3"
+      },
+      {
+        "tag": "material",
+        "value": { "type": "SmdxSleeperMaterialConcrete" }
+      },
+      {
+        "tag": "height",
+        "value": 193.0
+      },
+      {
+        "tag": "width",
+        "value": 250.0
+      },
+      {
+        "tag": "length",
+        "value": 2700.0
+      },
+      {
+        "tag": "depth",
+        "value": 145.0
+      }
+    ]
+  }  
+]

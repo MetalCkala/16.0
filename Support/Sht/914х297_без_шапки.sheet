@@ -1,0 +1,8 @@
+<sheet>
+	<width>914</width>
+	<height>297</height>
+	<thickness>0.6</thickness>
+	<margins left="20" right="5" top="5" bottom="5" />
+	<paddings left="0" right="185" top="0" bottom="55" />
+        <attachment x="0.0" y="1.0" dx="30" dy="-30" autorotate="true">myarrow.dxf</attachment>
+</sheet>

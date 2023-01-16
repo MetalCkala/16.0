@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body LabTableDescription="Простой шаблон таблицы. Включает столбцы, отражающие самые общие параметры, а также системные столбцы. ">
+    <Header>
+      <ParameterColumns aType="0">
+        <ParameterColumn IdStr="AssayNumber" Name="№ &#xD;&#xA;пробы" Group="Общие параметры" Visible="true" HiddenAsEmpty="false" Formula="" Format="0" ColumnRef="A" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="Ground_Cipher" Name="Шифр (код)&#xD;&#xA;грунта" Group="Общие параметры" Visible="true" HiddenAsEmpty="false" Formula="" Format="" ColumnRef="AO" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="Ground_Name" Name="Наименование&#xD;&#xA;грунта" Group="Общие параметры" Visible="true" HiddenAsEmpty="false" Formula="" Format="" ColumnRef="AN" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="BoreholeNumber" Name="Номер&#xD;&#xA;выработки" Group="Общие параметры" Visible="true" HiddenAsEmpty="false" Formula="" Format="" ColumnRef="C" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="AssayDepth" Name="Глубина&#xD;&#xA;взятия&#xD;&#xA;пробы, м" Group="Общие параметры" Visible="true" HiddenAsEmpty="false" Formula="" Format="0,000" ColumnRef="D" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="AssayDepthEnd" Name="Глубина&#xD;&#xA;взятия пробы &#xD;&#xA;(конечная), м" Group="Общие параметры" Visible="true" HiddenAsEmpty="false" Formula="" Format="0,000" ColumnRef="D" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="GeoIndex" Name="Геологический&#xD;&#xA;индекс&#xD;&#xA;(генезис)" Group="Общие параметры" Visible="true" HiddenAsEmpty="false" Formula="" Format="" ColumnRef="E" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="Location" Name="Место-&#xD;&#xA;положение" Group="Общие параметры" Visible="true" HiddenAsEmpty="false" Formula="" Format="" ColumnRef="F" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="OcatFlag" Name="Признак&#xD;&#xA;окатанности&#xD;&#xA;(1-ок.,0-неок.)" Group="Общие параметры" Visible="true" HiddenAsEmpty="false" Formula="" Format="" ColumnRef="G" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="AssayTypeSign" Name="Тип&#xD;&#xA;пробы&#xD;&#xA;(значок)" Group="Системные столбцы" Visible="true" HiddenAsEmpty="false" Formula="" Format="" ColumnRef="V" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="Enabled" Name="Активность" Group="Системные столбцы" Visible="true" HiddenAsEmpty="false" Formula="" Format="" ColumnRef="" SummaryFormula="" SummaryFormat="" />
+        <ParameterColumn IdStr="Highlighted" Name="Подсветка" Group="Системные столбцы" Visible="true" HiddenAsEmpty="false" Formula="" Format="" ColumnRef="" SummaryFormula="" SummaryFormat="" />
+      </ParameterColumns>
+    </Header>
+    <FooterRows MiddleValue="true" MiddleSquareDeviation="true" VariationCoeff="true" Count="true" Minimal="true" Maximal="true" RootOfFreedomDegrees="true" FreedomDegrees="true" Koeff85="false" Koeff90="false" Koeff95="false" Koeff975="false" Koeff98="false" Koeff99="false" P85="false" P90="false" P95="false" P975="false" P98="false" P99="false" Solved85="true" Solved90="true" Solved95="true" Solved975="true" Solved98="true" Solved99="true" />
+  </Body>
+</Stg>

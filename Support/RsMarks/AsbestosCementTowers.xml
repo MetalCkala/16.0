@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body>
+    <MarkAsbestosCementRecs aType="0">
+      <MarkAsbestosCementRec Mark="СКА1.20" D="118" S="9" L="2" M="12" Fundament="Ф1" />
+      <MarkAsbestosCementRec Mark="СКА1.25" D="118" S="9" L="2.5" M="15" Fundament="Ф1" />
+      <MarkAsbestosCementRec Mark="СКА1.30" D="118" S="9" L="2.95" M="18" Fundament="Ф1" />
+      <MarkAsbestosCementRec Mark="СКА1.35" D="118" S="9" L="3.5" M="21" Fundament="Ф1" />
+      <MarkAsbestosCementRec Mark="СКА1.40" D="118" S="9" L="3.95" M="24" Fundament="Ф1" />
+      <MarkAsbestosCementRec Mark="СКА2.30" D="161" S="10" L="2.95" M="27" Fundament="Ф1" />
+      <MarkAsbestosCementRec Mark="СКА2.35" D="161" S="10" L="3.5" M="31.5" Fundament="Ф1" />
+      <MarkAsbestosCementRec Mark="СКА2.40" D="161" S="10" L="3.95" M="36" Fundament="Ф1" />
+      <MarkAsbestosCementRec Mark="СКА3.30" D="211" S="11" L="2.95" M="39" Fundament="Ф2" />
+      <MarkAsbestosCementRec Mark="СКА3.35" D="211" S="11" L="3.5" M="45.5" Fundament="Ф2" />
+      <MarkAsbestosCementRec Mark="СКА3.40" D="211" S="11" L="3.95" M="52" Fundament="Ф2" />
+    </MarkAsbestosCementRecs>
+  </Body>
+</Stg>

@@ -1,0 +1,60 @@
+[General]
+Description=—тандартный тип дл€ выравнивани€ покрыти€
+NodeCount=5
+LineCount=3
+RayCount=0
+
+[Node0]
+Description=ось трассы
+Code=257
+FormulaX=X0
+FormulaY=Y0
+
+[Node1]
+Description=лева€ бровка
+Code=258
+FormulaX=LX8
+FormulaY=LY8
+
+[Node2]
+Description=лева€ кромка
+Code=260
+FormulaX=LX7
+FormulaY=LY7
+
+[Node3]
+Description=права€ кромка
+Code=261
+FormulaX=RX7
+FormulaY=RY7
+
+[Node4]
+Description=права€ бровка
+Code=259
+FormulaX=RX8
+FormulaY=RY8
+
+
+[Line0]
+Description=верх земполотна
+Code=400
+Count=5
+Item0=1
+Item1=2
+Item2=0
+Item3=3
+Item4=4
+
+[Line1]
+Description=лева€ обочина
+Code=550
+Count=2
+Item0=1
+Item1=2
+
+[Line2]
+Description=права€ обочина
+Code=551
+Count=2
+Item0=3
+Item1=4

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Codifier Guid="d4d168e8-5df8-4fe9-9934-f8997470a7a9">
+  <Code Pattern="^0$" DefaultValue="0" Description="Рельеф" Semantic="0" />
+  <Code Pattern="^1$" DefaultValue="1" Description="Точка поперечника" Semantic="101" />
+  <Code Pattern="^2$" DefaultValue="2" Description="Бровка балласта" Semantic="102" />
+  <Code Pattern="^3$" DefaultValue="3" Description="Подошва балласта" Semantic="103" />
+  <Code Pattern="^4$" DefaultValue="4" Description="Бровка насыпи" Semantic="104" />
+  <Code Pattern="^5$" DefaultValue="5" Description="Подошва насыпи" Semantic="105" />
+  <Code Pattern="^6$" DefaultValue="6" Description="Бровка кювета" Semantic="106" />
+  <Code Pattern="^7$" DefaultValue="7" Description="Дно кювета" Semantic="107" />
+  <Code Pattern="^8$" DefaultValue="8" Description="Точка под ЛЭП" Semantic="108" />
+  <Code Pattern="^9$" DefaultValue="9" Description="Точка под ЛС" Semantic="109" />
+  <Code Pattern="^10$" DefaultValue="10" Description="Граница леса" Semantic="110" />
+  <Code Pattern="^11$" DefaultValue="11" Description="Подошва выемки" Semantic="111" />
+  <Code Pattern="^12$" DefaultValue="12" Description="Бровка выемки" Semantic="112" />
+  <Code Pattern="^13$" DefaultValue="13" Description="Бровка бермы" Semantic="113" />
+  <Code Pattern="^14$" DefaultValue="14" Description="Подошва бермы" Semantic="114" />
+  <Code Pattern="^15$" DefaultValue="15" Description="Сооружение" Semantic="115" />
+  <Code Pattern="^16$" DefaultValue="16" Description="Дно мелкого вод" Semantic="116" />
+  <Code Pattern="^17$" DefaultValue="17" Description="Урез" Semantic="1028" />
+  <Code Pattern="^18$" DefaultValue="18" Description="СГР" Semantic="118" />
+  <Code Pattern="^19$" DefaultValue="19" Description="Точка кабеля" Semantic="119" />
+  <Code Pattern="^20$" DefaultValue="20" Description="Точка пути" Semantic="120" />
+  <Code Pattern="^21$" DefaultValue="21" Description="РР" Semantic="121" />
+  <Code Pattern="^22$" DefaultValue="22" Description="Остряк" Semantic="122" />
+  <Code Pattern="^23$" DefaultValue="23" Description="Хвост крестовин" Semantic="123" />
+  <Code Pattern="^24$" DefaultValue="24" Description="Хвост крестовин" Semantic="124" />
+  <Code Pattern="^25$" DefaultValue="25" Description="ЦП" Semantic="125" />
+  <Code Pattern="^26$" DefaultValue="26" Description="Изостык" Semantic="126" />
+  <Code Pattern="^27$" DefaultValue="27" Description="Граница рельсов" Semantic="127" />
+  <Code Pattern="^28$" DefaultValue="28" Description="Граница типа рельс" Semantic="128" />
+  <Code Pattern="^29$" DefaultValue="29" Description="Граница типа шпал" Semantic="129" />
+  <Code Pattern="^30$" DefaultValue="30" Description="Пересечение с Л" Semantic="130" />
+  <Code Pattern="^31$" DefaultValue="31" Description="Предельный стол" Semantic="131" />
+  <Code Pattern="^32$" DefaultValue="32" Description="Тупик" Semantic="1023" />
+  <Code Pattern="^33$" DefaultValue="33" Description="Граница настила" Semantic="133" />
+  <Code Pattern="^34$" DefaultValue="34" Description="Точка ПЗ (ЭЦ)" Semantic="134" />
+  <Code Pattern="^35$" DefaultValue="35" Description="Километровый ст" Semantic="135" />
+  <Code Pattern="^36$" DefaultValue="36" Description="Верх лотка" Semantic="136" />
+  <Code Pattern="^37$" DefaultValue="37" Description="Низ лотка" Semantic="137" />
+  <Code Pattern="^40$" DefaultValue="40" Description="Опора КС" Semantic="1026" />
+  <Code Pattern="^41$" DefaultValue="41" Description="Анкер опоры" Semantic="141" />
+  <Code Pattern="^42$" DefaultValue="42" Description="Опора ЛЭП высоко" Semantic="1010" />
+  <Code Pattern="^43$" DefaultValue="43" Description="Опора ЛЭП низко" Semantic="1010" />
+  <Code Pattern="^44$" DefaultValue="44" Description="Опора линии связи" Semantic="144" />
+  <Code Pattern="^45$" DefaultValue="45" Description="Опора с фонарем" Semantic="1012" />
+  <Code Pattern="^46$" DefaultValue="46" Description="Опора с репроду" Semantic="146" />
+  <Code Pattern="^47$" DefaultValue="47" Description="Опора без прово" Semantic="147" />
+  <Code Pattern="^48$" DefaultValue="48" Description="Опора с трансфо" Semantic="148" />
+  <Code Pattern="^49$" DefaultValue="49" Description="Трансформатор" Semantic="149" />
+  <Code Pattern="^50$" DefaultValue="50" Description="Светофор мачтов" Semantic="1025" />
+  <Code Pattern="^51$" DefaultValue="51" Description="Светофор карлик" Semantic="1025" />
+  <Code Pattern="^52$" DefaultValue="52" Description="Светофор на опо" Semantic="1025" />
+  <Code Pattern="^53$" DefaultValue="53" Description="Светофор на поп" Semantic="153" />
+  <Code Pattern="^54$" DefaultValue="54" Description="Релейный шкаф" Semantic="154" />
+  <Code Pattern="^55$" DefaultValue="55" Description="Батарейный шкаф" Semantic="155" />
+  <Code Pattern="^56$" DefaultValue="56" Description="Муфта кабельная" Semantic="156" />
+  <Code Pattern="^57$" DefaultValue="57" Description="Мачта освещения" Semantic="157" />
+  <Code Pattern="^58$" DefaultValue="58" Description="Телефон" Semantic="1052" />
+  <Code Pattern="^59$" DefaultValue="59" Description="Точка балласта" Semantic="159" />
+  <Code Pattern="^60$" DefaultValue="60" Description="Кордонный камен" Semantic="160" />
+  <Code Pattern="^61$" DefaultValue="61" Description="Граница пролетн" Semantic="161" />
+  <Code Pattern="^62$" DefaultValue="62" Description="Оголовок трубы" Semantic="162" />
+  <Code Pattern="^63$" DefaultValue="63" Description="Верх трубы .(свод" Semantic="163" />
+  <Code Pattern="^64$" DefaultValue="64" Description="Низ трубы (факти" Semantic="164" />
+  <Code Pattern="^65$" DefaultValue="65" Description="Теодолитная сто" Semantic="165" />
+  <Code Pattern="^66$" DefaultValue="66" Description="Точка базиса" Semantic="166" />
+  <Code Pattern="^67$" DefaultValue="67" Description="Выносная стоянк" Semantic="167" />
+  <Code Pattern="^68$" DefaultValue="68" Description="Репер" Semantic="1005" />
+  <Code Pattern="^69$" DefaultValue="69" Description="Точка полосы от" Semantic="169" />
+  <Code Pattern="^70$" DefaultValue="70" Description="Ось дороги" Semantic="170" />
+  <Code Pattern="^71$" DefaultValue="71" Description="Граница проезже" Semantic="171" />
+  <Code Pattern="^72$" DefaultValue="72" Description="Автодорожный знак" Semantic="172" />
+  <Code Pattern="^73$" DefaultValue="73" Description="Разделительное" Semantic="173" />
+  <Code Pattern="^74$" DefaultValue="74" Description="Низ поребрика" Semantic="174" />
+  <Code Pattern="^75$" DefaultValue="75" Description="Верх поребрика" Semantic="175" />
+  <Code Pattern="^76$" DefaultValue="76" Description="Тротуар" Semantic="176" />
+  <Code Pattern="^77$" DefaultValue="77" Description="Путепровод" Semantic="177" />
+  <Code Pattern="^80$" DefaultValue="80" Description="Здания,сооружения" Semantic="180" />
+  <Code Pattern="^81$" DefaultValue="81" Description="Платформа" Semantic="181" />
+  <Code Pattern="^82$" DefaultValue="82" Description="Ограда металлическая" Semantic="1044" />
+  <Code Pattern="^83$" DefaultValue="83" Description="Забор ж./б.,каменный" Semantic="183" />
+  <Code Pattern="^84$" DefaultValue="84" Description="Проволочные ограждения" Semantic="1046" />
+  <Code Pattern="^85$" DefaultValue="85" Description="Забор деревянный" Semantic="1045" />
+  <Code Pattern="^86$" DefaultValue="86" Description="Точка разомкнут" Semantic="186" />
+  <Code Pattern="^87$" DefaultValue="87" Description="Мост пешеходный" Semantic="187" />
+  <Code Pattern="^90$" DefaultValue="90" Description="Колодец (водопр." Semantic="1031" />
+  <Code Pattern="^91$" DefaultValue="91" Description="Колонко водопро" Semantic="1032" />
+  <Code Pattern="^92$" DefaultValue="92" Description="Гидрант" Semantic="192" />
+  <Code Pattern="^93$" DefaultValue="93" Description="Водопровод" Semantic="1048" />
+  <Code Pattern="^94$" DefaultValue="94" Description="Канализация" Semantic="1017" />
+  <Code Pattern="^95$" DefaultValue="95" Description="Воздухопровод" Semantic="1051" />
+  <Code Pattern="^96$" DefaultValue="96" Description="Бак компрессора" Semantic="196" />
+  <Code Pattern="^97$" DefaultValue="97" Description="Кабель" Semantic="1052" />
+  <Code Pattern="^98$" DefaultValue="98" Description="Кабельный столб" Semantic="198" />
+</Codifier>

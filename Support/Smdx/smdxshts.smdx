@@ -1,0 +1,131 @@
+[
+  {
+    "id": "SmdxRoadMovementAdjustmentElement",
+    "name": "Элемент регулировки движения",
+    "parent": "SmdxRoadElement"
+  },
+  {
+    "id": "SmdxRoadTrafficLight",
+    "name": "Светофор",
+    "parent": "SmdxRoadMovementAdjustmentElement",
+    "properties": [
+      {
+        "tag": "light_type",
+        "name": "Тип светофора",
+        "info": {
+          "type": "enum",
+          "values": {
+            "t1": "Т.1",
+            "t1l": "Т.1.л",
+            "t1r": "Т.1.п",
+            "t1rl": "Т.1.пл",
+            "t1lk": "Т.1.лк",
+            "t1rk": "Т.1.пк",
+            "t1rlk": "Т.1.плк",
+            "t1h": "Т.1.г",
+            "t2": "Т.2",
+            "t3": "Т.3",
+            "t3r": "Т.3.п",
+            "t3l": "Т.3.л",
+            "t4": "Т.4",
+            "t4y": "Т.4.ж",
+            "t5": "Т.5",
+            "t6": "Т.6",
+            "t6d": "Т.6.д",
+            "t7": "Т.7",
+            "t7d": "Т.7.д",
+            "t8": "Т.8",
+            "t9": "Т.9",
+            "t10": "Т.10",
+            "p1": "П.1",
+            "p2": "П.2"
+          }
+        }
+      },
+      {
+        "tag": "variant_type",
+        "name": "Вариант конструкции",
+        "info": {
+          "type": "enum",
+          "values": {
+            "I": "I",
+            "II": "II",
+            "III": "III"
+          }
+        }
+      },
+      {
+        "tag": "gost",
+        "name": "ГОСТ"
+      }
+    ]
+  },
+  {
+    "id": "SmdxRoadSoundbarrierSite",
+    "name": "Участок шумозащитных экранов",
+    "parent": "SmdxRoadSite",
+    "properties": [
+      {
+        "tag": "type",
+        "name": "Тип"
+      },
+      {
+        "tag": "mark",
+        "name": "Марка"
+      },
+      {
+        "tag": "stand_mark",
+        "name": "Марка стойки"
+      },
+      {
+        "tag": "foundation_type",
+        "name": "Тип фундамента",
+        "info": {
+          "type": "enum",
+          "values": {
+            "Strip": "Ленточный",
+            "Pile": "Свайный"
+          }
+        }
+      },
+      {
+        "tag": "gost",
+        "name": "ГОСТ"
+      }
+    ]
+  },
+  {
+    "id": "SmdxRoadPedestrianFenceSite",
+    "name": "Участок пешеходного ограждения",
+    "parent": "SmdxRoadSite",
+    "properties": [
+      {
+        "tag": "type",
+        "name": "Тип"
+      },
+      {
+        "tag": "mark",
+        "name": "Марка"
+      },
+      {
+        "tag": "stand_mark",
+        "name": "Марка стойки"
+      },
+      {
+        "tag": "foundation_type",
+        "name": "Тип фундамента",
+        "info": {
+          "type": "enum",
+          "values": {
+            "Strip": "Ленточный",
+            "Pile": "Свайный"
+          }
+        }
+      },
+      {
+        "tag": "gost",
+        "name": "ГОСТ"
+      }
+    ]
+  }
+]

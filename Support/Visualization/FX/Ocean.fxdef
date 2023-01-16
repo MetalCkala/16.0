@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Shader version="1">
+    <Name>Ocean.fx</Name>
+    <Technique>Main</Technique>
+    <VertexFormat>0</VertexFormat>
+    <VS>VS_3_0</VS>
+    <PS>PS_3_0</PS>
+    <UIName>Вода</UIName>
+    <UIDescription>Визуализирует динамическую воду</UIDescription>
+    <Sortable>50</Sortable>
+    <Parameters aType="0">
+      <Parameter Name="NormalTexture" Type="texture2D" Value="waves2.dds" UIName="Текстура нормалей" UIDescription="" UIWidget="Texture" UIHidden="False" />
+      <Parameter Name="gEnvTexture" Type="cube" Value="CloudyHillsCubemap2.dds" UIName="Текстура окружения" UIDescription="" UIWidget="Texture" UIHidden="False" />
+      <Parameter Name="gBumpScale" Type="float" Value="0.5" UIMin="0.0" UIMax="2.0" UIStep="0.01" UIName="Высота неровностей" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gTexReptX" Type="float" Value="0.08" UIMin="0.01" UIMax="16.0" UIStep="0.1" UIName="Размер текстуры по оси X" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gTexReptY" Type="float" Value="0.04" UIMin="0.01" UIMax="16.0" UIStep="0.1" UIName="Размер текстуры по оси Y" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gBumpSpeedX" Type="float" Value="-0.03" UIMin="-0.2" UIMax="0.2" UIStep="0.001" UIName="Скорость течения по X" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gBumpSpeedY" Type="float" Value="-0.03" UIMin="-0.2" UIMax="0.2" UIStep="0.001" UIName="Скорость течения по Y" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gFresnelBias" Type="float" Value="0.1" UIMin="0" UIMax="1" UIStep="0.01" UIName="Смещение" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gFresnelExp" Type="float" Value="4" UIMin="0" UIMax="5" UIStep="0.01" UIName="Экспонента" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gHDRMultiplier" Type="float" Value="3" UIMin="0" UIMax="100" UIStep="0.01" UIName="HDR множитель" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gDeepColor" Type="float3" Value="0.0, 0.0, 0.1" UIName="Цвет глубины" UIDescription="" UIWidget="color" UIHidden="False" />
+      <Parameter Name="gShallowColor" Type="float3" Value="0.0, 0.5, 0.5" UIName="Цвет мелководья" UIDescription="" UIWidget="color" UIHidden="False" />
+      <Parameter Name="gReflTint" Type="float3" Value="1.0, 1.0, 1.0" UIName="Оттенок отражения" UIDescription="" UIWidget="color" UIHidden="False" />
+      <Parameter Name="gKr" Type="float" Value="1" UIMin="0" UIMax="2" UIStep="0.01" UIName="Интенсивность отражения" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gKWater" Type="float" Value="1" UIMin="0" UIMax="2" UIStep="0.01" UIName="Интенсивность цвета" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gWaveAmp" Type="float" Value="0.53" UIMin="0" UIMax="0.25" UIStep="0.001" UIName="Амплитуда волн" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gWaveFreq" Type="float" Value="0.1" UIMin="0" UIMax="6" UIStep="0.01" UIName="Частота волн" UIDescription="" UIWidget="slider" UIHidden="False" />
+      <Parameter Name="gTransparency" Type="float" Value="0.7" UIMin="0" UIMax="1" UIStep="0.01" UIName="Прозрачность воды" UIDescription="" UIWidget="slider" UIHidden="False" />
+    </Parameters>
+  </Shader>
+</Stg>

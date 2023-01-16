@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость лотков">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="EdgeTrays" name="Прикромочные лотки">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="23.1200008392334" options="2" />
+      <Column index="1" width="23.1200008392334" options="2" />
+      <Column index="2" width="23.1200008392334" options="2" />
+      <Column index="3" width="23.1200008392334" options="2" />
+      <Column index="4" width="23.1200008392334" options="2" />
+      <Column index="5" width="23.1200008392334" options="2" />
+      <Column index="6" width="23.1200008392334" options="2" />
+      <Column index="7" width="23.1200008392334" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="8" style="style_0">Прикромочные лотки</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="2" style="style_0">Участок</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Тип лотка</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Слева/справа</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Протяженность, м</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Направление уклона</Cell>
+        <Cell index="6" rowspan="2" style="style_0">Положение</Cell>
+        <Cell index="7" rowspan="2" style="style_0">Смещение, м</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" style="style_0">Начало ПК+</Cell>
+        <Cell index="1" style="style_0">Окончание ПК+</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+        <Cell index="5" style="style_0">6</Cell>
+        <Cell index="6" style="style_0">7</Cell>
+        <Cell index="7" style="style_0">8</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="EdgeRow">
+      <Column index="0" width="23.1200008392334" options="2" />
+      <Column index="1" width="23.1200008392334" options="2" />
+      <Column index="2" width="23.1200008392334" options="2" />
+      <Column index="3" width="23.1200008392334" options="2" />
+      <Column index="4" width="23.1200008392334" options="2" />
+      <Column index="5" width="23.1200008392334" options="2" />
+      <Column index="6" width="23.1200008392334" options="2" />
+      <Column index="7" width="23.1200008392334" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, startStation)</Cell>
+        <Cell index="1" style="style_0">$(getvar, endStation)</Cell>
+        <Cell index="2" style="style_0">$(getvar, type)</Cell>
+        <Cell index="3" style="style_0">$(getvar, side)</Cell>
+        <Cell index="4" style="style_1">$(getvar, length)</Cell>
+        <Cell index="5" style="style_0">$(getvar, direction)</Cell>
+        <Cell index="6" style="style_0">$(getvar, position)</Cell>
+        <Cell index="7" style="style_1">$(getvar, offset)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="TelescopicTrays" name="Телескопические лотки">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="10" options="2" />
+      <Column index="1" width="21.8700008392334" options="2" />
+      <Column index="2" width="21.8700008392334" options="2" />
+      <Column index="3" width="21.8700008392334" options="2" />
+      <Column index="4" width="27.8700008392334" options="2" />
+      <Column index="5" width="21.8700008392334" options="2" />
+      <Column index="6" width="19.8700008392334" options="2" />
+      <Column index="7" width="19.8700008392334" options="2" />
+      <Column index="8" width="19.8700008392334" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="9" style="style_0">Телескопические лотки</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" rowspan="3" style="style_0">N п/п</Cell>
+        <Cell index="1" colspan="2" style="style_0">Местоположение</Cell>
+        <Cell index="3" colspan="2" style="style_0">Сброс воды на обочине</Cell>
+        <Cell index="5" colspan="3" style="style_0">Лоток по откосу насыпи</Cell>
+        <Cell index="8" style="style_0">Гаситель</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="1" rowspan="2" style="style_0">Пикет ПК+</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Относительно оси трассы (П - справа, Л - слева)</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Направление</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Тип</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Лоток по откосу насыпи, п.м.</Cell>
+        <Cell index="6" rowspan="2" style="style_0">Тип лотка</Cell>
+        <Cell index="7" rowspan="2" style="style_0">Угол поворота</Cell>
+        <Cell index="8" rowspan="2" style="style_0">Тип гасителя</Cell>
+      </Row>
+      <Row index="3" height="0" options="1" />
+      <Row index="4" height="0" options="1">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+        <Cell index="5" style="style_0">6</Cell>
+        <Cell index="6" style="style_0">7</Cell>
+        <Cell index="7" style="style_0">8</Cell>
+        <Cell index="8" style="style_0">9</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="TelescopicRow">
+      <Column index="0" width="10" options="2" />
+      <Column index="1" width="21.8700008392334" options="2" />
+      <Column index="2" width="21.8700008392334" options="2" />
+      <Column index="3" width="21.8700008392334" options="2" />
+      <Column index="4" width="27.8700008392334" options="2" />
+      <Column index="5" width="21.8700008392334" options="2" />
+      <Column index="6" width="19.8700008392334" options="2" />
+      <Column index="7" width="19.8700008392334" options="2" />
+      <Column index="8" width="19.8700008392334" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, number)</Cell>
+        <Cell index="1" style="style_0">$(getvar, station)</Cell>
+        <Cell index="2" style="style_0">$(getvar, side)</Cell>
+        <Cell index="3" style="style_0">$(getvar, direction)</Cell>
+        <Cell index="4" style="style_0">$(getvar, waterType)</Cell>
+        <Cell index="5" style="style_1">$(getvar, length)</Cell>
+        <Cell index="6" style="style_0">$(getvar, type)</Cell>
+        <Cell index="7" style="style_0">$(getvar, angle)</Cell>
+        <Cell index="8" style="style_0">$(getvar, year)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

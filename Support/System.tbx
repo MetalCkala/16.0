@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ToolPalette>
+  <Items Alias="Rail">
+    <Group Name="Основная площадка по БЗП">
+      <Item Type="Python" Module="track_formation_type1" Class="TrackFormationType1" Name="Основная_площадка" DisplayName="Осн. площадка тип1" Description="Однопутное землянное полотно со сливной призмой"/>
+      <Item Type="Python" Module="track_formation_type2" Class="TrackFormationType2" Name="Основная_площадка" DisplayName="Осн. площадка тип2" Description="Основная площадка без сливной призмы"/>
+      <Item Type="Python" Module="track_formation_type3" Class="TrackFormationType3" Name="Основная_площадка" DisplayName="Осн. площадка тип3" Description="Двухпутное земполотно со сливной призмой"/>
+      <Item Type="Python" Module="pillow" Class="Pillow" DisplayName="Подушка" Name="Основная_площадка" Description="Подушка" />
+      <Item Type="Python" Module="blanket" Class="Blanket" Name="Основная_площадка" DisplayName="Защитный слой" Description="Защитный слой" />
+      <Item Type="Python" Module="track_formation_single_side" Class="TrackFormationSingleSide" Name="Основная_площадка" DisplayName="Односкатная осн. площадка" Description="Односкатное земполотно"/>
+    </Group>
+    <Group Name="Основная площадка под ПГР">
+      <Item Type="Python" Module="track_formation_type1_prh" Class="TrackFormationType1Prh" Name="Основная_площадка" DisplayName="Осн. площадка тип1" Description="Однопутное землянное полотно со сливной призмой"/>
+      <Item Type="Python" Module="track_formation_type2_prh" Class="TrackFormationType2Prh" Name="Основная_площадка" DisplayName="Осн. площадка тип2" Description="Основная площадка без сливной призмы"/>
+      <Item Type="Python" Module="track_formation_type3_prh" Class="TrackFormationType3Prh" Name="Основная_площадка" DisplayName="Осн. площадка тип3" Description="Двухпутное земполотно со сливной призмой"/>
+      <Item Type="Python" Module="pillow_prh" Class="PillowPrh" DisplayName="Подушка" Name="Основная_площадка" Description="Подушка" />
+      <Item Type="Python" Module="blanket_prh" Class="BlanketPrh" Name="Основная_площадка" DisplayName="Защитный слой" Description="Защитный слой" />
+      <Item Type="Python" Module="track_formation_single_side_prh" Class="TrackFormationSingleSidePrh" Name="Основная_площадка" DisplayName="Односкатная осн. площадка" Description="Односкатное земполотно"/>
+    </Group>
+    <Group Name="Откос">
+      <Item Type="Python" Module="fill_slope" Class="FillSlope" Name="Откос_насыпи" DisplayName="Откос насыпи" />
+      <Item Type="Python" Module="cut_slope" Class="CutSlope" Name="Откос_выемки" DisplayName="Откос выемки" />
+    </Group>
+    <Group Name="Кювет">
+      <Item Type="Python" Module="ditch_by_depth" Class="DitchByDepth" Name="Кювет" DisplayName="Кювет по глубине" />
+      <Item Type="Python" Module="ditch_with_discharge_by_depth" Class="DitchWithDischargedByDepth" Name="Кювет" DisplayName="Кювет с выпуском по глубине" />
+    </Group>
+    <Group Name="Канава">
+      <Item Type="Python" Module="drain_with_addition" Class="DrainWithAddition" Name="Канава" DisplayName="Канава с подсыпкой (от подошвы)"/>
+      <Item Type="Python" Module="drain_with_cutting" Class="DrainWithCutting" Name="Канава" DisplayName="Канава с подрезкой (от подошвы)"/>
+      <Item Type="Python" Module="drain_with_addition_from_axis" Class="DrainWithAdditionFromAxis" Name="Канава" DisplayName="Канава с подсыпкой (от оси)"/>
+      <Item Type="Python" Module="drain_with_cutting_from_axis" Class="DrainWithCuttingFromAxis" Name="Канава" DisplayName="Канава с подрезкой (от оси)"/>
+      <Item Type="Python" Module="drain_from_edge" Class="DrainFromEdge" Name="Канава" DisplayName="Канава с подрезкой (от сущ. подошвы)"/>
+    </Group>
+    <Group Name="Нагорная канава">
+      <Item Type="Python" Module="intercepting_channel_from_catch_point" Class="InterceptingChannelFromCatchPoint" Name="Нагорная_канава" DisplayName="Нагорная канава (от подошвы)"/>
+      <Item Type="Python" Module="intercepting_channel_from_axis" Class="InterceptingChannelFromAxis" Name="Нагорная_канава" DisplayName="Нагорная канава (от оси)"/>
+    </Group>
+    <Group Name="Лоток">
+      <Item Type="Python" Module="tray" Class="Tray" Name="Лоток" DisplayName="Лоток с подливкой бетоном" />
+      <Item Type="Python" Module="tray_on_bottom" Class="TrayOnBottom" Name="Лоток" DisplayName="Лоток с привязкой к профилю" />
+    </Group>
+    <Group Name="Берма">
+      <Item Type="Python" Module="heating_berm_side" Class="HeatingBermSide" Name="Берма" DisplayName="Берма утеплительная" />
+      <Item Type="Python" Module="drainage_berm_side" Class="DrainageBermSide" Name="Берма" DisplayName="Берма водоотводная" />
+      <Item Type="Python" Module="strengthen_berm_side" Class="StrengthenBermSide" Name="Берма" DisplayName="Берма укрепительная" />
+      <Item Type="Python" Module="two_layer_berm_side" Class="TwoLayerBermSide" Name="Берма" DisplayName="Берма двухслойная" />
+      <Item Type="Python" Module="triangle_berm" Class="TriangleBerm" Name="Берма" DisplayName="Треугольная берма" />
+      <Item Type="Python" Module="berm_from_existing_slope" Class="BermFromExistingSlope" Name="Берма" DisplayName="Берма к сущ. насыпи" />
+    </Group>
+    <Group Name="Берма по таблице">
+      <Item Type="Python" Module="table_heating_berm" Class="TableHeatingBerm" Name="Берма" DisplayName="Берма утеплительная" />
+      <Item Type="Python" Module="table_drainage_berm" Class="TableDrainageBerm" Name="Берма" DisplayName="Берма водоотводная" />
+      <Item Type="Python" Module="table_strengthen_berm" Class="TableStrengthenBerm" Name="Берма" DisplayName="Берма укрепительная" />
+      <Item Type="Python" Module="table_two_layer_berm" Class="TableTwoLayerBerm" Name="Берма" DisplayName="Берма двухслойная" />
+      <Item Type="Python" Module="table_berm_from_existing_slope" Class="TableBermFromExistingSlope" Name="Берма" DisplayName="Берма к сущ. насыпи" />
+    </Group>
+    <Group Name="Геотекстиль">
+      <Item Type="Python" Module="geotextile_in_slope" Class="GeotextileInSlope" Name="Геотекстиль" DisplayName="Геотекстиль в откосе" />
+      <Item Type="Python" Module="geotextile_layer_by_offset" Class="GeotextileLayerByOffset" Name="Геотекстиль" DisplayName="Геотекстиль слой по смещениям границ" />
+      <Item Type="Python" Module="geotextile_layer_to_borders" Class="GeotextileLayerToBorders" Name="Геотекстиль" DisplayName="Геотекстиль слой по граничным контурам" />
+      <Item Type="Python" Module="geotextile_sleeve_by_offset" Class="GeotextileSleeveByOffset" Name="Геотекстиль" DisplayName="Геотекстиль обойма по смещениям границ" />
+      <Item Type="Python" Module="geotextile_sleeve_to_borders" Class="GeotextileSleeveToBorders" Name="Геотекстиль" DisplayName="Геотекстиль обойма по граничным контурам" />
+      <Item Type="Python" Module="geotextile_half_layer_by_offset" Class="GeotextileHalfLayerByOffset" Name="Геотекстиль" DisplayName="Геотекстиль полуслой по смещении границы" />
+      <Item Type="Python" Module="geotextile_half_layer_to_borders" Class="GeotextileHalfLayerToBorders" Name="Геотекстиль" DisplayName="Геотекстиль полуслой по граничному контуру" />
+      <Item Type="Python" Module="geotextile_half_sleeve_by_offset" Class="GeotextileHalfSleeveByOffset" Name="Геотекстиль" DisplayName="Геотекстиль полуобойма по смещении границы" />
+      <Item Type="Python" Module="geotextile_half_sleeve_to_borders" Class="GeotextileHalfSleeveToBorders" Name="Геотекстиль" DisplayName="Геотекстиль полуобойма по граничному контуру" />
+      <Item Type="Python" Module="geotextile_layer_parallel_to_eg" Class="GeotextileLayerParallelToEg" Name="Геотекстиль" DisplayName="Слой параллельно земле"/>
+    </Group>
+    <Group Name="Срезка слоя">
+      <Item Type="Python" Module="layer_cutting_parallel_to_eg" Class="LayerCuttingParallelToEg" Name="Срезка_слоя" DisplayName="Срезка слоя параллельно земле" />
+      <Item Type="Python" Module="layer_cutting_with_inc" Class="LayerCuttingWithInc" Name="Срезка_слоя" DisplayName="Срезка слоя с уклоном/откосом" />
+      <Item Type="Python" Module="layer_cutting_to_cut_slope" Class="LayerCuttingToCutSlope" Name="Срезка_слоя" DisplayName="Срезка слоя в выемке" />
+      <Item Type="Python" Module="layer_cutting_of_plants" Class="LayerCuttingOfPlants" Name="Срезка_слоя" DisplayName="Срезка плодородного слоя" />
+    </Group>
+    <Group Name="Нижняя насыпь">
+      <Item Type="Python" Module="heating_bottom_fill" Class="HeatingBottomFill" Name="Нижняя_насыпь" DisplayName="Нижняя насыпь утеплительная" />
+      <Item Type="Python" Module="strengtheing_bottom_fill" Class="StrengtheningBottomFill" Name="Нижняя_насыпь" DisplayName="Нижняя насыпь укрепительная" />
+      <Item Type="Python" Module="drainage_bottom_fill" Class="DrainageBottomFill" Name="Нижняя_насыпь" DisplayName="Нижняя насыпь водоотводная" />
+    </Group>
+    <Group Name="Погруженная часть насыпи">
+      <Item Type="Python" Module="immersed_fill1" Class="ImmersedFill1" Name="Погруженная_насыпь" DisplayName="Частичная выторфовка тип1" />
+      <Item Type="Python" Module="immersed_fill2" Class="ImmersedFill2" Name="Погруженная_насыпь" DisplayName="Частичная выторфовка тип2" />
+      <Item Type="Python" Module="draft_fill" Class="DraftFill" Name="Погруженная_насыпь" DisplayName="Осадка насыпи"/>
+    </Group>
+    <Group Name="Балласт на основной площадке">
+      <Item Type="Python" Module="ballast" Class="Ballast" Name="Балласт" DisplayName="Балласт однослойный" />
+      <Item Type="Python" Module="ballast2" Class="Ballast2" Name="Балласт" DisplayName="Балласт двухслойный" />
+      <Item Type="Python" Module="ballast3" Class="Ballast3" Name="Балласт" DisplayName="Балласт трехслойный" />
+    </Group>
+    <Group Name="Балласт без основной площадки">
+      <Item Type="Python" Module="ballast_prism" Class="BallastPrism" Name="Балласт" DisplayName="Простая балластная призма" />
+      <Item Type="Python" Module="ballast_prism_in_trough" Class="BallastPrismInTrough" Name="Балласт" DisplayName="Балластная призма в корыте" />
+    </Group>
+    <Group Name="Планировка">
+      <Item Type="Python" Module="layout" Class="Layout" Name="Планировка" DisplayName="Планировка" />
+    </Group>
+    <Group Name="Укрепления">
+      <Item Type="Python" Module="strengthening" Class="Strengthening" Name="Укрепление" DisplayName="Укрепление" />
+    </Group>
+    <Group Name="Дренаж">
+      <Item Type="Python" Module="drainage" Class="Drainage" Name="Дренаж" DisplayName="Дренаж" />
+    </Group>
+    <Group Name="Замена">
+      <Item Type="Python" Module="replacement" Class="Replacement" Name="Замена" DisplayName="Замена"/>
+    </Group>
+    <Group Name="Уступы">
+      <Item Type="Python" Module="ledge" Class="Ledge" Name="Уступ" DisplayName="Уступ вниз"/>
+      <Item Type="Python" Module="ledge_to_top" Class="LedgeToTop" Name="Уступ" DisplayName="Уступ вверх"/>
+    </Group>
+    <Group Name="Резервы">
+      <Item Type="Python" Module="reserve" Class="Reserve" Name="Резерв" DisplayName="Резерв"/>
+    </Group>
+  </Items>
+  <Items Alias="Road">
+    <Group Name="Откосы">
+      <Item Type="Python" Module="road_left_slope" Class="LeftSlope" DisplayName="Левый откос" Name="Левый_откос"/>
+      <Item Type="Python" Module="road_right_slope" Class="RightSlope" DisplayName="Правый откос" Name="Правый_откос"/>
+      <Item Type="Python" Module="road_elevation_left_slope" Class="LeftElevationSlope" DisplayName="Левый откос по отметке" Name="Левый_откос_по_отметке"/>
+      <Item Type="Python" Module="road_elevation_right_slope" Class="RightElevationSlope" DisplayName="Правый откос по отметке" Name="Правый_откос_по_отметке"/>
+      <Item Type="Python" Module="road_extended_left_slope" Class="LeftExtendedSlope" DisplayName="Левый откос с доп. ступенями" Name="Левый_откос_с_доп_ступенями"/>
+      <Item Type="Python" Module="road_extended_right_slope" Class="RightExtendedSlope" DisplayName="Правый откос с доп. ступенями" Name="Правый_откос_с_доп_ступенями"/>
+      <Item Type="Python" Module="road_variables_left_slope" Class="LeftVariableSlope" DisplayName="Левый откос с формулами" Name="Левый_откос_с_формулами"/>
+      <Item Type="Python" Module="road_variables_right_slope" Class="RightVariableSlope" DisplayName="Правый откос с формулами" Name="Правый_откос_с_формулами"/>
+    </Group>
+    <Group Name ="Реконструкция">
+      <Item Type="Python" Module="broadening_construction" Class="BroadeningConstruction" DisplayName="Реконструкция существующего покрытия" Name="Реконструкция_существующего_покрытия"/>
+      <Item Type="Python" Module="renew_construction" Class="RenewConstruction" DisplayName="Выравнивание покрытия по типам" Name="Выравнивание_покрытия_по_типам"/>
+      <Item Type="Python" Module="topup_construction" Class="TopupConstruction" DisplayName="Реконструкция на заданном участке" Name="Реконструкция_на_заданном_участке"/>
+    </Group>
+    <Group Name ="Объемы">
+      <Item Type="Python" Module="road_fill_cut_volume" Class="FillCutConstruction" DisplayName="Объем насыпи и выемки" Name="Объем_насыпи_и_выемки"/>
+      <Item Type="Python" Module="road_psp" Class="PspConstruction" DisplayName="Объем по ПСП" Name="Объем_ПСП"/>          
+    </Group>
+    <Group Name ="Прочие">
+      <Item Type="Python" Module="cut_construction" Class="CutConstruction" DisplayName="Разрывы верха земполотна" Name="Разрывы_верха_земполотна"/>
+      <Item Type="Python" Module="contour_sect_construction" Class="ContourSectConsturction" DisplayName="Обрезка контура по конструкции" Name="Обрезка_контура_по_конструкции"/>
+    </Group>
+    <Group Name="Лоток">
+      <Item Type="Python" Module="road_tray" Class="RoadTray" Name="Лоток с подливкой бетоном" DisplayName="Лоток с подливкой" />
+      <Item Type="Python" Module="road_tray_on_bottom" Class="RoadTrayOnBottom" Name="Лоток с привязкой к профилю" DisplayName="Лоток с привязкой к профилю" />
+    </Group>
+    <Group Name="Погруженная часть насыпи">
+      <Item Type="Python" Module="road_immersed_fill1" Class="RoadImmersedFill1" Name="Погруженная_насыпь" DisplayName="Частичная выторфовка тип1" />
+      <Item Type="Python" Module="road_immersed_fill2" Class="RoadImmersedFill2" Name="Погруженная_насыпь" DisplayName="Частичная выторфовка тип2" />
+      <Item Type="Python" Module="road_immersed_fill3" Class="RoadImmersedFill3" Name="Погруженная_насыпь" DisplayName="Частичная выторфовка тип3" />
+      <Item Type="Python" Module="draft_fill" Class="DraftFill" Name="Погруженная_насыпь" DisplayName="Осадка насыпи"/>
+    </Group>
+    <Group Name="Срезка слоя">
+      <Item Type="Python" Module="layer_cutting_parallel_to_eg" Class="LayerCuttingParallelToEg" Name="Срезка_слоя" DisplayName="Срезка слоя параллельно земле" />
+      <Item Type="Python" Module="layer_cutting_with_inc" Class="LayerCuttingWithInc" Name="Срезка_слоя" DisplayName="Срезка слоя с уклоном/откосом" />
+      <Item Type="Python" Module="layer_cutting_to_cut_slope" Class="LayerCuttingToCutSlope" Name="Срезка_слоя" DisplayName="Срезка слоя в выемке" />
+    </Group>
+    <Group Name="Планировка">
+      <Item Type="Python" Module="road_layout" Class="RoadLayout" Name="Планировка" DisplayName="Планировка" />
+    </Group>
+    <Group Name="Укрепления">
+      <Item Type="Python" Module="road_strengthening" Class="RoadStrengthening" Name="Укрепление" DisplayName="Укрепление" />
+    </Group>
+    <Group Name="Дренаж">
+      <Item Type="Python" Module="road_drainage" Class="RoadDrainage" Name="Дренаж" DisplayName="Дренаж" />
+    </Group>
+    <Group Name="Уступы">
+      <Item Type="Python" Module="road_ledge" Class="RoadLedge" Name="Уступ" DisplayName="Уступ вниз"/>
+      <Item Type="Python" Module="road_ledge_to_top" Class="RoadLedgeToTop" Name="Уступ" DisplayName="Уступ вверх"/>
+    </Group>
+    <Group Name="Резервы">
+      <Item Type="Python" Module="road_reserve" Class="RoadReserve" Name="Резерв" DisplayName="Резерв"/>
+    </Group>
+    <Group Name="Нагорная канава">
+      <Item Type="Python" Module="road_intercepting_channel" Class="RoadInterceptingChannel" Name="Нагорная_канава" DisplayName="Нагорная канава"/>
+    </Group>
+    <Group Name="Геотекстиль">
+      <Item Type="Python" Module="geotextile_layer_to_borders" Class="GeotextileLayerToBorders" Name="Геотекстиль" DisplayName="Геотекстиль слой" />
+      <Item Type="Python" Module="geotextile_sleeve_to_borders" Class="GeotextileSleeveToBorders" Name="Геотекстиль" DisplayName="Геотекстиль обойма" />
+    </Group>
+  </Items>
+</ToolPalette>

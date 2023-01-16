@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables title="Ведомость состояние водоотвода">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Maintenance" name="Водоотвод">
+    <Subtable name="Заголовок" id="Head">
+      <Row index="0" height="7" options="2">
+        <Cell index="0" colspan="10" style="style_0">$(getvar, FileName)</Cell>
+      </Row>
+      <Row index="1" height="10">
+        <Cell index="0" colspan="2" style="style_0">Адрес участка</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Код расположения: 1-слева 2-справа</Cell>
+        <Cell index="3" colspan="7" style="style_0">Коды</Cell>
+      </Row>
+      <Row index="2" height="10">
+        <Cell index="0" style="style_0">Начало пк+</Cell>
+        <Cell index="1" style="style_0">Конец пк+</Cell>
+        <Cell index="3" style="style_0">Тип местности</Cell>
+        <Cell index="4" style="style_0">Отметка бровки</Cell>
+        <Cell index="5" style="style_0">Состояние откосов</Cell>
+        <Cell index="6" style="style_0">Отметка дна</Cell>
+        <Cell index="7" style="style_0">Состояние кюветов</Cell>
+        <Cell index="8" style="style_0">Признаки необеспеченности водоотвода</Cell>
+        <Cell index="9" style="style_0">Необходимые мероприятия по обеспечению водоотвода</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Параметры" id="MaintenanceData">
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, PositionStartPk)</Cell>
+        <Cell index="1" style="style_0">$(getvar, PositionEndPk)</Cell>
+        <Cell index="2" style="style_0">$(getvar, Side)</Cell>
+        <Cell index="3" style="style_0">$(getvar, Code)</Cell>
+        <Cell index="4" style="style_0">$(getvar, Code2)</Cell>
+        <Cell index="5" style="style_0">$(getvar, Code3)</Cell>
+        <Cell index="6" style="style_0">$(getvar, Code4)</Cell>
+        <Cell index="7" style="style_0">$(getvar, Code5)</Cell>
+        <Cell index="8" style="style_0">$(getvar, Code6)</Cell>
+        <Cell index="9" style="style_0">$(getvar, Code7)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

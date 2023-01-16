@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость ячеек картограмм">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="CartogrammCells" name="Ведомость ячеек картограмм">
+    <Subtable name="Заголовок" id="Head" excluded="0">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="30" options="2" />
+      <Column index="2" width="30" options="2" />
+      <Column index="3" width="30" options="2" />
+      <Column index="4" width="30" options="2" />
+      <Column index="5" width="30" options="2" />
+      <Column index="6" width="30" options="2" />
+      <Column index="7" width="30" options="2" />
+      <Column index="8" width="30" options="2" />
+      <Column index="9" width="30" options="2" />
+      <Column index="10" width="20" options="2" />
+      <Column index="11" width="25" options="2" />
+      <Column index="12" width="25" options="2" />
+      <Column index="13" width="25" options="2" />
+      <Column index="14" width="20" options="2" />
+      <Column index="15" width="20" options="2" />
+      <Column index="16" width="20" options="2" />
+      <Column index="17" width="20" options="2" />
+      <Column index="18" width="20" options="2" />
+      <Column index="19" width="20" options="2" />
+      <Column index="20" width="20" options="2" />
+      <Column index="21" width="20" options="2" />
+      <Column index="22" width="30" options="2" />
+      <Column index="23" width="30" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="24" style="style_0">$(getvar, SheetName)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="4" style="style_0">Номер ячейки</Cell>
+        <Cell index="1" rowspan="4" style="style_0">Участок по пикетажу</Cell>
+        <Cell index="2" colspan="8" style="style_0">Координаты узлов</Cell>
+        <Cell index="10" colspan="4" style="style_0">Проектные отметки, м</Cell>
+        <Cell index="14" colspan="4" style="style_0">Фактические отметки, м</Cell>
+        <Cell index="18" colspan="4" style="style_0">Рабочие отметки, м</Cell>
+        <Cell index="22" colspan="2" style="style_0">Объём</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="2" colspan="4" style="style_0">Верхний</Cell>
+        <Cell index="6" colspan="4" style="style_0">Нижний</Cell>
+        <Cell index="10" colspan="2" style="style_0">Верхний</Cell>
+        <Cell index="12" colspan="2" style="style_0">Нижний</Cell>
+        <Cell index="14" colspan="2" style="style_0">Верхний</Cell>
+        <Cell index="16" colspan="2" style="style_0">Нижний</Cell>
+        <Cell index="18" colspan="2" style="style_0">Верхний</Cell>
+        <Cell index="20" colspan="2" style="style_0">Нижний</Cell>
+        <Cell index="22" rowspan="3" style="style_0">Выемка</Cell>
+        <Cell index="23" rowspan="3" style="style_0">Насыпь</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="2" colspan="2" style="style_0">Левый</Cell>
+        <Cell index="4" colspan="2" style="style_0">Правый</Cell>
+        <Cell index="6" colspan="2" style="style_0">Правый</Cell>
+        <Cell index="8" colspan="2" style="style_0">Левый</Cell>
+        <Cell index="10" rowspan="2" style="style_0">Левый</Cell>
+        <Cell index="11" rowspan="2" style="style_0">Правый</Cell>
+        <Cell index="12" rowspan="2" style="style_0">Правый</Cell>
+        <Cell index="13" rowspan="2" style="style_0">Левый</Cell>
+        <Cell index="14" rowspan="2" style="style_0">Левый</Cell>
+        <Cell index="15" rowspan="2" style="style_0">Правый</Cell>
+        <Cell index="16" rowspan="2" style="style_0">Правый</Cell>
+        <Cell index="17" rowspan="2" style="style_0">Левый</Cell>
+        <Cell index="18" rowspan="2" style="style_0">Левый</Cell>
+        <Cell index="19" rowspan="2" style="style_0">Правый</Cell>
+        <Cell index="20" rowspan="2" style="style_0">Правый</Cell>
+        <Cell index="21" rowspan="2" style="style_0">Левый</Cell>
+      </Row>
+      <Row index="4" height="5" options="2">
+        <Cell index="2" style="style_0">Северная</Cell>
+        <Cell index="3" style="style_0">Восточная</Cell>
+        <Cell index="4" style="style_0">Северная</Cell>
+        <Cell index="5" style="style_0">Восточная</Cell>
+        <Cell index="6" style="style_0">Северная</Cell>
+        <Cell index="7" style="style_0">Восточная</Cell>
+        <Cell index="8" style="style_0">Северная</Cell>
+        <Cell index="9" style="style_0">Восточная</Cell>
+      </Row>
+      <Row index="5" height="5" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+        <Cell index="5" style="style_0">6</Cell>
+        <Cell index="6" style="style_0">7</Cell>
+        <Cell index="7" style="style_0">8</Cell>
+        <Cell index="8" style="style_0">9</Cell>
+        <Cell index="9" style="style_0">10</Cell>
+        <Cell index="10" style="style_0">11</Cell>
+        <Cell index="11" style="style_0">12</Cell>
+        <Cell index="12" style="style_0">13</Cell>
+        <Cell index="13" style="style_0">14</Cell>
+        <Cell index="14" style="style_0">15</Cell>
+        <Cell index="15" style="style_0">16</Cell>
+        <Cell index="16" style="style_0">17</Cell>
+        <Cell index="17" style="style_0">18</Cell>
+        <Cell index="18" style="style_0">19</Cell>
+        <Cell index="19" style="style_0">20</Cell>
+        <Cell index="20" style="style_0">21</Cell>
+        <Cell index="21" style="style_0">22</Cell>
+        <Cell index="22" style="style_0">23</Cell>
+        <Cell index="23" style="style_0">24</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Data" excluded="0">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="30" options="2" />
+      <Column index="2" width="30" options="2" />
+      <Column index="3" width="30" options="2" />
+      <Column index="4" width="30" options="2" />
+      <Column index="5" width="30" options="2" />
+      <Column index="6" width="30" options="2" />
+      <Column index="7" width="30" options="2" />
+      <Column index="8" width="30" options="2" />
+      <Column index="9" width="30" options="2" />
+      <Column index="10" width="20" options="2" />
+      <Column index="11" width="25" options="2" />
+      <Column index="12" width="25" options="2" />
+      <Column index="13" width="25" options="2" />
+      <Column index="14" width="20" options="2" />
+      <Column index="15" width="20" options="2" />
+      <Column index="16" width="20" options="2" />
+      <Column index="17" width="20" options="2" />
+      <Column index="18" width="20" options="2" />
+      <Column index="19" width="20" options="2" />
+      <Column index="20" width="20" options="2" />
+      <Column index="21" width="20" options="2" />
+      <Column index="22" width="30" options="2" />
+      <Column index="23" width="30" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_2">$(getvar, CoordTopLeftY)</Cell>
+        <Cell index="3" style="style_2">$(getvar, CoordTopLeftX)</Cell>
+        <Cell index="4" style="style_2">$(getvar, CoordTopRightY)</Cell>
+        <Cell index="5" style="style_2">$(getvar, CoordTopRightX)</Cell>
+        <Cell index="6" style="style_2">$(getvar, CoordBottomRightY)</Cell>
+        <Cell index="7" style="style_2">$(getvar, CoordBottomRightX)</Cell>
+        <Cell index="8" style="style_2">$(getvar, CoordBottomLeftY)</Cell>
+        <Cell index="9" style="style_2">$(getvar, CoordBottomLeftX)</Cell>
+        <Cell index="10" style="style_2">$(getvar, ProjectElevationTopLeft)</Cell>
+        <Cell index="11" style="style_2">$(getvar, ProjectElevationTopRight)</Cell>
+        <Cell index="12" style="style_2">$(getvar, ProjectElevationBottomRight)</Cell>
+        <Cell index="13" style="style_2">$(getvar, ProjectElevationBottomLeft)</Cell>
+        <Cell index="14" style="style_2">$(getvar, FactElevationTopLeft)</Cell>
+        <Cell index="15" style="style_2">$(getvar, FactElevationTopRight)</Cell>
+        <Cell index="16" style="style_2">$(getvar, ProjectElevationBottomRight)</Cell>
+        <Cell index="17" style="style_2">$(getvar, ProjectElevationBottomLeft)</Cell>
+        <Cell index="18" style="style_2">$(getvar, WorkElevationTopLeft)</Cell>
+        <Cell index="19" style="style_2">$(getvar, FactElevationTopRight)</Cell>
+        <Cell index="20" style="style_2">$(getvar, WorkElevationBottomRight)</Cell>
+        <Cell index="21" style="style_2">$(getvar, WorkElevationBottomLeft)</Cell>
+        <Cell index="22" style="style_2">$(getvar, VolumeCut)</Cell>
+        <Cell index="23" style="style_2">$(getvar, VolumeFill)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="Summ" excluded="0">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="30" options="2" />
+      <Column index="2" width="30" options="2" />
+      <Column index="3" width="30" options="2" />
+      <Column index="4" width="30" options="2" />
+      <Column index="5" width="30" options="2" />
+      <Column index="6" width="30" options="2" />
+      <Column index="7" width="30" options="2" />
+      <Column index="8" width="30" options="2" />
+      <Column index="9" width="30" options="2" />
+      <Column index="10" width="20" options="2" />
+      <Column index="11" width="25" options="2" />
+      <Column index="12" width="25" options="2" />
+      <Column index="13" width="25" options="2" />
+      <Column index="14" width="20" options="2" />
+      <Column index="15" width="20" options="2" />
+      <Column index="16" width="20" options="2" />
+      <Column index="17" width="20" options="2" />
+      <Column index="18" width="20" options="2" />
+      <Column index="19" width="20" options="2" />
+      <Column index="20" width="20" options="2" />
+      <Column index="21" width="20" options="2" />
+      <Column index="22" width="30" options="2" />
+      <Column index="23" width="30" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_2">
+        </Cell>
+        <Cell index="1" style="style_2">
+        </Cell>
+        <Cell index="2" style="style_2">
+        </Cell>
+        <Cell index="3" style="style_2">
+        </Cell>
+        <Cell index="4" style="style_2">
+        </Cell>
+        <Cell index="5" style="style_2">
+        </Cell>
+        <Cell index="6" style="style_2">
+        </Cell>
+        <Cell index="7" style="style_2">
+        </Cell>
+        <Cell index="8" style="style_2">
+        </Cell>
+        <Cell index="9" style="style_2">
+        </Cell>
+        <Cell index="10" style="style_2">
+        </Cell>
+        <Cell index="11" style="style_2">
+        </Cell>
+        <Cell index="12" style="style_2">
+        </Cell>
+        <Cell index="13" style="style_2">
+        </Cell>
+        <Cell index="14" style="style_2">
+        </Cell>
+        <Cell index="15" style="style_2">
+        </Cell>
+        <Cell index="16" style="style_2">
+        </Cell>
+        <Cell index="17" style="style_2">
+        </Cell>
+        <Cell index="18" style="style_2">
+        </Cell>
+        <Cell index="19" style="style_2">
+        </Cell>
+        <Cell index="20" style="style_2">
+        </Cell>
+        <Cell index="21" style="style_2">Итого:</Cell>
+        <Cell index="22" style="style_2">$(getvar, VolumeCut)</Cell>
+        <Cell index="23" style="style_2">$(getvar, VolumeFill)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="LIKE17" FileName="d431.shx" Flags="0" FontName="d431" Height="0" LastUsedHeight="2,5" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

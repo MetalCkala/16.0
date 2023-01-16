@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Выравнивание">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_3">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>1</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_4">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_5">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_6">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="TypeDescription" name="Описание типов">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="20" options="2" />
+      <Column index="3" width="125" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="4" style="style_0">$(getvar, Stations)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" style="style_0">ПК</Cell>
+        <Cell index="1" style="style_0">Плюс</Cell>
+        <Cell index="2" style="style_0">№ типа</Cell>
+        <Cell index="3" style="style_0">Описание</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="LayerDescriptionRow">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="20" options="2" />
+      <Column index="3" width="125" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_1">$(getvar, Pk)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Plus)</Cell>
+        <Cell index="2" style="style_1">$(getvar, TypeNumber)</Cell>
+        <Cell index="3" style="style_3">$(getvar, TypeDescription)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="Borders" name="Границы типов">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="37" options="2" />
+      <Column index="1" width="37" options="2" />
+      <Column index="2" width="37" options="2" />
+      <Column index="3" width="37" options="2" />
+      <Column index="4" width="37" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="5" style="style_0">$(getvar, Stations)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Плюс</Cell>
+        <Cell index="2" colspan="3" style="style_0">Граница</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="2" style="style_0">№ типа</Cell>
+        <Cell index="3" style="style_0">Начало</Cell>
+        <Cell index="4" style="style_0">Конец</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="LayerBordersRow">
+      <Column index="0" width="37" options="2" />
+      <Column index="1" width="37" options="2" />
+      <Column index="2" width="37" options="2" />
+      <Column index="3" width="37" options="2" />
+      <Column index="4" width="37" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_1">$(getvar, Pk)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Plus)</Cell>
+        <Cell index="2" style="style_0">$(getvar, TypeNumber)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Start)</Cell>
+        <Cell index="4" style="style_2">$(getvar, End)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="TypeAreas" name="Площади по типам">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="17,9500007629395" options="2" />
+      <Column index="1" width="17,9500007629395" options="2" />
+      <Column index="2" width="17,9500007629395" options="2" />
+      <Column index="3" width="17,9500007629395" options="2" />
+      <Column index="4" width="17,9500007629395" options="2" />
+      <Column index="5" width="17,9500007629395" options="2" />
+      <Column index="6" width="17,9500007629395" options="2" />
+      <Column index="7" width="17,9500007629395" options="2" />
+      <Column index="8" width="17,9500007629395" options="2" />
+      <Column index="9" width="17,9500007629395" options="2" />
+      <Column index="10" width="17,9500007629395" options="2" />
+      <Column index="11" width="17,9500007629395" options="2" />
+      <Column index="12" width="17,9500007629395" options="2" />
+      <Column index="13" width="17,9500007629395" options="2" />
+      <Column index="14" width="17,9500007629395" options="2" />
+      <Column index="15" width="17,9500007629395" options="2" />
+      <Column index="16" width="17,9500007629395" options="2" />
+      <Column index="17" width="17,9500007629395" options="2" />
+      <Column index="18" width="17,9500007629395" options="2" />
+      <Column index="19" width="17,9500007629395" options="2" />
+      <Column index="20" width="17,9500007629395" options="2" />
+      <Column index="21" width="17,9500007629395" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="22" style="style_0">$(getvar, Stations)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Плюс</Cell>
+        <Cell index="2" colspan="20" style="style_0">Площади по типам, кв. м</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="2" style="style_1">1</Cell>
+        <Cell index="3" style="style_1">2</Cell>
+        <Cell index="4" style="style_1">3</Cell>
+        <Cell index="5" style="style_1">4</Cell>
+        <Cell index="6" style="style_1">5</Cell>
+        <Cell index="7" style="style_1">6</Cell>
+        <Cell index="8" style="style_1">7</Cell>
+        <Cell index="9" style="style_1">8</Cell>
+        <Cell index="10" style="style_1">9</Cell>
+        <Cell index="11" style="style_1">10</Cell>
+        <Cell index="12" style="style_1">11</Cell>
+        <Cell index="13" style="style_1">12</Cell>
+        <Cell index="14" style="style_1">13</Cell>
+        <Cell index="15" style="style_1">14</Cell>
+        <Cell index="16" style="style_1">15</Cell>
+        <Cell index="17" style="style_1">16</Cell>
+        <Cell index="18" style="style_1">17</Cell>
+        <Cell index="19" style="style_1">18</Cell>
+        <Cell index="20" style="style_1">19</Cell>
+        <Cell index="21" style="style_1">20</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="TypeAreaAndVolumesRow">
+      <Column index="0" width="17,9500007629395" options="2" />
+      <Column index="1" width="17,9500007629395" options="2" />
+      <Column index="2" width="17,9500007629395" options="2" />
+      <Column index="3" width="17,9500007629395" options="2" />
+      <Column index="4" width="17,9500007629395" options="2" />
+      <Column index="5" width="17,9500007629395" options="2" />
+      <Column index="6" width="17,9500007629395" options="2" />
+      <Column index="7" width="17,9500007629395" options="2" />
+      <Column index="8" width="17,9500007629395" options="2" />
+      <Column index="9" width="17,9500007629395" options="2" />
+      <Column index="10" width="17,9500007629395" options="2" />
+      <Column index="11" width="17,9500007629395" options="2" />
+      <Column index="12" width="17,9500007629395" options="2" />
+      <Column index="13" width="17,9500007629395" options="2" />
+      <Column index="14" width="17,9500007629395" options="2" />
+      <Column index="15" width="17,9500007629395" options="2" />
+      <Column index="16" width="17,9500007629395" options="2" />
+      <Column index="17" width="17,9500007629395" options="2" />
+      <Column index="18" width="17,9500007629395" options="2" />
+      <Column index="19" width="17,9500007629395" options="2" />
+      <Column index="20" width="17,9500007629395" options="2" />
+      <Column index="21" width="17,9500007629395" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_4">$(getvar, Pk)</Cell>
+        <Cell index="1" style="style_5">$(getvar, Plus)</Cell>
+        <Cell index="2" style="style_5">$(+, $(getvar, Area1Left), $(getvar, Area1Right))</Cell>
+        <Cell index="3" style="style_5">$(+, $(getvar, Area2Left), $(getvar, Area2Right))</Cell>
+        <Cell index="4" style="style_5">$(+, $(getvar, Area3Left), $(getvar, Area3Right))</Cell>
+        <Cell index="5" style="style_5">$(+, $(getvar, Area4Left), $(getvar, Area4Right))</Cell>
+        <Cell index="6" style="style_5">$(+, $(getvar, Area5Left), $(getvar, Area5Right))</Cell>
+        <Cell index="7" style="style_5">$(+, $(getvar, Area6Left), $(getvar, Area6Right))</Cell>
+        <Cell index="8" style="style_5">$(+, $(getvar, Area7Left), $(getvar, Area7Right))</Cell>
+        <Cell index="9" style="style_5">$(+, $(getvar, Area8Left), $(getvar, Area8Right))</Cell>
+        <Cell index="10" style="style_5">$(+, $(getvar, Area9Left), $(getvar, Area9Right))</Cell>
+        <Cell index="11" style="style_5">$(+, $(getvar, Area10Left), $(getvar, Area10Right))</Cell>
+        <Cell index="12" style="style_5">$(+, $(getvar, Area11Left), $(getvar, Area11Right))</Cell>
+        <Cell index="13" style="style_5">$(+, $(getvar, Area12Left), $(getvar, Area12Right))</Cell>
+        <Cell index="14" style="style_5">$(+, $(getvar, Area13Left), $(getvar, Area13Right))</Cell>
+        <Cell index="15" style="style_5">$(+, $(getvar, Area14Left), $(getvar, Area14Right))</Cell>
+        <Cell index="16" style="style_5">$(+, $(getvar, Area15Left), $(getvar, Area15Right))</Cell>
+        <Cell index="17" style="style_5">$(+, $(getvar, Area16Left), $(getvar, Area16Right))</Cell>
+        <Cell index="18" style="style_5">$(+, $(getvar, Area17Left), $(getvar, Area17Right))</Cell>
+        <Cell index="19" style="style_5">$(+, $(getvar, Area18Left), $(getvar, Area18Right))</Cell>
+        <Cell index="20" style="style_5">$(+, $(getvar, Area19Left), $(getvar, Area19Right))</Cell>
+        <Cell index="21" style="style_5">$(+, $(getvar, Area20Left), $(getvar, Area20Right))</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="TypeVolumes" name="Объемы по типам">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="18,7999992370605" options="2" />
+      <Column index="1" width="18,7999992370605" options="2" />
+      <Column index="2" width="18,7999992370605" options="2" />
+      <Column index="3" width="18,7999992370605" options="2" />
+      <Column index="4" width="18,7999992370605" options="2" />
+      <Column index="5" width="18,7999992370605" options="2" />
+      <Column index="6" width="18,7999992370605" options="2" />
+      <Column index="7" width="18,7999992370605" options="2" />
+      <Column index="8" width="18,7999992370605" options="2" />
+      <Column index="9" width="18,7999992370605" options="2" />
+      <Column index="10" width="18,7999992370605" options="2" />
+      <Column index="11" width="18,7999992370605" options="2" />
+      <Column index="12" width="18,7999992370605" options="2" />
+      <Column index="13" width="18,7999992370605" options="2" />
+      <Column index="14" width="18,7999992370605" options="2" />
+      <Column index="15" width="18,7999992370605" options="2" />
+      <Column index="16" width="18,7999992370605" options="2" />
+      <Column index="17" width="18,7999992370605" options="2" />
+      <Column index="18" width="18,7999992370605" options="2" />
+      <Column index="19" width="18,7999992370605" options="2" />
+      <Column index="20" width="18,7999992370605" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="21" style="style_0">$(getvar, Stations)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Плюс</Cell>
+        <Cell index="2" colspan="19" style="style_0">Объемы по типам, куб. м</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="2" style="style_1">1</Cell>
+        <Cell index="3" style="style_1">2</Cell>
+        <Cell index="4" style="style_1">3</Cell>
+        <Cell index="5" style="style_1">4</Cell>
+        <Cell index="6" style="style_1">5</Cell>
+        <Cell index="7" style="style_1">6</Cell>
+        <Cell index="8" style="style_1">7</Cell>
+        <Cell index="9" style="style_1">8</Cell>
+        <Cell index="10" style="style_1">9</Cell>
+        <Cell index="11" style="style_1">10</Cell>
+        <Cell index="12" style="style_1">11</Cell>
+        <Cell index="13" style="style_1">12</Cell>
+        <Cell index="14" style="style_1">13</Cell>
+        <Cell index="15" style="style_1">14</Cell>
+        <Cell index="16" style="style_1">15</Cell>
+        <Cell index="17" style="style_1">16</Cell>
+        <Cell index="18" style="style_1">17</Cell>
+        <Cell index="19" style="style_1">18</Cell>
+        <Cell index="20" style="style_1">19</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="TypeAreaAndVolumesRow">
+      <Column index="0" width="18,7999992370605" options="2" />
+      <Column index="1" width="18,7999992370605" options="2" />
+      <Column index="2" width="18,7999992370605" options="2" />
+      <Column index="3" width="18,7999992370605" options="2" />
+      <Column index="4" width="18,7999992370605" options="2" />
+      <Column index="5" width="18,7999992370605" options="2" />
+      <Column index="6" width="18,7999992370605" options="2" />
+      <Column index="7" width="18,7999992370605" options="2" />
+      <Column index="8" width="18,7999992370605" options="2" />
+      <Column index="9" width="18,7999992370605" options="2" />
+      <Column index="10" width="18,7999992370605" options="2" />
+      <Column index="11" width="18,7999992370605" options="2" />
+      <Column index="12" width="18,7999992370605" options="2" />
+      <Column index="13" width="18,7999992370605" options="2" />
+      <Column index="14" width="18,7999992370605" options="2" />
+      <Column index="15" width="18,7999992370605" options="2" />
+      <Column index="16" width="18,7999992370605" options="2" />
+      <Column index="17" width="18,7999992370605" options="2" />
+      <Column index="18" width="18,7999992370605" options="2" />
+      <Column index="19" width="18,7999992370605" options="2" />
+      <Column index="20" width="18,7999992370605" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Pk)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Plus)</Cell>
+        <Cell index="2" style="style_2">$(+, $(getvar, Volume1Left), $(getvar, Volume1Right))</Cell>
+        <Cell index="3" style="style_2">$(+, $(getvar, Volume2Left), $(getvar, Volume2Right))</Cell>
+        <Cell index="4" style="style_2">$(+, $(getvar, Volume3Left), $(getvar, Volume3Right))</Cell>
+        <Cell index="5" style="style_2">$(+, $(getvar, Volume4Left), $(getvar, Volume4Right))</Cell>
+        <Cell index="6" style="style_2">$(+, $(getvar, Volume5Left), $(getvar, Volume5Right))</Cell>
+        <Cell index="7" style="style_2">$(+, $(getvar, Volume6Left), $(getvar, Volume6Right))</Cell>
+        <Cell index="8" style="style_2">$(+, $(getvar, Volume7Left), $(getvar, Volume7Right))</Cell>
+        <Cell index="9" style="style_2">$(+, $(getvar, Volume8Left), $(getvar, Volume8Right))</Cell>
+        <Cell index="10" style="style_2">$(+, $(getvar, Volume9Left), $(getvar, Volume9Right))</Cell>
+        <Cell index="11" style="style_2">$(+, $(getvar, Volume10Left), $(getvar, Volume10Right))</Cell>
+        <Cell index="12" style="style_2">$(+, $(getvar, Volume11Left), $(getvar, Volume11Right))</Cell>
+        <Cell index="13" style="style_2">$(+, $(getvar, Volume12Left), $(getvar, Volume12Right))</Cell>
+        <Cell index="14" style="style_2">$(+, $(getvar, Volume13Left), $(getvar, Volume13Right))</Cell>
+        <Cell index="15" style="style_2">$(+, $(getvar, Volume14Left), $(getvar, Volume14Right))</Cell>
+        <Cell index="16" style="style_2">$(+, $(getvar, Volume15Left), $(getvar, Volume15Right))</Cell>
+        <Cell index="17" style="style_2">$(+, $(getvar, Volume16Left), $(getvar, Volume16Right))</Cell>
+        <Cell index="18" style="style_2">$(+, $(getvar, Volume17Left), $(getvar, Volume17Right))</Cell>
+        <Cell index="19" style="style_2">$(+, $(getvar, Volume18Left), $(getvar, Volume18Right))</Cell>
+        <Cell index="20" style="style_2">$(+, $(getvar, Volume19Left), $(getvar, Volume19Right))</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="CrsVolumes" name="Площади и объемы">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="15" options="2" />
+      <Column index="4" width="15" options="2" />
+      <Column index="5" width="15" options="2" />
+      <Column index="6" width="15" options="2" />
+      <Column index="7" width="15" options="2" />
+      <Column index="8" width="15" options="2" />
+      <Column index="9" width="15" options="2" />
+      <Column index="10" width="15" options="2" />
+      <Column index="11" width="21,25" options="2" />
+      <Column index="12" width="21,25" options="2" />
+      <Column index="13" width="21,25" options="2" />
+      <Column index="14" width="15" options="2" />
+      <Column index="15" width="15" options="2" />
+      <Column index="16" width="15" options="2" />
+      <Column index="17" width="15" options="2" />
+      <Column index="18" width="15" options="2" />
+      <Column index="19" width="15" options="2" />
+      <Column index="20" width="15" options="2" />
+      <Column index="21" width="15" options="2" />
+      <Column index="22" width="15" options="2" />
+      <Column index="23" width="21,25" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="24" style="style_0">$(getvar, Stations)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" rowspan="3" style="style_0">ПК</Cell>
+        <Cell index="1" rowspan="3" style="style_0">Плюс</Cell>
+        <Cell index="2" colspan="12" style="style_0">Площадь, кв. м.</Cell>
+        <Cell index="14" colspan="10" style="style_0">Объем, куб. м.</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="2" colspan="9" style="style_0">Усиление</Cell>
+        <Cell index="11" rowspan="2" style="style_0">Фрезерование</Cell>
+        <Cell index="12" rowspan="2" style="style_0">Уширение</Cell>
+        <Cell index="13" rowspan="2" style="style_0">Замена</Cell>
+        <Cell index="14" colspan="9" style="style_0">Выравнивание</Cell>
+        <Cell index="23" rowspan="2" style="style_0">Фрезерование</Cell>
+      </Row>
+      <Row index="3" height="0" options="1">
+        <Cell index="2" style="style_0">Тип 1</Cell>
+        <Cell index="3" style="style_0">Тип 2</Cell>
+        <Cell index="4" style="style_0">Тип 3</Cell>
+        <Cell index="5" style="style_0">Тип 4</Cell>
+        <Cell index="6" style="style_0">Тип 5</Cell>
+        <Cell index="7" style="style_0">Тип 6</Cell>
+        <Cell index="8" style="style_0">Тип 7</Cell>
+        <Cell index="9" style="style_0">Тип 8</Cell>
+        <Cell index="10" style="style_0">Тип 9</Cell>
+        <Cell index="14" style="style_0">Слой 1</Cell>
+        <Cell index="15" style="style_0">Слой 2</Cell>
+        <Cell index="16" style="style_0">Слой 3</Cell>
+        <Cell index="17" style="style_0">Слой 4</Cell>
+        <Cell index="18" style="style_0">Слой 5</Cell>
+        <Cell index="19" style="style_0">Слой 6</Cell>
+        <Cell index="20" style="style_0">Слой 7</Cell>
+        <Cell index="21" style="style_0">Слой 8</Cell>
+        <Cell index="22" style="style_0">Слой 9</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="AreaAndVolumesRow">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="15" options="2" />
+      <Column index="4" width="15" options="2" />
+      <Column index="5" width="15" options="2" />
+      <Column index="6" width="15" options="2" />
+      <Column index="7" width="15" options="2" />
+      <Column index="8" width="15" options="2" />
+      <Column index="9" width="15" options="2" />
+      <Column index="10" width="15" options="2" />
+      <Column index="11" width="21,25" options="2" />
+      <Column index="12" width="21,25" options="2" />
+      <Column index="13" width="21,25" options="2" />
+      <Column index="14" width="15" options="2" />
+      <Column index="15" width="15" options="2" />
+      <Column index="16" width="15" options="2" />
+      <Column index="17" width="15" options="2" />
+      <Column index="18" width="15" options="2" />
+      <Column index="19" width="15" options="2" />
+      <Column index="20" width="15" options="2" />
+      <Column index="21" width="15" options="2" />
+      <Column index="22" width="15" options="2" />
+      <Column index="23" width="21,25" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_6">$(getvar, Pk)</Cell>
+        <Cell index="1" style="style_5">$(getvar, Plus)</Cell>
+        <Cell index="2" style="style_5">$(+, $(getvar, Area1Left), $(getvar, Area1Right))</Cell>
+        <Cell index="3" style="style_5">$(+, $(getvar, Area2Left), $(getvar, Area2Right))</Cell>
+        <Cell index="4" style="style_5">$(+, $(getvar, Area3Left), $(getvar, Area3Right))</Cell>
+        <Cell index="5" style="style_5">$(+, $(getvar, Area4Left), $(getvar, Area4Right))</Cell>
+        <Cell index="6" style="style_5">$(+, $(getvar, Area5Left), $(getvar, Area5Right))</Cell>
+        <Cell index="7" style="style_5">$(+, $(getvar, Area6Left), $(getvar, Area6Right))</Cell>
+        <Cell index="8" style="style_5">$(+, $(getvar, Area7Left), $(getvar, Area7Right))</Cell>
+        <Cell index="9" style="style_5">$(+, $(getvar, Area8Left), $(getvar, Area8Right))</Cell>
+        <Cell index="10" style="style_5">$(+, $(getvar, Area9Left), $(getvar, Area9Right))</Cell>
+        <Cell index="11" style="style_5">$(+, $(getvar, AreaFrezLeft), $(getvar, AreaFrezRight))</Cell>
+        <Cell index="12" style="style_5">$(+, $(getvar, AreaBroadeningLeft), $(getvar, AreaBroadeningRight))</Cell>
+        <Cell index="13" style="style_5">$(+, $(getvar, AreaReplaceLeft), $(getvar, AreaReplaceRight))</Cell>
+        <Cell index="14" style="style_5">$(+, $(getvar, VolumeLayer1Left), $(getvar, VolumeLayer1Right))</Cell>
+        <Cell index="15" style="style_5">$(+, $(getvar, VolumeLayer2Left), $(getvar, VolumeLayer2Right))</Cell>
+        <Cell index="16" style="style_5">$(+, $(getvar, VolumeLayer3Left), $(getvar, VolumeLayer3Right))</Cell>
+        <Cell index="17" style="style_5">$(+, $(getvar, VolumeLayer4Left), $(getvar, VolumeLayer4Right))</Cell>
+        <Cell index="18" style="style_5">$(+, $(getvar, VolumeLayer5Left), $(getvar, VolumeLayer5Right))</Cell>
+        <Cell index="19" style="style_5">$(+, $(getvar, VolumeLayer6Left), $(getvar, VolumeLayer6Right))</Cell>
+        <Cell index="20" style="style_5">$(+, $(getvar, VolumeLayer7Left), $(getvar, VolumeLayer7Right))</Cell>
+        <Cell index="21" style="style_5">$(+, $(getvar, VolumeLayer8Left), $(getvar, VolumeLayer8Right))</Cell>
+        <Cell index="22" style="style_5">$(+, $(getvar, VolumeLayer9Left), $(getvar, VolumeLayer9Right))</Cell>
+        <Cell index="23" style="style_5">$(+, $(getvar, VolumeFrezLeft), $(getvar, VolumeFrezRight))</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="SummAreaAndVolumesRow">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="15" options="2" />
+      <Column index="4" width="15" options="2" />
+      <Column index="5" width="15" options="2" />
+      <Column index="6" width="15" options="2" />
+      <Column index="7" width="15" options="2" />
+      <Column index="8" width="15" options="2" />
+      <Column index="9" width="15" options="2" />
+      <Column index="10" width="15" options="2" />
+      <Column index="11" width="21,25" options="2" />
+      <Column index="12" width="21,25" options="2" />
+      <Column index="13" width="21,25" options="2" />
+      <Column index="14" width="15" options="2" />
+      <Column index="15" width="15" options="2" />
+      <Column index="16" width="15" options="2" />
+      <Column index="17" width="15" options="2" />
+      <Column index="18" width="15" options="2" />
+      <Column index="19" width="15" options="2" />
+      <Column index="20" width="15" options="2" />
+      <Column index="21" width="15" options="2" />
+      <Column index="22" width="15" options="2" />
+      <Column index="23" width="21,25" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_6">
+        </Cell>
+        <Cell index="1" style="style_6">
+        </Cell>
+        <Cell index="2" style="style_6">
+        </Cell>
+        <Cell index="3" style="style_6">
+        </Cell>
+        <Cell index="4" style="style_6">
+        </Cell>
+        <Cell index="5" style="style_6">
+        </Cell>
+        <Cell index="6" style="style_6">
+        </Cell>
+        <Cell index="7" style="style_6">
+        </Cell>
+        <Cell index="8" style="style_6">
+        </Cell>
+        <Cell index="9" style="style_6">
+        </Cell>
+        <Cell index="10" style="style_6">
+        </Cell>
+        <Cell index="11" style="style_6">
+        </Cell>
+        <Cell index="12" style="style_6">
+        </Cell>
+        <Cell index="13" style="style_6">
+        </Cell>
+        <Cell index="14" style="style_6">
+        </Cell>
+        <Cell index="15" style="style_6">
+        </Cell>
+        <Cell index="16" style="style_6">
+        </Cell>
+        <Cell index="17" style="style_6">
+        </Cell>
+        <Cell index="18" style="style_6">
+        </Cell>
+        <Cell index="19" style="style_6">
+        </Cell>
+        <Cell index="20" style="style_6">
+        </Cell>
+        <Cell index="21" style="style_6">
+        </Cell>
+        <Cell index="22" style="style_6">
+        </Cell>
+        <Cell index="23" style="style_6">
+        </Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="2" style="style_6">Итого:</Cell>
+        <Cell index="2" style="style_5">$(+, $(getvar, Area1Left), $(getvar, Area1Right))</Cell>
+        <Cell index="3" style="style_5">$(+, $(getvar, Area2Left), $(getvar, Area2Right))</Cell>
+        <Cell index="4" style="style_5">$(+, $(getvar, Area3Left), $(getvar, Area3Right))</Cell>
+        <Cell index="5" style="style_5">$(+, $(getvar, Area4Left), $(getvar, Area4Right))</Cell>
+        <Cell index="6" style="style_5">$(+, $(getvar, Area5Left), $(getvar, Area5Right))</Cell>
+        <Cell index="7" style="style_5">$(+, $(getvar, Area6Left), $(getvar, Area6Right))</Cell>
+        <Cell index="8" style="style_5">$(+, $(getvar, Area7Left), $(getvar, Area7Right))</Cell>
+        <Cell index="9" style="style_5">$(+, $(getvar, Area8Left), $(getvar, Area8Right))</Cell>
+        <Cell index="10" style="style_5">$(+, $(getvar, Area9Left), $(getvar, Area9Right))</Cell>
+        <Cell index="11" style="style_5">$(+, $(getvar, AreaFrezLeft), $(getvar, AreaFrezRight))</Cell>
+        <Cell index="12" style="style_5">$(+, $(getvar, AreaBroadeningLeft), $(getvar, AreaBroadeningRight))</Cell>
+        <Cell index="13" style="style_5">$(+, $(getvar, AreaReplaceLeft), $(getvar, AreaReplaceRight))</Cell>
+        <Cell index="14" style="style_5">$(+, $(getvar, VolumeLayer1Left), $(getvar, VolumeLayer1Right))</Cell>
+        <Cell index="15" style="style_5">$(+, $(getvar, VolumeLayer2Left), $(getvar, VolumeLayer2Right))</Cell>
+        <Cell index="16" style="style_5">$(+, $(getvar, VolumeLayer3Left), $(getvar, VolumeLayer3Right))</Cell>
+        <Cell index="17" style="style_5">$(+, $(getvar, VolumeLayer4Left), $(getvar, VolumeLayer4Right))</Cell>
+        <Cell index="18" style="style_5">$(+, $(getvar, VolumeLayer5Left), $(getvar, VolumeLayer5Right))</Cell>
+        <Cell index="19" style="style_5">$(+, $(getvar, VolumeLayer6Left), $(getvar, VolumeLayer6Right))</Cell>
+        <Cell index="20" style="style_5">$(+, $(getvar, VolumeLayer7Left), $(getvar, VolumeLayer7Right))</Cell>
+        <Cell index="21" style="style_5">$(+, $(getvar, VolumeLayer8Left), $(getvar, VolumeLayer8Right))</Cell>
+        <Cell index="22" style="style_5">$(+, $(getvar, VolumeLayer9Left), $(getvar, VolumeLayer9Right))</Cell>
+        <Cell index="23" style="style_5">$(+, $(getvar, VolumeFrezLeft), $(getvar, VolumeFrezRight))</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="0" colspan="24" style="style_6">Примечание. В объемы материалов слоев НЕ ВКЛЮЧЕНЫ объемы на участках уширения и замены.</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="StationVolumes" name="Площади и объемы (по пикетам)">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="15" options="2" />
+      <Column index="4" width="15" options="2" />
+      <Column index="5" width="15" options="2" />
+      <Column index="6" width="15" options="2" />
+      <Column index="7" width="15" options="2" />
+      <Column index="8" width="15" options="2" />
+      <Column index="9" width="15" options="2" />
+      <Column index="10" width="15" options="2" />
+      <Column index="11" width="21,25" options="2" />
+      <Column index="12" width="21,25" options="2" />
+      <Column index="13" width="21,25" options="2" />
+      <Column index="14" width="15" options="2" />
+      <Column index="15" width="15" options="2" />
+      <Column index="16" width="15" options="2" />
+      <Column index="17" width="15" options="2" />
+      <Column index="18" width="15" options="2" />
+      <Column index="19" width="15" options="2" />
+      <Column index="20" width="15" options="2" />
+      <Column index="21" width="15" options="2" />
+      <Column index="22" width="15" options="2" />
+      <Column index="23" width="21,25" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="24" style="style_0">$(getvar, Stations)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" rowspan="3" style="style_0">ПК</Cell>
+        <Cell index="1" rowspan="3" style="style_0">Плюс</Cell>
+        <Cell index="2" colspan="12" style="style_0">Площадь, кв. м.</Cell>
+        <Cell index="14" colspan="10" style="style_0">Объем, куб. м.</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="2" colspan="9" style="style_0">Усиление</Cell>
+        <Cell index="11" rowspan="2" style="style_0">Фрезерование</Cell>
+        <Cell index="12" rowspan="2" style="style_0">Уширение</Cell>
+        <Cell index="13" rowspan="2" style="style_0">Замена</Cell>
+        <Cell index="14" colspan="9" style="style_0">Выравнивание</Cell>
+        <Cell index="23" rowspan="2" style="style_0">Фрезерование</Cell>
+      </Row>
+      <Row index="3" height="0" options="1">
+        <Cell index="2" style="style_0">Тип 1</Cell>
+        <Cell index="3" style="style_0">Тип 2</Cell>
+        <Cell index="4" style="style_0">Тип 3</Cell>
+        <Cell index="5" style="style_0">Тип 4</Cell>
+        <Cell index="6" style="style_0">Тип 5</Cell>
+        <Cell index="7" style="style_0">Тип 6</Cell>
+        <Cell index="8" style="style_0">Тип 7</Cell>
+        <Cell index="9" style="style_0">Тип 8</Cell>
+        <Cell index="10" style="style_0">Тип 9</Cell>
+        <Cell index="14" style="style_0">Слой 1</Cell>
+        <Cell index="15" style="style_0">Слой 2</Cell>
+        <Cell index="16" style="style_0">Слой 3</Cell>
+        <Cell index="17" style="style_0">Слой 4</Cell>
+        <Cell index="18" style="style_0">Слой 5</Cell>
+        <Cell index="19" style="style_0">Слой 6</Cell>
+        <Cell index="20" style="style_0">Слой 7</Cell>
+        <Cell index="21" style="style_0">Слой 8</Cell>
+        <Cell index="22" style="style_0">Слой 9</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="StationAreaAndVolumesRow">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="15" options="2" />
+      <Column index="4" width="15" options="2" />
+      <Column index="5" width="15" options="2" />
+      <Column index="6" width="15" options="2" />
+      <Column index="7" width="15" options="2" />
+      <Column index="8" width="15" options="2" />
+      <Column index="9" width="15" options="2" />
+      <Column index="10" width="15" options="2" />
+      <Column index="11" width="21,25" options="2" />
+      <Column index="12" width="21,25" options="2" />
+      <Column index="13" width="21,25" options="2" />
+      <Column index="14" width="15" options="2" />
+      <Column index="15" width="15" options="2" />
+      <Column index="16" width="15" options="2" />
+      <Column index="17" width="15" options="2" />
+      <Column index="18" width="15" options="2" />
+      <Column index="19" width="15" options="2" />
+      <Column index="20" width="15" options="2" />
+      <Column index="21" width="15" options="2" />
+      <Column index="22" width="15" options="2" />
+      <Column index="23" width="21,25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_4">$(getvar, Pk)</Cell>
+        <Cell index="1" style="style_5">$(getvar, Plus)</Cell>
+        <Cell index="2" style="style_5">$(+, $(getvar, Area1Left), $(getvar, Area1Right))</Cell>
+        <Cell index="3" style="style_5">$(+, $(getvar, Area2Left), $(getvar, Area2Right))</Cell>
+        <Cell index="4" style="style_5">$(+, $(getvar, Area3Left), $(getvar, Area3Right))</Cell>
+        <Cell index="5" style="style_5">$(+, $(getvar, Area4Left), $(getvar, Area4Right))</Cell>
+        <Cell index="6" style="style_5">$(+, $(getvar, Area5Left), $(getvar, Area5Right))</Cell>
+        <Cell index="7" style="style_5">$(+, $(getvar, Area6Left), $(getvar, Area6Right))</Cell>
+        <Cell index="8" style="style_5">$(+, $(getvar, Area7Left), $(getvar, Area7Right))</Cell>
+        <Cell index="9" style="style_5">$(+, $(getvar, Area8Left), $(getvar, Area8Right))</Cell>
+        <Cell index="10" style="style_5">$(+, $(getvar, Area9Left), $(getvar, Area9Right))</Cell>
+        <Cell index="11" style="style_5">$(+, $(getvar, AreaFrezLeft), $(getvar, AreaFrezRight))</Cell>
+        <Cell index="12" style="style_5">$(+, $(getvar, AreaBroadeningLeft), $(getvar, AreaBroadeningRight))</Cell>
+        <Cell index="13" style="style_5">$(+, $(getvar, AreaReplaceLeft), $(getvar, AreaReplaceRight))</Cell>
+        <Cell index="14" style="style_5">$(+, $(getvar, VolumeLayer1Left), $(getvar, VolumeLayer1Right))</Cell>
+        <Cell index="15" style="style_5">$(+, $(getvar, VolumeLayer2Left), $(getvar, VolumeLayer2Right))</Cell>
+        <Cell index="16" style="style_5">$(+, $(getvar, VolumeLayer3Left), $(getvar, VolumeLayer3Right))</Cell>
+        <Cell index="17" style="style_5">$(+, $(getvar, VolumeLayer4Left), $(getvar, VolumeLayer4Right))</Cell>
+        <Cell index="18" style="style_5">$(+, $(getvar, VolumeLayer5Left), $(getvar, VolumeLayer5Right))</Cell>
+        <Cell index="19" style="style_5">$(+, $(getvar, VolumeLayer6Left), $(getvar, VolumeLayer6Right))</Cell>
+        <Cell index="20" style="style_5">$(+, $(getvar, VolumeLayer7Left), $(getvar, VolumeLayer7Right))</Cell>
+        <Cell index="21" style="style_5">$(+, $(getvar, VolumeLayer8Left), $(getvar, VolumeLayer8Right))</Cell>
+        <Cell index="22" style="style_5">$(+, $(getvar, VolumeLayer9Left), $(getvar, VolumeLayer9Right))</Cell>
+        <Cell index="23" style="style_5">$(+, $(getvar, VolumeFrezLeft), $(getvar, VolumeFrezRight))</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="SummAreaAndVolumesRow">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="15" options="2" />
+      <Column index="3" width="15" options="2" />
+      <Column index="4" width="15" options="2" />
+      <Column index="5" width="15" options="2" />
+      <Column index="6" width="15" options="2" />
+      <Column index="7" width="15" options="2" />
+      <Column index="8" width="15" options="2" />
+      <Column index="9" width="15" options="2" />
+      <Column index="10" width="15" options="2" />
+      <Column index="11" width="21,25" options="2" />
+      <Column index="12" width="21,25" options="2" />
+      <Column index="13" width="21,25" options="2" />
+      <Column index="14" width="15" options="2" />
+      <Column index="15" width="15" options="2" />
+      <Column index="16" width="15" options="2" />
+      <Column index="17" width="15" options="2" />
+      <Column index="18" width="15" options="2" />
+      <Column index="19" width="15" options="2" />
+      <Column index="20" width="15" options="2" />
+      <Column index="21" width="15" options="2" />
+      <Column index="22" width="15" options="2" />
+      <Column index="23" width="21,25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_6">
+        </Cell>
+        <Cell index="1" style="style_6">
+        </Cell>
+        <Cell index="2" style="style_6">
+        </Cell>
+        <Cell index="3" style="style_6">
+        </Cell>
+        <Cell index="4" style="style_6">
+        </Cell>
+        <Cell index="5" style="style_6">
+        </Cell>
+        <Cell index="6" style="style_6">
+        </Cell>
+        <Cell index="7" style="style_6">
+        </Cell>
+        <Cell index="8" style="style_6">
+        </Cell>
+        <Cell index="9" style="style_6">
+        </Cell>
+        <Cell index="10" style="style_6">
+        </Cell>
+        <Cell index="11" style="style_6">
+        </Cell>
+        <Cell index="12" style="style_6">
+        </Cell>
+        <Cell index="13" style="style_6">
+        </Cell>
+        <Cell index="14" style="style_6">
+        </Cell>
+        <Cell index="15" style="style_6">
+        </Cell>
+        <Cell index="16" style="style_6">
+        </Cell>
+        <Cell index="17" style="style_6">
+        </Cell>
+        <Cell index="18" style="style_6">
+        </Cell>
+        <Cell index="19" style="style_6">
+        </Cell>
+        <Cell index="20" style="style_6">
+        </Cell>
+        <Cell index="21" style="style_6">
+        </Cell>
+        <Cell index="22" style="style_6">
+        </Cell>
+        <Cell index="23" style="style_6">
+        </Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="2" style="style_6">Итого:</Cell>
+        <Cell index="2" style="style_5">$(+, $(getvar, Area1Left), $(getvar, Area1Right))</Cell>
+        <Cell index="3" style="style_5">$(+, $(getvar, Area2Left), $(getvar, Area2Right))</Cell>
+        <Cell index="4" style="style_5">$(+, $(getvar, Area3Left), $(getvar, Area3Right))</Cell>
+        <Cell index="5" style="style_5">$(+, $(getvar, Area4Left), $(getvar, Area4Right))</Cell>
+        <Cell index="6" style="style_5">$(+, $(getvar, Area5Left), $(getvar, Area5Right))</Cell>
+        <Cell index="7" style="style_5">$(+, $(getvar, Area6Left), $(getvar, Area6Right))</Cell>
+        <Cell index="8" style="style_5">$(+, $(getvar, Area7Left), $(getvar, Area7Right))</Cell>
+        <Cell index="9" style="style_5">$(+, $(getvar, Area8Left), $(getvar, Area8Right))</Cell>
+        <Cell index="10" style="style_5">$(+, $(getvar, Area9Left), $(getvar, Area9Right))</Cell>
+        <Cell index="11" style="style_5">$(+, $(getvar, AreaFrezLeft), $(getvar, AreaFrezRight))</Cell>
+        <Cell index="12" style="style_5">$(+, $(getvar, AreaBroadeningLeft), $(getvar, AreaBroadeningRight))</Cell>
+        <Cell index="13" style="style_5">$(+, $(getvar, AreaReplaceLeft), $(getvar, AreaReplaceRight))</Cell>
+        <Cell index="14" style="style_5">$(+, $(getvar, VolumeLayer1Left), $(getvar, VolumeLayer1Right))</Cell>
+        <Cell index="15" style="style_5">$(+, $(getvar, VolumeLayer2Left), $(getvar, VolumeLayer2Right))</Cell>
+        <Cell index="16" style="style_5">$(+, $(getvar, VolumeLayer3Left), $(getvar, VolumeLayer3Right))</Cell>
+        <Cell index="17" style="style_5">$(+, $(getvar, VolumeLayer4Left), $(getvar, VolumeLayer4Right))</Cell>
+        <Cell index="18" style="style_5">$(+, $(getvar, VolumeLayer5Left), $(getvar, VolumeLayer5Right))</Cell>
+        <Cell index="19" style="style_5">$(+, $(getvar, VolumeLayer6Left), $(getvar, VolumeLayer6Right))</Cell>
+        <Cell index="20" style="style_5">$(+, $(getvar, VolumeLayer7Left), $(getvar, VolumeLayer7Right))</Cell>
+        <Cell index="21" style="style_5">$(+, $(getvar, VolumeLayer8Left), $(getvar, VolumeLayer8Right))</Cell>
+        <Cell index="22" style="style_5">$(+, $(getvar, VolumeLayer9Left), $(getvar, VolumeLayer9Right))</Cell>
+        <Cell index="23" style="style_5">$(+, $(getvar, VolumeFrezLeft), $(getvar, VolumeFrezRight))</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="0" colspan="24" style="style_6">Примечание. В объемы материалов слоев НЕ ВКЛЮЧЕНЫ объемы на участках уширения и замены.</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="FrezDepths" name="Фрезерование по глубине">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="37" options="2" />
+      <Column index="1" width="37" options="2" />
+      <Column index="2" width="37" options="2" />
+      <Column index="3" width="37" options="2" />
+      <Column index="4" width="37" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="5" style="style_0">$(getvar, Stations)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" style="style_0">ПК</Cell>
+        <Cell index="1" style="style_0">Плюс</Cell>
+        <Cell index="2" style="style_0">Глубина</Cell>
+        <Cell index="3" style="style_0">Площадь, м2</Cell>
+        <Cell index="4" style="style_0">Объем, м3</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="FreezDepthRow">
+      <Column index="0" width="37" options="2" />
+      <Column index="1" width="37" options="2" />
+      <Column index="2" width="37" options="2" />
+      <Column index="3" width="37" options="2" />
+      <Column index="4" width="37" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">$(getvar, Pk)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Plus)</Cell>
+        <Cell index="2" style="style_0">$(getvar, Depth)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Area)</Cell>
+        <Cell index="4" style="style_2">$(getvar, Volume)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="LayersHeight" name="Толщины слоёв">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="37" options="2" />
+      <Column index="1" width="37" options="2" />
+      <Column index="2" width="37" options="2" />
+      <Column index="3" width="37" options="2" />
+      <Column index="4" width="37" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="5" style="style_0">$(getvar, Stations)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" style="style_0">ПК</Cell>
+        <Cell index="1" style="style_0">Плюс</Cell>
+        <Cell index="2" style="style_0">Слой</Cell>
+        <Cell index="3" style="style_0">Средняя  толщина, м</Cell>
+        <Cell index="4" style="style_0">Средняя глубина фрезерования, м</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="LayersHeightRow">
+      <Column index="0" width="37" options="2" />
+      <Column index="1" width="37" options="2" />
+      <Column index="2" width="37" options="2" />
+      <Column index="3" width="37" options="2" />
+      <Column index="4" width="37" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">$(getvar, Pk)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Plus)</Cell>
+        <Cell index="2" style="style_0">$(getvar, Layer)</Cell>
+        <Cell index="3" style="style_2">$(getvar, Area)</Cell>
+        <Cell index="4" style="style_2">$(getvar, Frez)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

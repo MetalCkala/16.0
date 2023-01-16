@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость отметок профиля">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Elements" name="Элементы профиля">
+    <Subtable name="Заголовок" id="HeadElement">
+      <Column index="0" width="26,4200000762939" options="2" />
+      <Column index="1" width="26,4200000762939" options="2" />
+      <Column index="2" width="26,4200000762939" options="2" />
+      <Column index="3" width="26,4200000762939" options="2" />
+      <Column index="4" width="26,4200000762939" options="2" />
+      <Column index="5" width="26,4200000762939" options="2" />
+      <Column index="6" width="26,4200000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="7" style="style_0">Элементы профиля</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="3" style="style_0">Начало элемента</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Длина, м</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Радиус, м</Cell>
+        <Cell index="5" colspan="2" style="style_0">Вершина кривой</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" style="style_0">Пикет</Cell>
+        <Cell index="1" style="style_0">Уклон, ‰</Cell>
+        <Cell index="2" style="style_0">Отметка, м</Cell>
+        <Cell index="5" style="style_0">Пикет</Cell>
+        <Cell index="6" style="style_0">Отметка, м</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="DataElement">
+      <Column index="0" width="26,4200000762939" options="2" />
+      <Column index="1" width="26,4200000762939" options="2" />
+      <Column index="2" width="26,4200000762939" options="2" />
+      <Column index="3" width="26,4200000762939" options="2" />
+      <Column index="4" width="26,4200000762939" options="2" />
+      <Column index="5" width="26,4200000762939" options="2" />
+      <Column index="6" width="26,4200000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Grade)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Elevation)</Cell>
+        <Cell index="3" style="style_1">
+        </Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+        <Cell index="5" style="style_1">
+        </Cell>
+        <Cell index="6" style="style_1">
+        </Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" style="style_1">
+        </Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_2">$(getvar, Length)</Cell>
+        <Cell index="4" style="style_2">$(getvar, Radius)</Cell>
+        <Cell index="5" style="style_1">$(getvar, CurveStation)</Cell>
+        <Cell index="6" style="style_2">$(getvar, CurveElevation)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="Elevations" name="Рабочие отметки">
+    <Subtable name="Заголовок" id="HeadElevation">
+      <Column index="0" width="23,1200008392334" options="2" />
+      <Column index="1" width="23,1200008392334" options="2" />
+      <Column index="2" width="27,1200008392334" options="2" />
+      <Column index="3" width="20,1200008392334" options="2" />
+      <Column index="4" width="23,1200008392334" options="2" />
+      <Column index="5" width="23,1200008392334" options="2" />
+      <Column index="6" width="22,1200008392334" options="2" />
+      <Column index="7" width="23,1200008392334" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="8" style="style_0">Рабочие отметки</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Пикет</Cell>
+        <Cell index="1" colspan="2" style="style_0">Отметка</Cell>
+        <Cell index="3" colspan="4" style="style_0">Проектная линия</Cell>
+        <Cell index="7" rowspan="2" style="style_0">Комментарий</Cell>
+      </Row>
+      <Row index="2" height="0" options="1">
+        <Cell index="1" style="style_0">Расстояние, м</Cell>
+        <Cell index="2" style="style_0">Интерполированная</Cell>
+        <Cell index="3" style="style_0">Отметка, м</Cell>
+        <Cell index="4" style="style_0">Рабочая отметка, м</Cell>
+        <Cell index="5" style="style_0">Уклон, ‰</Cell>
+        <Cell index="6" style="style_0">Радиус, м</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="DataElevation">
+      <Column index="0" width="23,1200008392334" options="2" />
+      <Column index="1" width="23,1200008392334" options="2" />
+      <Column index="2" width="27,1200008392334" options="2" />
+      <Column index="3" width="20,1200008392334" options="2" />
+      <Column index="4" width="23,1200008392334" options="2" />
+      <Column index="5" width="23,1200008392334" options="2" />
+      <Column index="6" width="22,1200008392334" options="2" />
+      <Column index="7" width="23,1200008392334" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="1" style="style_2">$(getvar, Elevation)</Cell>
+        <Cell index="2" style="style_0">$(getvar, ElevationInterpolated)</Cell>
+        <Cell index="3" style="style_2">$(getvar, ProjectElevation)</Cell>
+        <Cell index="4" style="style_2">$(getvar, ProjectWorkElevation)</Cell>
+        <Cell index="5" style="style_2">$(getvar, ProjectGrade)</Cell>
+        <Cell index="6" style="style_2">$(getvar, ProjectRadius)</Cell>
+        <Cell index="7" style="style_1">$(getvar, Description)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

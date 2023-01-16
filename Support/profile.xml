@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body DockLeftPortion="0.1635417" DockRightPortion="0.25" DockTopPortion="0.25" DockBottomPortion="0.1299938" ActiveDocumentPane="-1" ActivePane="-1">
+    <Contents aType="0">
+      <Content ID="0" UID="volume_window" AutoHidePortion="0.25" IsHidden="true" IsFloat="false" RestoreWidth="300" RestoreHeight="300" />
+      <Content ID="1" UID="construction_window" AutoHidePortion="0.25" IsHidden="true" IsFloat="false" RestoreWidth="300" RestoreHeight="300" />
+      <Content ID="2" UID="palette_window" AutoHidePortion="0.25" IsHidden="true" IsFloat="false" RestoreWidth="300" RestoreHeight="300" />
+      <Content ID="3" UID="cds_tree_window" AutoHidePortion="0.25" IsHidden="true" IsFloat="false" RestoreWidth="300" RestoreHeight="300" />
+      <Content ID="4" UID="propertyinspector" AutoHidePortion="0.25" IsHidden="false" IsFloat="false" RestoreWidth="300" RestoreHeight="300" />
+      <Content ID="5" UID="propertygrid" AutoHidePortion="0.25" IsHidden="true" IsFloat="false" RestoreWidth="300" RestoreHeight="300" />
+      <Content ID="6" UID="historywindow" AutoHidePortion="0.25" IsHidden="true" IsFloat="false" RestoreWidth="300" RestoreHeight="300" />
+      <Content ID="7" UID="project_explorer" AutoHidePortion="0.25" IsHidden="false" IsFloat="false" RestoreWidth="300" RestoreHeight="300" />
+      <Content ID="8" UID="commandwindow" AutoHidePortion="0.25" IsHidden="true" IsFloat="false" RestoreWidth="800" RestoreHeight="600" />
+      <Content ID="9" UID="errorslist" AutoHidePortion="0.25" IsHidden="true" IsFloat="false" RestoreWidth="300" RestoreHeight="300" />
+    </Contents>
+    <Panes aType="0">
+      <Pane ID="0" DockState="Float" ActiveContent="-1">
+        <Contents aType="0">
+          <Content ID="0" RefID="8" />
+        </Contents>
+      </Pane>
+      <Pane ID="1" DockState="DockBottom" ActiveContent="-1">
+        <Contents aType="0">
+          <Content ID="0" RefID="8" />
+        </Contents>
+      </Pane>
+      <Pane ID="2" DockState="Float" ActiveContent="-1">
+        <Contents aType="0">
+          <Content ID="0" RefID="9" />
+        </Contents>
+      </Pane>
+      <Pane ID="3" DockState="DockBottom" ActiveContent="-1">
+        <Contents aType="0">
+          <Content ID="0" RefID="9" />
+        </Contents>
+      </Pane>
+      <Pane ID="4" DockState="Float" ActiveContent="-1">
+        <Contents aType="0">
+          <Content ID="0" RefID="7" />
+        </Contents>
+      </Pane>
+      <Pane ID="5" DockState="Float" ActiveContent="-1">
+        <Contents aType="0">
+          <Content ID="0" RefID="4" />
+        </Contents>
+      </Pane>
+      <Pane ID="6" DockState="DockLeft" ActiveContent="7">
+        <Contents aType="0">
+          <Content ID="0" RefID="7" />
+        </Contents>
+      </Pane>
+      <Pane ID="7" DockState="DockLeft" ActiveContent="4">
+        <Contents aType="0">
+          <Content ID="0" RefID="4" />
+        </Contents>
+      </Pane>
+    </Panes>
+    <DockWindows aType="0">
+      <DockWindow ID="1" DockState="DockLeft" ZOrderIndex="1">
+        <DockList aType="0">
+          <Pane ID="0" RefID="6" PrevPane="-1" Alignment="Bottom" Proportion="0.5" />
+          <Pane ID="1" RefID="7" PrevPane="6" Alignment="Bottom" Proportion="0.4732262" />
+        </DockList>
+      </DockWindow>
+      <DockWindow ID="4" DockState="DockBottom" ZOrderIndex="2">
+        <DockList aType="0">
+          <Pane ID="0" RefID="1" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+          <Pane ID="1" RefID="3" PrevPane="1" Alignment="Right" Proportion="0.5" />
+        </DockList>
+      </DockWindow>
+    </DockWindows>
+    <FloatWindows aType="0">
+      <FloatWindow ID="0" Left="-57" Top="323" Width="800" Height="600" AllowRedocking="true" ZOrderIndex="0" Maximized="false">
+        <DockList aType="0">
+          <Pane ID="0" RefID="0" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+        </DockList>
+      </FloatWindow>
+      <FloatWindow ID="1" Left="755" Top="596" Width="300" Height="300" AllowRedocking="true" ZOrderIndex="1" Maximized="false">
+        <DockList aType="0">
+          <Pane ID="0" RefID="2" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+        </DockList>
+      </FloatWindow>
+      <FloatWindow ID="2" Left="485" Top="414" Width="300" Height="300" AllowRedocking="true" ZOrderIndex="2" Maximized="false">
+        <DockList aType="0">
+          <Pane ID="0" RefID="4" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+        </DockList>
+      </FloatWindow>
+      <FloatWindow ID="3" Left="880" Top="294" Width="300" Height="300" AllowRedocking="true" ZOrderIndex="3" Maximized="false">
+        <DockList aType="0">
+          <Pane ID="0" RefID="5" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+        </DockList>
+      </FloatWindow>
+    </FloatWindows>
+  </Body>
+</Stg>

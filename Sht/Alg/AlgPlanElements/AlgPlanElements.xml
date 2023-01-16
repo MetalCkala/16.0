@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Элементы плана">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_3">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>0,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_4">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>3,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="table" name="Элементы плана">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="15" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="25" options="2" />
+      <Column index="3" width="35" options="2" />
+      <Column index="4" width="35" options="2" />
+      <Column index="5" width="25" options="2" />
+      <Column index="6" width="25" options="2" />
+      <Column index="7" width="25" options="2" />
+      <Column index="8" width="25" options="2" />
+      <Column index="9" width="25" options="2" />
+      <Column index="10" width="25" options="2" />
+      <Column index="11" width="25" options="2" />
+      <Column index="12" width="25" options="2" />
+      <Column index="13" width="23" options="2" />
+      <Column index="14" width="23" options="2" />
+      <Column index="15" width="23" options="2" />
+      <Column index="16" width="23" options="2" />
+      <Column index="17" width="23" options="2" />
+      <Column index="18" width="30" options="2" />
+      <Column index="19" width="25" options="2" />
+      <Column index="20" width="40" options="2" />
+      <Column index="21" width="30" options="2" />
+      <Column index="22" width="30" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="23" style="style_0">Элементы плана</Cell>
+      </Row>
+      <Row index="1" height="7" options="2">
+        <Cell index="0" rowspan="2" style="style_0">№</Cell>
+        <Cell index="1" colspan="2" style="style_0">Вершина</Cell>
+        <Cell index="3" colspan="2" style="style_0">Угол</Cell>
+        <Cell index="5" colspan="9" style="style_0">Элементы круговой и переходных кривых, м</Cell>
+        <Cell index="14" colspan="4" style="style_0">Границы элементов</Cell>
+        <Cell index="18" rowspan="2" style="style_0">Расстояние между ВУ, м</Cell>
+        <Cell index="19" rowspan="2" style="style_0">Длина прямой, м</Cell>
+        <Cell index="20" rowspan="2" style="style_0">Румб</Cell>
+        <Cell index="21" colspan="2" style="style_0">Координаты, м</Cell>
+      </Row>
+      <Row index="2" height="7" options="2">
+        <Cell index="1" style="style_0">Пикет</Cell>
+        <Cell index="2" style="style_0">КМ</Cell>
+        <Cell index="3" style="style_0">Лево</Cell>
+        <Cell index="4" style="style_0">Право</Cell>
+        <Cell index="5" style="style_0">R</Cell>
+        <Cell index="6" style="style_0">L1</Cell>
+        <Cell index="7" style="style_0">L2</Cell>
+        <Cell index="8" style="style_0">T1</Cell>
+        <Cell index="9" style="style_0">T2</Cell>
+        <Cell index="10" style="style_0">Kполн</Cell>
+        <Cell index="11" style="style_0">Kсохр</Cell>
+        <Cell index="12" style="style_0">Б</Cell>
+        <Cell index="13" style="style_0">Д</Cell>
+        <Cell index="14" style="style_0">НПК</Cell>
+        <Cell index="15" style="style_0">НКК</Cell>
+        <Cell index="16" style="style_0">ККК</Cell>
+        <Cell index="17" style="style_0">КПК</Cell>
+        <Cell index="21" style="style_0">Северная</Cell>
+        <Cell index="22" style="style_0">Восточная</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+        <Cell index="5" style="style_0">6</Cell>
+        <Cell index="6" style="style_0">7</Cell>
+        <Cell index="7" style="style_0">8</Cell>
+        <Cell index="8" style="style_0">9</Cell>
+        <Cell index="9" style="style_0">10</Cell>
+        <Cell index="10" style="style_0">11</Cell>
+        <Cell index="11" style="style_0">12</Cell>
+        <Cell index="12" style="style_0">13</Cell>
+        <Cell index="13" style="style_0">14</Cell>
+        <Cell index="14" style="style_0">15</Cell>
+        <Cell index="15" style="style_0">16</Cell>
+        <Cell index="16" style="style_0">17</Cell>
+        <Cell index="17" style="style_0">18</Cell>
+        <Cell index="18" style="style_0">19</Cell>
+        <Cell index="19" style="style_0">20</Cell>
+        <Cell index="20" style="style_0">21</Cell>
+        <Cell index="21" style="style_0">22</Cell>
+        <Cell index="22" style="style_0">23</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Row">
+      <Column index="0" width="15" options="2" />
+      <Column index="1" width="25" options="2" />
+      <Column index="2" width="25" options="2" />
+      <Column index="3" width="35" options="2" />
+      <Column index="4" width="35" options="2" />
+      <Column index="5" width="25" options="2" />
+      <Column index="6" width="25" options="2" />
+      <Column index="7" width="25" options="2" />
+      <Column index="8" width="25" options="2" />
+      <Column index="9" width="25" options="2" />
+      <Column index="10" width="25" options="2" />
+      <Column index="11" width="25" options="2" />
+      <Column index="12" width="25" options="2" />
+      <Column index="13" width="23" options="2" />
+      <Column index="14" width="23" options="2" />
+      <Column index="15" width="23" options="2" />
+      <Column index="16" width="23" options="2" />
+      <Column index="17" width="23" options="2" />
+      <Column index="18" width="30" options="2" />
+      <Column index="19" width="25" options="2" />
+      <Column index="20" width="40" options="2" />
+      <Column index="21" width="30" options="2" />
+      <Column index="22" width="30" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Index)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_2">$(getvar, KM)</Cell>
+        <Cell index="3" style="style_1">$(getvar, AngleLeft)</Cell>
+        <Cell index="4" style="style_1">$(getvar, AngleRight)</Cell>
+        <Cell index="5" style="style_1">$(getvar, R)</Cell>
+        <Cell index="6" style="style_1">$(getvar, L1)</Cell>
+        <Cell index="7" style="style_1">$(getvar, L2)</Cell>
+        <Cell index="8" style="style_1">$(getvar, T1)</Cell>
+        <Cell index="9" style="style_1">$(getvar, T2)</Cell>
+        <Cell index="10" style="style_1">$(getvar, KFull)</Cell>
+        <Cell index="11" style="style_1">$(getvar, KSave)</Cell>
+        <Cell index="12" style="style_1">$(getvar, B)</Cell>
+        <Cell index="13" style="style_1">$(getvar, D)</Cell>
+        <Cell index="14" style="style_1">$(getvar, NPK)</Cell>
+        <Cell index="15" style="style_1">$(getvar, NKK)</Cell>
+        <Cell index="16" style="style_1">$(getvar, KKK)</Cell>
+        <Cell index="17" style="style_1">$(getvar, KPK)</Cell>
+        <Cell index="18" style="style_1">$(getvar, LengthArc)</Cell>
+        <Cell index="19" style="style_1">$(getvar, LengthStraight)</Cell>
+        <Cell index="20" style="style_1">$(getvar, Curse)</Cell>
+        <Cell index="21" style="style_1">$(getvar, PositionY)</Cell>
+        <Cell index="22" style="style_1">$(getvar, PositionX)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="form2" name="Форма 2">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="28" options="2" />
+      <Column index="2" width="30" options="2" />
+      <Column index="3" width="30" options="2" />
+      <Column index="4" width="30" options="2" />
+      <Column index="5" width="40" options="2" />
+      <Column index="6" width="30" options="2" />
+      <Column index="7" width="30" options="2" />
+      <Column index="8" width="30" options="2" />
+      <Column index="9" width="30" options="2" />
+      <Column index="10" width="30" options="2" />
+      <Column index="11" width="30" options="2" />
+      <Column index="12" width="30" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="13" style="style_0">Форма 2</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Номер пути</Cell>
+        <Cell index="1" rowspan="2" style="style_0">Обозначение точки</Cell>
+        <Cell index="2" colspan="2" style="style_0">Координаты точки</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Расстояние между точками, м</Cell>
+        <Cell index="5" colspan="5" style="style_0">Элементы кривой</Cell>
+        <Cell index="10" colspan="2" style="style_0">Пикет</Cell>
+        <Cell index="12" rowspan="2" style="style_0">Прямая вставка, м</Cell>
+      </Row>
+      <Row index="2" height="15" options="2">
+        <Cell index="2" style="style_0">А</Cell>
+        <Cell index="3" style="style_0">Б</Cell>
+        <Cell index="5" style="style_0">угол, °</Cell>
+        <Cell index="6" style="style_0">радиус, м</Cell>
+        <Cell index="7" style="style_0">тангенс, м</Cell>
+        <Cell index="8" style="style_0">кривая, м</Cell>
+        <Cell index="9" style="style_0">длина переходной кривой, м</Cell>
+        <Cell index="10" style="style_0">НК</Cell>
+        <Cell index="11" style="style_0">КК</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+        <Cell index="5" style="style_0">6</Cell>
+        <Cell index="6" style="style_0">7</Cell>
+        <Cell index="7" style="style_0">8</Cell>
+        <Cell index="8" style="style_0">9</Cell>
+        <Cell index="9" style="style_0">10</Cell>
+        <Cell index="10" style="style_0">11</Cell>
+        <Cell index="11" style="style_0">12</Cell>
+        <Cell index="12" style="style_0">13</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Form2Row">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="28" options="2" />
+      <Column index="2" width="30" options="2" />
+      <Column index="3" width="30" options="2" />
+      <Column index="4" width="30" options="2" />
+      <Column index="5" width="40" options="2" />
+      <Column index="6" width="30" options="2" />
+      <Column index="7" width="30" options="2" />
+      <Column index="8" width="30" options="2" />
+      <Column index="9" width="30" options="2" />
+      <Column index="10" width="30" options="2" />
+      <Column index="11" width="30" options="2" />
+      <Column index="12" width="30" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_2">$(getvar, TrackNumber)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Name)</Cell>
+        <Cell index="2" style="style_1">$(getvar, CoordsA)</Cell>
+        <Cell index="3" style="style_1">$(getvar, CoordsB)</Cell>
+        <Cell index="4" style="style_3">
+        </Cell>
+        <Cell index="5" style="style_1">$(getvar, Angle)</Cell>
+        <Cell index="6" style="style_1">$(getvar, Radius)</Cell>
+        <Cell index="7" style="style_1">$(getvar, Tangent)</Cell>
+        <Cell index="8" style="style_1">$(getvar, Curve)</Cell>
+        <Cell index="9" style="style_1">$(getvar, Cloth)</Cell>
+        <Cell index="10" style="style_1">$(getvar, BC)</Cell>
+        <Cell index="11" style="style_1">$(getvar, EC)</Cell>
+        <Cell index="12" style="style_3">
+        </Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" style="style_3">
+        </Cell>
+        <Cell index="1" style="style_3">
+        </Cell>
+        <Cell index="2" style="style_3">
+        </Cell>
+        <Cell index="3" style="style_3">
+        </Cell>
+        <Cell index="4" style="style_1">$(getvar, Distance)</Cell>
+        <Cell index="5" style="style_3">
+        </Cell>
+        <Cell index="6" style="style_3">
+        </Cell>
+        <Cell index="7" style="style_3">
+        </Cell>
+        <Cell index="8" style="style_3">
+        </Cell>
+        <Cell index="9" style="style_3">
+        </Cell>
+        <Cell index="10" style="style_3">
+        </Cell>
+        <Cell index="11" style="style_3">
+        </Cell>
+        <Cell index="12" style="style_1">$(getvar, LineLength)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="form4" name="Форма 4">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="20" options="2" />
+      <Column index="3" width="20" options="2" />
+      <Column index="4" width="40" options="2" />
+      <Column index="5" width="40" options="2" />
+      <Column index="6" width="30" options="2" />
+      <Column index="7" width="28" options="2" />
+      <Column index="8" width="28" options="2" />
+      <Column index="9" width="28" options="2" />
+      <Column index="10" width="28" options="2" />
+      <Column index="11" width="28" options="2" />
+      <Column index="12" width="28" options="2" />
+      <Column index="13" width="27" options="2" />
+      <Column index="14" width="20" options="2" />
+      <Column index="15" width="20" options="2" />
+      <Column index="16" width="20" options="2" />
+      <Column index="17" width="20" options="2" />
+      <Column index="18" width="20" options="2" />
+      <Column index="19" width="20" options="2" />
+      <Column index="20" width="20" options="2" />
+      <Column index="21" width="20" options="2" />
+      <Column index="22" width="30" options="2" />
+      <Column index="23" width="30" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="24" style="style_0">Форма 4</Cell>
+      </Row>
+      <Row index="1" height="7" options="2">
+        <Cell index="0" rowspan="3" style="style_0">№</Cell>
+        <Cell index="1" colspan="3" style="style_0">Положение вершины угла</Cell>
+        <Cell index="4" rowspan="2" colspan="2" style="style_0">Величина угла поворота</Cell>
+        <Cell index="6" rowspan="3" style="style_0">Радиус, м</Cell>
+        <Cell index="7" colspan="7" style="style_0">Элементы кривой, м</Cell>
+        <Cell index="14" colspan="8" style="style_0">Положение переходных кривых</Cell>
+        <Cell index="22" rowspan="3" style="style_0">Расстояние между вершинами углов, м</Cell>
+        <Cell index="23" rowspan="3" style="style_0">Длина прямой, м</Cell>
+      </Row>
+      <Row index="2" height="7" options="2">
+        <Cell index="1" rowspan="2" style="style_0">КМ</Cell>
+        <Cell index="2" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="3" rowspan="2" style="style_0">+</Cell>
+        <Cell index="7" rowspan="2" style="style_0">тангенс</Cell>
+        <Cell index="8" rowspan="2" style="style_0">тангенс</Cell>
+        <Cell index="9" rowspan="2" colspan="2" style="style_0">переходные кривые</Cell>
+        <Cell index="11" rowspan="2" style="style_0">круговая кривая</Cell>
+        <Cell index="12" rowspan="2" style="style_0">биссектриса</Cell>
+        <Cell index="13" rowspan="2" style="style_0">Д</Cell>
+        <Cell index="14" colspan="4" style="style_0">Начало</Cell>
+        <Cell index="18" colspan="4" style="style_0">Конец</Cell>
+      </Row>
+      <Row index="3" height="7" options="2">
+        <Cell index="4" style="style_0">влево</Cell>
+        <Cell index="5" style="style_0">вправо</Cell>
+        <Cell index="14" style="style_4">ПК</Cell>
+        <Cell index="15" style="style_4">+</Cell>
+        <Cell index="16" style="style_0">ПК</Cell>
+        <Cell index="17" style="style_0">+</Cell>
+        <Cell index="18" style="style_0">ПК</Cell>
+        <Cell index="19" style="style_0">+</Cell>
+        <Cell index="20" style="style_0">ПК</Cell>
+        <Cell index="21" style="style_0">+</Cell>
+      </Row>
+      <Row index="4" height="5" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+        <Cell index="5" style="style_0">6</Cell>
+        <Cell index="6" style="style_0">7</Cell>
+        <Cell index="7" style="style_0">8</Cell>
+        <Cell index="8" style="style_0">9</Cell>
+        <Cell index="9" style="style_0">10</Cell>
+        <Cell index="10" style="style_0">11</Cell>
+        <Cell index="11" style="style_0">12</Cell>
+        <Cell index="12" style="style_0">13</Cell>
+        <Cell index="13" style="style_0">14</Cell>
+        <Cell index="14" style="style_0">15</Cell>
+        <Cell index="15" style="style_0">16</Cell>
+        <Cell index="16" style="style_0">17</Cell>
+        <Cell index="17" style="style_0">18</Cell>
+        <Cell index="18" style="style_0">19</Cell>
+        <Cell index="19" style="style_0">20</Cell>
+        <Cell index="20" style="style_0">21</Cell>
+        <Cell index="21" style="style_0">22</Cell>
+        <Cell index="22" style="style_0">23</Cell>
+        <Cell index="23" style="style_0">24</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Form4Row">
+      <Column index="0" width="20" options="2" />
+      <Column index="1" width="20" options="2" />
+      <Column index="2" width="20" options="2" />
+      <Column index="3" width="20" options="2" />
+      <Column index="4" width="40" options="2" />
+      <Column index="5" width="40" options="2" />
+      <Column index="6" width="30" options="2" />
+      <Column index="7" width="28" options="2" />
+      <Column index="8" width="28" options="2" />
+      <Column index="9" width="28" options="2" />
+      <Column index="10" width="28" options="2" />
+      <Column index="11" width="28" options="2" />
+      <Column index="12" width="28" options="2" />
+      <Column index="13" width="27" options="2" />
+      <Column index="14" width="20" options="2" />
+      <Column index="15" width="20" options="2" />
+      <Column index="16" width="20" options="2" />
+      <Column index="17" width="20" options="2" />
+      <Column index="18" width="20" options="2" />
+      <Column index="19" width="20" options="2" />
+      <Column index="20" width="20" options="2" />
+      <Column index="21" width="20" options="2" />
+      <Column index="22" width="30" options="2" />
+      <Column index="23" width="30" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_2">$(getvar, KM)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Station)</Cell>
+        <Cell index="3" style="style_1">$(getvar, VertexStationPlus)</Cell>
+        <Cell index="4" style="style_1">$(getvar, AngleLeft)</Cell>
+        <Cell index="5" style="style_1">$(getvar, AngleRight)</Cell>
+        <Cell index="6" style="style_1">$(getvar, Radius)</Cell>
+        <Cell index="7" style="style_1">$(getvar, T1)</Cell>
+        <Cell index="8" style="style_1">$(getvar, T2)</Cell>
+        <Cell index="9" style="style_1">$(getvar, L1)</Cell>
+        <Cell index="10" style="style_1">$(getvar, L2)</Cell>
+        <Cell index="11" style="style_1">$(getvar, KFull)</Cell>
+        <Cell index="12" style="style_1">$(getvar, Bisector)</Cell>
+        <Cell index="13" style="style_1">$(getvar, D)</Cell>
+        <Cell index="14" style="style_2">$(getvar, BTCPk)</Cell>
+        <Cell index="15" style="style_1">$(getvar, BTCPlus)</Cell>
+        <Cell index="16" style="style_2">$(getvar, BCCPk)</Cell>
+        <Cell index="17" style="style_1">$(getvar, BCCPlus)</Cell>
+        <Cell index="18" style="style_2">$(getvar, ECCPk)</Cell>
+        <Cell index="19" style="style_1">$(getvar, ECCPlus)</Cell>
+        <Cell index="20" style="style_2">$(getvar, ETCPk)</Cell>
+        <Cell index="21" style="style_1">$(getvar, ETCPlus)</Cell>
+        <Cell index="22" style="style_1">$(getvar, Distance)</Cell>
+        <Cell index="23" style="style_1">$(getvar, Length)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="LIKE17" FileName="d431.shx" Flags="0" FontName="d431" Height="0" LastUsedHeight="2,5" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

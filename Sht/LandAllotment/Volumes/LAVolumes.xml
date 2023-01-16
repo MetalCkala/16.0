@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Отвод земель">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_3">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+    <Style id="style_4">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>1</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1,50</HorizontalField>
+      <VerticalField>1,50</VerticalField>
+      <TextHeight>2,00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0,00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="land_allotment_design_left" name="Проектный землеотвод (лево)">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="6" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="6" style="style_0">Проектный землеотвод (лево)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Расстояние от  начала трассы, м</Cell>
+        <Cell index="1" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="2" colspan="2" style="style_0">Координаты</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Площадь, м</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="2" style="style_0">X</Cell>
+        <Cell index="3" style="style_0">Y</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="PointDesignLeft">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Sta)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, PointX)</Cell>
+        <Cell index="3" style="style_1">$(getvar, PointY)</Cell>
+        <Cell index="4" style="style_1">$(getvar, PointOffset)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="TotalDesignLeft">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">Итого:</Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="land_allotment_design_right" name="Проектный землеотвод (право)">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="6" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="6" style="style_0">Проектный землеотвод (право)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Расстояние от  начала трассы, м         </Cell>
+        <Cell index="1" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="2" colspan="2" style="style_0">Координаты</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Площадь, м</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="2" style="style_0">X</Cell>
+        <Cell index="3" style="style_0">Y</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="PointDesignRight">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Sta)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, PointX)</Cell>
+        <Cell index="3" style="style_1">$(getvar, PointY)</Cell>
+        <Cell index="4" style="style_1">$(getvar, PointOffset)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="TotalDesignRight">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">Итого:</Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="land_allotment_temp_left" name="Временный землеотвод (лево)">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="6" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="6" style="style_0">Временный землеотвод (лево)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Расстояние от  начала трассы, м </Cell>
+        <Cell index="1" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="2" colspan="2" style="style_0">Координаты</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Площадь, м</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="2" style="style_0">X</Cell>
+        <Cell index="3" style="style_0">Y</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="PointTempLeft">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Sta)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, PointX)</Cell>
+        <Cell index="3" style="style_1">$(getvar, PointY)</Cell>
+        <Cell index="4" style="style_1">$(getvar, PointOffset)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="TotalTempLeft">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">Итого:</Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="land_allotment_temp_right" name="Временный землеотвод (право)">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="6" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="6" style="style_0">Временный землеотвод (право)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Расстояние от  начала трассы, м</Cell>
+        <Cell index="1" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="2" colspan="2" style="style_0">Координаты</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Площадь, м</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="2" style="style_0">X</Cell>
+        <Cell index="3" style="style_0">Y</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="PointTempRight">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_1">$(getvar, Sta)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, PointX)</Cell>
+        <Cell index="3" style="style_1">$(getvar, PointY)</Cell>
+        <Cell index="4" style="style_1">$(getvar, PointOffset)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="TotalDesignRight">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" style="style_0">Итого:</Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="land_allotment_exist_left" name="Существующий землеотвод (лево)">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="6" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="6" style="style_0">Существующий землеотвод (лево)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Расстояние от  начала трассы, м  </Cell>
+        <Cell index="1" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="2" colspan="2" style="style_0">Координаты</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Площадь, м</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="2" style="style_0">X</Cell>
+        <Cell index="3" style="style_0">Y</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="PointExistLeft">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Sta)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, PointX)</Cell>
+        <Cell index="3" style="style_1">$(getvar, PointY)</Cell>
+        <Cell index="4" style="style_1">$(getvar, PointOffset)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="TotalExistLeft">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">Итого:</Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="land_allotment_exist_right" name="Существующий землеотвод (право)">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="6" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="6" style="style_0">Существующий землеотвод (право)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Расстояние от  начала трассы, м    </Cell>
+        <Cell index="1" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="2" colspan="2" style="style_0">Координаты</Cell>
+        <Cell index="4" rowspan="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="5" rowspan="2" style="style_0">Площадь, м</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="2" style="style_0">X</Cell>
+        <Cell index="3" style="style_0">Y</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="PointExistRight">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Sta)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, PointX)</Cell>
+        <Cell index="3" style="style_1">$(getvar, PointY)</Cell>
+        <Cell index="4" style="style_1">$(getvar, PointOffset)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="TotalExistRight">
+      <Column index="0" width="30,8299999237061" options="2" />
+      <Column index="1" width="30,8299999237061" options="2" />
+      <Column index="2" width="30,8299999237061" options="2" />
+      <Column index="3" width="30,8299999237061" options="2" />
+      <Column index="4" width="30,8299999237061" options="2" />
+      <Column index="5" width="30,8299999237061" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">Итого:</Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="allotted_lands_left" name="Изымаемые земли (лево)">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="49,25" options="2" />
+      <Column index="1" width="45,25" options="2" />
+      <Column index="2" width="45,25" options="2" />
+      <Column index="3" width="45,25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="4" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="4" style="style_0">Изымаемые земли (лево)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" style="style_0">Расстояние от  начала трассы, м </Cell>
+        <Cell index="1" style="style_0">ПК</Cell>
+        <Cell index="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="3" style="style_0">Площадь, м</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="PointAllotedLeft">
+      <Column index="0" width="49,25" options="2" />
+      <Column index="1" width="45,25" options="2" />
+      <Column index="2" width="45,25" options="2" />
+      <Column index="3" width="45,25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Sta)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, PointOffset)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="TotalAllotedLeft">
+      <Column index="0" width="49,25" options="2" />
+      <Column index="1" width="45,25" options="2" />
+      <Column index="2" width="45,25" options="2" />
+      <Column index="3" width="45,25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">Итого:</Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="allotted_lands_right" name="Изымаемые земли (право)">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="49,25" options="2" />
+      <Column index="1" width="45,25" options="2" />
+      <Column index="2" width="45,25" options="2" />
+      <Column index="3" width="45,25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="4" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="4" style="style_0">Изымаемые земли (право)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" style="style_0">Расстояние от  начала трассы, м</Cell>
+        <Cell index="1" style="style_0">ПК</Cell>
+        <Cell index="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="3" style="style_0">Площадь, м</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="PointAllotedRight">
+      <Column index="0" width="49,25" options="2" />
+      <Column index="1" width="45,25" options="2" />
+      <Column index="2" width="45,25" options="2" />
+      <Column index="3" width="45,25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Sta)</Cell>
+        <Cell index="1" style="style_0">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, PointOffset)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="TotalAllotedRight">
+      <Column index="0" width="49,25" options="2" />
+      <Column index="1" width="45,25" options="2" />
+      <Column index="2" width="45,25" options="2" />
+      <Column index="3" width="45,25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">Итого:</Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_1">$(getvar, Area)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="summary" name="Итоговые данные отвода земель">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="46,25" options="2" />
+      <Column index="1" width="46,25" options="2" />
+      <Column index="2" width="46,25" options="2" />
+      <Column index="3" width="46,25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="4" style="style_0">$(getvar, fileName)</Cell>
+      </Row>
+      <Row index="1" height="0" options="1">
+        <Cell index="0" colspan="4" style="style_0">Итоговые данные отвода земель</Cell>
+      </Row>
+      <Row index="2" height="7" options="2">
+        <Cell index="0" style="style_0">Расстояние от начала трассы, м</Cell>
+        <Cell index="1" style="style_0">ПК</Cell>
+        <Cell index="2" style="style_0">Расстояние, м</Cell>
+        <Cell index="3" style="style_0">Площадь, м</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Summary" id="Summary">
+      <Column index="0" width="46,25" options="2" />
+      <Column index="1" width="46,25" options="2" />
+      <Column index="2" width="46,25" options="2" />
+      <Column index="3" width="46,25" options="2" />
+      <Row index="0" height="7" options="2">
+        <Cell index="0" colspan="2" style="style_2">Проект:</Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="1" height="7" options="2">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+      </Row>
+      <Row index="2" height="7" options="2">
+        <Cell index="0" style="style_2">Проектный отвод земель, м.кв.:</Cell>
+        <Cell index="1" style="style_3">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_4">$(getvar, DesignArea)</Cell>
+      </Row>
+      <Row index="3" height="7" options="2">
+        <Cell index="0" style="style_2">Временный отвод земель, м.кв.:</Cell>
+        <Cell index="1" style="style_3">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_4">$(getvar, TempArea)</Cell>
+      </Row>
+      <Row index="4" height="7" options="2">
+        <Cell index="0" style="style_2">Существующий отвод земель, м.кв.:</Cell>
+        <Cell index="1" style="style_3">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_4">$(getvar, ExistentArea)</Cell>
+      </Row>
+      <Row index="5" height="7" options="2">
+        <Cell index="0" style="style_2">Занимаемые земли, м.кв.:</Cell>
+        <Cell index="1" style="style_3">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_4">$(getvar, AllottedArea)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0,261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

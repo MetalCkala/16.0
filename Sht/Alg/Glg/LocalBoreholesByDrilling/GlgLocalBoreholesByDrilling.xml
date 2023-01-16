@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость послойного описания глобальных выработок по категориям бурения">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Drilling" name="Категории бурения">
+    <Subtable name="Заголовок" id="HeadDrilling">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="118" options="2" />
+      <Column index="2" width="25" options="2" />
+      <Column index="3" width="25" options="2" />
+      <Column index="4" width="25" options="2" />
+      <Column index="5" width="25" options="2" />
+      <Column index="6" width="30" options="2" />
+      <Column index="7" width="25" options="2" />
+      <Column index="8" width="41" options="2" />
+      <Column index="9" width="30" options="2" />
+      <Column index="10" width="25" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="11" style="style_0">Категория бурения</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="11" style="style_0">$(getvar, SheetName)</Cell>
+      </Row>
+      <Row index="2" height="15" options="2">
+        <Cell index="0" style="style_0">Категория породы</Cell>
+        <Cell index="1" style="style_0">Описание грунта</Cell>
+        <Cell index="2" style="style_0">Номер ИГЭ</Cell>
+        <Cell index="3" style="style_0">Номер выработки</Cell>
+        <Cell index="4" style="style_0">Мощность слоя</Cell>
+        <Cell index="5" style="style_0">Вид бурения</Cell>
+        <Cell index="6" style="style_0">Вид буровой установки</Cell>
+        <Cell index="7" style="style_0">Вид сооружения</Cell>
+        <Cell index="8" style="style_0">Типы выработки</Cell>
+        <Cell index="9" style="style_0">Общая глубина выработки, м</Cell>
+        <Cell index="10" style="style_0">Дата бурения</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+        <Cell index="5" style="style_0">6</Cell>
+        <Cell index="6" style="style_0">7</Cell>
+        <Cell index="7" style="style_0">8</Cell>
+        <Cell index="8" style="style_0">9</Cell>
+        <Cell index="9" style="style_0">10</Cell>
+        <Cell index="10" style="style_0">11</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="DataDrilling">
+      <Column index="0" width="25" options="2" />
+      <Column index="1" width="118" options="2" />
+      <Column index="2" width="25" options="2" />
+      <Column index="3" width="25" options="2" />
+      <Column index="4" width="25" options="2" />
+      <Column index="5" width="25" options="2" />
+      <Column index="6" width="30" options="2" />
+      <Column index="7" width="25" options="2" />
+      <Column index="8" width="41" options="2" />
+      <Column index="9" width="30" options="2" />
+      <Column index="10" width="25" options="2" />
+      <Row index="0" height="15" options="2">
+        <Cell index="0" style="style_1">$(getvar, Drilling)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Description)</Cell>
+        <Cell index="2" style="style_1">$(getvar, Ige)</Cell>
+        <Cell index="3" style="style_1">$(getvar, Number)</Cell>
+        <Cell index="4" style="style_1">$(getvar, Power)</Cell>
+        <Cell index="5" style="style_1">$(getvar, Type)</Cell>
+        <Cell index="6" style="style_1">$(getvar, DrillingEquipment)</Cell>
+        <Cell index="7" style="style_1">$(getvar, ConstructionType)</Cell>
+        <Cell index="8" style="style_1">$(getvar, BoreholeType)</Cell>
+        <Cell index="9" style="style_1">$(getvar, BoreholeHeight)</Cell>
+        <Cell index="10" style="style_1">$(getvar, BoreholeDate)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <Table id="WaterLevel" name="Уровень воды">
+    <Subtable name="Заголовок" id="HeadWater">
+      <Column index="0" width="46" options="2" />
+      <Column index="1" width="46" options="2" />
+      <Column index="2" width="46" options="2" />
+      <Column index="3" width="46" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="4" style="style_0">Номер выработки</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" colspan="4" style="style_0">$(getvar, SheetName)</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">Номер выработки</Cell>
+        <Cell index="1" colspan="2" style="style_0">Уровень воды, м</Cell>
+        <Cell index="3" rowspan="2" style="style_0">Глубина с водой, м</Cell>
+      </Row>
+      <Row index="3" height="5" options="2">
+        <Cell index="1" style="style_0">Появивишийся</Cell>
+        <Cell index="2" style="style_0">Устоявшийся</Cell>
+      </Row>
+      <Row index="4" height="5" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="DataWater">
+      <Column index="0" width="46" options="2" />
+      <Column index="1" width="46" options="2" />
+      <Column index="2" width="46" options="2" />
+      <Column index="3" width="46" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Number)</Cell>
+        <Cell index="1" style="style_1">$(getvar, WaterPlan)</Cell>
+        <Cell index="2" style="style_1">$(getvar, EstWaterPlan)</Cell>
+        <Cell index="3" style="style_1">$(getvar, WaterHeight)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2.5" LastUsedHeight="1" Oblique="0.261799395084381" Ratio="0.800000011920929" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="LIKE17" FileName="d431.shx" Flags="0" FontName="d431" Height="0" LastUsedHeight="2.5" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

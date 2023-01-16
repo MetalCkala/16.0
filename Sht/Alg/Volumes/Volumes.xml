@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость объемов по слоям">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Volumes" name="Объемы по слоям">
+    <Subtable name="Заголовок ведомости" id="HeadGlobal">
+      <Column index="0" width="36" options="2" />
+      <Column index="1" width="36" options="2" />
+      <Column index="2" width="36" options="2" />
+      <Column index="3" width="36" options="2" />
+      <Column index="4" width="36" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" colspan="5" style="style_0">$(getvar, SheetName)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Заголовок данных" id="HeadData">
+      <Column index="0" width="36" options="2" />
+      <Column index="1" width="36" options="2" />
+      <Column index="2" width="36" options="2" />
+      <Column index="3" width="36" options="2" />
+      <Column index="4" width="36" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" rowspan="3" style="style_0">Пикет</Cell>
+        <Cell index="1" colspan="4" style="style_1">$(getvar, Description)</Cell>
+      </Row>
+      <Row index="1" height="6" options="2">
+        <Cell index="1" colspan="2" style="style_0">Площади</Cell>
+        <Cell index="3" colspan="2" style="style_0">Объёмы</Cell>
+      </Row>
+      <Row index="2" height="6" options="2">
+        <Cell index="1" style="style_0">Насыпь, м2</Cell>
+        <Cell index="2" style="style_0">Выемка, м2</Cell>
+        <Cell index="3" style="style_0">Насыпь, м3</Cell>
+        <Cell index="4" style="style_0">Выемка, м3</Cell>
+      </Row>
+      <Row index="3" height="6" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Площади" id="AreaData">
+      <Column index="0" width="36" options="2" />
+      <Column index="1" width="36" options="2" />
+      <Column index="2" width="36" options="2" />
+      <Column index="3" width="36" options="2" />
+      <Column index="4" width="36" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="1" style="style_1">$(getvar, FillArea)</Cell>
+        <Cell index="2" style="style_1">$(getvar, CutArea)</Cell>
+        <Cell index="3" style="style_1">
+        </Cell>
+        <Cell index="4" style="style_1">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Объемы" id="VolumeData">
+      <Column index="0" width="36" options="2" />
+      <Column index="1" width="36" options="2" />
+      <Column index="2" width="36" options="2" />
+      <Column index="3" width="36" options="2" />
+      <Column index="4" width="36" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" style="style_1">
+        </Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_1">$(getvar, FillVolume)</Cell>
+        <Cell index="4" style="style_1">$(getvar, CutVolume)</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Итого" id="Total">
+      <Column index="0" width="36" options="2" />
+      <Column index="1" width="36" options="2" />
+      <Column index="2" width="36" options="2" />
+      <Column index="3" width="36" options="2" />
+      <Column index="4" width="36" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" style="style_1">Итого:</Cell>
+        <Cell index="1" style="style_1">
+        </Cell>
+        <Cell index="2" style="style_1">
+        </Cell>
+        <Cell index="3" style="style_1">$(getvar, Fill)</Cell>
+        <Cell index="4" style="style_1">$(getvar, Cut)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+</Tables>

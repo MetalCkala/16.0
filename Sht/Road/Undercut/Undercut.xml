@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Ведомость подрубки кромки">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>1</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_2">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>1.50</VerticalField>
+      <TextHeight>2.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Undercut" name="Подрубка кромки">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="26.4200000762939" options="2" />
+      <Column index="1" width="26.4200000762939" options="2" />
+      <Column index="2" width="26.4200000762939" options="2" />
+      <Column index="3" width="26.4200000762939" options="2" />
+      <Column index="4" width="26.4200000762939" options="2" />
+      <Column index="5" width="26.4200000762939" options="2" />
+      <Column index="6" width="26.4200000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" colspan="7" style="style_0">$(getvar, sheetName)</Cell>
+      </Row>
+      <Row index="1" height="5" options="2">
+        <Cell index="0" rowspan="2" style="style_0">КМ</Cell>
+        <Cell index="1" rowspan="2" style="style_0">ПК</Cell>
+        <Cell index="2" rowspan="2" style="style_0">Плюс</Cell>
+        <Cell index="3" colspan="2" style="style_0">Слева от оси</Cell>
+        <Cell index="5" colspan="2" style="style_0">Справа от оси</Cell>
+      </Row>
+      <Row index="2" height="5" options="2">
+        <Cell index="3" style="style_0">Ширина, м</Cell>
+        <Cell index="4" style="style_0">Площадь, м2</Cell>
+        <Cell index="5" style="style_0">Ширина, м</Cell>
+        <Cell index="6" style="style_0">Площадь, м2</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="По поперечнику" id="WidthRow">
+      <Column index="0" width="26.4200000762939" options="2" />
+      <Column index="1" width="26.4200000762939" options="2" />
+      <Column index="2" width="26.4200000762939" options="2" />
+      <Column index="3" width="26.4200000762939" options="2" />
+      <Column index="4" width="26.4200000762939" options="2" />
+      <Column index="5" width="26.4200000762939" options="2" />
+      <Column index="6" width="26.4200000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_1">$(getvar, Km)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Pk)</Cell>
+        <Cell index="2" style="style_2">$(getvar, Plus)</Cell>
+        <Cell index="3" style="style_2">$(getvar, LeftWidth)</Cell>
+        <Cell index="4" style="style_0">
+        </Cell>
+        <Cell index="5" style="style_2">$(getvar, RightWidth)</Cell>
+        <Cell index="6" style="style_0">
+        </Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Между поперечниками" id="AreaRow">
+      <Column index="0" width="26.4200000762939" options="2" />
+      <Column index="1" width="26.4200000762939" options="2" />
+      <Column index="2" width="26.4200000762939" options="2" />
+      <Column index="3" width="26.4200000762939" options="2" />
+      <Column index="4" width="26.4200000762939" options="2" />
+      <Column index="5" width="26.4200000762939" options="2" />
+      <Column index="6" width="26.4200000762939" options="2" />
+      <Row index="0" height="5" options="2">
+        <Cell index="0" style="style_0">
+        </Cell>
+        <Cell index="1" style="style_0">
+        </Cell>
+        <Cell index="2" style="style_0">
+        </Cell>
+        <Cell index="3" style="style_0">
+        </Cell>
+        <Cell index="4" style="style_2">$(getvar, LeftArea)</Cell>
+        <Cell index="5" style="style_0">
+        </Cell>
+        <Cell index="6" style="style_2">$(getvar, RightArea)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+  <TextStyle Annotative="0" Backward="0" Name="SPDS" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="0" LastUsedHeight="1" Oblique="0" Ratio="1" UpsideDown="0" />
+</Tables>

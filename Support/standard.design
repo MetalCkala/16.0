@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stg>
+  <Body>
+    <LayerStandards aType="0">
+      <!--       
+      <LayerStandard id="descent" description="Проектное решение по съездам">
+        <Layer>Съезды</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="unfortified_roadside" description="Проектное решение по неукреплённой части обочины">
+        <Layer>Верх покрытия</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="fortified_roadside" description="Проектное решение по укреплённой части обочины">
+        <Layer>Верх покрытия</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="road_service_building" description="Проектное решение по зданиям дорожной службы">
+        <Layer>Здания дорожной службы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pedestrian_fencing" description="Проектное решение по пешеходному ограждению">
+        <Layer>Пешеходное ограждение</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="traffic_light" description="Проектное решение по светофорным объектам">
+        <Layer>Светофоры</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pedestrian_road" description="Проектное решение по пешеходным дорожкам и тротуарам">
+        <Layer>Пешеходные дорожки и тротуары</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="retaining_wall" description="Проектное решение по подпорным стенкам">
+        <Layer>Подпорные стенки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pedestrian_crossing" description="Проектное решение по надземным пешеходным переходам">
+        <Layer>Надземные пешеходные переходы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="bridge" description="Проектное решение по мостовым сооружениям и путепрводам">
+        <Layer>Мостовые сооружения и путепроводы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="ditch" description="Проектное решение по кюветам">
+        <Layer>Проектные откосы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="trench" description="Проектное решение по канавам">
+        <Layer>Канавы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="canal" description="Проектное решение по каналам">
+        <Layer>Каналы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="asudd" description="Проектное решение по элементам АСУ ДД">
+        <Layer>Элементы АСУ ДД</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="adjacent_land" description="Проектное решение по смежным земельным участкам">
+        <Layer>Смежные земельные участки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="plumbing" description="Проектное решение по водопроводу">
+        <Layer>Водопровод</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="thermal_conductor" description="Проектное решение по теплопроводу">
+        <Layer>Теплопровод</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="phone_lines" description="Проектное решение по телефонным линиям">
+        <Layer>Телефонные линии</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="power_lines" description="Проектное решение по линиям электропередач">
+        <Layer>Линии электропередач</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="lighting_columns" description="Проектное решение по столбам освещения">
+        <Layer>Столбы освещения</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="lighting_lines" description="Проектное решение по линиям наружного освещения">
+        <Layer>Линии наружного освещения</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="local_treatment_facilities" description="Проектное решение по локальным очистным сооружениям">
+        <Layer>Локальные очистные сооружения</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="oil_pipeline" description="Проектное решение по нефтепроводам">
+        <Layer>Нефтепровод</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="gas_pipeline" description="Проектное решение по газопроводам">
+        <Layer>Газоровод</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard> 
+      <LayerStandard id="rsf_manually" description="Ручные дорожные ограждения">
+        <Layer>РУЧН_ДОР_ОГР</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>        
+      </LayerStandard>
+      -->
+      <LayerStandard id="ecs_masts" description="Опоры контактной сети железной дороги">
+        <Layer>Опоры контактной сети</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="ecs_spans" description="Длины пролетов контактной сети железной дороги">
+        <Layer>Длины пролетов контактной сети</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="ecs_offsets" description="Смещения опор контактной сети железной дороги">
+        <Layer>Смещения опор контактной сети</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="ecs_clearences" description="Габариты опор контактной сети железной дороги">
+        <Layer>Габариты опор контактной сети</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="design_land_allotment" description="Проектное решение полосы отвода автомобильной дороги">
+        <Layer>Проектный отвод земель</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="temp_land_allotment" description="Временное решение полосы отвода автомобильной дороги">
+        <Layer>Временный отвод земель</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="existent_land_allotment" description="Существующее решение полосы отвода автомобильной дороги">
+        <Layer>Существующий отвод земель</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="roadway" description="Проектное решение по проезжей части">
+        <Layer>Верх покрытия</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="slope" description="Проектное решение по откосам">
+        <Layer>Проектные откосы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="bus_stop" description="Проектное решение по автобусным остановкам">
+        <Layer>Верх покрытия</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="road_signs" description="Проектное решение по дорожным знакам">
+        <Layer>Дорожные знаки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="road_marking" description="Проектное решение по горизонтальной разметке">
+        <Layer>Дорожная разметка</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="road_fence" description="Проектное решение по барьерному ограждению">
+        <Layer>Дорожные ограждения</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="culvert" description="Проектное решение по водопропускным трубам">
+          <Layer>Трубы</Layer>
+          <Color>7</Color>
+          <Lineweight>-3</Lineweight>
+        </LayerStandard>
+      <LayerStandard id="road_post" description="Проектное решение по сигнальным столбикам">
+        <Layer>Дорожные ограждения</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="drain" description="Проектное решение по водоотводу">
+        <Layer>Водоотводы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="boreholes" description="Проектное решение по выработкам">
+        <Layer>Выработки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="impellertests" description="Проектное решение по испытаниям крыльчаткой">
+        <Layer>Испытания крыльчаткой</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="conepenetrationtests" description="Проектное решение по точкам статического зондирования">
+        <Layer>Статическое зондирование</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="inter_track_spaces" description="Проектное решение по междупутьям">
+        <Layer>Междупутья</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="road_fence_preliminary" description="Проектное решение по барьерному ограждению (предварительному)">
+        <Layer>Предварительные участки дорожных ограждений</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="road_post_preliminary" description="Проектное решение по сигнальным столбикам (предварительным)">
+        <Layer>Предварительные участки дорожных ограждений</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="gabarits" description="Проектное решение по габаритам">
+        <Layer>Габариты</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+	  <LayerStandard id="grade_signs" description="Уклоноуказатели">
+        <Layer>Уклоноуказатели</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="vertical_layout" description="Вертикальная планировка">
+        <Layer>Вертикальная планировка</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="crosssections" description="Помеченные поперечники">
+        <Layer>Помеченные поперечники</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="elements" description="Параметры кривых">
+        <Layer>Параметры кривых</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="kilometres" description="Километраж">
+        <Layer>Километраж</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="line_segments" description="Прямые вставки">
+        <Layer>Прямые вставки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="axis" description="Ось трассы">
+        <Layer>Ось трассы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="stationing" description="Пикетаж">
+        <Layer>Пикетаж</Layer>
+        <Color>7</Color>
+        <Lineweight>15</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="vertexes" description="Вершины">
+        <Layer>Вершины</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="urb" description="Верх покрытия">
+        <Layer>Верх покрытия</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="borders" description="Бордюры">
+        <Layer>Бордюры</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="edge_trays" description="Лотки">
+        <Layer>Лотки</Layer>
+        <Color>5</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="telescopic_trays" description="Лотки">
+        <Layer>Лотки</Layer>
+        <Color>5</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="crossings" description="Пересечения">
+        <Layer>Пересечения</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="visibility_arrows" description="Стрелы видимости">
+        <Layer>Стрелы видимости</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="visibility_lines" description="Контур видимости">
+        <Layer>Контур видимости</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="visibility_points" description="Ограничение видимости">
+        <Layer>Ограничение видимости</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="straightening" description="Существующий путь">
+        <Layer>Существующий путь</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_info" description="Таблица объемов картограммы">
+        <Layer>Таблица</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_cells" description="Ячейки картограммы">
+        <Layer>Ячейки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_contour" description="Контура картограммы">
+        <Layer>Контура</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_cut_hatch" description="Штриховка выемки картограммы">
+        <Layer>Штриховка выемки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_cut" description="Выемка картограммы">
+        <Layer>Выемка</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_earth_elevation" description="Отметки земли картограммы">
+        <Layer>Отметки земли</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_fill_hatch" description="Штриховка насыпи картограммы">
+        <Layer>Штриховка насыпи</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_fill" description="Насыпь картограммы">
+        <Layer>Насыпь</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_grid" description="Сетка ячеек картограммы">
+        <Layer>Сетка ячеек</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_null_lines" description="Линия нулевых работ картограммы">
+        <Layer>Линия нулевых работ</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_project_elevation" description="Проектные отметки картограммы">
+        <Layer>Проектные отметки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_work_elevation" description="Рабочие отметки картограммы">
+        <Layer>Рабочие отметки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="joint_block" description="Изолирующие стыки">
+        <Layer>Изолирующие стыки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="joint_jointless" description="Сварные стыки">
+        <Layer>Сварные стыки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="buffer_stop" description="Упоры">
+        <Layer>Упоры</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="signals" description="Светофоры железнодорожные">
+        <Layer>Светофоры</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="control_points" description="Контрольные точки">
+        <Layer>Контрольные точки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="turnouts" description="Стрелочные переводы">
+        <Layer>Стрелочные переводы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="platforms" description="Платформы">
+        <Layer>Платформы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="horizontals" description="Горизонтали">
+        <Layer>Горизонтали</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="inclinations" description="Уклоны">
+        <Layer>Уклоны</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="alititude_marks" description="Отметки высоты поверхности">
+        <Layer>Отметки высоты поверхности</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="extended_points" description="Дополнительные отметки">
+        <Layer>Дополнительные отметки</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="structure_lines" description="Структурные линии">
+        <Layer>Структурные линии</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="structure_lines" description="Структурные линии">
+        <Layer>Структурные линии</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="triangles" description="Треугольники">
+        <Layer>Треугольники</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="ribs" description="Рёбра">
+        <Layer>Рёбра</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_nodes" description="Узлы">
+        <Layer>Узлы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_nodes_labels" description="Узлы - подписи">
+        <Layer>Узлы - подписи</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_nodes_elements" description="Узлы - элементы">
+        <Layer>Узлы - элементы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_nodes_dismantle" description="Узлы - признак">
+        <Layer>Узлы - признак</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_segments" description="Сегменты">
+        <Layer>Сегменты</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_segments_labels" description="Сегменты - подписи">
+        <Layer>Сегменты - подписи</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_segments_dismantle" description="Сегменты - признак">
+        <Layer>Сегменты - признак</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard><LayerStandard id="pipes_segments_vertexes" description="Сегменты - вершины">
+        <Layer>Сегменты - вершины</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_segments_wires" description="Сегменты - провода">
+        <Layer>Сегменты - провода</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_shells" description="Футляры">
+        <Layer>Футляры</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_shells_labels" description="Футляры - подписи">
+        <Layer>Футляры - подписи</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_realsize" description="Реальные размеры сегментов и футляров">
+        <Layer>Реальные размеры сегментов и футляров</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+	  <LayerStandard id="pipes_lines" description="Линии сети">
+        <Layer>Линии сети</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_lines_labels" description="Линии сети - подписи">
+        <Layer>Линии сети - подписи</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_ditches" description="Траншеи">
+        <Layer>Траншеи</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="pipes_network_scheme" description="Схема сети">
+        <Layer>Схема сети</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+	  <LayerStandard id="pipes_network_crosses" description="Пересечения сетей">
+        <Layer>Пересечения сетей</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="bridges" description="Мосты">
+        <Layer>Мосты</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="cartogram_node_leader" description="Выноски узлов картограммы">
+        <Layer>Выноски узлов картограммы</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>
+      <LayerStandard id="culvert_plan" description="Труба">
+        <Layer>Труба</Layer>
+        <Color>7</Color>
+        <Lineweight>-3</Lineweight>
+      </LayerStandard>      
+    </LayerStandards>
+  	<TextStandards aType="0">
+      <TextStandard id="stationing" description="Пикетаж">
+		    <Filename>pragmai.shx</Filename>
+        <Height>2.0</Height>
+        <Ratio>1.0</Ratio>
+		    <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="stationing_step" description="Шаг пикетажа">
+        <Filename>pragmai.shx</Filename>
+        <Height>1.5</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="elements" description="Параметры кривых">
+		    <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>1.0</Ratio>
+		    <Oblique>0.261799387799149</Oblique>
+      </TextStandard>
+	    <TextStandard id="inter_track_spaces" description="Междупутья">
+        <Filename>simplex.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>0.7</Ratio>
+		    <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="gabarits" description="Габариты">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="pipes_profile" description="Инженерные сети - Профиль">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.0</Height>
+        <Ratio>0.7</Ratio>
+        <Oblique>0.261799387799149</Oblique>
+      </TextStandard>
+      <TextStandard id="pipes_segmentcrs" description="Инженерные сети - Техкоридор">
+        <Filename>SPDS.shx</Filename>
+        <Height>0.2</Height>
+        <Ratio>0.7</Ratio>
+        <Oblique>0.261799387799149</Oblique>
+      </TextStandard>
+      <TextStandard id="turnouts" description="Стрелочные переводы">
+		    <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>1.0</Ratio>
+		    <Oblique>0</Oblique>
+      </TextStandard>    
+      <TextStandard id="ecs_spans" description="Опоры контактной сети - Пролет">
+        <Filename>SPDS.shx</Filename>
+        <Height>3.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="ecs_clearences" description="Опоры контактной сети - Габарит">
+        <Filename>SPDS.shx</Filename>
+        <Height>1.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="ecs_offsets" description="Опоры контактной сети - Смещение">
+        <Filename>SPDS.shx</Filename>
+        <Height>1.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="ecs_masts" description="Опоры контактной сети - Подпись">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>      
+      <TextStandard id="drain" description="Водоотводы">
+        <Filename>SPDS.shx</Filename>
+        <Height>1.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="crosssections" description="Помеченные поперечники">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="line_segments" description="Прямые вставки">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.261799387799149</Oblique>
+      </TextStandard>
+      <TextStandard id="vertexes" description="Вершины">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.261799387799149</Oblique>
+      </TextStandard>
+      <TextStandard id="grade_signs" description="Уклоноуказатели">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.261799387799149</Oblique>
+      </TextStandard>
+      <TextStandard id="borders" description="Бордюры">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.261799387799149</Oblique>
+      </TextStandard>
+      <TextStandard id="telescopic_trays" description="Телескопические лотки">
+        <Filename>pragmai.shx</Filename>
+        <Height>1.5</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="cartogram_nodes" description="Картограмма - Узлы">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.261799387799149</Oblique>
+      </TextStandard>
+      <TextStandard id="cartogram_volumes" description="Картограмма - Объемы">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.261799387799149</Oblique>
+      </TextStandard>
+      <TextStandard id="boreholes" description="Геология - Выработки">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>0.6</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="cone_penetration" description="Геология - Статическое зондирование">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>0.6</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="impeller_test" description="Геология - Испытания крыльчаткой">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>0.6</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="kilometres" description="Километры">
+        <Filename>pragmai.shx</Filename>
+        <Height>2.0</Height>
+        <Ratio>1.0</Ratio>
+        <Oblique>0.0</Oblique>
+      </TextStandard>
+      <TextStandard id="land_allotment" description="Землеотвод">
+        <Filename>SPDS.shx</Filename>
+        <Height>2.5</Height>
+        <Ratio>0.8</Ratio>
+        <Oblique>0.261799387799149</Oblique>
+      </TextStandard>    
+    </TextStandards>  
+  </Body>
+</Stg>

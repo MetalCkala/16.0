@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conversions>
+  <LayersConversion Name="green_gugk">
+    <Layer Regex="Канализация">42</Layer>
+    <Layer Regex="Водопровод">3</Layer>
+    <Layer Regex="Теплосеть">5</Layer>
+    <Layer Regex="Газопровод">4</Layer>
+	<Layer Regex="Телефон">7</Layer>
+	<Layer Regex="Кабель низкого напряжения">7</Layer>
+    <Layer Regex="Кабели высокого напряжения">7</Layer>
+    <Layer Regex="Слаботочные кабели">7</Layer>
+   </LayersConversion>
+</Conversions>
